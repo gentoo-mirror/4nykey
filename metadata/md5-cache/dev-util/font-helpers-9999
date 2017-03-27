@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=A set of fontforge scripts for producing fonts
+EAPI=6
+HOMEPAGE=https://code.google.com/p/font-helpers
+LICENSE=GPL-3
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://gcarchive/font-helpers/source-archive.zip -> font-helpers-9999.zip
+_eclass_exported_funcs=src_install:-
+_md5_=14b475fbf92875bc915c610074115ba5

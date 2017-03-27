@@ -1,0 +1,13 @@
+DEFINED_PHASES=install postinst unpack
+DESCRIPTION=A set of rendering and font replacement rules for fontconfig-infinality
+EAPI=6
+HOMEPAGE=http://bohoomil.com/
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=app-eselect/eselect-infinality app-eselect/eselect-lcdfilter media-libs/fontconfig-infinality media-libs/freetype:2[infinality]
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/bohoomil/fontconfig-ultimate/tar.gz/2016-04-23 -> fontconfig-ultimate-2016.04.23.tar.gz
+_eclass_exported_funcs=pkg_postinst:- src_unpack:vcs-snapshot src_install:-
+_eclasses_=readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_md5_=a19361a8b99ad5cc993d72b936b6cb9a

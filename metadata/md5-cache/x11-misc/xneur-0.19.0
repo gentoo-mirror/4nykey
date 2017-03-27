@@ -1,0 +1,16 @@
+DEFINED_PHASES=configure prepare
+DEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) virtual/pkgconfig nls? ( sys-devel/gettext ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=An utility for keyboard layout switching
+EAPI=6
+HOMEPAGE=http://www.xneur.ru/
+IUSE=alsa aspell debug enchant gstreamer keylogger libnotify nls openal xosd linguas_be linguas_de linguas_ro linguas_ru linguas_uk
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) alsa? ( media-sound/alsa-utils ) gstreamer? ( media-libs/gst-plugins-good media-plugins/gst-plugins-alsa ) nls? ( virtual/libintl )
+REQUIRED_USE=?? ( gstreamer openal alsa ) ?? ( aspell enchant )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/xneur_0.19.0.orig.tar.gz https://github.com/AndrewCrewKuznetsov/xneur-devel/raw/master/dists/0.19.0/xneur_0.19.0.orig.tar.gz
+_eclass_exported_funcs=src_prepare:- src_configure:-
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	l10n	8f52d9ce1814aca2ed1a46920084ea66	libtool	e32ea84bf82cf8987965b574672dba93	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
+_md5_=447cb707839da1ca0831d4746bc18fb0

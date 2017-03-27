@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=net-libs/nodejs[npm]
+DESCRIPTION=Merge and share glyphs
+EAPI=6
+HOMEPAGE=https://github.com/caryll/otfcc-ttcize
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=net-libs/nodejs[npm]
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/caryll/otfcc-ttcize/tar.gz/f6502ac -> otfcc-ttcize-0_p20170313.tar.gz
+_eclass_exported_funcs=src_unpack:vcs-snapshot src_compile:- src_install:-
+_eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_md5_=6b3e9db5f670bbd8b526fd0aa715a2c7
