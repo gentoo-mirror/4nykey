@@ -17,6 +17,7 @@ cross-i686-pc-cygwin/w32api 4.0.4: MinGW-w64 Windows API for Cygwin
 cross-x86_64-pc-cygwin/cygwin 2.7.0.1: Linux-like environment for Windows
 cross-x86_64-pc-cygwin/w32api 4.0.4: MinGW-w64 Windows API for Cygwin
 cross-x86_64-w64-mingw32/mingw-runtime 5.0.1 9999: Free Win32 runtime and import library definitions
+dev-libs/esteid-pkcs11 3.11.0_beta 9999: EstEID PKCS11 Module
 dev-libs/libdigidoc 3.10.2 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.12.3 9999: DigiDoc digital signature library
 dev-libs/libmatheval 1.1.7: a library to parse and evaluate symbolic expressions input as text
