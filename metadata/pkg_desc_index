@@ -25,12 +25,12 @@ dev-libs/libunicodenames 0_p20150418 9999: A library to retrieve the information
 dev-libs/sortsmill-core 0_p20160309 9999: Sorts Mill Core Library
 dev-libs/xmlbird 1.2.4 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 2.0.3 9999: A library for piecewise linear interpolation in multiple dimensions
-dev-python/booleanOperations 0.6.4 9999: A library for boolean operations on paths
+dev-python/booleanOperations 0.7.0 9999: A library for boolean operations on paths
 dev-python/compositor 0_p20170303 9999: A basic OpenType GSUB and GPOS layout engine
 dev-python/compreffor 0.4.4 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.1.1 9999: A library which converts cubic curves to quadratic in RoboFab objects
 dev-python/defcon 0.3.1 9999: A set of UFO based objects for use in font editing applications
-dev-python/defconQt 0.5.2 9999: A set of Qt objects for use in defcon applications
+dev-python/defconQt 0.5.3 9999: A set of Qt objects for use in defcon applications
 dev-python/extractor 0.2.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/feaTools 0_p20160519 9999: A library for interacting with .fea files
 dev-python/fontMath 0.4.3 9999: A collection of objects that implement fast font math
@@ -63,14 +63,14 @@ dev-util/otfcc-ttcize 0_p20170313 9999: Merge and share glyphs
 dev-util/premake 5.0.0_alpha11 5.9999: A makefile generation tool
 dev-util/sortsmill-tig 1.0.0 9999: Sorts Mill Type Inspector Generator
 dev-util/svgo 0.6.6 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 17 9999: Adds AppIndicator support to gnome shell
-gnome-extra/gnome-shell-extension-openweather 1.0 9999: An extension for displaying weather informations in GNOME Shell
-gnome-extra/gnome-shell-extension-taskbar 52.0 9999: TaskBar displays icons of running applications on the top or bottom panel
+gnome-extra/gnome-shell-extension-appindicator 18 9999: Adds AppIndicator support to gnome shell
+gnome-extra/gnome-shell-extension-openweather 1.1_pre20170328 9999: An extension for displaying weather informations in GNOME Shell
+gnome-extra/gnome-shell-extension-taskbar 53.0 9999: TaskBar displays icons of running applications on the top or bottom panel
 gnome-extra/gnome-shell-remove-dropdown-arrows 8 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 0_p20160405 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/gnome-shell-system-monitor-applet 0_p20170327 9999: An extension for displaying sensors information in GNOME Shell
 gnome-extra/maximus-gnome-shell 0_p20160928 9999: An extension to undecorate maximized windows
-gnome-extra/status-area-horizontal-spacing 0_p20160416 9999: An GS extension to reduce the horizontal spacing between status area icons
-gnome-extra/topicons-plus 0_p20160521 9999: An extension to move legacy tray icons to the top panel
+gnome-extra/status-area-horizontal-spacing 2.2 9999: An GS extension to reduce the horizontal spacing between status area icons
+gnome-extra/topicons-plus 20 9999: An extension to move legacy tray icons to the top panel
 media-fonts/alegreya-libre 0_p20170301 9999: A serif typeface originally intended for literature
 media-fonts/alegreya-sans 0_p20170302 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alice 0_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
