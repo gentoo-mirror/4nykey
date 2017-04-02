@@ -43,7 +43,6 @@ media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
 media-gfx/sortsmill-tools:editor - Build sortsmill-editor and related programs
 media-gfx/sortsmill-tools:legacy - Install legacy Python modules
 media-gfx/sortsmill-tools:truetype-debugger - Enable truetype debugger in editor
-media-libs/chromaprint:tools - Build additional tools
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
 media-sound/ardour:c++0x - Compile using the C++11 standard
 media-sound/ardour:hid - Add support for dev-libs/hidapi

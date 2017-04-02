@@ -1,11 +1,10 @@
 app-admin/lnav 0.8.0 9999: A curses-based tool for viewing and analyzing log files
 app-arch/brotli 0.5.2 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.11.0 9999: The open source Windows Imaging (WIM) library
-app-crypt/hwcrypto-native 17.3.15 9999: Web eID native host component
-app-crypt/qdigidoc 3.12.6 9999: Estonian ID card digital signature desktop tools
+app-crypt/hwcrypto-native 17.3.16 9999: Web eID native host component
+app-crypt/qdigidoc 3.12.6 3.12.7_beta 9999: Estonian ID card digital signature desktop tools
 app-crypt/qesteidutil 3.12.4 9999: Smart card manager UI application
 app-dicts/makedict 0_p20160728 9999: A converter between many dictionary formats
-app-misc/esteidcerts 0_p20151218 9999: Estonian ID card certificates
 app-shells/zsh-syntax-highlighting 0.4.0 9999: Fish shell like syntax highlighting for zsh
 app-text/fbpdf 0_p20161202 9999: A linux framebuffer PDF viewer
 app-text/fontreport 0_p20160926 9999: Tool to create PDF files containing glyph images and information about a font
@@ -19,7 +18,7 @@ cross-x86_64-pc-cygwin/w32api 4.0.4: MinGW-w64 Windows API for Cygwin
 cross-x86_64-w64-mingw32/mingw-runtime 5.0.1 9999: Free Win32 runtime and import library definitions
 dev-libs/esteid-pkcs11 3.11.0_beta 9999: EstEID PKCS11 Module
 dev-libs/libdigidoc 3.10.2 9999: DigiDoc digital signature library
-dev-libs/libdigidocpp 3.12.3 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 3.12.3 3.13.0_beta 9999: DigiDoc digital signature library
 dev-libs/libmatheval 1.1.7: a library to parse and evaluate symbolic expressions input as text
 dev-libs/libunicodenames 0_p20150418 9999: A library to retrieve the information from Unicode Consortium namesList
 dev-libs/sortsmill-core 0_p20160309 9999: Sorts Mill Core Library
@@ -71,7 +70,7 @@ gnome-extra/gnome-shell-system-monitor-applet 0_p20170327 9999: An extension for
 gnome-extra/maximus-gnome-shell 0_p20160928 9999: An extension to undecorate maximized windows
 gnome-extra/status-area-horizontal-spacing 2.2 9999: An GS extension to reduce the horizontal spacing between status area icons
 gnome-extra/topicons-plus 20 9999: An extension to move legacy tray icons to the top panel
-media-fonts/alegreya-libre 0_p20170301 9999: A serif typeface originally intended for literature
+media-fonts/alegreya-libre 0_p20170401 9999: A serif typeface originally intended for literature
 media-fonts/alegreya-sans 0_p20170302 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alice 0_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
 media-fonts/arsenal 0_p20161017 9999: A traditional half-grotesque font for setting text
@@ -103,8 +102,8 @@ media-fonts/hasklig 1.1 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/inziu-iosevka 1.11.4: A CJK monospaced font, a composite of Iosevka, M+ and Source Han Sans
-media-fonts/iosevka 1.11.4 9999: Spatial efficient monospace font family for programming
+media-fonts/inziu-iosevka 1.12.1: A CJK monospaced font, a composite of Iosevka, M+ and Source Han Sans
+media-fonts/iosevka 1.12.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 3.0_p20161224 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.31: An unicode serif font meant for body text
@@ -139,7 +138,7 @@ media-fonts/ricty 4.1.0 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/roboto 2.136 9999: Google's signature family of fonts
 media-fonts/rubik 0_p20170126 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 0_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/scada 0_p20161215 9999: A modern style font, specifically designed for small sizes
+media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.000 9999: An monospaced font for mixed Latin and Japanese text
@@ -164,7 +163,6 @@ media-gfx/sortsmill-tools 0_p20160130 9999: A font editing system derived from F
 media-gfx/trufont 0.6.0_pre20170227 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.6 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
-media-libs/chromaprint 1.3.1 9999: A client-side library for extracting AcoustID fingerprints
 media-libs/fontconfig-ultimate 2016.04.23 9999: A set of rendering and font replacement rules for fontconfig-infinality
 media-libs/libltc 1.2.0 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/qm-dsp 1.7.1 9999: A C++ library for audio analysis
