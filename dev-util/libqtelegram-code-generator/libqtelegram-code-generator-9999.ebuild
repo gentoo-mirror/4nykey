@@ -6,53 +6,36 @@ EAPI=6
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/Aseman-Land/${PN}.git"
-	DEPEND="
-		>=dev-util/libqtelegram-code-generator-${PV}
-	"
 else
 	inherit vcs-snapshot
-	MY_PV="1865e02"
-	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}-stable"
+	MY_PV="29462b4"
 	SRC_URI="
 		mirror://githubcl/Aseman-Land/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	RESTRICT="primaryuri"
 	KEYWORDS="~amd64 ~x86"
-	DEPEND="
-		dev-util/libqtelegram-code-generator
-	"
 fi
 inherit qmake-utils
 
-DESCRIPTION="A fork of libqtelegram by Aseman Team"
+DESCRIPTION="Generate API part of libqtelegram automatically"
 HOMEPAGE="https://github.com/Aseman-Land/${PN}"
 
-LICENSE="GPL-3"
+LICENSE="GPL-2"
 SLOT="0"
 IUSE=""
 
 RDEPEND="
-	dev-libs/openssl:0
-	dev-qt/qtmultimedia:5
+	dev-qt/qtcore:5
 "
-DEPEND+="
+DEPEND="
 	${RDEPEND}
 "
 
-src_prepare() {
-	default
-	sed \
-		-e '/libqtelegram-generator/!d' \
-		-e 's:^\./::' \
-		-e "s:\$ASEMAN_SRC_PATH:${S}:g" \
-		-i "${S}"/init
-}
-
 src_configure() {
-	. "${S}"/init || die
-	eqmake5 CONFIG+=typeobjects
+	eqmake5
 }
 
 src_install() {
-	emake INSTALL_ROOT="${D}" install
+	dobin libqtelegram-generator
+	einstalldocs
 }
