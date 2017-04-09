@@ -4,12 +4,12 @@
 EAPI=6
 
 FONT_TYPES=( +otf ttc )
-MY_PN="SourceHanSans"
+MY_PN="SourceHanSerif"
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/adobe-fonts/${PN}"
 else
-	MY_OTC=( ${MY_PN}OTC_{EL-R,M-H}.zip )
+	MY_OTC=( ${MY_PN}OTC_{EL-M,SB-H}.zip )
 	SRC_URI="mirror://githubraw/adobe-fonts/${PN}/release/SubsetOTF/${MY_PN}"
 	SRC_URI="
 		binary? (
@@ -34,11 +34,11 @@ fi
 inherit font-r1
 
 DESCRIPTION="A set of OpenType/CFF Pan-CJK fonts"
-HOMEPAGE="https://github.com/adobe-fonts/source-han-sans/"
+HOMEPAGE="https://source.typekit.com/${PN}"
 
 LICENSE="OFL-1.1"
 SLOT="0"
-IUSE="+binary l10n_ja l10n_ko l10n_zh-CN l10n_zh-TW monospace"
+IUSE="+binary l10n_ja l10n_ko l10n_zh-CN l10n_zh-TW"
 REQUIRED_USE="
 || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-TW )
 ?? ( ${FONT_TYPES[@]/#+/} )
@@ -46,9 +46,6 @@ REQUIRED_USE="
 
 DEPEND="
 	!binary? ( dev-util/afdko )
-"
-RDEPEND="
-	l10n_ja? ( monospace? ( media-fonts/source-han-code-jp ) )
 "
 
 src_unpack() {
