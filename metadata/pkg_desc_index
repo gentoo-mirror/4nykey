@@ -28,12 +28,12 @@ dev-python/booleanOperations 0.7.0 9999: A library for boolean operations on pat
 dev-python/compositor 0_p20170303 9999: A basic OpenType GSUB and GPOS layout engine
 dev-python/compreffor 0.4.4 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.1.1 9999: A library which converts cubic curves to quadratic in RoboFab objects
-dev-python/defcon 0.3.1 9999: A set of UFO based objects for use in font editing applications
+dev-python/defcon 0.3.2 9999: A set of UFO based objects for use in font editing applications
 dev-python/defconQt 0.5.3 9999: A set of Qt objects for use in defcon applications
 dev-python/extractor 0.2.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/feaTools 0_p20160519 9999: A library for interacting with .fea files
 dev-python/fontMath 0.4.3 9999: A collection of objects that implement fast font math
-dev-python/fonttools 3.9.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 3.9.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 1.0.2_p20161128 9999: Python bindings for the freetype library
 dev-python/glyphsLib 1.6.0 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/gmpy 1.17: Python bindings for GMP library
@@ -54,7 +54,7 @@ dev-scheme/sortsmill-core-guile 0_p20160309 9999: A Guile 2.0 interface to Sorts
 dev-util/afdko 2.5.65322 9999: Adobe Font Development Kit for OpenType
 dev-util/cmake-openeid 0_p20161031 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 1.2.1 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 1.2.3 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/libqtelegram-code-generator 0_p20160919 9999: Generate API part of libqtelegram automatically
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
@@ -143,10 +143,11 @@ media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed
 media-fonts/source-code-pro 2.030.1.050 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.000 9999: An monospaced font for mixed Latin and Japanese text
-media-fonts/source-han-sans 1.004 9999: Pan-CJK OpenType/CFF font family
-media-fonts/source-pro 0_p20161006: Adobe Source Pro, an open source multi-lingual font family
+media-fonts/source-han-sans 1.004 9999: A set of OpenType/CFF Pan-CJK fonts
+media-fonts/source-han-serif 1.000 9999: A set of OpenType/CFF Pan-CJK fonts
+media-fonts/source-pro 0_p20170408: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/source-sans-pro 2.020.1.075 9999: Sans serif font family for user interface environments
-media-fonts/source-serif-pro 1.017_p20150116 2.000 9999: Serif typeface designed to complement Source Sans Pro
+media-fonts/source-serif-pro 2.000 9999: Serif typeface designed to complement Source Sans Pro
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 1.1 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
