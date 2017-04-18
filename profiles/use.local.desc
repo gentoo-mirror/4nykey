@@ -80,8 +80,12 @@ sys-block/f3:extras - Compile the extra applications
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite
 www-client/midori:zeitgeist - Add support for Zeitgeist event tracking system
 www-client/torbrowser:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/torbrowser:gtk2 - Use the cairo-gtk2 rendering engine
 www-client/torbrowser:hwaccel - Use hardware-accelerated rendering
+www-client/torbrowser:jemalloc - Enable or disable jemalloc
 www-client/torbrowser:jemalloc3 - Enable or disable jemalloc3 (forced-on when supported prior to 38.0)
+www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/torbrowser:rust - Enable support for using rust compiler (experimental)
 www-client/torbrowser:system-cairo - Use the system-wide x11-libs/cairo instead of bundled.
 www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
 www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled.
