@@ -1,11 +1,10 @@
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=>=dev-vcs/git-1.8.2.1
-DESCRIPTION=A makefile generation tool
+DEPEND=dev-lang/ocaml[ocamlopt] dev-ml/ocaml-make >=dev-vcs/git-1.8.2.1
+DESCRIPTION=An MP3 reorganizer
 EAPI=6
-HOMEPAGE=http://premake.github.io
-KEYWORDS=~amd64 ~x86
-LICENSE=BSD
-SLOT=5
+HOMEPAGE=http://omion.dyndns.org/mp3packer
+LICENSE=GPL-2
+SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_compile:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390	multilib	0236be304ee52e7f179ed2f337075515	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=ee19c8d23505a5012d5c5d58239d259a
+_md5_=6614e30112526928e4b719fd98c26031

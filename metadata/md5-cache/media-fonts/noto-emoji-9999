@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
-DEPEND=!binary? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/nototools[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) media-gfx/pngquant media-gfx/imagemagick zopfli? ( app-arch/zopfli ) !zopfli? ( media-gfx/optipng ) x11-libs/cairo ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings )
+DEPEND=!binary? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/nototools[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) media-gfx/pngquant virtual/imagemagick-tools[png] zopfli? ( app-arch/zopfli ) !zopfli? ( media-gfx/optipng ) x11-libs/cairo ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings )
 DESCRIPTION=Noto Emoji fonts
 EAPI=6
 HOMEPAGE=https://github.com/googlei18n/noto-emoji
@@ -9,4 +9,4 @@ RESTRICT=strip binchecks
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:font-r1 pkg_postinst:font-r1 pkg_setup:- src_unpack:git-r3 src_prepare:- src_compile:- src_install:font-r1
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	python-any-r1	be89e882151ba4b847089b860d79729c	python-utils-r1	c11fc374357e6ad9ddfe2e9f931e4d29	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=ca44001ba19bd42c8f9b184e595a3b7f
+_md5_=d7b02d853950ff2f9575370faccaa1a8

@@ -8,4 +8,4 @@ RDEPEND=net-libs/libqtelegram-aseman-edition dev-qt/qtdeclarative:5[localstorage
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_configure:- src_install:-
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	qmake-utils	ea78a9056543346cdc8cbbd07f16c6fb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=09278b45b0700077dd4be439cd4788b2
+_md5_=caeba3a30e3151c26c9fcc3372587994
