@@ -1,6 +1,5 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
 EAPI=6
 
@@ -9,7 +8,8 @@ if [[ -z ${PV%%*9999} ]]; then
 	EGIT_REPO_URI="https://github.com/Aseman-Land/${PN}.git"
 else
 	inherit vcs-snapshot
-	MY_PV="48f2217"
+	MY_PV="e489812"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
 		mirror://githubcl/Aseman-Land/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
@@ -31,9 +31,10 @@ DEPEND="
 	dev-qt/qtdbus:5
 	dev-qt/qtprintsupport:5
 "
-RDEPEND="${DEPEND}"
-PATCHES=(
-)
+RDEPEND="
+	${DEPEND}
+	dev-qt/qtimageformats:5
+"
 
 src_configure() {
 	eqmake5 \
