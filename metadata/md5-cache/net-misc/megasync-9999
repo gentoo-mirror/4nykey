@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare unpack
-DEPEND=>=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 app-arch/xz-utils >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info >=dev-vcs/git-1.8.2.1
+DEPEND=dev-libs/libsodium dev-libs/libuv dev-libs/crypto++ dev-db/sqlite:3 net-dns/c-ares dev-libs/openssl:0 net-misc/curl !qt5? ( dev-qt/qtgui:4 ) qt5? ( dev-qt/qtwidgets:5 ) nautilus? ( >=gnome-base/nautilus-3 ) examples? ( sys-libs/readline:0 ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 app-arch/xz-utils >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Easy automated syncing with MEGA Cloud Drive
 EAPI=6
 HOMEPAGE=https://github.com/meganz/MEGAsync
 IUSE=examples nautilus qt5
 LICENSE=EULA
-RDEPEND=dev-libs/libuv dev-libs/crypto++ dev-db/sqlite:3 net-dns/c-ares dev-libs/openssl:0 net-misc/curl !qt5? ( dev-qt/qtgui:4 ) qt5? ( dev-qt/qtwidgets:5 ) nautilus? ( >=gnome-base/nautilus-3 ) examples? ( sys-libs/readline )
+RDEPEND=dev-libs/libsodium dev-libs/libuv dev-libs/crypto++ dev-db/sqlite:3 net-dns/c-ares dev-libs/openssl:0 net-misc/curl !qt5? ( dev-qt/qtgui:4 ) qt5? ( dev-qt/qtwidgets:5 ) nautilus? ( >=gnome-base/nautilus-3 ) examples? ( sys-libs/readline:0 )
 SLOT=0
 _eclass_exported_funcs=pkg_preinst:gnome2 pkg_postrm:gnome2 pkg_postinst:gnome2 src_unpack:git-r3 src_prepare:- src_configure:- src_compile:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	git-r3	cbafa3261c37c7e3af44bb16a34ea390	gnome.org	5e4cc5af3f1b17bdee155bf02e8c2df4	gnome2	64c50579ea42fbcc77a7e220a8ae8e94	gnome2-utils	8a5e0bf2b8031478ecfeaec753ef4560	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	0236be304ee52e7f179ed2f337075515	qmake-utils	ea78a9056543346cdc8cbbd07f16c6fb	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	versionator	c80ccf29e90adea7c5cae94b42eb76d0	xdg	6cd76cc914c1a759dee032778487b57f	xdg-utils	b9389dfad0ee8f8e0b2a41b79fcf7120
-_md5_=f46c8a7ca8d8a658213611953335df33
+_md5_=d3c4e0936882e9a2a7849a520c4cfe21
