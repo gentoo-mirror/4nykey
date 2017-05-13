@@ -184,7 +184,7 @@ net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
 net-libs/libqtelegram-aseman-edition 10.0.0_p20170422 9999: A fork of libqtelegram by Aseman Team
 net-misc/mailru-cloud 15.06.0090: cloud.mail.ru sync client
 net-misc/megacmd 20150312 99999999: A command-line client for mega.nz storage service
-net-misc/megasync 3.0.1-r1 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/megasync 3.0.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-misc/megatools 1.9.98_pre1 9999: Command line tools and C library for accessing Mega cloud storage
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-apps/moreutils 9999: A collection of unix tools that nobody thought to write 30 years ago
