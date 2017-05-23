@@ -1,8 +1,7 @@
-# Copyright 1999-2016 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Id$
 
-EAPI=5
+EAPI=6
 
 inherit toolchain-funcs flag-o-matic unpacker
 
@@ -16,10 +15,10 @@ fi
 
 DESCRIPTION="MinGW-w64 Windows API for Cygwin"
 HOMEPAGE="http://cygwin.com/"
-BASE_URI="mirror://cygwin/x86_64/release"
+BASE_URI="mirror://cygwin/x86/release"
 MY_H="${PN}-headers-${PV}-1"
 MY_R="${PN}-runtime-${PV}-1"
-MY_P="${P}-x64"
+MY_P="${P}-x86"
 SRC_URI="
 	!crosscompile_opts_headers-only? (
 		${BASE_URI}/${PN}-runtime/${MY_R}-src.tar.xz -> ${MY_P}_src.tar.xz
