@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst postrm unpack
+DEPEND=app-eselect/eselect-gnome-shell-extensions >=dev-vcs/git-1.8.2.1
+DESCRIPTION=An extension to merge the title bar of a maximized window into GS activity bar
+EAPI=6
+HOMEPAGE=https://github.com/deadalnix/pixel-saver
+LICENSE=MIT
+RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell x11-apps/xprop
+SLOT=0
+_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:git-r3 src_install:-
+_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_md5_=12524c80efff9918ae4bc510a1189118

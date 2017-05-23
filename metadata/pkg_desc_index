@@ -1,4 +1,4 @@
-app-admin/lnav 0.8.0 9999: A curses-based tool for viewing and analyzing log files
+app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log files
 app-arch/brotli 0.5.2 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.11.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/qdigidoc 3.12.6 3.12.7_beta 9999: Estonian ID card digital signature desktop tools
@@ -11,18 +11,18 @@ app-text/fontreport 0_p20160926 9999: Tool to create PDF files containing glyph 
 app-text/gist 4.5.0 9999: Upload code to gist.github.com
 app-text/gistit 0.1.3 9999: An application to create github gists from console
 app-text/sdcv 0.5.0_beta4 9999: sdcv - console version of StarDict program
-cross-i686-pc-cygwin/cygwin 2.7.0.1: Linux-like environment for Windows
-cross-i686-pc-cygwin/w32api 4.0.4: MinGW-w64 Windows API for Cygwin
-cross-x86_64-pc-cygwin/cygwin 2.7.0.1: Linux-like environment for Windows
-cross-x86_64-pc-cygwin/w32api 4.0.4: MinGW-w64 Windows API for Cygwin
-cross-x86_64-w64-mingw32/mingw-runtime 5.0.1 9999: Free Win32 runtime and import library definitions
+cross-i686-pc-cygwin/cygwin 2.8.0.1: Linux-like environment for Windows
+cross-i686-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
+cross-x86_64-pc-cygwin/cygwin 2.8.0.1: Linux-like environment for Windows
+cross-x86_64-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
+cross-x86_64-w64-mingw32/mingw-runtime 5.0.2 9999: Free Win32 runtime and import library definitions
 dev-libs/esteid-pkcs11 3.11.0_beta 9999: EstEID PKCS11 Module
 dev-libs/libdigidoc 3.10.2 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.12.3 3.13.0_beta 9999: DigiDoc digital signature library
 dev-libs/libmatheval 1.1.7: a library to parse and evaluate symbolic expressions input as text
 dev-libs/libunicodenames 0_p20150418 9999: A library to retrieve the information from Unicode Consortium namesList
 dev-libs/sortsmill-core 0_p20160309 9999: Sorts Mill Core Library
-dev-libs/xmlbird 1.2.4 9999: XML parser for Vala and C programs
+dev-libs/xmlbird 1.2.4_p20161223 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 2.0.4 9999: A library for piecewise linear interpolation in multiple dimensions
 dev-python/booleanOperations 0.7.0 9999: A library for boolean operations on paths
 dev-python/compositor 0_p20170303 9999: A basic OpenType GSUB and GPOS layout engine
@@ -33,7 +33,7 @@ dev-python/defconQt 0.5.3 9999: A set of Qt objects for use in defcon applicatio
 dev-python/extractor 0.2.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/fontMath 0.4.3 9999: A collection of objects that implement fast font math
 dev-python/fonttools 3.11.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
-dev-python/glyphsLib 1.7.3 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 1.7.5 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/gmpy 1.17: Python bindings for GMP library
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
 dev-python/munkres 1.0.9 9999: Module implementing munkres algorithm for the Assignment Problem
@@ -65,11 +65,11 @@ gnome-extra/gnome-shell-extension-openweather 1.1_pre20170328 9999: An extension
 gnome-extra/gnome-shell-extension-taskbar 53.0 9999: TaskBar displays icons of running applications on the top or bottom panel
 gnome-extra/gnome-shell-remove-dropdown-arrows 8 9999: An extension that removes the dropdown arrows from GS menus
 gnome-extra/gnome-shell-system-monitor-applet 0_p20170327 9999: An extension for displaying sensors information in GNOME Shell
-gnome-extra/maximus-gnome-shell 0_p20160928 9999: An extension to undecorate maximized windows
+gnome-extra/pixel-saver 1.10 9999: An extension to merge the title bar of a maximized window into GS activity bar
 gnome-extra/status-area-horizontal-spacing 2.2 9999: An GS extension to reduce the horizontal spacing between status area icons
 gnome-extra/topicons-plus 20 9999: An extension to move legacy tray icons to the top panel
-media-fonts/alegreya-libre 0_p20170506 9999: A serif typeface originally intended for literature
-media-fonts/alegreya-sans 0_p20170505 9999: A humanist sans-serif family with a calligraphic feeling
+media-fonts/alegreya-libre 0_p20170511 9999: A serif typeface originally intended for literature
+media-fonts/alegreya-sans 0_p20170511 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alice 0_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
 media-fonts/arsenal 0_p20161017 9999: A traditional half-grotesque font for setting text
 media-fonts/arvo 0_p20170201 9999: A geometric slab-serif typeface family suited for screen and print
@@ -118,7 +118,7 @@ media-fonts/merriweather-sans 1.005_p20160123 9999: A serif font useful for crea
 media-fonts/monoid 0_p20160721 9999: Customisable coding font with alternates, ligatures and contextual positioning
 media-fonts/multicoloure-font 0_p20160608 9999: A SVG-in-OpenType Polychromatic Color Font
 media-fonts/noto 0_p20170505 9999: A font family that aims to support all the world's languages
-media-fonts/noto-cjk 1.004_p20170404 9999: Noto CJK fonts
+media-fonts/noto-cjk 1.004_p20170512 9999: Noto CJK fonts
 media-fonts/noto-emoji 2017.03.10 9999: Noto Emoji fonts
 media-fonts/noto-fonts-alpha 0_p20170505 9999: Alpha versions of Noto fonts
 media-fonts/noto-source 0_p20170506 9999: A WIP versions of the noto fonts
@@ -152,29 +152,29 @@ media-fonts/typey-mctypeface 1.3: A modern serif typeface
 media-fonts/vollkorn-typeface 0_p20170329 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/xolonium 4.0.161008: A futuristic font with focus on legibility
 media-fonts/yanone-kaffeesatz 2.000 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.16.12 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.18.3 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.6_pre20170311 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.1.6 0.2.2 9999: A tool for finding visual differences between two font versions
 media-gfx/fontview 0.2.3 9999: An app that shows the contents of a font file
-media-gfx/frogr 1.2 9999: A small application for managing Flickr account
+media-gfx/frogr 1.3 9999: A small application for managing Flickr account
 media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
 media-gfx/sortsmill-tools 0_p20160130 9999: A font editing system derived from FontForge
 media-gfx/trufont 0.6.0_pre20170227 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.6 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/fontconfig-ultimate 2016.04.23 9999: A set of rendering and font replacement rules for fontconfig-infinality
-media-libs/libltc 1.2.0 9999: Linear/Logitudinal Time Code (LTC) Library
+media-libs/libltc 1.3.0 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/qm-dsp 1.7.1 9999: A C++ library for audio analysis
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
-media-sound/ardour 4.7 5.8 5.9999: Digital Audio Workstation
+media-sound/ardour 4.7 5.9 5.9999: Digital Audio Workstation
 media-sound/deadbeef 0.6.2 9999: DeaDBeeF - Ultimate Music Player For GNU/Linux
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/genpuid 1.4: genpuid is a utility for fingerprinting of audio files
 media-sound/jack-audio-connection-kit 1.9.11_pre20170312 1.9.9999: A low-latency audio server
 media-sound/morituri 0.2.3 9999: morituri is a CD ripper aiming for accuracy over speed
 media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
-media-sound/picard 1.4.1 1.4.9999 9999: A cross-platform music tagger
+media-sound/picard 1.4.2 1.4.9999 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-video/flowblade 1.12 9999: A non-linear PyGTK/MLT video editor
 media-video/shotcut 17.04 9999: A free, open source, cross-platform video editor
@@ -183,16 +183,16 @@ net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram
 net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
 net-libs/libqtelegram-aseman-edition 10.0.0_p20170422 9999: A fork of libqtelegram by Aseman Team
 net-misc/mailru-cloud 15.06.0090: cloud.mail.ru sync client
-net-misc/megacmd 20150312 99999999: A command-line client for mega.nz storage service
+net-misc/meganz-sdk 3.1.0 9999: MEGA C++ SDK
 net-misc/megasync 3.0.1.0 9999: Easy automated syncing with MEGA Cloud Drive
-net-misc/megatools 1.9.98_pre1 9999: Command line tools and C library for accessing Mega cloud storage
+net-misc/megatools 1.9.98 9999: Command line tools and C library for accessing Mega cloud storage
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-apps/moreutils 9999: A collection of unix tools that nobody thought to write 30 years ago
 sys-block/f3 6.0_p20160627 9999: F3 - Fight Flash Fraud
 www-client/midori 0.5.11 9999: A lightweight web browser based on WebKitGTK+
-www-client/torbrowser 45.9.0.6.5.2.1.3 52.1.0.7.0.3.2.1_alpha: The Tor Browser
+www-client/torbrowser 45.9.0.6.5.2.1.3 52.1.1.7.0.4.1.2_alpha: The Tor Browser
 www-plugins/esteid-browser-plugin 3.12.2 9999: Estonian ID card browser plugin
-x11-misc/gpaste 3.22.3 3.22.9999 3.24.1 3.24.9999: Clipboard management system
+x11-misc/gpaste 3.22.4 3.22.9999 3.24.2 3.24.9999: Clipboard management system
 x11-misc/gxneur 0.20.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.20.0 9999: An utility for keyboard layout switching
 x11-plugins/skype4pidgin 1.3 9999: Skype API Plugin for Pidgin
