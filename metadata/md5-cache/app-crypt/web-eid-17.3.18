@@ -11,5 +11,5 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/web-eid/web-eid/tar.gz/17.3.18 -> web-eid-17.3.18.tar.gz
 _eclass_exported_funcs=pkg_postinst:- src_unpack:vcs-snapshot src_configure:- src_compile:- src_install:-
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	40a2ae377c3111aa116512aaf010f6ff	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=7074347b2c291d3c36c0aad4044c025f
