@@ -9,7 +9,7 @@ RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/
 REQUIRED_USE=python_targets_python2_7 || ( abi_x86_32 )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/adobe-type-tools/afdko/tar.gz/6fb5633 -> afdko-2.5.65781_p20170428.tar.gz mirror://githubcl/robofab-developers/robofab/tar.gz/62229c4 -> robofab-62229c4.tar.gz mirror://githubcl/unified-font-object/ufoNormalizer/tar.gz/1ed0111 -> ufoNormalizer-1ed0111.tar.gz
+SRC_URI=mirror://githubcl/adobe-type-tools/afdko/tar.gz/9525723 -> afdko-2.5.65781_p20170524.tar.gz mirror://githubcl/robofab-developers/robofab/tar.gz/62229c4 -> robofab-62229c4.tar.gz mirror://githubcl/unified-font-object/ufoNormalizer/tar.gz/1ed0111 -> ufoNormalizer-1ed0111.tar.gz
 _eclass_exported_funcs=pkg_setup:python-single-r1 src_unpack:- src_prepare:- src_compile:- src_install:-
 _eclasses_=multibuild	72647e255187a1fadc81097b3657e5c3	multilib	97f470f374f2e94ccab04a2fb21d811e	multilib-build	eed53a6313267c9fbcd35fc384bd0087	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
-_md5_=0e6571e9b2e0f30fba821895924a639e
+_md5_=e97cb9597ada322de99a9e8932b679d2

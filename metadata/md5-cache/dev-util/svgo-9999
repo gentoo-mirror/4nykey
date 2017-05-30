@@ -8,4 +8,4 @@ RDEPEND=net-libs/nodejs[npm]
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_compile:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=397a7e5d55700c65b22e9d6de356098f
+_md5_=eff295efc53e65db05acbaff5cb3e7fd
