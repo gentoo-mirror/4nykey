@@ -3,11 +3,11 @@ DEPEND=!binary? ( >=net-libs/nodejs-6.0[npm] media-gfx/ttfautohint dev-util/otfc
 DESCRIPTION=Spatial efficient monospace font family for programming
 EAPI=6
 HOMEPAGE=https://be5invis.github.io/Iosevka
-IUSE=+binary X font_types_ttc +font_types_ttf font_variants_cc +font_variants_default font_variants_slab font_variants_term font_variants_type font_chars_hooky font_chars_zshaped
+IUSE=+binary X font_types_ttc +font_types_ttf font_variants_cc +font_variants_default font_variants_slab font_variants_term font_variants_type
 LICENSE=OFL-1.1
 REQUIRED_USE=!binary ?? ( font_types_ttc font_types_ttf ) || ( font_variants_cc font_variants_default font_variants_slab font_variants_term font_variants_type ) || ( font_types_ttc font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:font-r1 pkg_postinst:font-r1 pkg_setup:- src_unpack:git-r3 src_prepare:- src_compile:- src_install:font-r1
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	6eb35f81556258a4bc9182ad3dfd58ee
-_md5_=673692a5b16ceacf13dc2d1faefff1f8
+_md5_=4ae2d0563ba5f7d71523ae86b8ee0580
