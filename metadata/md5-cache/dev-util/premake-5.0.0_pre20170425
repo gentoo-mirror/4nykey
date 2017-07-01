@@ -8,5 +8,5 @@ RESTRICT=primaryuri
 SLOT=5
 SRC_URI=mirror://githubcl/premake/premake-core/tar.gz/43c5e0a -> premake-5.0.0_pre20170425.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:- src_compile:- src_install:-
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	772b26a6baefb4c8c5e0c1fc724508b7	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=ee19c8d23505a5012d5c5d58239d259a
