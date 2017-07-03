@@ -8,4 +8,4 @@ RDEPEND=|| ( app-office/libreoffice app-office/libreoffice-bin )
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=8cabc780299adc8e033e56e2625459fb
+_md5_=260accc68b81feab15db375a6c741a3a

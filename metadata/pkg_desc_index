@@ -2,7 +2,7 @@ app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log fil
 app-arch/brotli 0.6.0 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.12.0_beta1 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.5 9999: Native client and extension for signing with your eID on the web
-app-crypt/qdigidoc 3.13.0 9999: Estonian ID card digital signature desktop tools
+app-crypt/qdigidoc 3.13.1 9999: Estonian ID card digital signature desktop tools
 app-crypt/qesteidutil 3.12.5 9999: Smart card manager UI application
 app-crypt/web-eid 17.3.18 9999: Web eID native host component
 app-dicts/makedict 0_p20160728 9999: A converter between many dictionary formats
@@ -57,7 +57,7 @@ dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/libqtelegram-code-generator 1.0.0_p20170417 9999: Generate API part of libqtelegram automatically
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
-dev-util/otfcc 0.8.3 9999: An optimized OpenType builder and inspector
+dev-util/otfcc 0.8.4 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0_p20170313 9999: Merge and share glyphs
 dev-util/premake 5.0.0_pre20170425 5.9999: A makefile generation tool
 dev-util/sortsmill-tig 1.0.0 9999: Sorts Mill Type Inspector Generator
@@ -180,14 +180,14 @@ media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
 media-sound/picard 1.4.2 1.4.9999 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-video/flowblade 1.12.2 9999: A non-linear PyGTK/MLT video editor
-media-video/shotcut 17.04 9999: A free, open source, cross-platform video editor
+media-video/shotcut 17.06 9999: A free, open source, cross-platform video editor
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
 net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram client
 net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
 net-libs/libqtelegram-aseman-edition 10.0.0_p20170422 9999: A fork of libqtelegram by Aseman Team
 net-misc/mailru-cloud 15.06.0090: cloud.mail.ru sync client
-net-misc/meganz-sdk 3.1.5 9999: MEGA C++ SDK
-net-misc/megasync 3.1.2.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.1.4 9999: MEGA C++ SDK
+net-misc/megasync 3.1.4.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-misc/megatools 1.9.98 9999: Command line tools and C library for accessing Mega cloud storage
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-apps/moreutils 9999: A collection of unix tools that nobody thought to write 30 years ago
@@ -205,15 +205,15 @@ x11-themes/arc-kde 0_p20161129 9999: Arc KDE customization
 x11-themes/candra 0_p20160512 9999: A Qt-like set of gray-scale themes for Gtk-3
 x11-themes/cloak 0_p20160512 9999: A black transparent theme for Gtk-3
 x11-themes/evopop-icon-theme 0.8 9999: A simple icon theme with some google material design inspiration
-x11-themes/faba-icon-theme 0_p20150802 9999: A sexy and modern icon theme with Tango influences
+x11-themes/faba-icon-theme 4.1.2 9999: A sexy and modern icon theme with Tango influences
 x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/kvantum 0.10.4 9999: An SVG-based theme engine for Qt
-x11-themes/moka-icon-theme 0_p20151123 9999: A stylized icon set designed to be clear, simple and consistent
+x11-themes/moka-icon-theme 5.3.6 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/nouvegray-icon-theme 20151215: A light gray icon set
-x11-themes/paper-icon-theme 0_p20151227 9999: A simple and modern icon theme with material design influences
-x11-themes/papirus-icon-theme 0_p20161129 9999: Papirus icon theme for GTK
-x11-themes/papirus-libreoffice-theme 0_p20160606 9999: Papirus theme for Libreoffice
-x11-themes/papirus-smplayer-theme 0_p20161110 9999: Papirus theme for SMPlayer
+x11-themes/paper-icon-theme 1.4.0 9999: A simple and modern icon theme with material design influences
+x11-themes/papirus-icon-theme 2017.06.16 9999: Papirus icon theme for GTK
+x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
+x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
-x11-themes/smplayer-themes 16.6.0 9999: Icon themes for smplayer
+x11-themes/smplayer-themes 17.3.0 9999: Icon themes for smplayer
 x11-themes/yltra-flat-icon-theme 0_p20160630 9999: Yltra Flat icon theme
