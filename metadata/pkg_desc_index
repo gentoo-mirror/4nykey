@@ -26,7 +26,7 @@ dev-libs/xmlbird 1.2.4_p20161223 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 2.0.4 9999: A library for piecewise linear interpolation in multiple dimensions
 dev-python/booleanOperations 0.7.0 9999: A library for boolean operations on paths
 dev-python/compositor 0_p20170303 9999: A basic OpenType GSUB and GPOS layout engine
-dev-python/compreffor 0.4.5 9999: A CFF table subroutinizer for FontTools
+dev-python/compreffor 0.4.5-r1 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.2.0 9999: A library which converts cubic curves to quadratic in RoboFab objects
 dev-python/defcon 0.3.4 9999: A set of UFO based objects for use in font editing applications
 dev-python/defconQt 0.5.4 9999: A set of Qt objects for use in defcon applications
@@ -156,7 +156,7 @@ media-fonts/xolonium 4.1_p20161122: A futuristic font with focus on legibility
 media-fonts/yanone-kaffeesatz 2.000 9999: An open-source font by Jan Gerner
 media-gfx/birdfont 2.19.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
-media-gfx/fim 0.6_pre20170311 9999: Fbi IMproved is a framebuffer image viewer
+media-gfx/fim 0.5_rc3 0.6_pre20170723 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.1.6 0.2.2 9999: A tool for finding visual differences between two font versions
 media-gfx/fontview 0.2.3 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.3 9999: A small application for managing Flickr account
