@@ -1,6 +1,6 @@
 app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log files
 app-arch/brotli 0.6.0 9999: Generic-purpose lossless compression algorithm
-app-arch/wimlib 1.12.0_beta1 9999: The open source Windows Imaging (WIM) library
+app-arch/wimlib 1.12.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.5 9999: Native client and extension for signing with your eID on the web
 app-crypt/qdigidoc 3.13.1 9999: Estonian ID card digital signature desktop tools
 app-crypt/qesteidutil 3.12.5 9999: Smart card manager UI application
@@ -24,7 +24,7 @@ dev-libs/libunicodenames 0_p20150418 9999: A library to retrieve the information
 dev-libs/sortsmill-core 0_p20160309 9999: Sorts Mill Core Library
 dev-libs/xmlbird 1.2.4_p20161223 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 2.0.4 9999: A library for piecewise linear interpolation in multiple dimensions
-dev-python/booleanOperations 0.7.0 9999: A library for boolean operations on paths
+dev-python/booleanOperations 0.7.1 9999: A library for boolean operations on paths
 dev-python/compositor 0_p20170303 9999: A basic OpenType GSUB and GPOS layout engine
 dev-python/compreffor 0.4.5-r1 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.2.0 9999: A library which converts cubic curves to quadratic in RoboFab objects
@@ -198,7 +198,7 @@ x11-misc/gpaste 3.22.4 3.22.9999 3.24.2 3.24.9999: Clipboard management system
 x11-misc/gxneur 0.20.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.20.0 9999: An utility for keyboard layout switching
 x11-plugins/skype4pidgin 1.3 9999: Skype API Plugin for Pidgin
-x11-themes/arc-kde 0_p20161129 9999: Arc KDE customization
+x11-themes/arc-kde 2017.04.23 9999: Arc KDE customization
 x11-themes/candra 0_p20160512 9999: A Qt-like set of gray-scale themes for Gtk-3
 x11-themes/cloak 0_p20160512 9999: A black transparent theme for Gtk-3
 x11-themes/evopop-icon-theme 0.8 9999: A simple icon theme with some google material design inspiration
@@ -208,7 +208,7 @@ x11-themes/kvantum 0.10.4 9999: An SVG-based theme engine for Qt
 x11-themes/moka-icon-theme 5.3.6 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/nouvegray-icon-theme 20151215: A light gray icon set
 x11-themes/paper-icon-theme 1.4.0 9999: A simple and modern icon theme with material design influences
-x11-themes/papirus-icon-theme 2017.06.16 9999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 2017.07.15 9999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
