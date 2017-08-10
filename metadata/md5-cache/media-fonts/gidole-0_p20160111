@@ -2,7 +2,7 @@ DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 media-gfx/fontforge[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) X? ( x11-apps/mkfontdir media-fonts/encodings )
 DESCRIPTION=Open Source Modern DIN
 EAPI=6
-HOMEPAGE=http://gidole.github.io
+HOMEPAGE=https://gidole.github.io
 IUSE=X font_types_otf +font_types_ttf
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT OFL-1.1
@@ -12,4 +12,4 @@ SLOT=0
 SRC_URI=mirror://githubcl/larsenwork/gidole/tar.gz/af00170 -> gidole-0_p20160111.tar.gz mirror://githubcl/gist/f9edc47e189d8495b647a4feac8ca240/tar.gz/1827636 -> f9edc47e189d8495b647a4feac8ca240-1827636.tar.gz
 _eclass_exported_funcs=pkg_postrm:font-r1 pkg_postinst:font-r1 pkg_setup:- src_unpack:vcs-snapshot src_prepare:- src_compile:- src_install:font-r1
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
-_md5_=afafa03e59344144b6d54ce98047bf47
+_md5_=b2dc675b77a5dd6b4ba1fffe0b9f71bc

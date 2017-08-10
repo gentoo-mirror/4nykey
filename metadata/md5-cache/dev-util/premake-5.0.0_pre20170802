@@ -1,12 +1,12 @@
 DEFINED_PHASES=compile install prepare unpack
 DESCRIPTION=A makefile generation tool
 EAPI=6
-HOMEPAGE=http://premake.github.io
+HOMEPAGE=https://premake.github.io
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD
 RESTRICT=primaryuri
 SLOT=5
-SRC_URI=mirror://githubcl/premake/premake-core/tar.gz/43c5e0a -> premake-5.0.0_pre20170425.tar.gz
+SRC_URI=mirror://githubcl/premake/premake-core/tar.gz/bf1ea24 -> premake-5.0.0_pre20170802.tar.gz
 _eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:- src_compile:- src_install:-
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
-_md5_=ee19c8d23505a5012d5c5d58239d259a
+_md5_=f47e5903ff7a80fffa0ae8c34a823176

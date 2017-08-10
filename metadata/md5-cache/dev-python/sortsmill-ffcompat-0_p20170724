@@ -1,0 +1,15 @@
+DEFINED_PHASES=configure install prepare setup unpack
+DEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_single_target_python3_4? ( dev-lang/python:3.4 ) python_single_target_python3_5? ( dev-lang/python:3.5 ) python_single_target_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),python_single_target_python2_7(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?,python_single_target_python3_6(+)?] media-gfx/sortsmill-tools dev-util/sortsmill-tig virtual/yacc cython? ( dev-python/cython ) nls? ( sys-devel/gettext ) >=app-portage/elt-patches-20170317 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DESCRIPTION=A Python module for Sorts Mill Tools
+EAPI=6
+HOMEPAGE=https://bitbucket.org/sortsmill/sortsmill-ffcompat
+IUSE=cython nls python_targets_python2_7 python_targets_python3_4 python_targets_python3_5 python_targets_python3_6 python_single_target_python2_7 python_single_target_python3_4 python_single_target_python3_5 python_single_target_python3_6
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) python_single_target_python3_4? ( dev-lang/python:3.4 ) python_single_target_python3_5? ( dev-lang/python:3.5 ) python_single_target_python3_6? ( dev-lang/python:3.6 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,python_targets_python3_4(-)?,python_targets_python3_5(-)?,python_targets_python3_6(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),python_single_target_python2_7(+)?,python_single_target_python3_4(+)?,python_single_target_python3_5(+)?,python_single_target_python3_6(+)?] media-gfx/sortsmill-tools
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://bitbucket.org/sortsmill/sortsmill-ffcompat/get/4739568.tar.bz2 -> sortsmill-ffcompat-0_p20170724.tar.bz2
+_eclass_exported_funcs=pkg_setup:- src_unpack:vcs-snapshot src_prepare:- src_configure:- src_install:-
+_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	e32ea84bf82cf8987965b574672dba93	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_md5_=658e1ff42f5880b9e1435dff45711a67

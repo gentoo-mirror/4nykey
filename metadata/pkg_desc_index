@@ -5,23 +5,23 @@ app-crypt/chrome-token-signing 1.0.5 9999: Native client and extension for signi
 app-crypt/qdigidoc 3.13.1 9999: Estonian ID card digital signature desktop tools
 app-crypt/qesteidutil 3.12.5 9999: Smart card manager UI application
 app-dicts/makedict 0_p20160728 9999: A converter between many dictionary formats
-app-shells/zsh-syntax-highlighting 0.4.0 9999: Fish shell like syntax highlighting for zsh
+app-shells/zsh-syntax-highlighting 0.6.0_rc1 9999: Fish shell like syntax highlighting for zsh
 app-text/fbpdf 0_p20161202 9999: A linux framebuffer PDF viewer
 app-text/fontreport 0_p20160926 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/gist 4.5.0 9999: Upload code to gist.github.com
 app-text/gistit 0.1.3 9999: An application to create github gists from console
 app-text/sdcv 0.5.1 9999: A console version of StarDict
-cross-i686-pc-cygwin/cygwin 2.8.0.1: Linux-like environment for Windows
+cross-i686-pc-cygwin/cygwin 2.8.2: Linux-like environment for Windows
 cross-i686-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
-cross-x86_64-pc-cygwin/cygwin 2.8.0.1: Linux-like environment for Windows
+cross-x86_64-pc-cygwin/cygwin 2.8.2: Linux-like environment for Windows
 cross-x86_64-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
 cross-x86_64-w64-mingw32/mingw-runtime 5.0.2 9999: Free Win32 runtime and import library definitions
 dev-libs/esteid-pkcs11 3.11.0_beta 9999: EstEID PKCS11 Module
 dev-libs/libdigidoc 3.10.3 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.13.1 9999: DigiDoc digital signature library
 dev-libs/libmatheval 1.1.7: a library to parse and evaluate symbolic expressions input as text
-dev-libs/libunicodenames 0_p20150418 9999: A library to retrieve the information from Unicode Consortium namesList
-dev-libs/sortsmill-core 0_p20160309 9999: Sorts Mill Core Library
+dev-libs/libunicodenames 1.2.2 9999: A library to retrieve the information from Unicode Consortium namesList
+dev-libs/sortsmill-core 1.0.0_p20170705 9999: Sorts Mill Core Library
 dev-libs/xmlbird 1.2.4_p20161223 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 2.0.4 9999: A library for piecewise linear interpolation in multiple dimensions
 dev-python/booleanOperations 0.7.1 9999: A library for boolean operations on paths
@@ -32,9 +32,9 @@ dev-python/defcon 0.3.4 9999: A set of UFO based objects for use in font editing
 dev-python/defconQt 0.5.4 9999: A set of Qt objects for use in defcon applications
 dev-python/extractor 0.2.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/fontMath 0.4.3 9999: A collection of objects that implement fast font math
-dev-python/fonttools 3.13.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 3.14.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 1.0.2_p20170505 9999: Python bindings for the freetype library
-dev-python/glyphsLib 1.7.5 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 1.7.6 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/gmpy 1.17: Python bindings for GMP library
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
 dev-python/munkres 1.0.9 9999: Module implementing munkres algorithm for the Assignment Problem
@@ -43,23 +43,25 @@ dev-python/py-zopfli 0.0.8 9999: Python bindings for zopfli
 dev-python/pyclipper 1.0.6 9999: A Cython wrapper for the Clipper library
 dev-python/pyfontaine 1.3.12_pre20170418 9999: A tool to check font files for language/character set support
 dev-python/scfbuild 0_p20170226 9999: Create SVG in OpenType color fonts from a set of SVG source files
+dev-python/sortsmill-ffcompat 0_p20170724 9999: A Python module for Sorts Mill Tools
 dev-python/ufo2ft 0.5.3 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib 2.1.0 9999: A low-level UFO reader and writer
 dev-python/unicodedata2 9.0.0_p4 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
 dev-qt/aseman-qt-tools 1.0.0_p20170422 9999: Set of tools for cross platforms Qt projects
-dev-scheme/sortsmill-core-guile 0_p20160309 9999: A Guile 2.0 interface to Sorts Mill Core Library
+dev-scheme/sortsmill-core-guile 1.0.0_p20170713 9999: A Guile 2.0 interface to Sorts Mill Core Library
 dev-util/afdko 2.5.65781_p20170727 9999: Adobe Font Development Kit for OpenType
 dev-util/cmake-openeid 0_p20170602 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 1.2.6 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 1.2.7 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/libqtelegram-code-generator 1.0.0_p20170417 9999: Generate API part of libqtelegram automatically
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/otfcc 0.8.6 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0_p20170313 9999: Merge and share glyphs
-dev-util/premake 5.0.0_pre20170425 5.9999: A makefile generation tool
-dev-util/sortsmill-tig 1.0.0 9999: Sorts Mill Type Inspector Generator
+dev-util/ots 6.0.0_pre20170731 9999: An util for validating and sanitising OpenType files
+dev-util/premake 5.0.0_pre20170802 5.9999: A makefile generation tool
+dev-util/sortsmill-tig 1.1.0_p20130811 9999: Sorts Mill Type Inspector Generator
 dev-util/svgo 0.7.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
 gnome-extra/gnome-shell-extension-appindicator 18 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20170328 9999: An extension for displaying weather informations in GNOME Shell
@@ -91,7 +93,7 @@ media-fonts/emojione-color-font 1.3 9999: A color emoji SVGinOT font using Emoji
 media-fonts/exo 1.0_p20161118 1.0.9999 2.0_p20170425 2.0.9999: A geometric sans serif font family
 media-fonts/fira 4.203_p20161102 4.203.9999: Firefox OS typeface
 media-fonts/firacode 1.204 9999: A monospaced font with programming ligatures
-media-fonts/fonts-cu 2.0_p20161224 9999: Unicode OpenType fonts for Church Slavonic
+media-fonts/fonts-cu 2.0_p20170809 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 0_p20120503 9999: A free family of scalable outline unicode fonts
 media-fonts/freizer-color-font 0_p20160608 9999: A SVG-in-OpenType Polychromatic Color Font
 media-fonts/gabriela 0_p20161215 9999: A serif typeface with soft shapes and terminal forms shaped like curls
@@ -105,7 +107,7 @@ media-fonts/inziu-iosevka 1.13.2: A CJK monospaced font, a composite of Iosevka,
 media-fonts/iosevka 1.13.2 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 3.0_p20170307 9999: A family of sans-serif fonts in the Eurostile vein
-media-fonts/kelvinch 3.31: An unicode serif font meant for body text
+media-fonts/kelvinch 3.4: An unicode serif font meant for body text
 media-fonts/khartiya 1.0.2 9999: Khartiya is extended Bitstream Charter font
 media-fonts/kurale 2.0_p20170313 9999: A Latin, Cyrillic and Devanagari typeface derived from Gabriela
 media-fonts/lato 2.015: A sanserif typeface family with classical proportions
@@ -118,11 +120,11 @@ media-fonts/merriweather 2.001_p20170206 9999: A serif font useful for creating 
 media-fonts/merriweather-sans 1.005_p20160123 9999: A serif font useful for creating long texts for books or articles
 media-fonts/monoid 0_p20160721 9999: Customisable coding font with alternates, ligatures and contextual positioning
 media-fonts/multicoloure-font 0_p20160608 9999: A SVG-in-OpenType Polychromatic Color Font
-media-fonts/noto 0_p20170505 9999: A font family that aims to support all the world's languages
+media-fonts/noto 20170505 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk 1.004_p20170512 9999: Noto CJK fonts
 media-fonts/noto-emoji 2017.05.18 9999: Noto Emoji fonts
-media-fonts/noto-fonts-alpha 0_p20170505 9999: Alpha versions of Noto fonts
-media-fonts/noto-source 0_p20170506 9999: A WIP versions of the noto fonts
+media-fonts/noto-fonts-alpha 0_p20170802 9999: Alpha versions of Noto fonts
+media-fonts/noto-source 0_p20170807 9999: A WIP versions of the noto fonts
 media-fonts/oldstandard 2.2 9999: A font with wide range of Latin, Greek and Cyrillic characters
 media-fonts/open-sans 0_p20150906 9999: A clean and modern sans-serif typeface for web, print and mobile
 media-fonts/oswald 4.003_p20170626 9999: A reworking of the classic gothic typeface style
@@ -135,7 +137,7 @@ media-fonts/prata 0_p20161214 9999: An elegant Didone typeface with sharp featur
 media-fonts/raleway 4.020 9999: An elegant sans-serif typeface
 media-fonts/reinebow-color-font 0_p20160606 9999: A SVG-in-OpenType Polychromatic Color Font
 media-fonts/ricty 4.1.0 9999: A monotype font combining Inconsolata and Migu 1M
-media-fonts/roboto 2.136 9999: Google's signature family of fonts
+media-fonts/roboto 2.138 9999: Google's signature family of fonts
 media-fonts/robotoslab 0_p20170512 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20170710 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 0_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
@@ -151,7 +153,7 @@ media-fonts/source-serif-pro 2.000 9999: Serif typeface designed to complement S
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 1.3 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
-media-fonts/vollkorn-typeface 0_p20170329 9999: A body typeface with figure sets, ligatures and contextual alternates
+media-fonts/vollkorn-typeface 4.015_p20170329 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/xolonium 4.1_p20161122: A futuristic font with focus on legibility
 media-fonts/yanone-kaffeesatz 2.000 9999: An open-source font by Jan Gerner
 media-gfx/birdfont 2.19.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
@@ -161,13 +163,14 @@ media-gfx/fontdiff 0.1.6 0.2.2 9999: A tool for finding visual differences betwe
 media-gfx/fontview 0.2.3 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.3 9999: A small application for managing Flickr account
 media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
-media-gfx/sortsmill-tools 0_p20160130 9999: A font editing system derived from FontForge
+media-gfx/sortsmill-tools 3.0.0_pre20170724 9999: A font editing system derived from FontForge
 media-gfx/trufont 0.6.0_pre20170227 9999: An ufo3 font editor
-media-gfx/ttfautohint 1.6 9999: A library for automated hinting of truetype fonts
+media-gfx/ttfautohint 1.6_p20170808 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/fontconfig-ultimate 2016.04.23 9999: A set of rendering and font replacement rules for fontconfig-infinality
 media-libs/libltc 1.3.0 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/qm-dsp 1.7.1 9999: A C++ library for audio analysis
+media-libs/woff2 0_p20170731 9999: A library and utils for Web Open Font Format 2.0
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/ardour 4.7 5.10 5.9999: Digital Audio Workstation
 media-sound/deadbeef 0.6.2 9999: DeaDBeeF - Ultimate Music Player For GNU/Linux
@@ -179,7 +182,7 @@ media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
 media-sound/picard 1.4.2 1.4.9999 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-video/flowblade 1.12.2 9999: A non-linear PyGTK/MLT video editor
-media-video/shotcut 17.06 9999: A free, open source, cross-platform video editor
+media-video/shotcut 17.08 9999: A free, open source, cross-platform video editor
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
 net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram client
 net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
@@ -192,7 +195,7 @@ net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/
 sys-apps/moreutils 9999: A collection of unix tools that nobody thought to write 30 years ago
 sys-block/f3 6.0_p20160627 9999: F3 - Fight Flash Fraud
 www-client/midori 0.5.11 9999: A lightweight web browser based on WebKitGTK+
-www-client/torbrowser 52.2.0.7.0.1.1.1 52.2.0.7.5.1.1.2_alpha: The Tor Browser
+www-client/torbrowser 52.3.0.7.0.3.1.1 52.3.0.7.5.3.2.1_alpha: The Tor Browser
 www-plugins/browser-token-signing 3.12.2 9999: NPAPI plugin for signing hashes with PKCS#11 tokens from JavaScript
 x11-misc/gpaste 3.22.4 3.22.9999 3.24.2 3.24.9999: Clipboard management system
 x11-misc/gxneur 0.20.0 9999: GTK+ based GUI for xneur

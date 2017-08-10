@@ -2,7 +2,7 @@ DEFINED_PHASES=compile configure install postinst postrm setup unpack
 DEPEND=|| ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 media-gfx/fontforge[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings )
 DESCRIPTION=Customisable coding font with alternates, ligatures and contextual positioning
 EAPI=6
-HOMEPAGE=http://larsenwork.com/monoid
+HOMEPAGE=https://larsenwork.com/monoid
 IUSE=X font_variants_loose font_variants_halfloose font_variants_halftight font_variants_tight font_variants_xtrasmall font_variants_small font_variants_large font_variants_xtralarge font_chars_empty_dollar font_chars_dotted_zero font_chars_base_one font_chars_zstyle_l font_chars_no_contextual_alternates
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT OFL-1.1
@@ -10,4 +10,4 @@ RESTRICT=strip binchecks
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:font-r1 pkg_postinst:font-r1 pkg_setup:- src_unpack:git-r3 src_configure:- src_compile:- src_install:font-r1
 _eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	git-r3	cbafa3261c37c7e3af44bb16a34ea390	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163
-_md5_=ad9500dd5ea7fd6da721b7c8d9385fd6
+_md5_=ddd7a4a103a55f08121cfaf3a0c19721
