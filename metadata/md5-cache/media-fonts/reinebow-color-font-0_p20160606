@@ -10,5 +10,5 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/xerographer/reinebow-color-font/tar.gz/e7b6145 -> reinebow-color-font-0_p20160606.tar.gz
 _eclass_exported_funcs=pkg_postrm:font-r1 pkg_postinst:font-r1 pkg_setup:font-r1 src_unpack:vcs-snapshot src_prepare:- src_compile:- src_install:font-r1
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	8fec6b1eb195836560e70b66d98fb163	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=2912e480277e2506e4b8466e6292d4fe
