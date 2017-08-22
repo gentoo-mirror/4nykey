@@ -2,11 +2,12 @@ app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log fil
 app-arch/brotli 0.6.0 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.12.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.5 9999: Native client and extension for signing with your eID on the web
-app-crypt/qdigidoc 3.13.1 9999: Estonian ID card digital signature desktop tools
-app-crypt/qesteidutil 3.12.5 9999: Smart card manager UI application
+app-crypt/qdigidoc 3.13.2 9999: Estonian ID card digital signature desktop tools
+app-crypt/qesteidutil 3.12.6 9999: Smart card manager UI application
 app-dicts/makedict 0_p20160728 9999: A converter between many dictionary formats
 app-shells/zsh-syntax-highlighting 0.6.0_rc1 9999: Fish shell like syntax highlighting for zsh
 app-text/fbpdf 0_p20161202 9999: A linux framebuffer PDF viewer
+app-text/fntsample 4.1 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 0_p20160926 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/gist 4.5.0 9999: Upload code to gist.github.com
 app-text/gistit 0.1.3 9999: An application to create github gists from console
@@ -50,26 +51,25 @@ dev-python/unicodedata2 9.0.0_p4 9999: Unicodedata backport for python 2/3 updat
 dev-qt/aseman-qt-tools 1.0.0_p20170422 9999: Set of tools for cross platforms Qt projects
 dev-scheme/sortsmill-core-guile 1.0.0_p20170713 9999: A Guile 2.0 interface to Sorts Mill Core Library
 dev-util/afdko 2.5.65781_p20170727 9999: Adobe Font Development Kit for OpenType
-dev-util/cmake-openeid 0_p20170602 9999: Open-EID CMake modules
+dev-util/cmake-openeid 0_p20170719 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontmake 1.2.7 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/libqtelegram-code-generator 1.0.0_p20170417 9999: Generate API part of libqtelegram automatically
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
-dev-util/otfcc 0.8.6 9999: An optimized OpenType builder and inspector
+dev-util/otfcc 0.9.1 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0_p20170313 9999: Merge and share glyphs
 dev-util/ots 6.0.0_pre20170731 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_pre20170802 5.9999: A makefile generation tool
 dev-util/sortsmill-tig 1.1.0_p20130811 9999: Sorts Mill Type Inspector Generator
 dev-util/svgo 0.7.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 18 9999: Adds AppIndicator support to gnome shell
-gnome-extra/gnome-shell-extension-openweather 1.1_pre20170328 9999: An extension for displaying weather informations in GNOME Shell
+gnome-extra/gnome-shell-extension-appindicator 20 9999: Adds AppIndicator support to gnome shell
+gnome-extra/gnome-shell-extension-openweather 1.1_pre20170820 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-extension-taskbar 56.0 9999: TaskBar displays icons of running applications on the top or bottom panel
 gnome-extra/gnome-shell-remove-dropdown-arrows 8 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 0_p20170327 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/gnome-shell-system-monitor-applet 32 9999: An extension for displaying sensors information in GNOME Shell
 gnome-extra/pixel-saver 1.10 9999: An extension to merge the title bar of a maximized window into GS activity bar
-gnome-extra/status-area-horizontal-spacing 2.2 9999: An GS extension to reduce the horizontal spacing between status area icons
 gnome-extra/topicons-plus 20 9999: An extension to move legacy tray icons to the top panel
 media-fonts/alegreya-libre 2.0_rc1 9999: A serif typeface originally intended for literature
 media-fonts/alegreya-sans 2.0_rc2 9999: A humanist sans-serif family with a calligraphic feeling
@@ -90,6 +90,7 @@ media-fonts/didact-gothic 2.101_p20170125 9999: A sans-serif typeface similar to
 media-fonts/eb-garamond 0_p20160731 9999: This project aims at providing a free version of the Garamond typeface
 media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/emojione-color-font 1.3 9999: A color emoji SVGinOT font using EmojiOne Unicode 9.0 emoji
+media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 1.0_p20161118 1.0.9999 2.0_p20170425 2.0.9999: A geometric sans serif font family
 media-fonts/fira 4.203_p20161102 4.203.9999: Firefox OS typeface
 media-fonts/firacode 1.204 9999: A monospaced font with programming ligatures
@@ -142,18 +143,21 @@ media-fonts/robotoslab 0_p20170512 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20170710 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 0_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
-media-fonts/source-code-pro 2.030.1.050 9999: Monospaced font family for user interface and coding environments
+media-fonts/source-code-pro 2.030.1.050_p20170816 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.000 9999: An monospaced font for mixed Latin and Japanese text
 media-fonts/source-han-sans 1.004 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 1.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-pro 0_p20170408: Adobe Source Pro, an open source multi-lingual font family
-media-fonts/source-sans-pro 2.020.1.075 9999: Sans serif font family for user interface environments
-media-fonts/source-serif-pro 2.000 9999: Serif typeface designed to complement Source Sans Pro
+media-fonts/source-sans-pro 2.020.1.075_p20170816 9999: Sans serif font family for user interface environments
+media-fonts/source-serif-pro 2.000_p20170816 9999: Serif typeface designed to complement Source Sans Pro
+media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 1.3 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
+media-fonts/unscii 1.1: A bitmapped Unicode font based on classic system fonts
 media-fonts/vollkorn-typeface 4.015_p20170329 9999: A body typeface with figure sets, ligatures and contextual alternates
+media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/xolonium 4.1_p20161122: A futuristic font with focus on legibility
 media-fonts/yanone-kaffeesatz 2.000 9999: An open-source font by Jan Gerner
 media-gfx/birdfont 2.19.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
@@ -173,7 +177,7 @@ media-libs/qm-dsp 1.7.1 9999: A C++ library for audio analysis
 media-libs/woff2 0_p20170731 9999: A library and utils for Web Open Font Format 2.0
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/ardour 4.7 5.10 5.9999: Digital Audio Workstation
-media-sound/deadbeef 0.6.2 9999: DeaDBeeF - Ultimate Music Player For GNU/Linux
+media-sound/deadbeef 0.7.2_p20170812 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/genpuid 1.4: genpuid is a utility for fingerprinting of audio files
 media-sound/jack-audio-connection-kit 1.9.11_rc1 1.9.9999: A low-latency audio server
@@ -204,7 +208,7 @@ x11-plugins/skype4pidgin 1.3 9999: Skype API Plugin for Pidgin
 x11-themes/arc-kde 2017.04.23 9999: Arc KDE customization
 x11-themes/candra 0_p20160512 9999: A Qt-like set of gray-scale themes for Gtk-3
 x11-themes/cloak 0_p20160512 9999: A black transparent theme for Gtk-3
-x11-themes/evopop-icon-theme 0.8 9999: A simple icon theme with some google material design inspiration
+x11-themes/evopop-icon-theme 0.9_pre20170813 9999: A simple icon theme with some google material design inspiration
 x11-themes/faba-icon-theme 4.1.2 9999: A sexy and modern icon theme with Tango influences
 x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/kvantum 0.10.4 9999: An SVG-based theme engine for Qt

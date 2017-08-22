@@ -7,4 +7,4 @@ LICENSE=LGPL-2.1
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=1a4b1cd5d8eb67a1bc8361e4a6864fa6
+_md5_=6607bcd9b0087734aa5f8b6d967fd1cf
