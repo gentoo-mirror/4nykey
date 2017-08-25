@@ -7,5 +7,5 @@ LICENSE=MIT
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell x11-apps/xprop
 SLOT=0
 _eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:git-r3 src_install:-
-_eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
+_eclasses_=git-r3	78651c07ca1c1373bf81545d39eb9769
 _md5_=12524c80efff9918ae4bc510a1189118
