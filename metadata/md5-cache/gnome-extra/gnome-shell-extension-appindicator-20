@@ -9,6 +9,5 @@ RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/rgcjonas/gnome-shell-extension-appindicator/tar.gz/v20 -> gnome-shell-extension-appindicator-20.tar.gz
-_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:vcs-snapshot src_compile:- src_install:-
 _eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=3b8e3b43bfb0519dca513055c1b3b108

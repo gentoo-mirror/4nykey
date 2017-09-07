@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme
 LICENSE=GPL-3
 RDEPEND=|| ( app-office/libreoffice app-office/libreoffice-bin )
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=260accc68b81feab15db375a6c741a3a

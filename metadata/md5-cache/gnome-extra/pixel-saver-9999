@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/deadalnix/pixel-saver
 LICENSE=MIT
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell x11-apps/xprop
 SLOT=0
-_eclass_exported_funcs=pkg_postrm:- pkg_postinst:- src_unpack:git-r3 src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
 _md5_=12524c80efff9918ae4bc510a1189118

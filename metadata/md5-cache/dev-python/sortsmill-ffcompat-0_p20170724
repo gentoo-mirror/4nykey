@@ -10,6 +10,5 @@ RDEPEND=python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) pytho
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://bitbucket.org/sortsmill/sortsmill-ffcompat/get/4739568.tar.bz2 -> sortsmill-ffcompat-0_p20170724.tar.bz2
-_eclass_exported_funcs=pkg_setup:- src_unpack:vcs-snapshot src_prepare:- src_configure:- src_install:-
 _eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	0081a71a261724730ec4c248494f044d	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=658e1ff42f5880b9e1435dff45711a67

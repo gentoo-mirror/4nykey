@@ -7,5 +7,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 RDEPEND=cjk? ( sans? ( media-fonts/source-han-sans ) serif? ( media-fonts/source-han-serif ) ) emoji? ( media-fonts/source-emoji ) monospace? ( media-fonts/source-code-pro ) serif? ( media-fonts/source-serif-pro ) sans? ( media-fonts/source-sans-pro )
 SLOT=0
-_eclass_exported_funcs=-
 _md5_=d028f106b8af1f24921930c9782d996f

@@ -6,6 +6,5 @@ HOMEPAGE=https://github.com/zsh-users/zsh-syntax-highlighting
 LICENSE=BSD
 RDEPEND=app-shells/zsh
 SLOT=0
-_eclass_exported_funcs=src_unpack:git-r3 src_prepare:- src_install:-
 _eclasses_=git-r3	4f7ddb4119309845d6687213171ab445	readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986
 _md5_=63e27b66c48a4e3fc76a56552f1cfd9b

@@ -8,6 +8,5 @@ RDEPEND=app-shells/zsh
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/zsh-users/zsh-syntax-highlighting/tar.gz/0.6.0-rc1 -> zsh-syntax-highlighting-0.6.0_rc1.tar.gz
-_eclass_exported_funcs=src_unpack:vcs-snapshot src_prepare:- src_install:-
 _eclasses_=readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=63e27b66c48a4e3fc76a56552f1cfd9b
