@@ -70,7 +70,6 @@ media-sound/flactag:gcrypt - Use libgcrypt for low-level crypto
 media-sound/jack-audio-connection-kit:celt - Support CELT low delay audio codec (media-libs/celt)
 media-sound/jack-audio-connection-kit:classic - Force enable standard JACK (jackd) even if D-Bus JACK (jackdbus) is enabled too
 media-sound/jack-audio-connection-kit:opus - Build Opus netjack2
-media-sound/morituri:alac - Add support for Apple Lossless Audio Codec files
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 media-video/flowblade:frei0r - Additional video filters (media-plugins/frei0r-plugins)
 media-video/flowblade:gmic - Additional image filters (media-gfx/gmic)

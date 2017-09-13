@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=!binary? ( media-gfx/fontforge font_types_ttf? ( media-gfx/ttfautohint ) doc? ( virtual/latex-base app-text/fntsample ) ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings )
+DEPEND=!binary? ( media-gfx/fontforge font_types_ttf? ( media-gfx/ttfautohint ) doc? ( virtual/latex-base app-text/fntsample ) ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=An open source geometric sans-serif font based on URW Gothic L
 EAPI=6
 HOMEPAGE=https://evolventa.github.io
@@ -8,5 +8,5 @@ LICENSE=|| ( GPL-2 LPPL-1.3c )
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	d775f507112e8661557943c315a0bd30	git-r3	4f7ddb4119309845d6687213171ab445	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_eclasses_=epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	9c113d6a64826c40154cad7be15d95ea	font-r1	9661c09e357bc392cb410a22d3295adb	git-r3	4f7ddb4119309845d6687213171ab445	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
 _md5_=5a6e4401fa9b9378404cb3536e6daca0
