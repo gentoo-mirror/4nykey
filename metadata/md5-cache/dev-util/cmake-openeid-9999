@@ -5,5 +5,5 @@ EAPI=6
 HOMEPAGE=https://open-eid.github.io
 LICENSE=LGPL-2.1
 SLOT=0
-_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
 _md5_=6607bcd9b0087734aa5f8b6d967fd1cf

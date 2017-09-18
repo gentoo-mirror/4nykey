@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/rgcjonas/gnome-shell-extension-appindicator
 LICENSE=GPL-2+
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
-_eclasses_=git-r3	4f7ddb4119309845d6687213171ab445
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
 _md5_=3b8e3b43bfb0519dca513055c1b3b108
