@@ -2,10 +2,10 @@ DEFINED_PHASES=install prepare unpack
 DEPEND=>=dev-vcs/git-1.8.2.1
 DESCRIPTION=Arc KDE customization
 EAPI=6
-HOMEPAGE=https://github.com/PapirusDevelopmentTeam/arc-kde
+HOMEPAGE=https://git.io/arc-kde
 IUSE=konsole kvantum
 LICENSE=GPL-3 CC-BY-SA-4.0
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 SLOT=0
 _eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
-_md5_=296662b5e75dabc651fefd66b245e818
+_md5_=90ac0194a65a3c32aee86025db1d3c89

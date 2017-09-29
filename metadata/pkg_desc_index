@@ -1,5 +1,4 @@
 app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log files
-app-arch/brotli 0.6.0 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.12.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.6_beta 9999: Native client and extension for signing with your eID on the web
 app-crypt/qdigidoc 3.13.2 9999: Estonian ID card digital signature desktop tools
@@ -17,11 +16,13 @@ cross-i686-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
 cross-x86_64-pc-cygwin/cygwin 2.8.2: Linux-like environment for Windows
 cross-x86_64-pc-cygwin/w32api 5.0.2: MinGW-w64 Windows API for Cygwin
 cross-x86_64-w64-mingw32/mingw-runtime 5.0.2 9999: Free Win32 runtime and import library definitions
+dev-lang/sassc 3.4.5 9999: A libsass command line driver
 dev-libs/esteid-pkcs11 3.11.0_beta 9999: EstEID PKCS11 Module
 dev-libs/libdigidoc 3.10.3 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.13.1 9999: DigiDoc digital signature library
 dev-libs/libmatheval 1.1.7: a library to parse and evaluate symbolic expressions input as text
 dev-libs/libraqm 0.3.0 9999: A library for complex text layout
+dev-libs/libsass 3.4.5 9999: A C/C++ implementation of a Sass compiler
 dev-libs/libunicodenames 1.2.2 9999: A library to retrieve the information from Unicode Consortium namesList
 dev-libs/sortsmill-core 1.0.0_p20170705 9999: Sorts Mill Core Library
 dev-libs/xmlbird 1.2.4_p20161223 9999: XML parser for Vala and C programs
@@ -38,7 +39,7 @@ dev-python/fonttools 3.15.1 9999: Library for manipulating TrueType, OpenType, A
 dev-python/freetype-py 1.0.2_p20170505 9999: Python bindings for the freetype library
 dev-python/glyphsLib 1.8.0 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
-dev-python/munkres 1.0.9 9999: Module implementing munkres algorithm for the Assignment Problem
+dev-python/munkres 1.0.12 9999: Module implementing munkres algorithm for the Assignment Problem
 dev-python/nototools 0_p20170523 9999: A python package for maintaining the Noto Fonts project
 dev-python/py-zopfli 0.0.8 9999: Python bindings for zopfli
 dev-python/pyclipper 1.0.6 9999: A Cython wrapper for the Clipper library
@@ -47,7 +48,7 @@ dev-python/scfbuild 0_p20170226 9999: Create SVG in OpenType color fonts from a 
 dev-python/sortsmill-ffcompat 0_p20170724 9999: A Python module for Sorts Mill Tools
 dev-python/ufo2ft 0.6.2 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib 2.1.0 9999: A low-level UFO reader and writer
-dev-python/unicodedata2 9.0.0_p4 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
+dev-python/unicodedata2 10.0.0 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
 dev-qt/aseman-qt-tools 1.0.0_p20170422 9999: Set of tools for cross platforms Qt projects
 dev-scheme/sortsmill-core-guile 1.0.0_p20170713 9999: A Guile 2.0 interface to Sorts Mill Core Library
 dev-util/afdko 2.5.65781_p20170727 9999: Adobe Font Development Kit for OpenType
@@ -65,12 +66,12 @@ dev-util/premake 5.0.0_pre20170802 5.9999: A makefile generation tool
 dev-util/sortsmill-tig 1.1.0_p20130811 9999: Sorts Mill Type Inspector Generator
 dev-util/svgo 0.7.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
 gnome-extra/gnome-shell-extension-appindicator 20 9999: Adds AppIndicator support to gnome shell
-gnome-extra/gnome-shell-extension-openweather 1.1_pre20170820 9999: An extension for displaying weather informations in GNOME Shell
+gnome-extra/gnome-shell-extension-openweather 1.1_pre20170918 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-extension-taskbar 56.0 9999: TaskBar displays icons of running applications on the top or bottom panel
 gnome-extra/gnome-shell-remove-dropdown-arrows 8 9999: An extension that removes the dropdown arrows from GS menus
 gnome-extra/gnome-shell-system-monitor-applet 32 9999: An extension for displaying sensors information in GNOME Shell
 gnome-extra/pixel-saver 1.10 9999: An extension to merge the title bar of a maximized window into GS activity bar
-gnome-extra/topicons-plus 20 9999: An extension to move legacy tray icons to the top panel
+gnome-extra/topicons-plus 21 9999: An extension to move legacy tray icons to the top panel
 media-fonts/alegreya-libre 2.0_rc1 9999: A serif typeface originally intended for literature
 media-fonts/alegreya-sans 2.0_rc2 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alice 0_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
@@ -99,6 +100,7 @@ media-fonts/freefont 0_p20120503 9999: A free family of scalable outline unicode
 media-fonts/freizer-color-font 0_p20160608 9999: A SVG-in-OpenType Polychromatic Color Font
 media-fonts/gabriela 0_p20161215 9999: A serif typeface with soft shapes and terminal forms shaped like curls
 media-fonts/gidole 0_p20160111 9999: Open Source Modern DIN
+media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/gostrus 0_p20160301: A geometric Sans Serif typeface for technical documentation
 media-fonts/hasklig 1.1 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
@@ -173,7 +175,7 @@ media-gfx/ttfautohint 1.6_p20170808 9999: A library for automated hinting of tru
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/fontconfig-ultimate 2016.04.23 9999: A set of rendering and font replacement rules for fontconfig-infinality
 media-libs/libltc 1.3.0 9999: Linear/Logitudinal Time Code (LTC) Library
-media-libs/qm-dsp 1.7.1 9999: A C++ library for audio analysis
+media-libs/qm-dsp 1.7.1_p20170314 9999: A C++ library for audio analysis
 media-libs/woff2 0_p20170731 9999: A library and utils for Web Open Font Format 2.0
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/ardour 4.7 5.11 5.9999: Digital Audio Workstation
@@ -191,21 +193,23 @@ media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demu
 net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram client
 net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
 net-libs/libqtelegram-aseman-edition 10.0.0_p20170422 9999: A fork of libqtelegram by Aseman Team
-net-misc/mailru-cloud 15.06.0090: cloud.mail.ru sync client
-net-misc/meganz-sdk 3.1.4 9999: MEGA C++ SDK
+net-misc/MEGAcmd 0_p20170915 9999: Command Line Interactive and Scriptable Application to access MEGA
+net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
+net-misc/meganz-sdk 3.2.0 9999: MEGA C++ SDK
 net-misc/megasync 3.1.4.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-misc/megatools 1.9.98 9999: Command line tools and C library for accessing Mega cloud storage
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-apps/moreutils 0.61 9999: A collection of unix tools that nobody thought to write 30 years ago
 sys-block/f3 6.0_p20160627 9999: F3 - Fight Flash Fraud
 www-client/midori 0.5.11 9999: A lightweight web browser based on WebKitGTK+
-www-client/torbrowser 52.3.0.7.0.3.1.1 52.3.0.7.5.3.2.1_alpha: The Tor Browser
+www-client/torbrowser 52.4.0.7.0.5.1.1 52.4.0.7.5.4.1.2_alpha: The Tor Browser
 www-plugins/browser-token-signing 3.12.2 9999: NPAPI plugin for signing hashes with PKCS#11 tokens from JavaScript
 x11-misc/gpaste 3.22.4 3.22.9999 3.24.2 3.24.9999: Clipboard management system
 x11-misc/gxneur 0.20.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.20.0 9999: An utility for keyboard layout switching
 x11-plugins/skype4pidgin 1.3 9999: Skype API Plugin for Pidgin
-x11-themes/arc-kde 2017.04.23 9999: Arc KDE customization
+x11-themes/adapta-gtk-theme 3.91.2.198 9999: An adaptive Gtk+ theme based on Material Design Guidelines
+x11-themes/arc-kde 2017.09.25 9999: Arc KDE customization
 x11-themes/candra 0_p20160512 9999: A Qt-like set of gray-scale themes for Gtk-3
 x11-themes/cloak 0_p20160512 9999: A black transparent theme for Gtk-3
 x11-themes/evopop-icon-theme 0.9_pre20170813 9999: A simple icon theme with some google material design inspiration
@@ -215,7 +219,8 @@ x11-themes/kvantum 0.10.4 9999: An SVG-based theme engine for Qt
 x11-themes/moka-icon-theme 5.3.6 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/nouvegray-icon-theme 20151215: A light gray icon set
 x11-themes/paper-icon-theme 1.4.0 9999: A simple and modern icon theme with material design influences
-x11-themes/papirus-icon-theme 2017.08.28 9999: Papirus icon theme for GTK
+x11-themes/papirus-filezilla-themes 2017.01.19 9999: Papirus theme for FileZilla
+x11-themes/papirus-icon-theme 2017.09.21 9999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
