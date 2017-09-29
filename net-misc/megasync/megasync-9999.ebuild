@@ -47,9 +47,10 @@ DEPEND="
 src_prepare() {
 	local PATCHES=(
 		"${FILESDIR}"/${PN}-qmake.diff
+		"${FILESDIR}"/${PN}-sdk.diff
 	)
 	cp -r "${EROOT}"usr/share/meganz-sdk/bindings "${S}"/src/MEGASync/mega/
-	default
+	cmake-utils_src_prepare
 	use dolphin && mv -f src/MEGAShellExtDolphin/CMakeLists{_kde5,}.txt
 }
 
