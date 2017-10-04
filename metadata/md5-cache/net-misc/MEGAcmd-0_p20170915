@@ -9,5 +9,5 @@ RDEPEND=net-misc/meganz-sdk[-megacmd(-)] dev-libs/libpcre:3[cxx] sys-libs/readli
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/meganz/MEGAcmd/tar.gz/23b1acb -> MEGAcmd-0_p20170915.tar.gz
-_eclasses_=autotools	7027963e8e8cc12c91117bdb9225dc26	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
 _md5_=c6e1636ea6d473022567d1289dfe81e5
