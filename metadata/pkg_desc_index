@@ -1,4 +1,5 @@
 app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log files
+app-arch/brotli 1.0.1 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.12.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.6_beta 9999: Native client and extension for signing with your eID on the web
 app-crypt/qdigidoc 3.13.2 9999: Estonian ID card digital signature desktop tools
@@ -61,15 +62,15 @@ dev-util/libqtelegram-code-generator 1.0.0_p20170417 9999: Generate API part of 
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/otfcc 0.9.2 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0_p20170313 9999: Merge and share glyphs
-dev-util/ots 6.0.0 9999: An util for validating and sanitising OpenType files
+dev-util/ots 6.1.0 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_pre20170802 5.9999: A makefile generation tool
 dev-util/sortsmill-tig 1.1.0_p20130811 9999: Sorts Mill Type Inspector Generator
 dev-util/svgo 0.7.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 20 9999: Adds AppIndicator support to gnome shell
+gnome-extra/gnome-shell-extension-appindicator 17.10.1 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20170918 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-extension-taskbar 56.0 9999: TaskBar displays icons of running applications on the top or bottom panel
 gnome-extra/gnome-shell-remove-dropdown-arrows 8 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 32 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/gnome-shell-system-monitor-applet 32_p20171007 9999: An extension for displaying sensors information in GNOME Shell
 gnome-extra/pixel-saver 1.10 9999: An extension to merge the title bar of a maximized window into GS activity bar
 gnome-extra/topicons-plus 21 9999: An extension to move legacy tray icons to the top panel
 media-fonts/alegreya-libre 2.0_rc1 9999: A serif typeface originally intended for literature
@@ -170,15 +171,15 @@ media-gfx/fontview 0.2.4 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.3 9999: A small application for managing Flickr account
 media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
 media-gfx/sortsmill-tools 3.0.0_pre20170724 9999: A font editing system derived from FontForge
-media-gfx/trufont 0.6.0_pre20170227 9999: An ufo3 font editor
-media-gfx/ttfautohint 1.6_p20170808 9999: A library for automated hinting of truetype fonts
+media-gfx/trufont 0.6.0_pre20170927 9999: An ufo3 font editor
+media-gfx/ttfautohint 1.7 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/fontconfig-ultimate 2016.04.23 9999: A set of rendering and font replacement rules for fontconfig-infinality
 media-libs/libltc 1.3.0 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/qm-dsp 1.7.1_p20170314 9999: A C++ library for audio analysis
-media-libs/woff2 0_p20170731 9999: A library and utils for Web Open Font Format 2.0
+media-libs/woff2 1.0.1 9999: A library and utils for Web Open Font Format 2.0
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
-media-sound/ardour 4.7 5.11 5.9999: Digital Audio Workstation
+media-sound/ardour 4.7 5.12 6.0_pre0 6.9999: Digital Audio Workstation
 media-sound/deadbeef 0.7.2_p20170812 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/genpuid 1.4: genpuid is a utility for fingerprinting of audio files
@@ -188,14 +189,14 @@ media-sound/picard 1.4.2 1.4.9999 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
 media-video/flowblade 1.12.2 9999: A non-linear PyGTK/MLT video editor
-media-video/shotcut 17.08 9999: A free, open source, cross-platform video editor
+media-video/shotcut 17.10 9999: A free, open source, cross-platform video editor
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
 net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram client
 net-libs/TelegramQML 2.0.0_p20170422 9999: Telegram API tools for QtQml
 net-libs/libqtelegram-aseman-edition 10.0.0_p20170422 9999: A fork of libqtelegram by Aseman Team
 net-misc/MEGAcmd 0_p20170915 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
-net-misc/meganz-sdk 3.2.0 9999: MEGA C++ SDK
+net-misc/meganz-sdk 3.2.5 9999: MEGA C++ SDK
 net-misc/megasync 3.1.4.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-misc/megatools 1.9.98 9999: Command line tools and C library for accessing Mega cloud storage
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
@@ -203,12 +204,12 @@ sys-apps/moreutils 0.61 9999: A collection of unix tools that nobody thought to 
 sys-block/f3 6.0_p20160627 9999: F3 - Fight Flash Fraud
 www-client/midori 0.5.11 9999: A lightweight web browser based on WebKitGTK+
 www-client/torbrowser 52.4.0.7.0.5.1.1 52.4.0.7.5.4.1.2_alpha: The Tor Browser
-www-plugins/browser-token-signing 3.12.2 9999: NPAPI plugin for signing hashes with PKCS#11 tokens from JavaScript
-x11-misc/gpaste 3.22.4 3.22.9999 3.24.2 3.24.9999: Clipboard management system
+www-plugins/browser-token-signing 3.12.2: NPAPI plugin for signing hashes with PKCS#11 tokens from JavaScript
+x11-misc/gpaste 3.22.4 3.22.9999 3.24.3 3.24.9999 3.26.0 3.26.9999: Clipboard management system
 x11-misc/gxneur 0.20.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.20.0 9999: An utility for keyboard layout switching
 x11-plugins/skype4pidgin 1.3 9999: Skype API Plugin for Pidgin
-x11-themes/adapta-gtk-theme 3.91.2.198 9999: An adaptive Gtk+ theme based on Material Design Guidelines
+x11-themes/adapta-gtk-theme 3.91.2.228 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/arc-kde 2017.09.25 9999: Arc KDE customization
 x11-themes/candra 0_p20160512 9999: A Qt-like set of gray-scale themes for Gtk-3
 x11-themes/cloak 0_p20160512 9999: A black transparent theme for Gtk-3
@@ -220,7 +221,7 @@ x11-themes/moka-icon-theme 5.3.6 9999: A stylized icon set designed to be clear,
 x11-themes/nouvegray-icon-theme 20151215: A light gray icon set
 x11-themes/paper-icon-theme 1.4.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2017.01.19 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 2017.09.21 9999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 2017.10.07 9999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
