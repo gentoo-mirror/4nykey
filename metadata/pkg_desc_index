@@ -185,7 +185,7 @@ media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipu
 media-plugins/openfx-io 2.3.2 9999: A set of Readers/Writers plugins written using the OpenFX standard
 media-plugins/openfx-misc 2.3.2 9999: Miscellaneous OpenFX plugins for Natron
 media-sound/ardour 4.7 5.12 6.0_pre0 6.9999: Digital Audio Workstation
-media-sound/deadbeef 0.7.2_p20170812 9999: A music player for *nix-like systems and OSX
+media-sound/deadbeef 0.7.2_p20171103 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/genpuid 1.4: genpuid is a utility for fingerprinting of audio files
 media-sound/jack-audio-connection-kit 1.9.11_rc1 1.9.9999: A low-latency audio server
