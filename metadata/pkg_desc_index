@@ -193,7 +193,7 @@ media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
 media-sound/picard 1.4.2 1.4.9999 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
-media-video/flowblade 1.12.2 9999: A non-linear PyGTK/MLT video editor
+media-video/flowblade 1.14 9999: A non-linear PyGTK/MLT video editor
 media-video/shotcut 17.11 9999: A free, open source, cross-platform video editor
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
 net-im/Cutegram 3.0_pre20170331 9999: Cutegram is a free and opensource telegram client
