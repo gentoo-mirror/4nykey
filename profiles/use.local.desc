@@ -9,7 +9,7 @@ app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/qdigidoc:nautilus - Build gnome-base/nautilus extension
 app-text/fbpdf:mupdf - Use app-text/mupdf for rendering
 app-text/fbpdf:poppler - Use app-text/poppler for rendering
-dev-libs/libdigidocpp:c++0x - Compile using the C++11 standard
+dev-libs/seexpr:llvm - Enable LLVM backend
 dev-libs/sortsmill-core:atomic-ops - Disabling this will sacrifice thread-safety in some operations
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython
 dev-python/fonttools:brotli - Enable brotli support, needed for WOFF2
@@ -43,9 +43,10 @@ media-gfx/fim:graphicsmagick - Enable GraphicsMagick library support
 media-gfx/fim:screen - Add experimental support for running under screen
 media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
 media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
+media-gfx/natron:c++11 - Build using the C++11 standard
+media-gfx/natron:system-libs - Use system libraries instead of the ones included in the upstream distribution
 media-gfx/sortsmill-tools:xi - Build with the Xi X library
 media-gfx/sortsmill-tools:xkbui - Build with the xkbui X library
-media-libs/aubio:double-precision - Compile in double precision mode.
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
 media-sound/ardour:c++0x - Compile using the C++11 standard
 media-sound/ardour:hid - Add support for dev-libs/hidapi
@@ -87,6 +88,7 @@ sys-block/f3:extras - Compile the extra applications
 www-client/midori:granite - Enable support for the elementary library dev-libs/granite
 www-client/midori:zeitgeist - Add support for Zeitgeist event tracking system
 www-client/torbrowser:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/torbrowser:eme-free - Disable EME (DRM plugin) cabability at build time
 www-client/torbrowser:gtk2 - Use the cairo-gtk2 rendering engine
 www-client/torbrowser:hwaccel - Use hardware-accelerated rendering
 www-client/torbrowser:jemalloc - Enable or disable jemalloc

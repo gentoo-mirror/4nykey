@@ -7,4 +7,4 @@ LICENSE=GPL-2+
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
 _eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
-_md5_=0c6ce4363caf0dcfd549cc9c35ba9d42
+_md5_=33e44da2e41cd0d0b99844d21212b989

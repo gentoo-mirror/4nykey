@@ -1,10 +1,10 @@
-DEFINED_PHASES=configure prepare unpack
-DEPEND=media-libs/fontconfig media-libs/freetype:2 x11-libs/cairo x11-libs/pango virtual/pkgconfig app-i18n/unicode-data >=app-portage/elt-patches-20170422 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1
+DEFINED_PHASES=compile configure install prepare test unpack
+DEPEND=media-libs/fontconfig media-libs/freetype:2 x11-libs/cairo x11-libs/pango virtual/pkgconfig app-i18n/unicode-data sys-devel/make >=dev-util/cmake-3.7.2 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=A program for making font samples that show Unicode coverage of the font
 EAPI=6
 HOMEPAGE=https://sourceforge.net/projects/fntsample
 LICENSE=GPL-3+
 RDEPEND=media-libs/fontconfig media-libs/freetype:2 x11-libs/cairo x11-libs/pango
 SLOT=0
-_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	git-r3	52a888802d25387c2c74cb845d1219bc	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
-_md5_=bb4805c429a5bd48ca4921f22c3c4e96
+_eclasses_=cmake-utils	f9fb12e2dbe2e0c9c17f030bae85eb02	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	227b041a120d309fdefbebb3b8c1dfa9	flag-o-matic	2274fcc1e7ef6affaff5bcd636275417	git-r3	52a888802d25387c2c74cb845d1219bc	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	multiprocessing	6f5991c7101863d0b29df63990ad852e	ninja-utils	ebb2eaddc6331c4fa000b8eb8f6fe074	toolchain-funcs	185a06792159ca143528e7010368e8af	versionator	c80ccf29e90adea7c5cae94b42eb76d0
+_md5_=35c0149da17c780be89b6712c7ebb0ee

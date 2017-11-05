@@ -1,0 +1,15 @@
+DEFINED_PHASES=compile configure install postinst postrm prepare setup test unpack
+DEPEND=system-libs? ( dev-cpp/eigen:3[c++11?,openmp?] ) doc? ( dev-python/sphinx )
+DESCRIPTION=Open-source video compositing software
+EAPI=6
+HOMEPAGE=https://natron.fr
+IUSE=c++11 debug doc -qt5 openmp pch system-libs test python_targets_python2_7
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+ doc? ( CC-BY-SA-4.0 )
+RDEPEND=python_targets_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 ) >=dev-lang/python-exec-2:=[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] dev-libs/boost media-libs/fontconfig dev-libs/expat x11-libs/cairo[static-libs] dev-python/pyside:0[X,opengl,python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] dev-python/shiboken:0[python_targets_python2_7(-)?,-python_single_target_jython2_7(-),-python_single_target_pypy(-),-python_single_target_pypy3(-),-python_single_target_python3_4(-),-python_single_target_python3_5(-),-python_single_target_python3_6(-),python_single_target_python2_7(+)] system-libs? ( sci-libs/ceres-solver[c++11?,gflags,openmp?] app-text/hoedown ) media-plugins/openfx-io media-plugins/openfx-misc
+REQUIRED_USE=python_targets_python2_7
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/MrKepzie/natron/tar.gz/9ddf069 -> natron-2.3.3_pre20171025.tar.gz mirror://githubcl/devernay/openfx/tar.gz/276eddf -> openfx-276eddf.tar.gz mirror://githubcl/MrKepzie/SequenceParsing/tar.gz/4b5e605 -> SequenceParsing-4b5e605.tar.gz mirror://githubcl/MrKepzie/tinydir/tar.gz/60f0905 -> tinydir-60f0905.tar.gz test? ( mirror://githubcl/MrKepzie/google-mock/tar.gz/17945db -> google-mock-17945db.tar.gz mirror://githubcl/MrKepzie/google-test/tar.gz/50d6fc3 -> google-test-50d6fc3.tar.gz ) mirror://githubcl/MrKepzie/OpenColorIO-Configs/tar.gz/Natron-v2.3 -> OpenColorIO-Configs_Natron-v2.3.tar.gz
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	317a2557b4d7319a7418225f65accf77	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	185a06792159ca143528e7010368e8af	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_md5_=5effb8ba4dbc47e04447f26422b618c4

@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install unpack
+DEPEND=test? ( app-text/htmltidy ) >=dev-vcs/git-1.8.2.1
+DESCRIPTION=Standards compliant, fast, secure markdown processing library in C
+EAPI=6
+HOMEPAGE=https://github.com/hoedown/hoedown
+IUSE=test
+LICENSE=ISC
+SLOT=0
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=fff360a6d342b84621cf8070f242043a
