@@ -45,6 +45,7 @@ media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
 media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
 media-gfx/sortsmill-tools:xi - Build with the Xi X library
 media-gfx/sortsmill-tools:xkbui - Build with the xkbui X library
+media-libs/aubio:double-precision - Compile in double precision mode.
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
 media-sound/ardour:c++0x - Compile using the C++11 standard
 media-sound/ardour:hid - Add support for dev-libs/hidapi
