@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile prepare unpack
+DEPEND=media-gfx/imagemagick dev-libs/librevenge media-libs/libcdr media-libs/lcms media-libs/fontconfig dev-libs/libxml2 dev-libs/libzip gnome-base/librsvg x11-libs/pango app-text/poppler virtual/opencl >=dev-vcs/git-1.8.2.1
+DESCRIPTION=A set of Readers/Writers plugins written using the OpenFX standard
+EAPI=6
+HOMEPAGE=https://github.com/MrKepzie/openfx-arena
+LICENSE=GPL-2
+RDEPEND=media-gfx/imagemagick dev-libs/librevenge media-libs/libcdr media-libs/lcms media-libs/fontconfig dev-libs/libxml2 dev-libs/libzip gnome-base/librsvg x11-libs/pango app-text/poppler virtual/opencl
+SLOT=0
+_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_md5_=d57dfff34bbe7bc00ba24212cf2477a4
