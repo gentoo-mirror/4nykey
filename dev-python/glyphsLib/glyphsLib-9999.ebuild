@@ -10,7 +10,7 @@ if [[ -z ${PV%%*9999} ]]; then
 	EGIT_REPO_URI="https://github.com/googlei18n/${PN}.git"
 else
 	inherit vcs-snapshot
-	MY_PV="5bab036"
+	MY_PV="b4f2232"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
 		mirror://githubcl/googlei18n/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
@@ -27,7 +27,7 @@ SLOT="0"
 IUSE="test"
 
 RDEPEND="
-	>=dev-python/fonttools-3.9.1[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-3.19[${PYTHON_USEDEP}]
 	dev-python/defcon[${PYTHON_USEDEP}]
 	dev-python/MutatorMath[${PYTHON_USEDEP}]
 "
@@ -36,7 +36,11 @@ DEPEND="
 	dev-python/setuptools[${PYTHON_USEDEP}]
 	test? ( dev-python/pytest-runner[${PYTHON_USEDEP}] )
 "
-PATCHES=( "${FILESDIR}"/${PN}-masters_wcodes.diff )
+PATCHES=(
+	"${FILESDIR}"/${PN}-masters_wcodes.diff
+	"${FILESDIR}"/${PN}-empty_layer_name.diff
+	"${FILESDIR}"/${PN}-names.diff
+)
 
 python_test() {
 	esetup.py test

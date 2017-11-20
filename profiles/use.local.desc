@@ -9,6 +9,9 @@ app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/qdigidoc:nautilus - Build gnome-base/nautilus extension
 app-text/fbpdf:mupdf - Use app-text/mupdf for rendering
 app-text/fbpdf:poppler - Use app-text/poppler for rendering
+cross-x86_64-w64-mingw32/mingw-runtime:idl - Install idl files.
+cross-x86_64-w64-mingw32/mingw-runtime:libraries - Build extra libraries.
+cross-x86_64-w64-mingw32/mingw-runtime:tools - Build extra tools.
 dev-libs/seexpr:llvm - Enable LLVM backend
 dev-libs/sortsmill-core:atomic-ops - Disabling this will sacrifice thread-safety in some operations
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython

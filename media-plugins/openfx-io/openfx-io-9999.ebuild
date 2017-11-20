@@ -11,9 +11,9 @@ else
 	inherit vcs-snapshot
 	MY_PV="1e07155"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="Natron-${PV}"
-	MY_OFX='openfx-d1b81a0'
-	MY_SUP='openfx-supportext-77ea0d2'
-	MY_SEQ='SequenceParsing-84b816f'
+	MY_OFX='openfx-276eddf'
+	MY_SUP='openfx-supportext-f2aa65e'
+	MY_SEQ='SequenceParsing-4b5e605'
 	MY_TIN='tinydir-60f0905'
 	SRC_URI="
 		mirror://githubcl/MrKepzie/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
