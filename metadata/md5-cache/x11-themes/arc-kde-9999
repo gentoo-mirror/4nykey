@@ -7,5 +7,5 @@ IUSE=konsole kvantum
 LICENSE=GPL-3 CC-BY-SA-4.0
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
 _md5_=90ac0194a65a3c32aee86025db1d3c89

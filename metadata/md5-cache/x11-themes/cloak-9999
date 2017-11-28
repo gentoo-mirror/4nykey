@@ -7,5 +7,5 @@ IUSE=cinnamon firefox gdm openbox xfce
 LICENSE=GPL-3
 RDEPEND=cinnamon? ( gnome-extra/cinnamon ) xfce? ( xfce-base/xfwm4 )
 SLOT=0
-_eclasses_=git-r3	52a888802d25387c2c74cb845d1219bc
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
 _md5_=87305fe272909c6146737badd22a8077
