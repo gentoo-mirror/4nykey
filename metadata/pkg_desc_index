@@ -1,5 +1,5 @@
 app-admin/lnav 0.8.2 9999: A curses-based tool for viewing and analyzing log files
-app-arch/brotli 1.0.1 9999: Generic-purpose lossless compression algorithm
+app-arch/brotli 1.0.2 9999: Generic-purpose lossless compression algorithm
 app-arch/wimlib 1.12.0 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.0.6 9999: Native client and extension for signing with your eID on the web
 app-crypt/qdigidoc 3.13.4 9999: Estonian ID card digital signature desktop tools

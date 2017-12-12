@@ -6,4 +6,4 @@ LICENSE=GPL-3
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://gcarchive/font-helpers/source-archive.zip -> font-helpers-9999.zip
-_md5_=14b475fbf92875bc915c610074115ba5
+_md5_=891577da51f4539349525b05feb1a831
