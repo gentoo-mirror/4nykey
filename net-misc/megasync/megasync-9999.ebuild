@@ -14,7 +14,7 @@ if [[ -z ${PV%%*9999} ]]; then
 else
 	inherit vcs-snapshot
 	MY_PV="2e03def"
-	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}_OSX"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}_Linux"
 	SRC_URI="
 		mirror://githubcl/meganz/${PN}/tar.gz/${MY_PV}
 		-> ${P}.tar.gz
@@ -56,7 +56,8 @@ src_prepare() {
 	)
 	cp -r "${EROOT}"usr/share/meganz-sdk/bindings "${S}"/src/MEGASync/mega/
 	cmake-utils_src_prepare
-	use dolphin && mv -f src/MEGAShellExtDolphin/CMakeLists{_kde5,}.txt
+	mv -f src/MEGAShellExtDolphin/CMakeLists{_kde5,}.txt
+	rm -f src/MEGAShellExtDolphin/megasync-plugin.moc
 }
 
 src_configure() {
