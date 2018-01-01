@@ -10,5 +10,5 @@ RDEPEND=graphicsmagick? ( media-gfx/graphicsmagick ) imlib? ( media-libs/imlib2 
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://nongnu/fbi-improved/fim-0.5-rc3.tar.bz2 -> fim-0.5_rc3.tar.bz2
-_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	185a06792159ca143528e7010368e8af
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=d65959b9b815a6e8eca6f8ea6a15fe0a
