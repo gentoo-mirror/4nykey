@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst unpack
-DEPEND=dev-lang/perl dev-perl/IPC-Run dev-perl/Time-Duration dev-perl/TimeDate app-text/docbook-xml-dtd:4.4 app-text/docbook2X
+DEPEND=dev-lang/perl dev-perl/IPC-Run dev-perl/Time-Duration dev-perl/TimeDate app-text/docbook-xml-dtd:4.4 app-text/docbook2X app-admin/eselect
 DESCRIPTION=A collection of unix tools that nobody thought to write 30 years ago
 EAPI=6
 HOMEPAGE=https://joeyh.name/code/moreutils
@@ -8,6 +8,6 @@ LICENSE=GPL-2
 RDEPEND=dev-lang/perl dev-perl/IPC-Run dev-perl/Time-Duration dev-perl/TimeDate
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://git.joeyh.name/index.cgi/moreutils.git/snapshot/moreutils-0.61.tar.gz
+SRC_URI=https://git.joeyh.name/index.cgi/moreutils.git/snapshot/moreutils-0.62.tar.gz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
-_md5_=773f880d47df6ba4640009d6543aaada
+_md5_=db5ebc80e8738aec8c208e776a78a7db
