@@ -3,9 +3,8 @@ DEPEND=media-gfx/gimp:2 dev-libs/libpcre:3 virtual/pkgconfig >=dev-vcs/git-1.8.2
 DESCRIPTION=A GIMP plugin to apply a set of manipulations to groups of images
 EAPI=6
 HOMEPAGE=http://www.alessandrofrancesconi.it/projects/bimp/
-IUSE=linguas_ca linguas_cs linguas_de linguas_es linguas_fr linguas_it linguas_ja linguas_ko linguas_no linguas_pl linguas_pt linguas_ru linguas_zh linguas_zh_TW
 LICENSE=GPL-2+
 RDEPEND=media-gfx/gimp:2 dev-libs/libpcre:3
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	l10n	2c2e15383ba891d642f51896a7f0ecfe	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	l10n	07318ed5f26525a9d302ca87d20b2865	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=5c4a4acdcf893ad955c366087bdc78b7
