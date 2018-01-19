@@ -11,5 +11,5 @@ REQUIRED_USE=?? ( gstreamer openal alsa ) ?? ( aspell enchant )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://launchpad.net/ubuntu/+archive/primary/+files/xneur_0.20.0.orig.tar.gz mirror://githubraw/AndrewCrewKuznetsov/xneur-devel/master/dists/0.20.0/xneur_0.20.0.orig.tar.gz
-_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	l10n	07318ed5f26525a9d302ca87d20b2865	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	l10n	d8a55cfc27fb33b81f675c7f9c560941	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=c04dfb41b3617a3f3eef55bfed54c234
