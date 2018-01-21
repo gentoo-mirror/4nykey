@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RDEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) alsa? ( media-sound/alsa-utils ) gstreamer? ( media-libs/gst-plugins-good media-plugins/gst-plugins-alsa ) nls? ( virtual/libintl )
 REQUIRED_USE=?? ( gstreamer openal alsa ) ?? ( aspell enchant )
 SLOT=0
-_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	l10n	d8a55cfc27fb33b81f675c7f9c560941	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=autotools	dc412f38566b91012efd58b9c203e6c3	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	0081a71a261724730ec4c248494f044d	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=c04dfb41b3617a3f3eef55bfed54c234
