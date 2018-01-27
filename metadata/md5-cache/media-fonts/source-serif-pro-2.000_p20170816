@@ -11,4 +11,4 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-serif-pro/tar.gz/2.000R -> source-serif-pro-2.000R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-serif-pro/tar.gz/6158260 -> source-serif-pro-2.000_p20170816.tar.gz ) !binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/1163820 -> 3c71e576827753fc395f44f4c2d91131-1163820.tar.gz )
 _eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e7258392d5eda499c1cfa94db650b61	font-r1	4608b83b5dafc9524c4f2817179060e3	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	python-any-r1	27d7f9da7187d283b7f3eae8390b7b09	python-utils-r1	c9de01becf9df3f8c10aeec3dc693f5d	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
-_md5_=d76032797d631e4547216caaff0db9f6
+_md5_=e75f9e1c532f61c0ce372430545d84d5
