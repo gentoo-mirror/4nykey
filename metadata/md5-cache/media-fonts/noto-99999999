@@ -1,12 +1,9 @@
-DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEFINED_PHASES=-
 DESCRIPTION=A font family that aims to support all the world's languages
 EAPI=6
 HOMEPAGE=https://www.google.com/get/noto
-IUSE=+binary cjk emoji pipeline X
+IUSE=+binary cjk emoji pipeline
 LICENSE=OFL-1.1
-RDEPEND=cjk? ( media-fonts/noto-cjk ) emoji? ( media-fonts/noto-emoji ) pipeline? ( binary? ( media-fonts/noto-fonts-alpha ) !binary? ( media-fonts/noto-source ) ) !media-fonts/croscorefonts
-RESTRICT=strip binchecks
+RDEPEND=media-fonts/noto-fonts cjk? ( media-fonts/noto-cjk ) emoji? ( media-fonts/noto-emoji ) pipeline? ( binary? ( media-fonts/noto-fonts-alpha ) !binary? ( media-fonts/noto-source ) ) !media-fonts/croscorefonts
 SLOT=0
-_eclasses_=desktop	2ccd1dd1dd7bfb8795eea024a4f91bb6	epatch	8233751dc5105a6ae8fcd86ce2bb0247	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b4eee44966573b7fb6761e507910b306	font-r1	4608b83b5dafc9524c4f2817179060e3	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	ltprune	2770eed66a9b8ef944714cd0e968182e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
-_md5_=429d916b50a6296822549b4d1f96059c
+_md5_=9849982e687eca02532f33ecb5b9d30f

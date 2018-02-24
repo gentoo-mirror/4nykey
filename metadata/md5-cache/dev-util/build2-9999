@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install prepare unpack
+DEPEND=dev-db/sqlite:3 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=An open source cross-platform toolchain for building and packaging C++ code
+EAPI=6
+HOMEPAGE=https://build2.org
+LICENSE=MIT
+RDEPEND=dev-db/sqlite:3
+SLOT=0
+_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_md5_=13b140e722692e7b2335d9c9c0ff6bd1
