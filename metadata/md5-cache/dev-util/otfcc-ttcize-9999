@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=install prepare unpack
 DEPEND=net-libs/nodejs[npm] >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Merge and share glyphs
 EAPI=6
@@ -7,4 +7,4 @@ LICENSE=Apache-2.0
 RDEPEND=net-libs/nodejs[npm]
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=6b3e9db5f670bbd8b526fd0aa715a2c7
+_md5_=a318a46464a66ee6178cfe70b8c7ac9e
