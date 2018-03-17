@@ -9,5 +9,5 @@ RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/arc-kde/tar.gz/20180201 -> arc-kde-2018.02.01.tar.gz
-_eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=90ac0194a65a3c32aee86025db1d3c89

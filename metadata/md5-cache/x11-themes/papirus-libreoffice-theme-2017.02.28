@@ -8,5 +8,5 @@ RDEPEND=|| ( app-office/libreoffice app-office/libreoffice-bin )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-libreoffice-theme/tar.gz/20170228 -> papirus-libreoffice-theme-2017.02.28.tar.gz
-_eclasses_=vcs-snapshot	03289f51c769cf409d200d2d628cdd6e
+_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=260accc68b81feab15db375a6c741a3a
