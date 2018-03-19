@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile install postinst postrm prepare unpack
+DEPEND=x11-libs/gtk+:3 app-editors/neovim >=dev-util/cargo-0.13.0 >=dev-vcs/git-1.8.2.1
+DESCRIPTION=GTK ui for neovim written in rust using gtk-rs bindings
+EAPI=6
+HOMEPAGE=https://github.com/daa84/neovim-gtk
+IUSE=debug
+LICENSE=GPL-3
+RDEPEND=x11-libs/gtk+:3 app-editors/neovim
+SLOT=0
+_eclasses_=cargo	959846e2836f8244430c9582dd6493af	git-r3	fec09a83ae965b041b47f5ff7c8ba29a	multiprocessing	cac3169468f893670dac3e7cb940e045	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_md5_=c8a2dc21e1cb5309571989d706dce074
