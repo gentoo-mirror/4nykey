@@ -1,4 +1,4 @@
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install prepare unpack
 DEPEND=net-libs/nodejs[npm] >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Nodejs-based tool for optimizing SVG vector graphics files
 EAPI=6
@@ -7,4 +7,4 @@ LICENSE=MIT
 RDEPEND=net-libs/nodejs[npm]
 SLOT=0
 _eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a
-_md5_=eff295efc53e65db05acbaff5cb3e7fd
+_md5_=67271df5923ddabcbff93dbd22e1ac83
