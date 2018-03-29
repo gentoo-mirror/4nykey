@@ -8,5 +8,5 @@ LICENSE=ISC
 RDEPEND=djvu? ( app-text/djvu ) mupdf? ( >app-text/mupdf-1.10 ) poppler? ( app-text/poppler[cxx] )
 REQUIRED_USE=|| ( djvu mupdf poppler )
 SLOT=0
-_eclasses_=git-r3	fec09a83ae965b041b47f5ff7c8ba29a	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
+_eclasses_=git-r3	25b08efef07cea6bcd45b8c6dcce2782	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9
 _md5_=7de0ac74a5cf98a21e56822603ab09bd
