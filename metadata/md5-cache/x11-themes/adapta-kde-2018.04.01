@@ -8,6 +8,6 @@ LICENSE=GPL-3 CC-BY-SA-4.0
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/adapta-kde/tar.gz/20180201 -> adapta-kde-2018.02.01.tar.gz
+SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/adapta-kde/tar.gz/20180401 -> adapta-kde-2018.04.01.tar.gz
 _eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=a4a725ca3ce5eed32d9ea79f727bd5a1

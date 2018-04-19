@@ -1,4 +1,4 @@
-DEFINED_PHASES=install prepare unpack
+DEFINED_PHASES=compile install prepare unpack
 DEPEND=sci-libs/clapack virtual/cblas
 DESCRIPTION=A C++ library for audio analysis
 EAPI=6
@@ -8,6 +8,6 @@ LICENSE=GPL-2
 RDEPEND=sci-libs/clapack virtual/cblas
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/c4dm/qm-dsp/tar.gz/4d15479 -> qm-dsp-1.7.1_p20170314.tar.gz
+SRC_URI=mirror://githubcl/c4dm/qm-dsp/tar.gz/c514f43 -> qm-dsp-1.7.1_p20180208.tar.gz
 _eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
-_md5_=e4cb470e6735ef54e122daf8cbc7ff80
+_md5_=e640d8792dde1e615b66ea0384c059bf
