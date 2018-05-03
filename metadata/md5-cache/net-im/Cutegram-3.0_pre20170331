@@ -1,4 +1,4 @@
-DEFINED_PHASES=configure install unpack
+DEFINED_PHASES=configure install postinst postrm unpack
 DEPEND=net-libs/TelegramQML dev-qt/aseman-qt-tools[keychain,positioning] dev-qt/qtdbus:5 dev-qt/qtprintsupport:5
 DESCRIPTION=Cutegram is a free and opensource telegram client
 EAPI=6
@@ -9,5 +9,5 @@ RDEPEND=net-libs/TelegramQML dev-qt/aseman-qt-tools[keychain,positioning] dev-qt
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Aseman-Land/Cutegram/tar.gz/e489812 -> Cutegram-3.0_pre20170331.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
-_md5_=da2d1943293bceb34a076b648282f35b
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	990448b067cb3cfe1443bc25fb57239c	toolchain-funcs	885c7d8dd70a58825f3d17e35a3cd1e9	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_md5_=7c2213b59ab39ce64a9da50122cc9d8f
