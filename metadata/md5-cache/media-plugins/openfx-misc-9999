@@ -2,9 +2,9 @@ DEFINED_PHASES=compile prepare unpack
 DEPEND=virtual/opengl >=dev-vcs/git-1.8.2.1
 DESCRIPTION=Miscellaneous OpenFX plugins for Natron
 EAPI=6
-HOMEPAGE=https://github.com/devernay/openfx-misc
+HOMEPAGE=https://github.com/NatronGitHub/openfx-misc
 LICENSE=GPL-2
 RDEPEND=virtual/opengl
 SLOT=0
 _eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
-_md5_=d693050b004ccf87fe3873812c831207
+_md5_=5bd44859218be4546b34115cc313b78e

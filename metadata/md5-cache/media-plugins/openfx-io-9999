@@ -2,9 +2,9 @@ DEFINED_PHASES=compile prepare unpack
 DEPEND=media-libs/openexr media-libs/openimageio[colorio,ffmpeg,opengl,raw] media-libs/libpng:0 dev-libs/seexpr:0 >=dev-vcs/git-1.8.2.1
 DESCRIPTION=A set of Readers/Writers plugins written using the OpenFX standard
 EAPI=6
-HOMEPAGE=https://github.com/MrKepzie/openfx-io
+HOMEPAGE=https://github.com/NatronGitHub/openfx-io
 LICENSE=GPL-2
 RDEPEND=media-libs/openexr media-libs/openimageio[colorio,ffmpeg,opengl,raw] media-libs/libpng:0 dev-libs/seexpr:0
 SLOT=0
 _eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec
-_md5_=c6674eafd625e6ef992ea002d08a22d9
+_md5_=6a0d9ff76ebe5631fd5ed9a491f6a066

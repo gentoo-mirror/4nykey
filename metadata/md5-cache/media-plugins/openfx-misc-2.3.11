@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile prepare unpack
+DEPEND=virtual/opengl
+DESCRIPTION=Miscellaneous OpenFX plugins for Natron
+EAPI=6
+HOMEPAGE=https://github.com/NatronGitHub/openfx-misc
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=virtual/opengl
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/NatronGitHub/openfx-misc/tar.gz/Natron-2.3.11 -> openfx-misc-2.3.11.tar.gz mirror://githubcl/NatronGitHub/openfx/tar.gz/a85dc34 -> openfx-a85dc34.tar.gz mirror://githubcl/NatronGitHub/openfx-supportext/tar.gz/cbaffdf -> openfx-supportext-cbaffdf.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_md5_=5bd44859218be4546b34115cc313b78e

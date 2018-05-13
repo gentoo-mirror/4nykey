@@ -9,4 +9,4 @@ RDEPEND=>=dev-python/fonttools-3.19.1[python_targets_python2_7(-)?,-python_singl
 RESTRICT=primaryuri
 SLOT=0
 _eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	python-single-r1	26fdbe5e685d53f67303a3a43d9e4848	python-utils-r1	3b2e27bcad216823f5a67d01d28b53a4	toolchain-funcs	fa02994d0beba88681127d93da4411ec
-_md5_=bf75f039a29b65fe96ac5056cc296d29
+_md5_=a926776a4117b4f5340cf5cb8e9bd634
