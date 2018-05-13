@@ -29,14 +29,14 @@ FONT_SRCDIR=${FONT_SRCDIR:-sources}
 FONTDIR_BIN=( ${FONTDIR_BIN[@]:-fonts fonts/otf fonts/ttf} )
 
 PYTHON_COMPAT=( python2_7 python3_{4,5,6} )
-IUSE="+binary"
+IUSE="autohint +binary"
 MY_FONT_TYPES=( ${MY_FONT_TYPES[@]:-otf +ttf} )
 
 inherit python-any-r1 font-r1
 
 EXPORT_FUNCTIONS pkg_setup src_prepare src_compile
 
-MY_MK="9ef5512cdd3177cc8d4667bcf5a58346-e11a9b9"
+MY_MK="9ef5512cdd3177cc8d4667bcf5a58346-ec22ff9"
 SRC_URI+="
 !binary? (
 	mirror://githubcl/gist/${MY_MK%-*}/tar.gz/${MY_MK#*-}
@@ -51,6 +51,7 @@ DEPEND="
 	$(python_gen_any_dep '
 		dev-util/fontmake[${PYTHON_USEDEP}]
 	')
+	autohint? ( media-gfx/ttfautohint )
 	sys-apps/rename
 )
 "
@@ -61,7 +62,7 @@ fontmake_pkg_setup() {
 		FONT_S=( "${FONTDIR_BIN[@]}" )
 		PATCHES=( )
 	else
-		FONT_S=( master_{o,t}tf )
+		FONT_S=( master_{o,t}tf autohinted/master_ttf )
 		python-any-r1_pkg_setup
 	fi
 	font-r1_pkg_setup
@@ -71,7 +72,7 @@ fontmake_src_prepare() {
 	default
 	use binary && return
 	unpack ${MY_MK}.tar.gz
-	find -name '* *.glyphs' -execdir renamexm -s'/ //g' {} \;
+	find -name '* *.glyphs' -execdir renamexm -s'/ //g' {} +
 }
 
 fontmake_src_compile() {
@@ -85,6 +86,7 @@ fontmake_src_compile() {
 		$(in_iuse interpolate && usex interpolate '' 'INTERPOLATE=')
 		$(in_iuse clean-as-you-go && usex clean-as-you-go 'CLEAN=clean' '')
 	)
+	use autohint && FONTMAKE_EXTRA_ARGS+=( --autohint )
 	[[ "${#FONTMAKE_EXTRA_ARGS[@]}" -ge 1 ]] && \
 	myemakeargs+=(
 		FONTMAKE="fontmake ${FONTMAKE_EXTRA_ARGS[@]}"
