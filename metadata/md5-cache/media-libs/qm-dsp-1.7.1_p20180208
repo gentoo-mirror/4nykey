@@ -9,5 +9,5 @@ RDEPEND=sci-libs/clapack virtual/cblas
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/c4dm/qm-dsp/tar.gz/c514f43 -> qm-dsp-1.7.1_p20180208.tar.gz
-_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=e640d8792dde1e615b66ea0384c059bf

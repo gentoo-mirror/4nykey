@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-code-pro/tar.gz/2.030R-ro/1.050R-it -> source-code-pro-2.030.1.050R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-code-pro/tar.gz/d426b37 -> source-code-pro-2.030.1.050_p20180119.tar.gz ) !binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/c8548da -> 3c71e576827753fc395f44f4c2d91131-c8548da.tar.gz )
-_eclasses_=eapi7-ver	d97a56a62c7df8614afddcb25f5ff00f	font-r1	d203902ef7c27b365f2bb374e9661f78	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	3b2e27bcad216823f5a67d01d28b53a4	toolchain-funcs	fa02994d0beba88681127d93da4411ec	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=eapi7-ver	d97a56a62c7df8614afddcb25f5ff00f	font-r1	d203902ef7c27b365f2bb374e9661f78	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	3b2e27bcad216823f5a67d01d28b53a4	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=e479efbac2d5dda7db4699a7f9566487
