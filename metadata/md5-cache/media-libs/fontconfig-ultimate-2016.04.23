@@ -8,5 +8,5 @@ RDEPEND=app-eselect/eselect-infinality app-eselect/eselect-lcdfilter media-libs/
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/bohoomil/fontconfig-ultimate/tar.gz/2016-04-23 -> fontconfig-ultimate-2016.04.23.tar.gz
-_eclasses_=readme.gentoo-r1	6f03e110529650f57fc7d1fb908b8986	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=readme.gentoo-r1	54aecea034d5e90bdb0684b80da5c9f3	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
 _md5_=a19361a8b99ad5cc993d72b936b6cb9a
