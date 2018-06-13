@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=x11-apps/bdftopcf >dev-lang/python-3 >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=x11-apps/bdftopcf >dev-lang/python-3 >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A small bitmap font
 EAPI=6
 HOMEPAGE=https://github.com/lucy/tewi-font
@@ -7,5 +7,5 @@ IUSE=X
 LICENSE=MIT
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=c6e001567703c601324ac4a8e9dd7945

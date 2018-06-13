@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
-DEPEND=!binary? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/nototools[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) media-gfx/pngquant virtual/imagemagick-tools[png] zopfli? ( app-arch/zopfli ) !zopfli? ( media-gfx/optipng ) x11-libs/cairo ) >=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=!binary? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 dev-python/nototools[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) media-gfx/pngquant virtual/imagemagick-tools[png] zopfli? ( app-arch/zopfli ) !zopfli? ( media-gfx/optipng ) x11-libs/cairo ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Noto Emoji fonts
 EAPI=6
 HOMEPAGE=https://github.com/googlei18n/noto-emoji
@@ -7,5 +7,5 @@ IUSE=+binary zopfli X
 LICENSE=OFL-1.1
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	af51ccfceeb403ab80f1bf9209d372c8	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	3b2e27bcad216823f5a67d01d28b53a4	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	ffa9c3284c6b07b8c9f7933911f63812	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
 _md5_=5755f4a2962b0afe0a99d209b058882c

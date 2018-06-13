@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst postrm prepare setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Alpha versions of Noto fonts
 EAPI=6
 HOMEPAGE=https://github.com/googlei18n/noto-fonts-alpha
@@ -8,5 +8,5 @@ LICENSE=OFL-1.1
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=ba359044002772962610742f04d49214

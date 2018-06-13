@@ -1,5 +1,5 @@
 DEFINED_PHASES=install prepare unpack
-DEPEND=>=dev-vcs/git-1.8.2.1
+DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Adapta KDE customization
 EAPI=6
 HOMEPAGE=https://git.io/adapta-kde
@@ -7,5 +7,5 @@ IUSE=konsole kvantum
 LICENSE=GPL-3 CC-BY-SA-4.0
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 SLOT=0
-_eclasses_=git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=a4a725ca3ce5eed32d9ea79f727bd5a1

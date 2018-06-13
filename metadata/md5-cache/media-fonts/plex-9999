@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=IBM's typeface
 EAPI=6
 HOMEPAGE=https://IBM.com/typefaces/FiraGO
@@ -8,5 +8,5 @@ LICENSE=OFL-1.1
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	af51ccfceeb403ab80f1bf9209d372c8
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	8f6de46b0aa318aea0e8cac62ece098b
 _md5_=b3cb81aceca45359cd5345dca0ae8a62
