@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=virtual/opengl
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=5bd44859218be4546b34115cc313b78e
+_md5_=ef15286450554db72eef81aa9eb6da3a
