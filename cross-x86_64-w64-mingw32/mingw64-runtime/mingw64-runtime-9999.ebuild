@@ -48,8 +48,9 @@ pkg_setup() {
 }
 
 src_prepare() {
-	local PATCHES=( )
-	[[ -n ${PV%%*9999} ]] && PATCHES+=( "${FILESDIR}"/${PN}-pseh.diff )
+	local PATCHES=(
+		"${FILESDIR}"/w32api-wcstombs.diff
+	)
 	default
 	just_headers && return
 	sed \
