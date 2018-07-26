@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=media-gfx/imagemagick dev-libs/librevenge media-libs/libcdr media-libs/lcms media-libs/fontconfig dev-libs/libxml2 dev-libs/libzip gnome-base/librsvg x11-libs/pango app-text/poppler virtual/opencl
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=80bd8cf96ce86b519dfcb9a97a0b1618
+_md5_=acfeb1f358c03b882eb2f5971aae185a
