@@ -7,4 +7,4 @@ LICENSE=GPL-2
 RDEPEND=media-libs/openexr media-libs/openimageio[colorio,ffmpeg,opengl,raw] media-libs/libpng:0 dev-libs/seexpr:0
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=bea2f0df9b8b7a0cf0aa02795080164f
+_md5_=24eaa5c840fdc85a7018b3a4f33cd37d

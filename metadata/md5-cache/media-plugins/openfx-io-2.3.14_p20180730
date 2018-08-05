@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile prepare unpack
+DEPEND=media-libs/openexr media-libs/openimageio[colorio,ffmpeg,opengl,raw] media-libs/libpng:0 dev-libs/seexpr:0
+DESCRIPTION=A set of Readers/Writers plugins written using the OpenFX standard
+EAPI=6
+HOMEPAGE=https://github.com/NatronGitHub/openfx-io
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=media-libs/openexr media-libs/openimageio[colorio,ffmpeg,opengl,raw] media-libs/libpng:0 dev-libs/seexpr:0
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/NatronGitHub/openfx-io/tar.gz/9b71782 -> openfx-io-2.3.14_p20180730.tar.gz mirror://githubcl/NatronGitHub/openfx/tar.gz/4fc7b53 -> openfx-4fc7b53.tar.gz mirror://githubcl/NatronGitHub/openfx-supportext/tar.gz/e600cae -> openfx-supportext-e600cae.tar.gz mirror://githubcl/NatronGitHub/SequenceParsing/tar.gz/15bbe60 -> SequenceParsing-15bbe60.tar.gz mirror://githubcl/NatronGitHub/tinydir/tar.gz/3aae922 -> tinydir-3aae922.tar.gz
+_eclasses_=multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_md5_=24eaa5c840fdc85a7018b3a4f33cd37d

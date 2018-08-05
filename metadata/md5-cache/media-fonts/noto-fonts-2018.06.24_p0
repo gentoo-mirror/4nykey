@@ -1,0 +1,14 @@
+DEFINED_PHASES=install postinst postrm prepare setup unpack
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=A font family that aims to support all the world's languages
+EAPI=6
+HOMEPAGE=https://www.google.com/get/noto
+IUSE=X font_types_otf +font_types_ttf
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=mirror://githubcl/googlei18n/noto-fonts/tar.gz/449470a -> noto-fonts-2018.06.24_p0.tar.gz
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_md5_=677a09aefed83972f7cca1312c7e210a

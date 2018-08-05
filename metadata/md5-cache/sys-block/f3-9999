@@ -1,11 +1,11 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=extras? ( virtual/libudev sys-block/parted ) >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=extras? ( virtual/libudev sys-block/parted ) doc? ( dev-python/sphinx ) >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=F3 - Fight Flash Fraud
 EAPI=6
 HOMEPAGE=http://oss.digirati.com.br/f3
-IUSE=extras
+IUSE=doc extras
 LICENSE=GPL-3
 RDEPEND=extras? ( virtual/libudev sys-block/parted )
 SLOT=0
 _eclasses_=git-r3	8f6de46b0aa318aea0e8cac62ece098b	multilib	97f470f374f2e94ccab04a2fb21d811e	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607
-_md5_=9ca96c4245a5b427f40d9e839b93c32f
+_md5_=93b7a28ab396589d9a68e94412d457ac

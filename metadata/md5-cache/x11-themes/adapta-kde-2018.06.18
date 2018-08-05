@@ -1,0 +1,13 @@
+DEFINED_PHASES=install prepare unpack
+DESCRIPTION=Adapta KDE customization
+EAPI=6
+HOMEPAGE=https://git.io/adapta-kde
+IUSE=konsole kvantum
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3 CC-BY-SA-4.0
+RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/adapta-kde/tar.gz/20180618 -> adapta-kde-2018.06.18.tar.gz
+_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_md5_=a4a725ca3ce5eed32d9ea79f727bd5a1
