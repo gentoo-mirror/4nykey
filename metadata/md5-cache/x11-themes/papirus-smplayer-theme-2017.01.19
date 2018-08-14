@@ -1,14 +1,13 @@
 DEFINED_PHASES=compile install unpack
-DEPEND=!qt5? ( dev-qt/qtcore:4 ) qt5? ( dev-qt/qtcore:5 )
+DEPEND=dev-qt/qtcore:5
 DESCRIPTION=Papirus theme for SMPlayer
 EAPI=6
 HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme
-IUSE=qt5
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-RDEPEND=media-video/smplayer[qt5?] !>=x11-themes/smplayer-themes-16.5.3
+RDEPEND=media-video/smplayer !>=x11-themes/smplayer-themes-16.5.3
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-smplayer-theme/tar.gz/20170119 -> papirus-smplayer-theme-2017.01.19.tar.gz
 _eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
-_md5_=bc03be00499dc286b8e97ceef236a574
+_md5_=26ff09f6284e0c881e06a3d9380582fd

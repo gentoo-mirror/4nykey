@@ -1,11 +1,10 @@
 DEFINED_PHASES=install preinst prepare unpack
-DEPEND=!qt5? ( dev-qt/qtcore:4 ) qt5? ( dev-qt/qtcore:5 ) || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=dev-qt/qtcore:5 || ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=Skins for SMPlayer
 EAPI=6
 HOMEPAGE=https://www.smplayer.info
-IUSE=qt5
 LICENSE=CC-BY-2.5 CC-BY-SA-2.5 CC-BY-SA-3.0 GPL-2 LGPL-3
-RDEPEND=!qt5? ( <media-video/smplayer-17[-qt5] ) qt5? ( media-video/smplayer[qt5(+)] )
+RDEPEND=media-video/smplayer
 SLOT=0
 _eclasses_=desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	9a5f039771f143195164a15a4faa41a1	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	b43d08fe0771faf2f5e7be19c2789d33	ltprune	607e058da37aa6dabfa408b7d61da72e	multilib	97f470f374f2e94ccab04a2fb21d811e	preserve-libs	ef207dc62baddfddfd39a164d9797648	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	subversion	a5d5826a85609611f098c0553eb24cc1	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf
-_md5_=512b5f87660557092b6d0b91eeb7f4af
+_md5_=0681afd39d153aaed6db143de97ee0b6
