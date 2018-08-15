@@ -9,5 +9,5 @@ RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/adapta-kde/tar.gz/20180618 -> adapta-kde-2018.06.18.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=a4a725ca3ce5eed32d9ea79f727bd5a1

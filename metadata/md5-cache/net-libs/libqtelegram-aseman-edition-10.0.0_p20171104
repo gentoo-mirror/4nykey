@@ -9,5 +9,5 @@ RDEPEND=dev-libs/openssl:0 dev-qt/qtmultimedia:5
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Aseman-Land/libqtelegram-aseman-edition/tar.gz/c8a34b0 -> libqtelegram-aseman-edition-10.0.0_p20171104.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=42e3dfe18c34d1b198aca11453cca8ac

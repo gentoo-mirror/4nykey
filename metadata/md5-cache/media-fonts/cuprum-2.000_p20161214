@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/alexeiva/cuprum/tar.gz/8c86543 -> cuprum-2.000_p20161214.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/7be4d0f -> 9ef5512cdd3177cc8d4667bcf5a58346-7be4d0f.tar.gz )
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	4860342b2e7b9eb79bb0a049a2d9bbdf	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	6faea633ae2f79f6d55dcfd431b79fbf	python-utils-r1	7db901256449fef43c3aaa4d486c1c63	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	4860342b2e7b9eb79bb0a049a2d9bbdf	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=f4c8ad1a0825a73930bb553d815a4d64

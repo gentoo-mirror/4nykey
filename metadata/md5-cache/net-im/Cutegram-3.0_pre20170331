@@ -9,5 +9,5 @@ RDEPEND=net-libs/TelegramQML dev-qt/aseman-qt-tools[keychain,positioning] dev-qt
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Aseman-Land/Cutegram/tar.gz/e489812 -> Cutegram-3.0_pre20170331.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b	xdg-utils	f2c8335407f0b935b0a96d4adf23ef25
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	1e35303c63cd707f6c3422b4493d5607	vcs-snapshot	b77011b62e2053c646ad720defe6d921	xdg-utils	89bb9f083a2590d9b447fd0b78a96186
 _md5_=7c2213b59ab39ce64a9da50122cc9d8f

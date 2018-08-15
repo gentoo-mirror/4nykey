@@ -9,5 +9,5 @@ LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/metapolator/breite/tar.gz/93e02d7 -> breite-0_p20150209.tar.gz
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=5c053200ba86f17f36f3a4320c44b95b

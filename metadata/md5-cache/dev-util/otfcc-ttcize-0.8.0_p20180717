@@ -9,5 +9,5 @@ RDEPEND=net-libs/nodejs[npm]
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/caryll/otfcc-ttcize/tar.gz/cd96538 -> otfcc-ttcize-0.8.0_p20180717.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=6b3df8dc35f7a750434f92c50ce05e2b

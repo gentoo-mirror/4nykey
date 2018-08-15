@@ -8,5 +8,5 @@ RDEPEND=net-ftp/filezilla
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-filezilla-themes/tar.gz/20170119 -> papirus-filezilla-themes-2017.01.19.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=fc719375f0ea3ed70f59e309dd95bdeb

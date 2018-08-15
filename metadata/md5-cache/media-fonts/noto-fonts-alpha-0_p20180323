@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/googlei18n/noto-fonts-alpha/tar.gz/89026a6 -> noto-fonts-alpha-0_p20180323.tar.gz
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=b2320590d61f88b015d51ad267cdcdd2

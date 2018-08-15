@@ -9,5 +9,5 @@ RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/ubuntu/gnome-shell-extension-appindicator/tar.gz/v22 -> gnome-shell-extension-appindicator-22.tar.gz
-_eclasses_=vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=960376419c8fd494c07baf0d817fdfe9

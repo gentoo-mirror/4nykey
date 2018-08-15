@@ -9,5 +9,5 @@ LICENSE=CC-BY-4.0 MIT
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/xerographer/reinebow-color-font/tar.gz/e7b6145 -> reinebow-color-font-0_p20160606.tar.gz
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	3be1ab44131e8c0bbdaa75823008444b
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=2912e480277e2506e4b8466e6292d4fe

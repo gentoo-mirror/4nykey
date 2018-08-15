@@ -7,5 +7,5 @@ IUSE=X
 LICENSE=CC-BY-4.0 MIT
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	8f6de46b0aa318aea0e8cac62ece098b
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	918d6a744039c29af2cadc7317459765
 _md5_=2912e480277e2506e4b8466e6292d4fe
