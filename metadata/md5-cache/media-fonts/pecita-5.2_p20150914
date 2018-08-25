@@ -10,5 +10,5 @@ RDEPEND=app-arch/unzip app-arch/unzip app-arch/unzip
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://fontlibrary/pecita/c7230bc2a72ad2313a2e2e515b0fd16a/pecita.zip -> pecita-5.2_p20150914.zip
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	unpacker	87633b2194cdb56adaa1f5a5c8862c44
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	unpacker	ee2f5086cd7e7b747b061f58db14d89e
 _md5_=f572d13cb648d4224ae244b93373278a

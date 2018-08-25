@@ -9,5 +9,5 @@ LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://fontlibrary/dehuti/669f3553a8addabe8c1cf08f25f594bd/dehuti.zip -> dehuti-161017.zip
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	unpacker	87633b2194cdb56adaa1f5a5c8862c44
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	unpacker	ee2f5086cd7e7b747b061f58db14d89e
 _md5_=f47a27752411f7b40973b71412bbb7a6
