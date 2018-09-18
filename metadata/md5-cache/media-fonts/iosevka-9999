@@ -8,5 +8,5 @@ LICENSE=OFL-1.1
 REQUIRED_USE=!binary ?? ( font_types_ttc font_types_ttf ) || ( font_variants_cc font_variants_default font_variants_slab font_variants_term font_variants_type font_variants_ss01 font_variants_ss02 font_variants_ss03 font_variants_ss04 font_variants_ss05 font_variants_ss06 font_variants_ss07 font_variants_ss08 font_variants_ss09 font_variants_ss10 font_variants_ss11 ) font_variants_slab? ( || ( font_variants_default font_variants_cc font_variants_term font_variants_type ) ) || ( font_types_ttc font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=82d25bf79778813f1607d28a022633b8

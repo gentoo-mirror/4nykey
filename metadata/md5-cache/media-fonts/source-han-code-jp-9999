@@ -8,5 +8,5 @@ LICENSE=OFL-1.1
 REQUIRED_USE=?? ( font_types_otf font_types_ttc ) || ( font_types_otf font_types_ttc )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=0d1cc7ecfd3da0cf154158d2fbbbd8fd

@@ -7,5 +7,5 @@ IUSE=X
 LICENSE=MIT
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	918d6a744039c29af2cadc7317459765
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9
 _md5_=c6e001567703c601324ac4a8e9dd7945
