@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.6 dev-lang/python:3.5 dev-lang/python:3.4 >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( dev-lang/python:3.5 dev-util/fontmake[python_targets_python3_5(-),python_single_target_python3_5(+)] ) ( dev-lang/python:3.4 dev-util/fontmake[python_targets_python3_4(-),python_single_target_python3_4(+)] ) ( >=dev-lang/python-2.7.5-r2:2.7 dev-util/fontmake[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) autohint? ( media-gfx/ttfautohint ) sys-apps/rename )
+DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.6 dev-lang/python:3.5 dev-lang/python:3.4 >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( dev-lang/python:3.5 dev-util/fontmake[python_targets_python3_5(-),python_single_target_python3_5(+)] ) ( dev-lang/python:3.4 dev-util/fontmake[python_targets_python3_4(-),python_single_target_python3_4(+)] ) ( >=dev-lang/python-2.7.5-r2:2.7 dev-util/fontmake[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DESCRIPTION=A serif typeface with soft shapes and terminal forms shaped like curls
 EAPI=6
 HOMEPAGE=https://github.com/etunni/gabriela
@@ -8,6 +8,6 @@ LICENSE=OFL-1.1
 REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/7be4d0f -> 9ef5512cdd3177cc8d4667bcf5a58346-7be4d0f.tar.gz )
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	4860342b2e7b9eb79bb0a049a2d9bbdf	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
+SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/fa4ddfa -> 9ef5512cdd3177cc8d4667bcf5a58346-fa4ddfa.tar.gz )
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	1ee7e7da288fae742321c810f6f31fa5	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861
 _md5_=b2443155d5da0b78050dd2ee89a8d543

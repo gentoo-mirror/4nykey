@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
-DEPEND=net-misc/meganz-sdk:=[libuv,mediainfo?,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtdbus:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar ) mediainfo? ( media-libs/libmediainfo ) dev-qt/linguist-tools:5 >=app-portage/elt-patches-20170815 app-arch/xz-utils >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info sys-devel/make >=dev-util/cmake-3.9.6
+DEPEND=net-misc/meganz-sdk:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar ) dev-qt/linguist-tools:5 >=app-portage/elt-patches-20170815 app-arch/xz-utils >=sys-apps/sed-4 dev-util/desktop-file-utils x11-misc/shared-mime-info sys-devel/make >=dev-util/cmake-3.9.6
 DESCRIPTION=Easy automated syncing with MEGA Cloud Drive
 EAPI=6
 HOMEPAGE=https://github.com/meganz/MEGAsync
-IUSE=dolphin mediainfo nautilus thunar
+IUSE=dolphin nautilus thunar
 KEYWORDS=~amd64 ~x86
 LICENSE=EULA
-RDEPEND=net-misc/meganz-sdk:=[libuv,mediainfo?,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtdbus:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar ) mediainfo? ( media-libs/libmediainfo )
+RDEPEND=net-misc/meganz-sdk:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/meganz/megasync/tar.gz/eea22a0 -> megasync-3.7.1.0.tar.gz
+SRC_URI=mirror://githubcl/meganz/megasync/tar.gz/94f4884 -> megasync-3.7.1.0_p20180924.tar.gz
 _eclasses_=cmake-utils	f0bc1c175684130a76ab6c17f575d820	desktop	b1d22ac8bdd4679ab79c71aca235009d	epatch	a1bf4756dba418a7238f3be0cb010c54	estack	43ddf5aaffa7a8d0482df54d25a66a1f	eutils	6e6c2737b59a4b982de6fb3ecefd87f8	flag-o-matic	55aaa148741116aa54ad0d80e361818e	gnome.org	5e4cc5af3f1b17bdee155bf02e8c2df4	gnome2	acac536f2c3bbcd312ac3faaa3e55e40	gnome2-utils	c6060f4ab634aca444c4b2176b0f3877	libtool	f143db5a74ccd9ca28c1234deffede96	ltprune	08f9e1d9ee0af8f5d9a7854efbcd8c0e	multilib	b2f01ad412baf81650c23fcf0975fa33	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	preserve-libs	ef207dc62baddfddfd39a164d9797648	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-clean	2a0f74a496fa2b1552c4f3398258b7bf	vcs-snapshot	b77011b62e2053c646ad720defe6d921	versionator	2352c3fc97241f6a02042773c8287748	xdg	4939e61ae72d18779a8bdac386a7a07e	xdg-utils	89bb9f083a2590d9b447fd0b78a96186
-_md5_=2ce8245a3522230764c3ce646bf3a1cd
+_md5_=d4c9327b2b94195f1c82e32b1d35b40a
