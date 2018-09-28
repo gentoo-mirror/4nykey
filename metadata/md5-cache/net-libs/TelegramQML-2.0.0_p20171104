@@ -9,5 +9,5 @@ RDEPEND=net-libs/libqtelegram-aseman-edition dev-qt/qtdeclarative:5[localstorage
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Aseman-Land/TelegramQML/tar.gz/56fb7c9 -> TelegramQML-2.0.0_p20171104.tar.gz
-_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	97f470f374f2e94ccab04a2fb21d811e	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_eclasses_=estack	43ddf5aaffa7a8d0482df54d25a66a1f	multilib	b2f01ad412baf81650c23fcf0975fa33	qmake-utils	bdf97e69a34b864d6d545f4ec3143ff7	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=27701df1ee1280ae6c046a3a6b172671

@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/ossobuffo/jura/tar.gz/b646283 -> jura-5.103_p20170307.tar.gz mirror://githubcl/alexeiva/jura/tar.gz/b646283 -> jura-5.103_p20170307.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/7be4d0f -> 9ef5512cdd3177cc8d4667bcf5a58346-7be4d0f.tar.gz )
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	4860342b2e7b9eb79bb0a049a2d9bbdf	multilib	97f470f374f2e94ccab04a2fb21d811e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	4860342b2e7b9eb79bb0a049a2d9bbdf	multilib	b2f01ad412baf81650c23fcf0975fa33	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	12114a2a9aab35b93efc037a196b3234	toolchain-funcs	f164325a2cdb5b3ea39311d483988861	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=315a2a235cbf6b9eac1b670a9d8af95f
