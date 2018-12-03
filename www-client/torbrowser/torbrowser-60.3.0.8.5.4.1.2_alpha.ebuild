@@ -156,6 +156,8 @@ src_prepare() {
 	sed '/^MOZ_DEV_EDITION=1/d' \
 		-i "${S}"/browser/branding/aurora/configure.sh || die
 
+	sed -e 's:cargo_rustc_flags += -C lto:_&:' -i config/rules.mk
+
 	default
 
 	# Autotools configure is now called old-configure.in
@@ -235,6 +237,7 @@ src_configure() {
 
 src_compile() {
 	MOZ_MAKE_FLAGS="${MAKEOPTS}" SHELL="${SHELL:-${EPREFIX}/bin/bash}" MOZ_NOSPAM=1 \
+	BUILD_VERBOSE_LOG=1 \
 	./mach build --verbose || die
 }
 
