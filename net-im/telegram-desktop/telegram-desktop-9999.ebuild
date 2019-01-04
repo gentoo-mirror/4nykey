@@ -1,4 +1,4 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
@@ -15,11 +15,11 @@ else
 	inherit vcs-snapshot
 	MY_CAT="Catch2-5ca44b6"
 	MY_GSL="GSL-d846fe5"
-	MY_CRL="crl-4291015"
+	MY_CRL="crl-9b7c6b5"
 	MY_TGV="libtgvoip-78e584c"
 	MY_VAR="variant-550ac2f"
 	MY_XXH="xxHash-7cc9639"
-	MY_DEB="${PN}_1.4.0-1.debian"
+	MY_DEB="${PN}_1.5.2-1.debian"
 	SRC_URI="
 		mirror://githubcl/telegramdesktop/${MY_PN}/tar.gz/v${PV} -> ${P}.tar.gz
 		mirror://debian/pool/main/t/${PN}/${MY_DEB}.tar.xz
@@ -163,7 +163,6 @@ src_prepare() {
 
 	eapply \
 		debian/patches/Use-system-wide-font.patch \
-		"${FILESDIR}"/Packed-resources.patch \
 		debian/patches/Packed-resources.patch \
 		"${FILESDIR}"/${PN}-gyp.diff
 
