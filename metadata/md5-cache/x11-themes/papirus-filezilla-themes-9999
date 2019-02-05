@@ -1,5 +1,5 @@
-DEFINED_PHASES=prepare unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile unpack
+DEPEND=gnome-base/librsvg >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Papirus theme for FileZilla
 EAPI=6
 HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes
@@ -7,4 +7,4 @@ LICENSE=GPL-3
 RDEPEND=net-ftp/filezilla
 SLOT=0
 _eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=fc719375f0ea3ed70f59e309dd95bdeb
+_md5_=b7e731cac3ac2e9c165476b6c32cd02b

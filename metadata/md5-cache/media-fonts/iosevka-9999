@@ -9,4 +9,4 @@ REQUIRED_USE=!binary ?? ( font_types_ttc font_types_ttf ) || ( font_variants_cc 
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9
-_md5_=82d25bf79778813f1607d28a022633b8
+_md5_=6ea67b94b053de54aa73965b97faf524
