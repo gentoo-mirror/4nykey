@@ -15,8 +15,8 @@ else
 	inherit vcs-snapshot
 	MY_CAT="Catch2-5ca44b6"
 	MY_GSL="GSL-d846fe5"
-	MY_CRL="crl-40063ab"
-	MY_TGV="libtgvoip-59a975b"
+	MY_CRL="crl-84072fb"
+	MY_TGV="libtgvoip-16711e2"
 	MY_VAR="variant-550ac2f"
 	MY_XXH="xxHash-7cc9639"
 	MY_DEB="${PN}_1.5.11-1.debian"
@@ -165,11 +165,6 @@ src_prepare() {
 		debian/patches/Use-system-wide-font.patch \
 		debian/patches/Packed-resources.patch \
 		"${FILESDIR}"/${PN}-gyp.diff
-
-	if tc-is-gcc; then
-		local _v="$(gcc-major-version)$(gcc-minor-version)"
-		[[ ${_v} -le 73 ]] && eapply "${FILESDIR}"/gcc-if-constexpr-tmpfix.patch
-	fi
 
 	cd "${S}"/Telegram/gyp
 
