@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=!binary? ( dev-util/afdko ) X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=A set of OpenType/CFF Pan-CJK fonts
+EAPI=6
+HOMEPAGE=https://github.com/adobe-fonts/source-han-sans/
+IUSE=+binary l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW X +font_types_otf font_types_ttc
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=font_types_otf? ( || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) ?? ( font_types_otf font_types_ttc ) || ( font_types_otf font_types_ttc )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=binary? ( font_types_otf? ( l10n_ja? ( mirror://githubraw/adobe-fonts/source-han-sans/2.001R/SubsetOTF/SourceHanSansJP.zip -> SourceHanSansJP-2.001.zip ) l10n_ko? ( mirror://githubraw/adobe-fonts/source-han-sans/2.001R/SubsetOTF/SourceHanSansKR.zip -> SourceHanSansKR-2.001.zip ) l10n_zh-CN? ( mirror://githubraw/adobe-fonts/source-han-sans/2.001R/SubsetOTF/SourceHanSansCN.zip -> SourceHanSansCN-2.001.zip ) l10n_zh-HK? ( mirror://githubraw/adobe-fonts/source-han-sans/2.001R/SubsetOTF/SourceHanSansHK.zip -> SourceHanSansHK-2.001.zip ) l10n_zh-TW? ( mirror://githubraw/adobe-fonts/source-han-sans/2.001R/SubsetOTF/SourceHanSansTW.zip -> SourceHanSansTW-2.001.zip ) ) font_types_ttc? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.001R/SourceHanSans.ttc -> SourceHanSans-2.001.ttc ) ) !binary? ( mirror://githubcl/adobe-fonts/source-han-sans/tar.gz/2.001 -> source-han-sans-2.001.tar.gz )
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78
+_md5_=fa8d46e97fe39672e628cca5e9b215b4
