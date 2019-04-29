@@ -1,12 +1,12 @@
 DEFINED_PHASES=configure prepare unpack
-DEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) virtual/pkgconfig nls? ( sys-devel/gettext ) >=dev-vcs/git-1.8.2.1[curl] >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) virtual/pkgconfig dev-util/intltool nls? ( sys-devel/gettext ) >=dev-vcs/git-1.8.2.1[curl] >=app-portage/elt-patches-20170815 !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=An utility for keyboard layout switching
 EAPI=6
 HOMEPAGE=https://xneur.ru
 IUSE=alsa aspell debug enchant gstreamer keylogger libnotify nls openal xosd
 LICENSE=GPL-2
-RDEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) alsa? ( media-sound/alsa-utils ) gstreamer? ( media-libs/gst-plugins-good media-plugins/gst-plugins-alsa ) nls? ( virtual/libintl )
+RDEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) alsa? ( media-sound/alsa-utils ) gstreamer? ( media-libs/gst-plugins-good:1.0 ) nls? ( virtual/libintl )
 REQUIRED_USE=?? ( gstreamer openal alsa ) ?? ( aspell enchant )
 SLOT=0
 _eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	0d4635eeb5a96cd5315597a47eba25c9	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	b2f01ad412baf81650c23fcf0975fa33	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
-_md5_=c04dfb41b3617a3f3eef55bfed54c234
+_md5_=e3f54655cc00fd707ab54a3da66281ec
