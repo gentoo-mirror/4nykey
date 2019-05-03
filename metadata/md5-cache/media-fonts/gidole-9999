@@ -9,5 +9,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/gist/f9edc47e189d8495b647a4feac8ca240/tar.gz/1827636 -> f9edc47e189d8495b647a4feac8ca240-1827636.tar.gz
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	b2f01ad412baf81650c23fcf0975fa33	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
 _md5_=a2a87365fbab5c100275cbceb7a4a1f4
