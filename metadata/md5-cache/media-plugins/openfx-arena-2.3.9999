@@ -6,5 +6,5 @@ HOMEPAGE=https://github.com/NatronGitHub/openfx-arena
 LICENSE=GPL-2
 RDEPEND=media-gfx/imagemagick dev-libs/librevenge media-libs/libcdr media-libs/lcms media-libs/fontconfig dev-libs/libxml2 dev-libs/libzip gnome-base/librsvg x11-libs/pango app-text/poppler virtual/opencl
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
 _md5_=dd8cee4bd6475c33cd074a0f7283f088

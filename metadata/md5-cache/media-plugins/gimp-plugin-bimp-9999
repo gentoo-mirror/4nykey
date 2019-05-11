@@ -6,5 +6,5 @@ HOMEPAGE=http://www.alessandrofrancesconi.it/projects/bimp/
 LICENSE=GPL-2+
 RDEPEND=media-gfx/gimp:2 dev-libs/libpcre:3
 SLOT=0
-_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	b45201c4e6c096b98e250336954e64b9
+_eclasses_=git-r3	0d4635eeb5a96cd5315597a47eba25c9	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
 _md5_=5c4a4acdcf893ad955c366087bdc78b7

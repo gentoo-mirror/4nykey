@@ -10,5 +10,5 @@ RDEPEND=>=media-gfx/gmic-2.3.3:=[curl,fftw,openmp?]
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/NatronGitHub/openfx-gmic/tar.gz/096fe05 -> openfx-gmic-2.3.14_p20180730.tar.gz mirror://githubcl/NatronGitHub/openfx/tar.gz/4fc7b53 -> openfx-4fc7b53.tar.gz mirror://githubcl/dtschump/gmic-community/tar.gz/ddbd76f -> gmic-community-ddbd76f.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	b45201c4e6c096b98e250336954e64b9	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-snapshot	b77011b62e2053c646ad720defe6d921
 _md5_=ee61c878522fb099f53b249eaa033a06
