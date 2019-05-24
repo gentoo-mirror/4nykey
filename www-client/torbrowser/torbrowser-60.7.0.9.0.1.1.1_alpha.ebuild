@@ -47,15 +47,15 @@ PATCH=( https://dev.gentoo.org/~{anarchy,axs,polynomial-c}/mozilla/patchsets/${P
 
 # official release bundles https-everywhere, noscript and torbutton
 # the latter does nothing for us except providing the Tor start page
-MY_EFF="2019.1.31"
+MY_EFF="2019.5.6.1"
 MY_NOS="10.6.1"
-MY_EFF="https-everywhere-${MY_EFF}-eff.xpi"
-MY_NOS="noscript-${MY_NOS}.xpi"
+MY_EFF="https_everywhere-${MY_EFF}-an+fx.xpi"
+MY_NOS="noscript_security_suite-${MY_NOS}-an+fx.xpi"
 
 SRC_URI="
 	mirror://tor/dist/${PN}/${TOR_PV}/src-${GIT_TAG}.tar.xz
-	https://www.eff.org/files/${MY_EFF}
-	https://secure.informaction.com/download/releases/${MY_NOS}
+	https://addons.cdn.mozilla.net/user-media/addons/229918/${MY_EFF}
+	https://addons.cdn.mozilla.net/user-media/addons/722/${MY_NOS}
 	${PATCH[@]}
 "
 RESTRICT="primaryuri"
@@ -133,10 +133,6 @@ src_prepare() {
 		"${FILESDIR}"/${PN}-profiledir.patch
 		"${FILESDIR}"/${PN}-lto.patch
 	)
-
-	sed \
-		-e '/Unknown option: %s/ s:raise InvalidOptionError:print:' \
-		-i python/mozbuild/mozbuild/configure/__init__.py
 
 	# Enable gnomebreakpad
 	if use debug ; then
@@ -238,6 +234,7 @@ src_configure() {
 	mozconfig_annotate 'torbrowser' --with-app-name=${PN}
 	mozconfig_annotate 'torbrowser' --with-app-basename=${PN}
 	mozconfig_annotate 'torbrowser' --disable-tor-browser-update
+	mozconfig_annotate 'torbrowser' --disable-tor-launcher
 	mozconfig_annotate 'torbrowser' --with-tor-browser-version=${TOR_PV}
 	mozconfig_annotate 'torbrowser' --disable-tor-browser-data-outside-app-dir
 	mozconfig_annotate 'torbrowser' --with-branding=browser/branding/official
