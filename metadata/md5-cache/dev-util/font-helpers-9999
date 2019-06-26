@@ -1,9 +1,10 @@
-DEFINED_PHASES=install
+DEFINED_PHASES=install preinst prepare unpack
+DEPEND=|| ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
 DESCRIPTION=A set of fontforge scripts for producing fonts
 EAPI=6
 HOMEPAGE=https://code.google.com/p/font-helpers
 LICENSE=GPL-3
-RESTRICT=primaryuri
+RDEPEND=dev-libs/libxslt
 SLOT=0
-SRC_URI=mirror://gcarchive/font-helpers/source-archive.zip -> font-helpers-9999.zip
-_md5_=891577da51f4539349525b05feb1a831
+_eclasses_=subversion	d34e0eb94628326a975c9fb06f5b26f8
+_md5_=285a8226801e070caf4482546d1a72b1

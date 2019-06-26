@@ -1,0 +1,14 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 dev-lang/python:3.5 >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( dev-lang/python:3.5 dev-util/fontmake[python_targets_python3_5(-),python_single_target_python3_5(+)] ) ( >=dev-lang/python-2.7.5-r2:2.7 dev-util/fontmake[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DESCRIPTION=A well-balanced contemporary serif with roots in calligraphy
+EAPI=6
+HOMEPAGE=https://github.com/cyrealtype/lora
+IUSE=X font_types_otf +font_types_ttf autohint +binary
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/cyrealtype/Lora-Cyrillic/tar.gz/v2.210 -> lora-2.210.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/c2b1043 -> 9ef5512cdd3177cc8d4667bcf5a58346-c2b1043.tar.gz )
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	fontmake	55d82fc94ab0c669ac67af227e22e962	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_md5_=8f2c72b865971711554dc46c937c021e

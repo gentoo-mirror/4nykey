@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DEPEND=!binary? ( media-gfx/inkscape virtual/imagemagick-tools[png] media-gfx/potrace dev-util/svgo dev-python/scfbuild ) X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
+EAPI=6
+HOMEPAGE=https://github.com/eosrei/twemoji-color-font
+IUSE=+binary X
+KEYWORDS=~amd64 ~x86
+LICENSE=CC-BY-4.0 MIT
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=!binary? ( mirror://githubcl/eosrei/twemoji-color-font/tar.gz/v12.0.1 -> twemoji-color-font-12.0.1.tar.gz ) binary? ( https://github.com/eosrei/twemoji-color-font/releases/download/v12.0.1/TwitterColorEmoji-SVGinOT-Linux-12.0.1.tar.gz )
+_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	b77011b62e2053c646ad720defe6d921
+_md5_=5f3359f5fd83c6559dd7d6f3b37afe90

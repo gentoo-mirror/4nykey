@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=!binary? ( || ( >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( >=dev-lang/python-2.7.5-r2:2.7 media-gfx/fontforge[python,python_targets_python2_7(-),python_single_target_python2_7(+)] media-gfx/xgridfit[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) dev-util/font-helpers ) virtual/latex-base >=sys-apps/texinfo-4.2-r5 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=!binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 dev-lang/python:3.5 >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( dev-lang/python:3.7 media-gfx/fontforge[python,python_targets_python3_7(-),python_single_target_python3_7(+)] media-gfx/xgridfit[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 media-gfx/fontforge[python,python_targets_python3_6(-),python_single_target_python3_6(+)] media-gfx/xgridfit[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( dev-lang/python:3.5 media-gfx/fontforge[python,python_targets_python3_5(-),python_single_target_python3_5(+)] media-gfx/xgridfit[python_targets_python3_5(-),python_single_target_python3_5(+)] ) ( >=dev-lang/python-2.7.5-r2:2.7 media-gfx/fontforge[python,python_targets_python2_7(-),python_single_target_python2_7(+)] media-gfx/xgridfit[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) dev-util/font-helpers ) virtual/latex-base >=sys-apps/texinfo-4.2-r5 X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Liberastika fonts are fork of Liberation Sans
 EAPI=6
 HOMEPAGE=https://sourceforge.net/projects/lib-ka
@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( mirror://sourceforge/lib-ka/liberastika-ttf-1.1.5.tar.xz latex? ( mirror://sourceforge/lib-ka/liberastika-tex-1.1.5.tar.xz ) ) !binary? ( mirror://sourceforge/lib-ka/liberastika-src-1.1.5.tar.xz )
 _eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	latex-package	17f13abe0de88340745e52e6b627aee7	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	4900ae970f827a22d33d41bd8b8f9ace	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	8c7f9d80beedd16f2e5a7f612c609529
-_md5_=7fdafa65c19f3a53b63044b1853c2757
+_md5_=3059f3874b0562655452b719360b4e33
