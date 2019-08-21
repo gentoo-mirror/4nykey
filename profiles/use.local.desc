@@ -28,8 +28,6 @@ dev-python/wxpython:examples - Install interactive demo module browser and sampl
 dev-python/wxpython:gtk3 - Build with GTK+3 instead of GTK+2
 dev-util/ots:graphite - Sanitize Graphite tables
 dev-util/ots:variations - Sanitize OpenType Variation tables
-media-fonts/fira:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
-media-fonts/fira:interpolate - Interpolate to get more font weights (significantly increases build time and diskspace requirements)
 media-fonts/iosevka:font_variants_cc - A variant with several symbols enwiden to be compatible with most CJK typefaces
 media-fonts/iosevka:font_variants_default - The default variant with ligatures and semantic full-width glyphs
 media-fonts/iosevka:font_variants_ss01 - A variant stylized after Andale Mono
@@ -57,8 +55,10 @@ media-gfx/fim:dia - Enable DIA file support via app-office/dia
 media-gfx/fim:graphicsmagick - Enable GraphicsMagick library support
 media-gfx/fim:screen - Add experimental support for running under screen
 media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
+media-gfx/fontforge:extras - Build and install fontforge-extras from contrib directory
 media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
+media-gfx/fontforge:woff2 - Enable WOFF2 support
 media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
 media-sound/ardour:c++0x - Compile using the C++11 standard
