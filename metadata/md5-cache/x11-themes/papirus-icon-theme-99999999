@@ -1,0 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=configure postinst postrm preinst prepare unpack
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Papirus icon theme for GTK
+EAPI=7
+HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+LICENSE=CC-BY-SA-4.0
+PROPERTIES=live
+RDEPEND=x11-themes/gtk-engines-murrine x11-libs/gdk-pixbuf:2
+SLOT=0
+_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=354848aaf8426bb0394597a94d394381

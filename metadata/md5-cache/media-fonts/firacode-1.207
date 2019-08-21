@@ -1,0 +1,14 @@
+BDEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 dev-lang/python:3.5 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( dev-lang/python:3.5 dev-util/fontmake[python_targets_python3_5(-),python_single_target_python3_5(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DESCRIPTION=A monospaced font with programming ligatures
+EAPI=7
+HOMEPAGE=https://github.com/tonsky/firacode
+IUSE=X font_types_otf +font_types_ttf autohint +binary
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/tonsky/firacode/tar.gz/1.207 -> firacode-1.207.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	b5f01473006ccc2cd78bc3dab20fced4	python-utils-r1	08e17157a6807add7db1f8d01e7e391f	toolchain-funcs	a3a237ef6c0c58546bf23b2c382f9e56	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=5fdbcc7e9b8f03fa107919eb44b2e796

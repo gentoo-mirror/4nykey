@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://bboxtype.com/downloads/FiraGO/Download_Folder_FiraGO_1001.zip
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c
 _md5_=eb9bb7225f5c635ea695f8241f3b2be3

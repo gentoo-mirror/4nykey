@@ -7,5 +7,5 @@ IUSE=+binary X
 LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c
 _md5_=111e1a3360fa7dbb36d70f76390f0cd5

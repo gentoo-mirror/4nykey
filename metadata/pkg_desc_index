@@ -39,11 +39,12 @@ dev-python/extractor 0.2.1_pre20181026 9999: Tools for extracting data from font
 dev-python/fontMath 0.5.0 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.8.6 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 3.43.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 3.44.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
-dev-python/fs 2.4.5 9999: Filesystem abstraction layer
-dev-python/glyphsLib 4.0.0 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/fs 2.4.10 9999: Filesystem abstraction layer
+dev-python/glyphsLib 4.1.1 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
+dev-python/lxml 4.3.5: A Pythonic binding for the libxml2 and libxslt libraries
 dev-python/munkres 1.0.12 9999: Module implementing munkres algorithm for the Assignment Problem
 dev-python/nototools 2019.01.03_p0 9999: A python package for maintaining the Noto Fonts project
 dev-python/opentype-svg 1.1.0_p20180312 9999: Scripts for making OpenType-SVG fonts
@@ -59,17 +60,17 @@ dev-python/scikit-build 0.8.1 9999: Improved build system generator for CPython 
 dev-python/skia-pathops 0.2.0.2 9999: Python bindings for the Skia Path Ops
 dev-python/tfont 0.1.1_p20181208 9999: A font library that writes to JSON
 dev-python/ufo2ft 2.9.1 9999: A bridge from UFOs to FontTool objects
-dev-python/ufoLib2 0.3.2_p2 9999: A UFO font library
+dev-python/ufoLib2 0.3.2_p2-r1 9999: A UFO font library
 dev-python/ufoNormalizer 0.3.6 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.0.6 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.5.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 12.0.0 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
 dev-python/wxpython 4.0.6: A blending of the wxWindows C++ class library with Python
-dev-util/afdko 2.9.1 2.9.9_alpha12 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 2.9.1 3.0.0 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.10.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cmake-openeid 0_p20190308 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 1.10.1 2.0.0_alpha1 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 2.0.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
@@ -77,7 +78,7 @@ dev-util/otfcc 0.9.6 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
 dev-util/ots 7.1.9 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_pre20170802 5.9999: A makefile generation tool
-dev-util/psautohint 1.9.3_rc1 9999: A standalone version of AFDKO autohinter
+dev-util/psautohint 1.9.4 9999: A standalone version of AFDKO autohinter
 dev-util/svgo 1.0.5 9999: Nodejs-based tool for optimizing SVG vector graphics files
 gnome-extra/gnome-shell-extension-appindicator 22 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20181119 9999: An extension for displaying weather informations in GNOME Shell
@@ -90,17 +91,16 @@ media-fonts/alegreya-serif 2.008 9999: A serif typeface originally intended for 
 media-fonts/alice 2.000_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
 media-fonts/amaticsc 2.611_p20171118 9999: Update of Vernon Adam's Amatic SC and Hafontia's Amatica SC
 media-fonts/arsenal 2.001_p20170627 9999: A traditional half-grotesque font for setting text
-media-fonts/arvo 3.010_p20170201 9999: A geometric slab-serif typeface family suited for screen and print
+media-fonts/arvo 3.010_p20171210 9999: A geometric slab-serif typeface family suited for screen and print
 media-fonts/bitter 2.110_p20170227 9999: A contemporary slab serif typeface for text
 media-fonts/breite 0_p20150209 9999: Breite Grotesk is a Multi-language Font Family
 media-fonts/brill 2.06: A typeface with the complete coverage of the Latin, Greek and Cyrillic script
 media-fonts/cantarell 0.111 9999: Default fontset for GNOME Shell
 media-fonts/caveat 1.6_p20180110 9999: Caveat handwriting fonts
 media-fonts/clearsans 1.00: Free-use OpenType font
-media-fonts/comfortaa 3.103_p20180703 9999: A rounded geometric sans-serif type design intended for large sizes
+media-fonts/comfortaa 3.103_p20181205 9999: A rounded geometric sans-serif type design intended for large sizes
 media-fonts/cormorant 3.601 9999: An extravagant display serif typeface
-media-fonts/crimson 0.8_p20170317 9999: A free and open-source text type family
-media-fonts/crimsonpro 1.002_p20190221 9999: A redesign of the Crimson Text typeface
+media-fonts/crimson 0.8_p20190731 9999: A free and open-source text type family
 media-fonts/crosextrafonts 20130214: ChromiumOS extra fonts
 media-fonts/cuprum 2.000_p20161214 9999: A narrow grotesque typeface
 media-fonts/cyrillic-modern 0.4_p143 9999: Cyrillic version of Computer Modern fonts
@@ -111,8 +111,7 @@ media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/emojione-color-font 1.4 9999: A color emoji SVGinOT font using EmojiOne Unicode 9.0 emoji
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 1.0_p20170724 1.0.9999 2.0_p20170425 2.0.9999: A geometric sans serif font family
-media-fonts/fira 4.203_p20161102 4.203.9999: Firefox OS typeface
-media-fonts/firacode 1.206 9999: A monospaced font with programming ligatures
+media-fonts/firacode 1.207 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
 media-fonts/fonts-cu 2.1 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 9999: A free family of scalable outline unicode fonts
@@ -146,17 +145,17 @@ media-fonts/noto 99999999: A font family that aims to support all the world's la
 media-fonts/noto-cjk 2.001 9999: Noto CJK fonts
 media-fonts/noto-emoji 2018.08.10 9999: Noto Emoji fonts
 media-fonts/noto-fonts 2017.05.05 2019.04.24_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20190503 9999: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20190806 9999: A WIP versions of the noto fonts
 media-fonts/nunito 3.503_p20180725 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 2.502_p20180723 9999: A well balanced sans serif typeface superfamily
 media-fonts/oldstandard 3.0_pre20161214 9999: A font with wide range of Latin, Greek and Cyrillic characters
-media-fonts/open-sans 2.000_p20190619 9999: A clean and modern sans-serif typeface for web, print and mobile
+media-fonts/open-sans 2.000_p20190729 9999: A clean and modern sans-serif typeface for web, print and mobile
 media-fonts/oswald 4.102_p20190411 9999: A reworking of the classic gothic typeface style
 media-fonts/pacifico 3.000_pre20180221 9999: A brush script font inspired by the 1950s American surf culture
 media-fonts/pecita 5.2_p20150914 9999: A typeface that mimics handwriting
 media-fonts/philosopher 2.000_p20170905 9999: A font that takes inspiration from Agfa Rotis and ITC Binary
 media-fonts/play 2.101 9999: A minimalistic sans serif typeface
-media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20190620 2.9999: An Open Source typeface family for display and titling use
+media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20190813 2.9999: An Open Source typeface family for display and titling use
 media-fonts/plex 1.4.1 9999: IBM's typeface
 media-fonts/podkova 2.101_p20190122 9999: A monoline slab serif with diagonal terminals
 media-fonts/prata 2.000_p20161214 9999: An elegant Didone typeface with sharp features and organic teardrops
@@ -175,12 +174,13 @@ media-fonts/source-han-serif 1.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-pro 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/source-sans-pro 2.045.1.095 9999: Sans serif font family for user interface environments
 media-fonts/source-serif-pro 3.000 9999: Serif typeface designed to complement Source Sans Pro
-media-fonts/spectral 2.003_p20190130 9999: A serif typeface for text-rich, screen-first environments and long-form reading
+media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 12.0.1 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
 media-fonts/unscii 1.1: A bitmapped Unicode font based on classic system fonts
+media-fonts/victor-mono 1.2.4 9999: A free programming font with cursive italics and ligatures
 media-fonts/vollkorn-typeface 4.105_p20190122 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/xolonium 4.1_p20161122: A futuristic font with focus on legibility
@@ -189,7 +189,7 @@ media-gfx/birdfont 2.27.0 9999: A font editor which can generate fonts in TTF, E
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
-media-gfx/fontforge 20190619_p0 99999999: postscript font editor and converter
+media-gfx/fontforge 20190801 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20190212 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.5 9999: A small application for managing Flickr account
 media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
@@ -216,11 +216,11 @@ media-sound/picard 2.1.3 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
-net-im/telegram-desktop 1.7.15 9999: Telegram Desktop messaging app
+net-im/telegram-desktop 1.8.2 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.5.4 9999: MEGA C++ SDK
-net-misc/megasync 4.2.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.6.1a 9999: MEGA C++ SDK
+net-misc/megasync 4.2.3 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
@@ -238,7 +238,7 @@ x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2018.10.24_p0 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 2019.07.20 9999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20190802 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer

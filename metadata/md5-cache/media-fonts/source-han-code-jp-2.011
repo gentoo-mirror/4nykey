@@ -10,5 +10,5 @@ REQUIRED_USE=?? ( font_types_otf font_types_ttc ) || ( font_types_otf font_types
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-han-code-jp/tar.gz/2.011R -> source-han-code-jp-2.011R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-han-code-jp/tar.gz/2.011 -> source-han-code-jp-2.011.tar.gz )
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=0d1cc7ecfd3da0cf154158d2fbbbd8fd

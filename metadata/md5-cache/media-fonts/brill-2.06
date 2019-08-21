@@ -9,5 +9,5 @@ LICENSE=EULA
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=http://www.brill.com/sites/default/files/brill_font_package_2_06.zip
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	unpacker	3cd8bad0d31e525cd26be1bfa4e61631
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631
 _md5_=9b17d2359c0daeca794a2c9d1e59c583

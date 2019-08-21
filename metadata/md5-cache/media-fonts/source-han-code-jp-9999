@@ -9,5 +9,5 @@ PROPERTIES=live
 REQUIRED_USE=?? ( font_types_otf font_types_ttc ) || ( font_types_otf font_types_ttc )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78	git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	562b380fc59ae6a8622171d0acb777d1
 _md5_=0d1cc7ecfd3da0cf154158d2fbbbd8fd

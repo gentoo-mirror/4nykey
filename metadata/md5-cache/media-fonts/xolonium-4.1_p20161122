@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://fontlibrary/xolonium/e00c124f3e1b130e5ec2a7eee2f4f1b8/xolonium.zip -> xolonium-4.1_p20161122.zip
-_eclasses_=font-r1	d203902ef7c27b365f2bb374e9661f78
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c
 _md5_=d036807fcbd0451519c270edd6bce01e

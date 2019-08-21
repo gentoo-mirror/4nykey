@@ -1,0 +1,14 @@
+BDEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEFINED_PHASES=install postinst postrm prepare setup
+DESCRIPTION=A free programming font with cursive italics and ligatures
+EAPI=7
+HOMEPAGE=https://rubjo.github.io/victor-mono
+IUSE=X font_types_otf +font_types_ttf
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/rubjo/victor-mono/tar.gz/v1.2.4 -> victor-mono-1.2.4.tar.gz
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c
+_md5_=954f315cd0b6bdeec7ae90b9ce88d972
