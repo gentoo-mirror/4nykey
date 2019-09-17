@@ -1,7 +1,7 @@
-# Copyright 1999-2018 Gentoo Authors
+# Copyright 1999-2019 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 DESCRIPTION="Apache C++ XML security libraries"
 HOMEPAGE="https://santuario.apache.org/"
@@ -10,17 +10,20 @@ SRC_URI="mirror://apache/santuario/c-library/${P}.tar.gz"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64 ~x86"
-
 IUSE="debug examples libressl nss static-libs xalan"
 
-RDEPEND=">=dev-libs/xerces-c-3.2
+RDEPEND="
+	>=dev-libs/xerces-c-3.2
 	!libressl? ( dev-libs/openssl:0= )
 	libressl? ( dev-libs/libressl:0= )
 	nss? ( dev-libs/nss )
-	xalan? ( dev-libs/xalan-c )"
-DEPEND="${RDEPEND}
-	virtual/pkgconfig"
-
+	xalan? ( dev-libs/xalan-c )
+"
+DEPEND="${RDEPEND}"
+BDEPEND="virtual/pkgconfig"
+PATCHES=(
+	"${FILESDIR}/${P}-libressl.patch"
+)
 DOCS=( CHANGELOG.txt NOTICE.txt )
 
 src_configure() {
