@@ -1,7 +1,7 @@
+BDEPEND=!binary? ( net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) dev-util/otfcc ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
-DEPEND=!binary? ( net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) dev-util/otfcc ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Spatial efficient monospace font family for programming
-EAPI=6
+EAPI=7
 HOMEPAGE=https://be5invis.github.io/Iosevka
 IUSE=+autohint +binary X font_types_ttc +font_types_ttf font_variants_cc +font_variants_default font_variants_slab font_variants_term font_variants_type font_variants_ss01 font_variants_ss02 font_variants_ss03 font_variants_ss04 font_variants_ss05 font_variants_ss06 font_variants_ss07 font_variants_ss08 font_variants_ss09 font_variants_ss10 font_variants_ss11
 LICENSE=OFL-1.1
@@ -10,4 +10,4 @@ REQUIRED_USE=!binary ?? ( font_types_ttc font_types_ttf ) || ( font_variants_cc 
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=6cd8a6063607e6df2bbff7f82b52ecae
+_md5_=f773d0cb64fca632d19eec4265da232c
