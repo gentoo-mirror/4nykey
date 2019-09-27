@@ -1,12 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm unpack
 DEPEND=app-eselect/eselect-gnome-shell-extensions
 DESCRIPTION=An extension that removes the dropdown arrows from GS menus
 EAPI=7
 HOMEPAGE=https://github.com/mpdeimos/gnome-shell-remove-dropdown-arrows
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
-PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
+RESTRICT=primaryuri
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+SRC_URI=mirror://githubcl/mpdeimos/gnome-shell-remove-dropdown-arrows/tar.gz/version/13 -> gnome-shell-remove-dropdown-arrows-13.tar.gz
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=36553843ab0c1c2bf93bd7bde53c6773

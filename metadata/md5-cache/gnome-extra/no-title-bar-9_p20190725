@@ -1,13 +1,15 @@
-BDEPEND=nls? ( sys-devel/gettext dev-util/intltool ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=nls? ( sys-devel/gettext dev-util/intltool )
 DEFINED_PHASES=postinst postrm preinst prepare unpack
 DEPEND=app-eselect/eselect-gnome-shell-extensions
 DESCRIPTION=An extension for GNOME Shell to hide the title bar of maximized windows
 EAPI=7
 HOMEPAGE=https://extensions.gnome.org/extension/1267/no-title-bar
 IUSE=nls
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell x11-apps/xprop
+RESTRICT=primaryuri
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+SRC_URI=mirror://githubcl/franglais125/no-title-bar/tar.gz/4b3de72 -> no-title-bar-9_p20190725.tar.gz
+_eclasses_=gnome2-utils	532371cfcba45b2ab0d2950547c97d95	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=76e1a14348bdcead269b3c56f61a94c3

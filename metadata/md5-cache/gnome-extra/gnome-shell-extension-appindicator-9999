@@ -1,11 +1,12 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm unpack
-DEPEND=app-eselect/eselect-gnome-shell-extensions >=dev-vcs/git-1.8.2.1[curl]
+DEPEND=app-eselect/eselect-gnome-shell-extensions
 DESCRIPTION=Adds AppIndicator support to gnome shell
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/ubuntu/gnome-shell-extension-appindicator
 LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=960376419c8fd494c07baf0d817fdfe9
+_md5_=2b48d8dde09362333307e035a0795450

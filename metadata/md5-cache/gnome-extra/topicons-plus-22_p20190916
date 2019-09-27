@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install postinst postrm preinst unpack
+DEPEND=app-eselect/eselect-gnome-shell-extensions
+DESCRIPTION=An extension to move legacy tray icons to the top panel
+EAPI=7
+HOMEPAGE=https://github.com/phocean/topicons-plus
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2+
+RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/phocean/topicons-plus/tar.gz/79abdd7 -> topicons-plus-22_p20190916.tar.gz
+_eclasses_=gnome2-utils	532371cfcba45b2ab0d2950547c97d95	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=5509a1348ffe586ffbf682b6322dee2b

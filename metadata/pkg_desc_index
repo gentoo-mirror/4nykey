@@ -42,7 +42,7 @@ dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen pro
 dev-python/fonttools 3.44.0 4.0.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
-dev-python/glyphsLib 4.1.2 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 5.0.1 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
 dev-python/munkres 1.0.12 9999: Module implementing munkres algorithm for the Assignment Problem
 dev-python/nototools 2019.07.17_p0 9999: A python package for maintaining the Noto Fonts project
@@ -78,12 +78,12 @@ dev-util/ots 7.1.9 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha14 5.9999: A makefile generation tool
 dev-util/psautohint 1.9.4 2.0.0_alpha1 9999: A standalone version of AFDKO autohinter
 dev-util/svgo 1.0.5 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 22 9999: Adds AppIndicator support to gnome shell
+gnome-extra/gnome-shell-extension-appindicator 26 29 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20181119 9999: An extension for displaying weather informations in GNOME Shell
-gnome-extra/gnome-shell-remove-dropdown-arrows 9 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 36_p20181112 9999: An extension for displaying sensors information in GNOME Shell
-gnome-extra/no-title-bar 9 9999: An extension for GNOME Shell to hide the title bar of maximized windows
-gnome-extra/topicons-plus 22: An extension to move legacy tray icons to the top panel
+gnome-extra/gnome-shell-remove-dropdown-arrows 13 9999: An extension that removes the dropdown arrows from GS menus
+gnome-extra/gnome-shell-system-monitor-applet 38_p20190714 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/no-title-bar 9_p20190725 9999: An extension for GNOME Shell to hide the title bar of maximized windows
+gnome-extra/topicons-plus 22_p20190916 9999: An extension to move legacy tray icons to the top panel
 media-fonts/alegreya-sans 2.008 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alegreya-serif 2.008 9999: A serif typeface originally intended for literature
 media-fonts/alice 2.000_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
@@ -210,22 +210,22 @@ media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.12 1.9.9999: A low-latency audio server
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
-media-sound/picard 2.2.0 9999: A cross-platform music tagger
+media-sound/picard 2.2.1 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
 net-im/telegram-desktop 1.8.8 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.6.2a 9999: MEGA C++ SDK
-net-misc/megasync 4.2.4 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.6.2b 9999: MEGA C++ SDK
+net-misc/megasync 4.2.5 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
 www-client/torbrowser 60.9.0.8.5.5.2.2 68.1.0.9.0.6.2.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5_pre20190425 3.0.5_pre20190425-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
-x11-misc/gpaste 3.24.6 3.24.9999 3.26.3 3.26.9999 3.28.3 3.28.9999 3.30.2 3.30.9999: Clipboard management system
+x11-misc/gpaste 3.30.2 3.30.9999 3.32.0 3.32.9999: Clipboard management system
 x11-misc/gxneur 0.21.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.21.0 9999: An utility for keyboard layout switching
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
@@ -236,7 +236,7 @@ x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2018.10.24_p0 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20190802 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20190919 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
