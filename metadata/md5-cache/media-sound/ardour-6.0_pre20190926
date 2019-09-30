@@ -4,6 +4,7 @@ DESCRIPTION=Digital Audio Workstation
 EAPI=6
 HOMEPAGE=http://ardour.org/
 IUSE=alsa bindist bundled-libs +c++0x debug doc jack hid nls pulseaudio phone-home sanitize sse vst
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=dev-cpp/gtkmm:2.4 sci-libs/fftw:3.0 media-libs/flac media-libs/libogg media-libs/fontconfig alsa? ( media-libs/alsa-lib ) media-libs/aubio dev-libs/libxml2:2 media-libs/libsamplerate media-libs/lv2 media-libs/suil media-libs/lilv media-libs/liblrdf net-misc/curl media-libs/libsndfile jack? ( virtual/jack ) pulseaudio? ( media-sound/pulseaudio ) !bundled-libs? ( media-libs/libltc media-libs/qm-dsp hid? ( dev-libs/hidapi ) >=media-sound/fluidsynth-2.0.1 ) media-libs/liblo media-libs/taglib media-libs/vamp-plugin-sdk media-libs/rubberband sys-apps/util-linux

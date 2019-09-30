@@ -39,7 +39,7 @@ dev-python/extractor 0.2.1_pre20181026 9999: Tools for extracting data from font
 dev-python/fontMath 0.5.0 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.8.8 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 3.44.0 4.0.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 3.44.0 4.0.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.0.1 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -121,7 +121,7 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/iosevka 2.3.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka 2.3.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 5.101_p20180530 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.4: An unicode serif font meant for body text
@@ -162,7 +162,7 @@ media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/robotoslab 2.000_p20190210 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20170710 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/sarasa-gothic 0.8.2: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.9.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
@@ -200,11 +200,12 @@ media-libs/libtgvoip 2.4.4_p20190715 9999: VoIP library for Telegram clients
 media-libs/libuninameslist 20190701 99999999: A library of Unicode names and annotation data
 media-libs/mutagen 1.41.1 9999: Python module for handling audio metadata
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
+media-libs/rlottie 0.0.1_p20190927 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
-media-sound/ardour 5.12 6.0_pre20190416 6.9999: Digital Audio Workstation
+media-sound/ardour 5.12 6.0_pre20190926 6.9999: Digital Audio Workstation
 media-sound/deadbeef 0.7.2_p20180305 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.12 1.9.9999: A low-latency audio server
@@ -214,7 +215,7 @@ media-sound/picard 2.2.1 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
-net-im/telegram-desktop 1.8.8 9999: Telegram Desktop messaging app
+net-im/telegram-desktop 1.8.9 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 3.6.2b 9999: MEGA C++ SDK
