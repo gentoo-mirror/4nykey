@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=dev-db/sqlite:3
+DEPEND=dev-db/sqlite:3 virtual/pkgconfig
 DESCRIPTION=An open source cross-platform toolchain for building and packaging C++ code
 EAPI=7
 HOMEPAGE=https://build2.org
 IUSE=test
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=dev-db/sqlite:3
+RDEPEND=dev-db/sqlite:3 virtual/pkgconfig
 SLOT=0
 _eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
-_md5_=5126fead11598895aef57c3584dda316
+_md5_=71dce00816abfc7b83a7efd620011502
