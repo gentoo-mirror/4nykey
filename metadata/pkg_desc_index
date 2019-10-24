@@ -45,7 +45,7 @@ dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.0.1 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
 dev-python/munkres 1.0.12 9999: Module implementing munkres algorithm for the Assignment Problem
-dev-python/nototools 2019.07.17_p0 9999: A python package for maintaining the Noto Fonts project
+dev-python/nototools 0.2.0 9999: A python package for maintaining the Noto Fonts project
 dev-python/opentype-svg 1.1.0_p20180312 9999: Scripts for making OpenType-SVG fonts
 dev-python/pcpp 1.20 9999: A C99 preprocessor written in pure Python
 dev-python/py-zopfli 0.1.4 9999: Python bindings for zopfli
@@ -74,7 +74,7 @@ dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/otfcc 0.10.3_alpha 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
-dev-util/ots 7.1.9 9999: An util for validating and sanitising OpenType files
+dev-util/ots 8.0.0 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha14 5.9999: A makefile generation tool
 dev-util/psautohint 1.9.4 2.0.0_alpha1 9999: A standalone version of AFDKO autohinter
 dev-util/svgo 1.0.5 9999: Nodejs-based tool for optimizing SVG vector graphics files
@@ -129,7 +129,7 @@ media-fonts/khartiya 1.0.2 9999: Khartiya is extended Bitstream Charter font
 media-fonts/kurale 2.0_p20170313 9999: A Latin, Cyrillic and Devanagari typeface derived from Gabriela
 media-fonts/lato 2.015: A sanserif typeface family with classical proportions
 media-fonts/liberastika 1.1.5 9999: Liberastika fonts are fork of Liberation Sans
-media-fonts/libertinus 6.9 9999: A fork of the Linux Libertine and Linux Biolinum fonts
+media-fonts/libertinus 6.10 9999: A fork of the Linux Libertine and Linux Biolinum fonts
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
 media-fonts/literata 2.201 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
@@ -141,7 +141,7 @@ media-fonts/monoid 0_p20160721 9999: Customisable coding font with alternates, l
 media-fonts/montserrat 7.200_p20190218 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk 2.001 9999: Noto CJK fonts
-media-fonts/noto-emoji 2019.08.15_p0 9999: Noto Emoji fonts
+media-fonts/noto-emoji 2019.10.22_p0 9999: Noto Emoji fonts
 media-fonts/noto-fonts 2017.05.05 2019.04.24_p0 9999: A font family that aims to support all the world's languages
 media-fonts/noto-source 0_p20190806 9999: A WIP versions of the noto fonts
 media-fonts/nunito 3.503_p20180725 9999: A well balanced Sans Serif with rounded terminals
@@ -162,7 +162,7 @@ media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/robotoslab 2.000_p20190210 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20170710 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/sarasa-gothic 0.9.1: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.10.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
@@ -171,7 +171,7 @@ media-fonts/source-han-sans 2.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 1.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-pro 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/source-sans-pro 2.045.1.095 9999: Sans serif font family for user interface environments
-media-fonts/source-serif-pro 3.000 9999: Serif typeface designed to complement Source Sans Pro
+media-fonts/source-serif-pro 3.001 9999: Serif typeface designed to complement Source Sans Pro
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
@@ -191,7 +191,7 @@ media-gfx/fontforge 20190801-r1 20190831_p0 99999999: postscript font editor and
 media-gfx/fontview 0.3.1_p20190212 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.5 9999: A small application for managing Flickr account
 media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
-media-gfx/trufont 0.6.0_p3 9999: An ufo3 font editor
+media-gfx/trufont 0.6.2 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.3 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libltc 1.3.1 9999: Linear/Logitudinal Time Code (LTC) Library
@@ -218,12 +218,12 @@ media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demu
 net-im/telegram-desktop 1.8.15 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.6.2b 9999: MEGA C++ SDK
+net-misc/meganz-sdk 3.6.4 9999: MEGA C++ SDK
 net-misc/megasync 4.2.5 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 60.9.0.8.5.5.2.2 68.1.0.9.0.7.2.3_alpha: The Tor Browser
+www-client/torbrowser 60.9.0.8.5.5.2.2 68.1.0.9.0.8.2.5_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5_pre20190425 3.0.5_pre20190425-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.30.2 3.30.9999 3.32.0 3.32.9999: Clipboard management system
