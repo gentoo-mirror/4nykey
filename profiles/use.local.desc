@@ -10,9 +10,6 @@ app-crypt/digidoc4-client:nautilus - Install gnome-base/nautilus extension
 app-crypt/qdigidoc:nautilus - Build gnome-base/nautilus extension
 app-text/podofo:boost - Add support for boost
 app-text/podofo:tools - Build and install commandline tools.
-cross-x86_64-w64-mingw32/mingw64-runtime:idl - Install idl files.
-cross-x86_64-w64-mingw32/mingw64-runtime:libraries - Build extra libraries.
-cross-x86_64-w64-mingw32/mingw64-runtime:tools - Build extra tools.
 dev-libs/libdigidocpp:pdf - Experimental PDF Signing/validating support
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c

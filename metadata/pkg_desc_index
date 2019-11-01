@@ -15,9 +15,6 @@ app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processi
 app-text/podofo 0.9.4 9999: PoDoFo is a C++ library to work with the PDF file format
 app-text/sdcv 0.5.2 9999: A console version of StarDict
 app-text/xmldiff 2.2: A tool that figures out the differences between two similar XML files
-cross-x86_64-pc-cygwin/cygwin 3.0.7: Linux-like environment for Windows
-cross-x86_64-pc-cygwin/w32api 5.0.4: MinGW-w64 Windows API for Cygwin
-cross-x86_64-w64-mingw32/mingw64-runtime 6.0.0 9999: Free Win32 runtime and import library definitions
 dev-cpp/libcutl 1.11.0_beta5 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/range-v3 0.9.1 9999: Experimental range library for C++11/14/17
@@ -62,7 +59,7 @@ dev-python/ufoNormalizer 0.3.6 9999: A tool that will normalize the XML and othe
 dev-python/ufoProcessor 1.07 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.5.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 12.0.0 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
-dev-python/wxpython 4.0.6: A blending of the wxWindows C++ class library with Python
+dev-python/wxpython 4.0.7: A blending of the wxWindows C++ class library with Python
 dev-util/afdko 2.9.1 3.0.1 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.11.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_pre20190704 9999: Command Line Interface compiler for C++
@@ -200,7 +197,6 @@ media-libs/libtgvoip 2.4.4_p20190715-r1 9999: VoIP library for Telegram clients
 media-libs/libuninameslist 20190701 99999999: A library of Unicode names and annotation data
 media-libs/mutagen 1.41.1 9999: Python module for handling audio metadata
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
-media-libs/rlottie 0.0.1_p20190927 9999: A platform independent standalone library that plays Lottie Animation
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
@@ -223,9 +219,9 @@ net-misc/megasync 4.2.5 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 60.9.0.8.5.5.2.2 68.1.0.9.0.8.2.5_alpha: The Tor Browser
+www-client/torbrowser 68.2.0.9.0.0.1.1 68.2.0.9.5.1.1.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
-x11-libs/wxGTK 3.0.5_pre20190425 3.0.5_pre20190425-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
+x11-libs/wxGTK 3.0.5_pre20191020 3.0.5_pre20191020-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.30.2 3.30.9999 3.32.0 3.32.9999: Clipboard management system
 x11-misc/gxneur 0.21.0 9999: GTK+ based GUI for xneur
 x11-misc/xneur 0.21.0 9999: An utility for keyboard layout switching
