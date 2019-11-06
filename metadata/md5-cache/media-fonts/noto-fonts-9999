@@ -1,7 +1,7 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=install postinst postrm prepare setup unpack
-DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A font family that aims to support all the world's languages
-EAPI=6
+EAPI=7
 HOMEPAGE=https://www.google.com/get/noto
 IUSE=autohint X font_types_otf +font_types_ttf
 LICENSE=OFL-1.1
@@ -10,4 +10,4 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	562b380fc59ae6a8622171d0acb777d1
-_md5_=a37a8f432c7008b815d1831dcf2a58d2
+_md5_=2debf026aa4d988b16c39e5fcf816663

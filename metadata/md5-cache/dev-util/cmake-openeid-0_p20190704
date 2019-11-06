@@ -1,11 +1,11 @@
 DEFINED_PHASES=install unpack
 DESCRIPTION=Open-EID CMake modules
-EAPI=6
+EAPI=7
 HOMEPAGE=https://open-eid.github.io
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/open-eid/cmake/tar.gz/7746793 -> cmake-openeid-0_p20190308.tar.gz
+SRC_URI=mirror://githubcl/open-eid/cmake/tar.gz/ab61052 -> cmake-openeid-0_p20190704.tar.gz
 _eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=21e18cdf7aa30b8ff3cb08fced8be2b3
+_md5_=2144f4b51d10eb3785af098038104ab9
