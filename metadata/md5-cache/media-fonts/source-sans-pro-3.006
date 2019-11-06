@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-sans-pro/tar.gz/3.006R -> source-sans-pro-3.006R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-sans-pro/tar.gz/3.006 -> source-sans-pro-3.006.tar.gz ) !binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	b5f01473006ccc2cd78bc3dab20fced4	python-utils-r1	25291c381052933ddf86bcffbfaff2ed	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	b5f01473006ccc2cd78bc3dab20fced4	python-utils-r1	25291c381052933ddf86bcffbfaff2ed	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=5bc27fcafa867927570b55ba9847c0f7

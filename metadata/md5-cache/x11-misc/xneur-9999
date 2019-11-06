@@ -9,5 +9,5 @@ PROPERTIES=live
 RDEPEND=sys-libs/zlib x11-libs/libXi gstreamer? ( media-libs/gstreamer:1.0 ) openal? ( media-libs/freealut ) >=dev-libs/libpcre-5.0 enchant? ( app-text/enchant ) aspell? ( app-text/aspell ) xosd? ( x11-libs/xosd ) libnotify? ( >=x11-libs/libnotify-0.4.0 x11-libs/gtk+:2 ) alsa? ( media-sound/alsa-utils ) gstreamer? ( media-libs/gst-plugins-good:1.0 ) nls? ( virtual/libintl )
 REQUIRED_USE=?? ( gstreamer openal alsa ) ?? ( aspell enchant )
 SLOT=0
-_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	562b380fc59ae6a8622171d0acb777d1	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	2f8b8f320bee13b71a8a54cc6d09e08a
+_eclasses_=autotools	1bf086cdd7356f5c9a4acd9727bd2065	git-r3	562b380fc59ae6a8622171d0acb777d1	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=e3f54655cc00fd707ab54a3da66281ec
