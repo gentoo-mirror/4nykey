@@ -75,6 +75,7 @@ media-sound/deadbeef:mac - Add support for decoding Monkey's Audio files
 media-sound/deadbeef:midi - Enables MIDI support
 media-sound/deadbeef:network - Enable HTTP streaming vfs plugin
 media-sound/deadbeef:opus - Enable Opus audio codec support
+media-sound/deadbeef:shorten - Enable the shorten decoder plugin
 media-sound/deadbeef:sid - Build with SID (Commodore 64 Audio) support
 media-sound/deadbeef:tta - Add support for decoding True Audio input files
 media-sound/deadbeef:wma - Add support for decoding Windows Media Audio files
@@ -84,6 +85,8 @@ media-sound/flactag:scripts - Install additional scripts to /usr/bin
 media-sound/jack-audio-connection-kit:classic - Force enable standard JACK (jackd) even if D-Bus JACK (jackdbus) is enabled too
 media-sound/jack-audio-connection-kit:opus - Build Opus netjack2
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
+net-im/telegram-desktop:crashreporter - Enable crash reporter
+net-im/telegram-desktop:packed-resources - Use packed resources
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv

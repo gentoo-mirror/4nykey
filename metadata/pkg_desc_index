@@ -17,6 +17,7 @@ dev-cpp/libcutl 1.11.0_beta5 9999: A collection of C++ libraries (successor of l
 dev-cpp/libxsd-frontend 2.0.0_p20170103 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/range-v3 0.9.1 9999: Experimental range library for C++11/14/17
 dev-cpp/xsd 4.1.0_alpha11 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
+dev-libs/breakpad 0_p20191105 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.1 9999: DigiDoc digital signature library
 dev-libs/libraqm 0.6.0 9999: A library for complex text layout
@@ -157,7 +158,7 @@ media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/robotoslab 2.000_p20190210 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20170710 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/sarasa-gothic 0.10.1: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.10.2: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
@@ -200,16 +201,16 @@ media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 5.12 6.0_pre20190926 6.9999: Digital Audio Workstation
-media-sound/deadbeef 0.7.2_p20180305 9999: A music player for *nix-like systems and OSX
+media-sound/deadbeef 1.8.2 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.13 1.9.9999: A low-latency audio server
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
-media-sound/picard 2.2.2 9999: A cross-platform music tagger
+media-sound/picard 2.2.3 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.5.1_p20170909 9999: A Python CD-DA ripper preferring accuracy over speed (forked from morituri)
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
-net-im/telegram-desktop 1.8.15 9999: Telegram Desktop messaging app
+net-im/telegram-desktop 1.9.1 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 3.6.4 9999: MEGA C++ SDK
@@ -217,7 +218,7 @@ net-misc/megasync 4.2.5 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 68.2.0.9.0.0.1.1-r1 68.2.0.9.5.1.1.2_alpha-r1: The Tor Browser
+www-client/torbrowser 68.2.0.9.0.1.1.2 68.2.0.9.5.1.1.2_alpha-r1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5_pre20191020 3.0.5_pre20191020-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.30.2 3.30.9999 3.32.0 3.32.9999 3.34.1 3.34.9999: Clipboard management system

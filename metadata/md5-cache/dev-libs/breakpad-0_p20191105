@@ -1,0 +1,14 @@
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=prepare unpack
+DEPEND=
+DESCRIPTION=A crash-reporting system
+EAPI=7
+HOMEPAGE=https://chromium.googlesource.com/breakpad/breakpad
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/google/breakpad/tar.gz/5915ea9 -> breakpad-0_p20191105.tar.gz mirror://githubcl/PaoJiao/linux-syscall-support/tar.gz/8048ece -> linux-syscall-support-8048ece.tar.gz
+_eclasses_=autotools	ea7865c8fba1ea8d3639f355fffe1a3c	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=2609aa8fee680ee7c61a95f472fc4f81
