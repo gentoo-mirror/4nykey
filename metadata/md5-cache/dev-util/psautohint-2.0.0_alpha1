@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( python_targets_python3_6 python_targets_python3_7 )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/adobe-type-tools/psautohint/tar.gz/0b7af01 -> psautohint-2.0.0_alpha1.tar.gz test? ( mirror://githubcl/adobe-type-tools/psautohint-testdata/tar.gz/83a3b1b -> psautohint-testdata-83a3b1b.tar.gz )
-_eclasses_=distutils-r1	875cdbd904383003dd58e0ad4068470b	meson	b5ee7a05833ab91225acf30ffdeed006	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-r1	d21193dfc088687e048e829419568096	python-utils-r1	93ff6f0f8518926f2951ca70ce36e887	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=distutils-r1	875cdbd904383003dd58e0ad4068470b	meson	b5ee7a05833ab91225acf30ffdeed006	multibuild	40fe59465edacd730c644ec2bc197809	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-r1	d21193dfc088687e048e829419568096	python-utils-r1	d7629f6349b5d4cbb4cb5f56d680d71a	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=ce3b983301bd7c50e7e0d52d9762c526
