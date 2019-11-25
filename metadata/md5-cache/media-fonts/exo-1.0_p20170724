@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=1.0
 SRC_URI=mirror://githubcl/NDISCOVER/exo-1.0/tar.gz/e1dedf7 -> exo-1.0_p20170724.tar.gz mirror://githubcl/gist/f9edc47e189d8495b647a4feac8ca240/tar.gz/1827636 -> f9edc47e189d8495b647a4feac8ca240-1827636.tar.gz
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	2a3000b370786b5c90a651e7dd7c4797	python-utils-r1	d7629f6349b5d4cbb4cb5f56d680d71a	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	2a3000b370786b5c90a651e7dd7c4797	python-utils-r1	02ef27875ec5afcc2202b9d062d57f07	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=865be24740b011402a917491ca3eec09

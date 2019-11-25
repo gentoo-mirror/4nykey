@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/cyrealtype/Lora-Cyrillic/tar.gz/v2.210 -> lora-2.210.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	2a3000b370786b5c90a651e7dd7c4797	python-utils-r1	d7629f6349b5d4cbb4cb5f56d680d71a	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	2a3000b370786b5c90a651e7dd7c4797	python-utils-r1	02ef27875ec5afcc2202b9d062d57f07	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=43f58200045a90d4e1a67ab37b0b1036
