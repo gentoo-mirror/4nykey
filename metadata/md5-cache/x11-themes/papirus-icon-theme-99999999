@@ -8,5 +8,5 @@ LICENSE=CC-BY-SA-4.0
 PROPERTIES=live
 RDEPEND=x11-themes/gtk-engines-murrine x11-libs/gdk-pixbuf:2
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=354848aaf8426bb0394597a94d394381

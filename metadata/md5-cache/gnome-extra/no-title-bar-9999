@@ -9,5 +9,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell x11-apps/xprop
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=76e1a14348bdcead269b3c56f61a94c3

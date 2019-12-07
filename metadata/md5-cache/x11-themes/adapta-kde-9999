@@ -8,5 +8,5 @@ LICENSE=GPL-3 CC-BY-SA-4.0
 PROPERTIES=live
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 SLOT=0
-_eclasses_=git-r3	562b380fc59ae6a8622171d0acb777d1
+_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
 _md5_=a4a725ca3ce5eed32d9ea79f727bd5a1
