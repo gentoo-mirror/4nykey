@@ -2,7 +2,7 @@ BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encoding
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=A WIP versions of the noto fonts
 EAPI=7
-HOMEPAGE=https://github.com/googlei18n/noto-source
+HOMEPAGE=https://github.com/googlefonts/noto-source
 IUSE=clean-as-you-go +interpolate X font_types_otf +font_types_ttf autohint +binary
 LICENSE=OFL-1.1
 PROPERTIES=live
@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
 _eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	git-r3	6d22636df236df4cc8475f7b7668bdcd	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	2a3000b370786b5c90a651e7dd7c4797	python-utils-r1	f7aef159261e9835066ddf8d3a0e3487	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
-_md5_=480d565e8e30a9fee550bb9ef041d115
+_md5_=231a4b640cae06e7512e4beabb3be51e
