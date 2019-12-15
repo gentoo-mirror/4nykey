@@ -8,5 +8,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 SLOT=0
-_eclasses_=git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=36553843ab0c1c2bf93bd7bde53c6773

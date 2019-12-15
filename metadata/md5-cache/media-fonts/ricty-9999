@@ -9,5 +9,5 @@ PROPERTIES=live live
 RESTRICT=primaryuri bindist
 SLOT=0
 SRC_URI=https://osdn.net/dl/mplus-fonts/mplus-TESTFLIGHT-063.tar.xz
-_eclasses_=cvs	6625b4ea3655a11531b433946cebd6b3	font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	6d22636df236df4cc8475f7b7668bdcd
+_eclasses_=cvs	6625b4ea3655a11531b433946cebd6b3	font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	7d6c351ee8b1feb12ed8c8b0adae088b
 _md5_=ac0996a05869714338d61a6e4b99c1b6
