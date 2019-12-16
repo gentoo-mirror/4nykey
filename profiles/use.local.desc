@@ -58,6 +58,8 @@ media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:woff2 - Enable WOFF2 support
 media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
+media-plugins/deadbeef-spectrum-plugin:gtk3 - Enable support for GTK+3
+media-plugins/deadbeef-statusnotifier-plugin:gtk3 - Enable support for GTK+3
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
 media-sound/ardour:c++0x - Compile using the C++11 standard
 media-sound/ardour:hid - Add support for dev-libs/hidapi
