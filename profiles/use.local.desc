@@ -88,7 +88,6 @@ media-sound/jack-audio-connection-kit:classic - Force enable standard JACK (jack
 media-sound/jack-audio-connection-kit:opus - Build Opus netjack2
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 net-im/telegram-desktop:crashreporter - Enable crash reporter
-net-im/telegram-desktop:packed-resources - Use packed resources
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
