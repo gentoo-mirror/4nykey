@@ -1,6 +1,6 @@
 BDEPEND=|| ( ( dev-lang/python:3.6 dev-python/doit[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) nls? ( sys-devel/gettext )
 DEFINED_PHASES=compile configure install postinst postrm prepare setup
-DEPEND=dev-libs/xmlbird dev-libs/libgee:0.8= dev-libs/glib:2 dev-db/sqlite:3 media-libs/fontconfig x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 net-libs/webkit-gtk:4 net-libs/libsoup:2.4 x11-libs/libnotify || ( dev-lang/python:3.6 ) || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.40 dev-lang/vala:0.36 )
+DEPEND=dev-libs/xmlbird dev-libs/libgee:0.8= dev-libs/glib:2 dev-db/sqlite:3 media-libs/fontconfig x11-libs/cairo x11-libs/gdk-pixbuf:2 x11-libs/gtk+:3 net-libs/webkit-gtk:4 net-libs/libsoup:2.4 x11-libs/libnotify || ( dev-lang/python:3.6 ) || ( dev-lang/vala:0.46 dev-lang/vala:0.44 dev-lang/vala:0.42 dev-lang/vala:0.40 dev-lang/vala:0.36 )
 DESCRIPTION=A font editor which can generate fonts in TTF, EOT, SVG and BF format
 EAPI=7
 HOMEPAGE=https://birdfont.org
@@ -11,5 +11,5 @@ RDEPEND=dev-libs/xmlbird dev-libs/libgee:0.8= dev-libs/glib:2 dev-db/sqlite:3 me
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/johanmattssonm/birdfont/tar.gz/v2.28.0 -> birdfont-2.28.0.tar.gz
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-any-r1	b6db354660033efd06cd6d7f4905ccea	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vala	cd46635fb3b81d6bc07830b4afe87066	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	multilib	1d91b03d42ab6308b5f4f6b598ed110e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-any-r1	b6db354660033efd06cd6d7f4905ccea	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vala	682da46cf615b9f7a7d3680058139dcd	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=d6492561afd5b018d72da6971b6a98cd
