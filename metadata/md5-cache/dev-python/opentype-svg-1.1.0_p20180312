@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/adobe-type-tools/opentype-svg/tar.gz/3e33e13 -> opentype-svg-1.1.0_p20180312.tar.gz
 _eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	36ac48e647d2627de28c87aaffb94753	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=d6c62c4e42844a0383bb422b99c36a58
+_md5_=ee8b07b445e5977da73dd6e988fc2ba8

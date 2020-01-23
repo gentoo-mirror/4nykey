@@ -1,13 +1,14 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm preinst prepare setup unpack
 DEPEND=virtual/linux-sources kernel_linux? ( virtual/modutils ) sys-apps/sed kernel_linux? ( virtual/linux-sources virtual/libelf )
 DESCRIPTION=Broadcom Linux hybrid wireless driver
 EAPI=7
 HOMEPAGE=https://www.broadcom.com/support/802.11
 IUSE=kernel_linux kernel_linux kernel_linux
+KEYWORDS=~amd64
 LICENSE=Broadcom
-PROPERTIES=live
 RDEPEND=kernel_linux? ( virtual/modutils )
+RESTRICT=primaryuri
 SLOT=0
-_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	809e27702c573cbba31c08ed00bbad33	linux-info	953c3b1c472dcadbf62098a9301327f2	linux-mod	6c7b3e7b9d39bd049bf23a991c16315e	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+SRC_URI=mirror://githubcl/antoineco/broadcom-wl/tar.gz/f3b8105 -> broadcom-wl-6.30.223.271_p20191221.tar.gz
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	linux-info	953c3b1c472dcadbf62098a9301327f2	linux-mod	6c7b3e7b9d39bd049bf23a991c16315e	multilib	1d91b03d42ab6308b5f4f6b598ed110e	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=7d5f9f82db539f86db106b8532f9c21a

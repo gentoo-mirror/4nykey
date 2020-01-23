@@ -2,9 +2,8 @@ app-arch/wimlib 1.13.1 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.0 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.2.3 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
-app-dicts/makedict 0_p20160728 9999: A converter between many dictionary formats
 app-editors/neovim-gtk 0.2.0 9999: GTK ui for neovim written in rust using gtk-rs bindings
-app-shells/zsh-syntax-highlighting 0.6.0 9999: Fish shell like syntax highlighting for zsh
+app-shells/zsh-syntax-highlighting 0.7.0_beta1 9999: Fish shell like syntax highlighting for zsh
 app-text/fntsample 5.2 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/gist 5.0.0 9999: Upload code to gist.github.com
@@ -12,10 +11,10 @@ app-text/gistit 0.1.3 9999: An application to create github gists from console
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/podofo 0.9.4 9999: PoDoFo is a C++ library to work with the PDF file format
 app-text/sdcv 0.5.2 9999: A console version of StarDict
-app-text/xmldiff 2.2: A tool that figures out the differences between two similar XML files
+app-text/xmldiff 2.4: A tool that figures out the differences between two similar XML files
 dev-cpp/libcutl 1.11.0_beta5 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.0.0_p20170103 9999: A compiler frontend for the W3C XML Schema definition language
-dev-cpp/range-v3 0.9.1 9999: Experimental range library for C++11/14/17
+dev-cpp/range-v3 0.10.0 9999: Experimental range library for C++11/14/17
 dev-cpp/xsd 4.1.0_alpha11 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20191105 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
@@ -41,16 +40,16 @@ dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.1.2 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 0.0.2 9999: Python implementation of HSLuv (revision 4)
 dev-python/munkres 1.0.12 9999: Module implementing munkres algorithm for the Assignment Problem
-dev-python/nototools 0.2.0 9999: A python package for maintaining the Noto Fonts project
+dev-python/nototools 0.2.1 9999: A python package for maintaining the Noto Fonts project
 dev-python/opentype-svg 1.1.0_p20180312 9999: Scripts for making OpenType-SVG fonts
-dev-python/pcpp 1.20 9999: A C99 preprocessor written in pure Python
+dev-python/pcpp 1.21 9999: A C99 preprocessor written in pure Python
 dev-python/py-zopfli 0.1.4 9999: Python bindings for zopfli
 dev-python/pyclipper 1.1.0_p3 9999: A Cython wrapper for the Clipper library
 dev-python/python-discid 1.2.0 9999: Python bindings for libdiscid
 dev-python/python-rapidjson 0.6.3 9999: Python wrapper around rapidjson
 dev-python/scfbuild 1.0.3_p20190529 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/scikit-build 0.8.1 9999: Improved build system generator for CPython extensions
-dev-python/skia-pathops 0.2.0.2 9999: Python bindings for the Skia Path Ops
+dev-python/skia-pathops 0.2.0.2-r1 0.2.1 9999: Python bindings for the Skia Path Ops
 dev-python/tfont 0.1.1_p20181208 9999: A font library that writes to JSON
 dev-python/ufo2ft 2.10.0 2.11.1 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.3.2_p2-r1 0.5.1 9999: A UFO font library
@@ -58,7 +57,7 @@ dev-python/ufoNormalizer 0.3.6 9999: A tool that will normalize the XML and othe
 dev-python/ufoProcessor 1.08 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.5.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 12.1.0 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
-dev-python/wxpython 4.0.7_p1: A blending of the wxWindows C++ class library with Python
+dev-python/wxpython 4.0.7_p2: A blending of the wxWindows C++ class library with Python
 dev-util/afdko 2.9.1 3.1.0 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.11.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_pre20190704 9999: Command Line Interface compiler for C++
@@ -89,7 +88,7 @@ media-fonts/arvo 3.010_p20171210 9999: A geometric slab-serif typeface family su
 media-fonts/bitter 2.110_p20170227 9999: A contemporary slab serif typeface for text
 media-fonts/breite 0_p20150209 9999: Breite Grotesk is a Multi-language Font Family
 media-fonts/brill 2.06: A typeface with the complete coverage of the Latin, Greek and Cyrillic script
-media-fonts/cantarell 0.111 9999: Default fontset for GNOME Shell
+media-fonts/cantarell 0.201 9999: Default fontset for GNOME Shell
 media-fonts/caveat 1.6_p20180110 9999: Caveat handwriting fonts
 media-fonts/clearsans 1.00: Free-use OpenType font
 media-fonts/comfortaa 3.103_p20181205 9999: A rounded geometric sans-serif type design intended for large sizes
@@ -186,15 +185,13 @@ media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two
 media-gfx/fontforge 20190801-r1 20190831_p0 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20190212 9999: An app that shows the contents of a font file
 media-gfx/frogr 1.5 9999: A small application for managing Flickr account
-media-gfx/sane-smfp-bin 1.00.06 3.00.90 4.00.39 4.01.17: SANE backend for Samsung MFP devices
 media-gfx/trufont 0.6.3 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.3 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libltc 1.3.1 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/libspiro 0.6_pre20180219 9999: A library for drawing beautiful curves
-media-libs/libtgvoip 2.4.4_p20191205 9999: VoIP library for Telegram clients
+media-libs/libtgvoip 2.4.4_p20200118 9999: VoIP library for Telegram clients
 media-libs/libuninameslist 20190701 99999999: A library of Unicode names and annotation data
-media-libs/mutagen 1.41.1 9999: Python module for handling audio metadata
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
 media-libs/zita-resampler 1.6.2: A C++ library for resampling audio signals
@@ -206,20 +203,19 @@ media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipu
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 5.12 6.0_pre20190926 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.2 9999: A music player for *nix-like systems and OSX
-media-sound/flactag 2.0.4 9999: A utility for tagging FLAC files via MusicBrainz
+media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.14 1.9.9999: A low-latency audio server
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/mp3packer 1.23 2.04_p20160108 9999: An MP3 reorganizer
 media-sound/picard 2.2.3 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
-net-im/telegram-desktop 1.9.3 9999: Telegram Desktop messaging app
+net-im/telegram-desktop 1.9.6 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.6.5 9999: MEGA C++ SDK
+net-misc/meganz-sdk 3.6.7 9999: MEGA C++ SDK
 net-misc/megasync 4.2.5-r1 9999: Easy automated syncing with MEGA Cloud Drive
-net-wireless/broadcom-wl 6.30.223.271_p20180216 9999: Broadcom Linux hybrid wireless driver
+net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
 www-client/torbrowser 68.4.1.9.0.4.1.1 68.4.1.9.5.4.1.1_alpha: The Tor Browser
