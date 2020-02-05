@@ -92,7 +92,6 @@ src_prepare() {
 		debian/patches
 		"${FILESDIR}"/${PN}-cmake.diff
 		"${FILESDIR}"/${PN}-breakpad.diff
-		"${FILESDIR}"/${PN}-qt.diff
 	)
 	[[ -e "${FILESDIR}"/${P}.diff ]] && PATCHES+=( "${FILESDIR}"/${P}.diff )
 
@@ -131,25 +130,4 @@ src_configure() {
 	fi
 
 	cmake_src_configure
-}
-
-src_install() {
-	newbin "${BUILD_DIR}"/bin/Telegram ${PN}
-	newmenu lib/xdg/telegramdesktop.desktop ${PN}.desktop
-	local _s
-	for _s in 16 32 48 64 128 256 512; do
-		newicon --size "${_s}" Telegram/Resources/art/icon${_s}.png \
-			telegram.png
-	done
-	einstalldocs
-}
-
-src_test () {
-	local _t
-	for _t in "${S}"/Telegram/gyp/tests/*.test; do
-		_t=$(basename "${_t}" .test)
-		ebegin Running ${_t}
-		"${CMAKE_BUILD_DIR}"/${_t}
-		eend $?
-	done
 }
