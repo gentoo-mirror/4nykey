@@ -1,14 +1,14 @@
 DEFINED_PHASES=install prepare setup unpack
-DEPEND=dev-python/fonttools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?,python_single_target_python3_6(+)?,python_single_target_python3_7(+)?] python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] )
+DEPEND=dev-python/fonttools[%PYTHON_USEDEP-HAS-BEEN-REMOVED%] python_single_target_python2_7? ( >=dev-lang/python-2.7.5-r2:2.7 >=dev-lang/python-exec-2:=[python_targets_python2_7] ) python_single_target_python3_6? ( dev-lang/python:3.6 >=dev-lang/python-exec-2:=[python_targets_python3_6] ) python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] )
 DESCRIPTION=Scripts for making OpenType-SVG fonts
 EAPI=6
 HOMEPAGE=https://github.com/adobe-type-tools/opentype-svg
-IUSE=python_targets_python2_7 python_targets_python3_6 python_targets_python3_7 python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7
+IUSE=python_single_target_python2_7 python_single_target_python3_6 python_single_target_python3_7
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-python/fonttools[python_targets_python2_7(-)?,python_targets_python3_6(-)?,python_targets_python3_7(-)?,-python_single_target_pypy3(-),-python_single_target_python3_8(-),python_single_target_python2_7(+)?,python_single_target_python3_6(+)?,python_single_target_python3_7(+)?]
+RDEPEND=dev-python/fonttools[%PYTHON_USEDEP-HAS-BEEN-REMOVED%]
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/adobe-type-tools/opentype-svg/tar.gz/3e33e13 -> opentype-svg-1.1.0_p20180312.tar.gz
-_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	36ac48e647d2627de28c87aaffb94753	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-single-r1	fdfdbe462f245e931069310e892a8538	python-utils-r1	611c493a4cfef5254350fabc04b606f5	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=ee8b07b445e5977da73dd6e988fc2ba8
