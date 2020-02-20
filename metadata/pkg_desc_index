@@ -190,7 +190,7 @@ media-gfx/ttfautohint 1.8.3 9999: A library for automated hinting of truetype fo
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libltc 1.3.1 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/libspiro 0.6_pre20180219 9999: A library for drawing beautiful curves
-media-libs/libtgvoip 2.4.4_p20200118 9999: VoIP library for Telegram clients
+media-libs/libtgvoip 2.4.4_p20200212 9999: VoIP library for Telegram clients
 media-libs/libuninameslist 20190701 99999999: A library of Unicode names and annotation data
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
@@ -206,11 +206,11 @@ media-sound/deadbeef 1.8.2 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.14 1.9.9999: A low-latency audio server
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/picard 2.2.3 9999: A cross-platform music tagger
+media-sound/picard 2.3 9999: A cross-platform music tagger
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
 media-video/tsdemuxer 0_p20160324 9999: AVCHD/Blu-Ray HDMV Transport Stream demultiplexer
-net-im/telegram-desktop 1.9.10 9999: Telegram Desktop messaging app
+net-im/telegram-desktop 1.9.14 9999: Telegram Desktop messaging app
 net-misc/mailru-cloud 15.06.0110: cloud.mail.ru sync client
 net-misc/megacmd 1.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 3.6.7_p20200203 9999: MEGA C++ SDK
@@ -218,7 +218,7 @@ net-misc/megasync 4.3.0.8 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 68.4.1.9.0.4.1.1 68.4.1.9.5.4.1.1_alpha: The Tor Browser
+www-client/torbrowser 68.5.0.9.0.5.1.2 68.5.0.9.5.5.1.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5_pre20191020 3.0.5_pre20191020-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.32.0 3.32.9999 3.34.1 3.34.9999: Clipboard management system
