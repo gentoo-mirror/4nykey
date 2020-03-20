@@ -36,7 +36,7 @@ PATCHES=(
 
 # README.rst: Optional Requirements
 RDEPEND="
-	>=dev-python/lxml-4.4.1[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5[${PYTHON_USEDEP}]
 	brotli? ( app-arch/brotli[python,${PYTHON_USEDEP}] )
 	zopfli? ( dev-python/py-zopfli[${PYTHON_USEDEP}] )
 	ufo? (
@@ -53,14 +53,10 @@ DEPEND="
 "
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
 		sci-libs/scipy[${PYTHON_USEDEP}]
 	)
 "
-
-python_test() {
-	pytest -v || die "Tests failed with ${EPYTHON}"
-}
+distutils_enable_tests pytest
 
 pkg_postinst() {
 	optfeature \
