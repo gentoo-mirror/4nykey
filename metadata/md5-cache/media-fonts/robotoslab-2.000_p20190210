@@ -1,4 +1,4 @@
-BDEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+BDEPEND=X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils !binary? ( || ( >=dev-lang/python-3.7.6:3.7 >=dev-lang/python-3.6.10:3.6 ) || ( ( >=dev-lang/python-3.7.6:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( >=dev-lang/python-3.6.10:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=Roboto Slab typeface
 EAPI=7
@@ -10,5 +10,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/robotoslab/tar.gz/b8349a6 -> robotoslab-2.000_p20190210.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	e03f98555f2634bb9fb3160a8e30e3ec	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	6f5996d2ae01e0c6f2869ed18f023239	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=031fddf9b3f2fa6d768ff8c952aa37b7

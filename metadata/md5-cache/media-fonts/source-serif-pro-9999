@@ -1,4 +1,4 @@
-BDEPEND=!binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 >=dev-lang/python-2.7.5-r2:2.7 ) || ( ( dev-lang/python:3.7 dev-util/afdko[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/afdko[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( >=dev-lang/python-2.7.5-r2:2.7 dev-util/afdko[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+BDEPEND=!binary? ( || ( >=dev-lang/python-3.7.6:3.7 >=dev-lang/python-3.6.10:3.6 >=dev-lang/python-2.7.17-r1:2.7 ) || ( ( >=dev-lang/python-3.7.6:3.7 dev-util/afdko[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( >=dev-lang/python-3.6.10:3.6 dev-util/afdko[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ( >=dev-lang/python-2.7.17-r1:2.7 dev-util/afdko[python_targets_python2_7(-),python_single_target_python2_7(+)] ) ) ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=Serif typeface designed to complement Source Sans Pro
 EAPI=7
@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	e03f98555f2634bb9fb3160a8e30e3ec	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	1d91b03d42ab6308b5f4f6b598ed110e	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	6f5996d2ae01e0c6f2869ed18f023239	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=b5070a497372820541cf50f7d3aee069
