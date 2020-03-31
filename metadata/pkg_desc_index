@@ -214,7 +214,7 @@ net-misc/megasync 4.3.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 68.6.0.9.0.7.1.2 68.6.0.9.5.8.1.1_alpha: The Tor Browser
+www-client/torbrowser 68.6.0.9.0.7.1.2 68.6.0.9.5.9.1.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5_pre20191020 3.0.5_pre20191020-r300: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.32.0 3.32.9999 3.34.1 3.34.9999 3.36.0 3.36.9999: Clipboard management system
