@@ -44,7 +44,9 @@ media-fonts/noto:emoji - Install additional emoji fonts
 media-fonts/noto-emoji:zopfli - Optimize using app-arch/zopfli
 media-fonts/noto-source:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
 media-fonts/noto-source:interpolate - Interpolate to get more font weights (significantly increases build time and diskspace requirements)
-media-fonts/sarasa-gothic:font_variants_term - A variant without ligatures and full-width glyphs
+media-fonts/sarasa-gothic:font_variants_fixed - A variant without ligatures and half-width glyphs
+media-fonts/sarasa-gothic:font_variants_monospace - A variant with ligatures and full-width glyphs
+media-fonts/sarasa-gothic:font_variants_term - A variant with ligatures and half-width glyphs
 media-fonts/source-pro:emoji - Install emoji fonts
 media-fonts/unscii:utils - Install bm2uns util to convert a bitmap image to unscii art
 media-gfx/fim:archive - Enable archive support using app-arch/libarchive
@@ -68,7 +70,6 @@ media-sound/ardour:phone-home - Contact ardour.org at startup for new announceme
 media-sound/ardour:sanitize - Turn on AddressSanitizer (requires GCC >= 4.8 or clang >= 3.1)
 media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
-media-sound/deadbeef:adplug - Enable the AdPlug decoder plugin
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
 media-sound/deadbeef:dumb - Enable media-libs/dumb module library support
 media-sound/deadbeef:gme - Add support for playing various video game music formats
