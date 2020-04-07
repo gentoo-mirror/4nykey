@@ -9,5 +9,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell gnome-base/libgtop[introspection] net-misc/networkmanager[introspection]
 SLOT=0
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	gnome2-utils	532371cfcba45b2ab0d2950547c97d95	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=eutils	fcb2aa98e1948b835b5ae66ca52868c5	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	gnome2-utils	893e828f0f25f070f0b38d20c83c7670	l10n	97f2753e3f1f3753d53d856c7c0bbb0b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=592434de7f2c1cce9fafe84f966e7e6a
