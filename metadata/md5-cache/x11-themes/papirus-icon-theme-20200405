@@ -1,0 +1,15 @@
+BDEPEND=test? ( app-text/xmlstarlet )
+DEFINED_PHASES=postinst postrm preinst prepare test
+DEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
+DESCRIPTION=Papirus icon theme for GTK
+EAPI=7
+HOMEPAGE=https://git.io/papirus-icon-theme
+IUSE=test
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-3
+RDEPEND=
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-icon-theme/tar.gz/20200405 -> papirus-icon-theme-20200405.tar.gz
+_eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=bf1f6bd58929c1408567bdc640dc84fc

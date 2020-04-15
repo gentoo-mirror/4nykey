@@ -132,9 +132,6 @@ x11-libs/wxGTK:chm - Enable support for Microsoft Compiled HTML Help files.
 x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
 x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
 x11-misc/gpaste:gnome-shell - Install gnome-shell extension
-x11-misc/xneur:aspell - Enable spellchecking using app-text/aspell
-x11-misc/xneur:enchant - Enable spell checking using app-text/enchant
-x11-misc/xneur:keylogger - Enable keyboard logger
 x11-themes/adapta-gtk-theme:cinnamon - Install Cinnamon theme
 x11-themes/adapta-gtk-theme:mate - Install MATE theme
 x11-themes/adapta-gtk-theme:openbox - Install Openbox theme
