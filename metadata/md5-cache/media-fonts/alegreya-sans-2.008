@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/huertatipografica/alegreya-sans/tar.gz/v2.008 -> alegreya-sans-2.008.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	00efd460b0996a1e4aab8825dded5700	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	fontmake	c1460492bcdb529b873742afdce3b3c4	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	727554821dab8292d3a8198893c2ef8b	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=47dda91ed6498daa4ebd39907eb1df37
