@@ -101,7 +101,7 @@ media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/emojione-color-font 1.4 9999: A color emoji SVGinOT font using EmojiOne Unicode 9.0 emoji
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 1.0_p20170724 1.0.9999 2.0_p20170425 2.0.9999: A geometric sans serif font family
-media-fonts/firacode 3 9999: A monospaced font with programming ligatures
+media-fonts/firacode 3.1 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
 media-fonts/fonts-cu 2.1 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 9999: A free family of scalable outline unicode fonts
@@ -197,7 +197,7 @@ media-plugins/deadbeef-spectrum-plugin 0.2_p20191106 9999: Musical spectrum for 
 media-plugins/deadbeef-statusnotifier-plugin 1.3_p20180110 9999: Plugin that provides system tray icon for deadbeef in Plasma5
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
-media-sound/ardour 5.12 6.0_pre1 6.9999: Digital Audio Workstation
+media-sound/ardour 5.12 6.0_rc1 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.3 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.14 1.9.9999: A low-latency audio server
