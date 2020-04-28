@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=net-misc/wget !binary? ( media-gfx/fontforge ) X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=net-misc/wget !binary? ( media-gfx/fontforge ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A typeface that mimics handwriting
 EAPI=6
 HOMEPAGE=http://pecita.eu
@@ -7,5 +7,5 @@ IUSE=+binary X
 LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=111e1a3360fa7dbb36d70f76390f0cd5

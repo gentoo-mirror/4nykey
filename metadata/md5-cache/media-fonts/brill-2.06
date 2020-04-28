@@ -1,5 +1,5 @@
 DEFINED_PHASES=install postinst postrm setup unpack
-DEPEND=app-arch/unzip X? ( x11-apps/mkfontdir media-fonts/encodings ) sys-apps/findutils
+DEPEND=app-arch/unzip X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A typeface with the complete coverage of the Latin, Greek and Cyrillic script
 EAPI=6
 HOMEPAGE=http://www.brill.com/about/brill-fonts
@@ -9,5 +9,5 @@ LICENSE=EULA
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=http://www.brill.com/sites/default/files/brill_font_package_2_06.zip
-_eclasses_=font-r1	6dd34b7ad6b3a29dcc8ef4dc40e3113c	unpacker	3cd8bad0d31e525cd26be1bfa4e61631
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	unpacker	3cd8bad0d31e525cd26be1bfa4e61631
 _md5_=9b17d2359c0daeca794a2c9d1e59c583
