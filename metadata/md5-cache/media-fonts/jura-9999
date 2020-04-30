@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( >=dev-lang/python-3.7.7-r1:3.7 >=dev-lang/python-3.6.10:3.6 ) || ( ( >=dev-lang/python-3.7.7-r1:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( >=dev-lang/python-3.6.10:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=A family of sans-serif fonts in the Eurostile vein
 EAPI=7
@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/bb03134 -> 9ef5512cdd3177cc8d4667bcf5a58346-bb03134.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	c1460492bcdb529b873742afdce3b3c4	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	727554821dab8292d3a8198893c2ef8b	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	c1460492bcdb529b873742afdce3b3c4	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	318e8ae683e57fd3ccd0d31a769d8ee8	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	dd532a387632f19bfc5523fc2289a9a0	toolchain-funcs	512eb3367f507ebaa1d1d43ab7d66e6c
 _md5_=75c7391ebf48eff93c2ce2961a5636de
