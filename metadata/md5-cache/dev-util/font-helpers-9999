@@ -1,5 +1,5 @@
 DEFINED_PHASES=install preinst prepare unpack
-DEPEND=|| ( dev-vcs/subversion[http] dev-vcs/subversion[webdav-neon] dev-vcs/subversion[webdav-serf] ) net-misc/rsync
+DEPEND=dev-vcs/subversion[http(+)] net-misc/rsync
 DESCRIPTION=A set of fontforge scripts for producing fonts
 EAPI=6
 HOMEPAGE=https://code.google.com/p/font-helpers
@@ -7,5 +7,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=dev-libs/libxslt
 SLOT=0
-_eclasses_=estack	686eaab303305a908fd57b2fd7617800	subversion	4beaac7ba954403d7bbe4d4b8befdb82
+_eclasses_=estack	686eaab303305a908fd57b2fd7617800	subversion	ed3498da4fb92dcfb0d6089c85d1465f
 _md5_=285a8226801e070caf4482546d1a72b1
