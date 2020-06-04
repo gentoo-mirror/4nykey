@@ -1,0 +1,16 @@
+BDEPEND=cpu_flags_x86_ssse3? ( yasm? ( dev-lang/yasm ) !yasm? ( dev-lang/nasm ) ) >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=compile configure install prepare
+DEPEND=dev-libs/libxml2:2 ntfs? ( sys-fs/ntfs3g ) fuse? ( sys-fs/fuse:0 ) openssl? ( dev-libs/openssl:0 )
+DESCRIPTION=The open source Windows Imaging (WIM) library
+EAPI=7
+HOMEPAGE=https://wimlib.net/
+IUSE=cpu_flags_x86_ssse3 fuse ntfs openssl static-libs threads yasm
+KEYWORDS=~amd64 ~x86
+LICENSE=|| ( GPL-3+ LGPL-3+ ) CC0-1.0
+RDEPEND=dev-libs/libxml2:2 ntfs? ( sys-fs/ntfs3g ) fuse? ( sys-fs/fuse:0 ) openssl? ( dev-libs/openssl:0 )
+REQUIRED_USE=cpu_flags_x86_ssse3? ( !openssl )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=https://wimlib.net/downloads/wimlib-1.13.2.tar.gz -> wimlib-1.13.2.tar.gz
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	0914eab919f4f11dd9e0407b92af4726	pax-utils	a41d1fd1c111289ffa04490de6ee79d7	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_md5_=518e18a8fd127fd6641510cf42a83306

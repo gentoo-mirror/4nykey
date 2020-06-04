@@ -1,4 +1,4 @@
-app-arch/wimlib 1.13.1 9999: The open source Windows Imaging (WIM) library
+app-arch/wimlib 1.13.2 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.2 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.2.4 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
@@ -29,13 +29,13 @@ dev-python/booleanOperations 0.9.0 9999: A library for boolean operations on pat
 dev-python/compositor 0.2_pre20190903 9999: A basic OpenType GSUB and GPOS layout engine
 dev-python/compreffor 0.4.6 0.5.0 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.6.7 9999: A library which converts cubic curves to quadratic in RoboFab objects
-dev-python/defcon 0.6.0 9999: A set of UFO based objects for use in font editing applications
+dev-python/defcon 0.6.1 0.7.0 9999: A set of UFO based objects for use in font editing applications
 dev-python/extractor 0.3.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/ffmpeg-python 0.2.0 9999: Python bindings for FFmpeg
-dev-python/fontMath 0.5.2 9999: A collection of objects that implement fast font math
+dev-python/fontMath 0.6.0 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.8.9 0.9.2 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 3.44.0 4.9.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.10.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.1.9 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -51,14 +51,14 @@ dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
 dev-python/scfbuild 1.0.3_p20190529 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/scikit-build 0.10.0 9999: Improved build system generator for CPython extensions
 dev-python/skia-pathops 0.2.0.2-r1 0.3.0 9999: Python bindings for the Skia Path Ops
-dev-python/ufo2ft 2.10.0 2.13.0 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.14.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.3.2_p2-r1 0.6.2 9999: A UFO font library
 dev-python/ufoNormalizer 0.4.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.10.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 13.0.0.2 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
 dev-python/wxpython 4.0.7_p2-r1 4.1.0: A blending of the wxWindows C++ class library with Python
-dev-util/afdko 2.9.1 3.3.0 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 3.4.0 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.11.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_pre20190704 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20191216 9999: Open-EID CMake modules
@@ -67,10 +67,10 @@ dev-util/fontmake 2.1.0 9999: A wrapper for several Python libraries to compile 
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/gyp 0_p20170121 9999: A build system that generates other build systems
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
-dev-util/otfcc 0.10.3_alpha 9999: An optimized OpenType builder and inspector
+dev-util/otfcc 0.10.4 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
 dev-util/ots 8.0.0 9999: An util for validating and sanitising OpenType files
-dev-util/premake 5.0.0_alpha14 5.9999: A makefile generation tool
+dev-util/premake 5.0.0_alpha15 5.9999: A makefile generation tool
 dev-util/psautohint 1.9.4 2.0.1 9999: A standalone version of AFDKO autohinter
 dev-util/svgo 1.0.5 9999: Nodejs-based tool for optimizing SVG vector graphics files
 gnome-extra/gnome-shell-extension-appindicator 26 29 33: Adds AppIndicator support to gnome shell
@@ -102,7 +102,7 @@ media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/emojione-color-font 1.4 9999: A color emoji SVGinOT font using EmojiOne Unicode 9.0 emoji
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 1.0_p20170724 1.0.9999 2.0_p20170425 2.0.9999: A geometric sans serif font family
-media-fonts/firacode 3.1 9999: A monospaced font with programming ligatures
+media-fonts/firacode 4 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
 media-fonts/fonts-cu 2.1 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 9999: A free family of scalable outline unicode fonts
@@ -114,7 +114,7 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/iosevka 3.0.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka 3.1.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 5.101_p20180530 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.4: An unicode serif font meant for body text
@@ -198,7 +198,7 @@ media-plugins/deadbeef-spectrum-plugin 0.2_p20191106 9999: Musical spectrum for 
 media-plugins/deadbeef-statusnotifier-plugin 1.3_p20180110 9999: Plugin that provides system tray icon for deadbeef in Plasma5
 media-plugins/gimp-plugin-bimp 1.18 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
-media-sound/ardour 5.12 6.0_rc1 6.9999: Digital Audio Workstation
+media-sound/ardour 5.12 6.0 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.3 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/jack-audio-connection-kit 1.9.14 1.9.9999: A low-latency audio server
@@ -215,7 +215,7 @@ net-misc/megasync 4.3.1.0_p20200326 9999: Easy automated syncing with MEGA Cloud
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.12 9999: Partition cloning tool
-www-client/torbrowser 68.8.0.9.0.10.2.1 68.8.0.9.5.12.1.1_alpha: The Tor Browser
+www-client/torbrowser 68.8.0.9.0.10.2.1 68.8.0.9.5.13.1.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.1 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5 3.0.5-r300 3.1.4_pre20200418: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.34.4 3.34.9999 3.36.3 3.36.9999: Clipboard management system
@@ -227,7 +227,7 @@ x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20200430 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20200602 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
