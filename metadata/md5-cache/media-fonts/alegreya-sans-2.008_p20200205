@@ -1,0 +1,14 @@
+BDEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEFINED_PHASES=compile install postinst postrm prepare setup unpack
+DESCRIPTION=A humanist sans-serif family with a calligraphic feeling
+EAPI=7
+HOMEPAGE=https://www.huertatipografica.com/en/fonts/alegreya-sans-ht
+IUSE=X font_types_otf +font_types_ttf autohint +binary
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/huertatipografica/alegreya-sans/tar.gz/04e7e6b -> alegreya-sans-2.008_p20200205.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9a9636f -> 9ef5512cdd3177cc8d4667bcf5a58346-9a9636f.tar.gz )
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	826a55e6bb97eb336de849b79995d35d	multilib	0914eab919f4f11dd9e0407b92af4726	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	ace0a9a129fcfeaae542c0d15c07f36a	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=7eb772ca0cbfe657eb2491f5098ca02e

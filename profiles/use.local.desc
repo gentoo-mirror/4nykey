@@ -18,6 +18,7 @@ dev-python/fonttools:brotli - Enable brotli compression support, required for WO
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:zopfli - Enable zopfli compression support for WOFF web fonts
 dev-python/pyclipper:cython - Generate cpp sources with dev-python/cython
+dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
 dev-python/wxpython:examples - Install interactive demo module browser and sample applets
 dev-python/wxpython:gtk3 - Build with GTK+3 instead of GTK+2
 dev-util/ots:graphite - Sanitize Graphite tables
@@ -63,6 +64,9 @@ media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:woff2 - Enable WOFF2 support
 media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
+media-libs/skia:egl - Enable EGL support
+media-libs/skia:harfbuzz - Enable OpenType shaping via media-libs/harfbuzz
+media-libs/skia:lottie - Enable Lottie animation support
 media-plugins/deadbeef-spectrum-plugin:gtk3 - Enable support for GTK+3
 media-plugins/deadbeef-statusnotifier-plugin:gtk3 - Enable support for GTK+3
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
@@ -91,7 +95,6 @@ media-sound/flactag:scripts - Install additional scripts to /usr/bin
 media-sound/jack-audio-connection-kit:classic - Force enable standard JACK (jackd) even if D-Bus JACK (jackdbus) is enabled too
 media-sound/jack-audio-connection-kit:opus - Build Opus netjack2
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
-net-im/telegram-desktop:crashreporter - Enable crash reporter
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv

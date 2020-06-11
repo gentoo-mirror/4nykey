@@ -10,4 +10,4 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
-_md5_=2debf026aa4d988b16c39e5fcf816663
+_md5_=dcfff0deb2ddb08922beed8f8f6743bf

@@ -1,11 +1,13 @@
-DEFINED_PHASES=install
+BDEPEND=>=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=install prepare
 DEPEND=media-libs/freetype:2
 DESCRIPTION=OpenType to BDF Converter
-EAPI=6
-HOMEPAGE=http://www.math.nmsu.edu/~mleisher/Software/otf2bdf/
+EAPI=7
+HOMEPAGE=http://sofia.nmsu.edu/~mleisher/Software/otf2bdf/
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
 RDEPEND=media-libs/freetype:2
 SLOT=0
-SRC_URI=http://www.math.nmsu.edu/~mleisher/Software/otf2bdf/otf2bdf-3.1.tbz2
-_md5_=bd4b1a87e1b7b669d9a98673b04398c1
+SRC_URI=http://sofia.nmsu.edu/~mleisher/Software/otf2bdf/otf2bdf-3.1.tbz2
+_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	0914eab919f4f11dd9e0407b92af4726	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97
+_md5_=b70c5f708d3a7feef6c8e663f040d9f4

@@ -1,0 +1,15 @@
+BDEPEND=dev-util/gn
+DEFINED_PHASES=compile configure install prepare setup unpack
+DEPEND=xml? ( dev-libs/expat ) ffmpeg? ( media-video/ffmpeg ) icu? ( dev-libs/icu ) fontconfig? ( media-libs/fontconfig ) truetype? ( media-libs/freetype ) harfbuzz? ( media-libs/harfbuzz ) jpeg? ( media-libs/libjpeg-turbo ) png? ( media-libs/libpng ) webp? ( media-libs/libwebp ) sys-libs/zlib opengl? ( virtual/opengl )
+DESCRIPTION=A complete 2D graphic library for drawing Text, Geometries, and Images
+EAPI=7
+HOMEPAGE=https://skia.org
+IUSE=egl ffmpeg fontconfig harfbuzz icu jpeg lottie opengl png static-libs truetype webp xml
+KEYWORDS=~amd64 ~x86
+LICENSE=BSD
+RDEPEND=xml? ( dev-libs/expat ) ffmpeg? ( media-video/ffmpeg ) icu? ( dev-libs/icu ) fontconfig? ( media-libs/fontconfig ) truetype? ( media-libs/freetype ) harfbuzz? ( media-libs/harfbuzz ) jpeg? ( media-libs/libjpeg-turbo ) png? ( media-libs/libpng ) webp? ( media-libs/libwebp ) sys-libs/zlib opengl? ( virtual/opengl )
+RESTRICT=primaryuri
+SLOT=0/83
+SRC_URI=mirror://githubcl/google/skia/tar.gz/c3d05a7 -> skia-83_p20200505.tar.gz
+_eclasses_=multilib	0914eab919f4f11dd9e0407b92af4726	multiprocessing	cac3169468f893670dac3e7cb940e045	ninja-utils	132cbb376048d079b5a012f5467c4e7f	python-any-r1	c26f95a5042de003dc58bef955e41c88	python-utils-r1	ace0a9a129fcfeaae542c0d15c07f36a	toolchain-funcs	d3e75048a89c0445838d2f44e5c65d97	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_md5_=d50f36e06e0a4d64dcd08226c1de040e
