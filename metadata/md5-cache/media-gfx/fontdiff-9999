@@ -7,5 +7,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] x11-libs/cairo dev-libs/expat
 SLOT=0
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8	multilib	2477ebe553d3e4d2c606191fe6c33602	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=a01d80f67023de42b29077c68ddd72cf

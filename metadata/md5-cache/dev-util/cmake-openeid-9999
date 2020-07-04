@@ -6,5 +6,5 @@ HOMEPAGE=https://open-eid.github.io
 LICENSE=LGPL-2.1
 PROPERTIES=live
 SLOT=0
-_eclasses_=git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
+_eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
 _md5_=2df36782fb986cfffbc8f0cc15631dc6

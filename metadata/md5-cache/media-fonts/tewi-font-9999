@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	86a0188f2ad9eb3d65e4d031ab8a0422
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	8ec5b53812bce105ae7943930e4660f8
 _md5_=c6e001567703c601324ac4a8e9dd7945
