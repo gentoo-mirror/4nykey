@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=media-sound/deadbeef[gtk?,gtk3?]
 SLOT=0
 _eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
-_md5_=5c8ce545c64434bfe58a11a540297221
+_md5_=33db930f60c0ffd7861feb0b599799b9
