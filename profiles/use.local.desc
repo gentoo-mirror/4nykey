@@ -17,7 +17,6 @@ dev-python/cu2qu:cython - Use cython to build an (optional) optimized extension 
 dev-python/fonttools:brotli - Enable brotli compression support, required for WOFF2 web fonts
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:zopfli - Enable zopfli compression support for WOFF web fonts
-dev-python/pyclipper:cython - Generate cpp sources with dev-python/cython
 dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
 dev-python/wxpython:examples - Install interactive demo module browser and sample applets
 dev-python/wxpython:gtk3 - Build with GTK+3 instead of GTK+2
@@ -59,7 +58,6 @@ media-gfx/fim:graphicsmagick - Enable GraphicsMagick library support
 media-gfx/fim:screen - Add experimental support for running under screen
 media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
 media-gfx/fontforge:extras - Build and install programs from the contrib directory
-media-gfx/fontforge:gui - Build FontForge with GUI support
 media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:woff2 - Enable WOFF2 support

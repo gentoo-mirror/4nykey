@@ -1,4 +1,4 @@
-BDEPEND=!binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.7 dev-util/afdko[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/afdko[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) dev-python/opentype-svg ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=!binary? ( || ( dev-lang/python:3.8 dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.8 dev-util/afdko[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.7 dev-util/afdko[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/afdko[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) dev-python/opentype-svg ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=A code font with monospaced ligatures
 EAPI=7
@@ -11,4 +11,4 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( https://github.com/i-tu/hasklig/releases/download/1.1/hasklig-1.1.zip ) !binary? ( mirror://githubcl/i-tu/hasklig/tar.gz/a94138e -> hasklig-1.1_p20180916.tar.gz ) !binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
 _eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	multilib	2477ebe553d3e4d2c606191fe6c33602	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	cae3d65c47270c9a8c4880076996c09c	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=bd45aef28a783eb19b555cf40f980c2a
+_md5_=8ad54df5f0a024116f5165b75b891050
