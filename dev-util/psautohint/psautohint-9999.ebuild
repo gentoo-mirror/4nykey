@@ -3,7 +3,7 @@
 
 EAPI=7
 
-PYTHON_COMPAT=( python3_{6,7} )
+PYTHON_COMPAT=( python3_{6,7,8} )
 DISTUTILS_IN_SOURCE_BUILD=1
 EMESON_SOURCE="${S}/libpsautohint"
 inherit meson distutils-r1
@@ -37,17 +37,18 @@ SLOT="0"
 IUSE="test"
 
 RDEPEND="
-	>=dev-python/fonttools-4.5[ufo,${PYTHON_USEDEP}]
-	>=dev-python/lxml-4.5[${PYTHON_USEDEP}]
+	>=dev-python/fonttools-4.12.1[ufo,${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.5.1[${PYTHON_USEDEP}]
 "
 DEPEND="
 	${RDEPEND}
 "
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/coverage[${PYTHON_USEDEP}]
 	)
 "
+distutils_enable_tests pytest
 
 pkg_setup() {
 	if [[ -n ${PV%%*9999} ]]; then

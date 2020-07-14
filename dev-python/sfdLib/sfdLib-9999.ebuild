@@ -7,28 +7,26 @@ PYTHON_COMPAT=( python3_{6,7,8} )
 inherit distutils-r1
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/robotools/${PN}.git"
+	EGIT_REPO_URI="https://github.com/alif-type/${PN}.git"
 else
-	inherit vcs-snapshot
-	MY_PV="226e6ba"
+	MY_PV="f874716"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
-		mirror://githubcl/robotools/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
+		mirror://githubcl/alif-type/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	RESTRICT="primaryuri"
 	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${PN}-${MY_PV#v}"
 fi
 
-DESCRIPTION="A basic OpenType GSUB and GPOS layout engine"
-HOMEPAGE="https://github.com/robotools/${PN}"
+DESCRIPTION="An SFD to UFO converter"
+HOMEPAGE="https://github.com/alif-type/${PN}"
 
-LICENSE="MIT"
+LICENSE="BSD"
 SLOT="0"
 IUSE=""
 
 RDEPEND="
 	dev-python/fonttools[${PYTHON_USEDEP}]
-"
-DEPEND="
-	${RDEPEND}
-	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/ufoLib2[${PYTHON_USEDEP}]
 "
