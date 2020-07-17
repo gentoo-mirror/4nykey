@@ -105,7 +105,7 @@ media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based o
 media-fonts/exo 2.0_p20200309 2.0.9999: A geometric sans serif font family
 media-fonts/firacode 5.2 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
-media-fonts/fonts-cu 2.1 9999: Unicode OpenType fonts for Church Slavonic
+media-fonts/fonts-cu 2.2 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 99999999: A free family of scalable outline unicode fonts
 media-fonts/gabriela 2.000_p20161215 9999: A serif typeface with soft shapes and terminal forms shaped like curls
 media-fonts/gidole 0_p20160111 9999: Open Source Modern DIN
