@@ -44,7 +44,6 @@ media-fonts/iosevka:font_variants_ss13 - A variant stylized after Lucida
 media-fonts/iosevka:font_variants_ss14 - A variant stylized after JetBrains Mono
 media-fonts/iosevka:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/noto:emoji - Install additional emoji fonts
-media-fonts/noto-emoji:zopfli - Optimize using app-arch/zopfli
 media-fonts/noto-source:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
 media-fonts/noto-source:interpolate - Interpolate to get more font weights (significantly increases build time and diskspace requirements)
 media-fonts/sarasa-gothic:font_variants_fixed - A variant without ligatures and half-width glyphs
@@ -122,6 +121,7 @@ www-client/torbrowser:geckodriver - Enable WebDriver support
 www-client/torbrowser:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically
 www-client/torbrowser:hwaccel - Use hardware-accelerated rendering
 www-client/torbrowser:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
+www-client/torbrowser:openh264 - Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
 www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
 www-client/torbrowser:screenshot - Allow to disable screenshot extension in global profile
 www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.

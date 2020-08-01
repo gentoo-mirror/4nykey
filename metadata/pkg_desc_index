@@ -33,7 +33,7 @@ dev-python/ffmpeg-python 0.2.0 9999: Python bindings for FFmpeg
 dev-python/fontMath 0.6.0 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.9.2 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.12.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.13.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.1.10 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -59,7 +59,7 @@ dev-python/uharfbuzz 0.12.0 9999: Streamlined Cython bindings for the HarfBuzz s
 dev-python/unicodedata2 13.0.0.2 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
 dev-python/vttLib 0.9.1 9999: A library for VTT hinting
 dev-python/wxpython 4.0.7_p2-r1 4.1.0: A blending of the wxWindows C++ class library with Python
-dev-util/afdko 3.4.0 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 3.5.0 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.11.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_pre20190704 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20191216 9999: Open-EID CMake modules
@@ -73,7 +73,7 @@ dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
 dev-util/ots 8.0.0 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha15 5.9999: A makefile generation tool
 dev-util/psautohint 2.1.0 9999: A standalone version of AFDKO autohinter
-dev-util/svgo 1.0.5 9999: Nodejs-based tool for optimizing SVG vector graphics files
+dev-util/svgo 1.3.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
 gnome-extra/gnome-shell-extension-appindicator 26 29 33: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20200117 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-remove-dropdown-arrows 13 9999: An extension that removes the dropdown arrows from GS menus
@@ -100,7 +100,6 @@ media-fonts/dehuti 161017: A serif typeface predominantly based off Dwiggins Ele
 media-fonts/didact-gothic 2.101_p20170125 9999: A sans-serif typeface similar to the one often used in elementary classrooms
 media-fonts/eb-garamond 0.016_p20180523 9999: This project aims at providing a free version of the Garamond typeface
 media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
-media-fonts/emojione-color-font 1.4 9999: A color emoji SVGinOT font using EmojiOne Unicode 9.0 emoji
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 2.0_p20200309 2.0.9999: A geometric sans serif font family
 media-fonts/firacode 5.2 9999: A monospaced font with programming ligatures
@@ -115,7 +114,7 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/iosevka 3.3.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka 3.3.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 5.101_p20180530 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.4: An unicode serif font meant for body text
@@ -135,7 +134,7 @@ media-fonts/monoid 0_p20160721 9999: Customisable coding font with alternates, l
 media-fonts/montserrat 7.200_p20200504 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk 2.001 9999: Noto CJK fonts
-media-fonts/noto-emoji 2020.04.08 9999: Noto Emoji fonts
+media-fonts/noto-emoji 2020.07.22.13.0 9999: Noto Emoji fonts
 media-fonts/noto-fonts 2017.05.05 2020.06.04_p0 9999: A font family that aims to support all the world's languages
 media-fonts/noto-source 0_p20200601 9999: A WIP versions of the noto fonts
 media-fonts/nunito 3.504_p20191111 9999: A well balanced Sans Serif with rounded terminals
@@ -156,7 +155,7 @@ media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20200327 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/sarasa-gothic 0.12.10: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.12.11: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
@@ -169,7 +168,7 @@ media-fonts/source-serif-pro 3.001 9999: Serif typeface designed to complement S
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
-media-fonts/twemoji-color-font 12.0.1 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
+media-fonts/twemoji-color-font 12.0.1_p20200511 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
 media-fonts/unscii 1.1: A bitmapped Unicode font based on classic system fonts
 media-fonts/victor-mono 1.2.4 9999: A free programming font with cursive italics and ligatures
@@ -214,7 +213,7 @@ net-misc/megasync 4.3.3.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.14_p20200528 9999: Partition cloning tool
-www-client/torbrowser 68.10.1.9.5.2.1.1 68.10.1.10.0.3.1.1_alpha: The Tor Browser
+www-client/torbrowser 68.11.0.9.5.3.1.1 68.11.0.10.0.4.1.1_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-libs/wxGTK 3.0.5 3.0.5-r300 3.1.4_pre20200418: GTK+ version of wxWidgets, a cross-platform C++ GUI toolkit
 x11-misc/gpaste 3.34.4 3.34.9999 3.36.3 3.36.9999: Clipboard management system

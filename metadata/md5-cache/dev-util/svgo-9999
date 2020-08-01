@@ -1,11 +1,11 @@
+BDEPEND=net-libs/nodejs[npm] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install prepare unpack
-DEPEND=net-libs/nodejs[npm] >=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Nodejs-based tool for optimizing SVG vector graphics files
-EAPI=6
+EAPI=7
 HOMEPAGE=https://github.com/svg/svgo
 LICENSE=MIT
 PROPERTIES=live
-RDEPEND=net-libs/nodejs[npm]
+RDEPEND=net-libs/nodejs
 SLOT=0
 _eclasses_=git-r3	8ec5b53812bce105ae7943930e4660f8
-_md5_=67271df5923ddabcbff93dbd22e1ac83
+_md5_=26999ff1a3c994a04422c0a30bf38374
