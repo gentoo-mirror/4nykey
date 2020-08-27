@@ -18,8 +18,6 @@ dev-python/fonttools:brotli - Enable brotli compression support, required for WO
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:zopfli - Enable zopfli compression support for WOFF web fonts
 dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
-dev-python/wxpython:examples - Install interactive demo module browser and sample applets
-dev-python/wxpython:gtk3 - Build with GTK+3 instead of GTK+2
 dev-util/ots:graphite - Sanitize Graphite tables
 dev-util/ots:variations - Sanitize OpenType Variation tables
 media-fonts/iosevka:font_variants_aile - A quasi-proportional variant
@@ -115,14 +113,15 @@ sys-block/partclone:reiser4 - Include ReiserFS4 support
 sys-block/partclone:reiserfs - Include ReiserFS support
 sys-block/partclone:xfs - Include XFS support
 www-client/torbrowser:clang - Use Clang compiler instead of GCC
-www-client/torbrowser:custom-optimization - Fine-tune custom compiler optimizations (-Os, -O0, -O1, -O2, -O3)
+www-client/torbrowser:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/torbrowser:eme-free - Disable EME (DRM plugin) cabability at build time
 www-client/torbrowser:geckodriver - Enable WebDriver support
-www-client/torbrowser:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically
-www-client/torbrowser:hwaccel - Use hardware-accelerated rendering
+www-client/torbrowser:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
+www-client/torbrowser:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
 www-client/torbrowser:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
 www-client/torbrowser:openh264 - Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
 www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/torbrowser:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
 www-client/torbrowser:screenshot - Allow to disable screenshot extension in global profile
 www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
 www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
@@ -132,9 +131,6 @@ www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent in
 www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/torbrowser:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
-x11-libs/wxGTK:chm - Enable support for Microsoft Compiled HTML Help files.
-x11-libs/wxGTK:gstreamer - Enable the wxMediaCtrl class for playing audio and video through gstreamer.
-x11-libs/wxGTK:sdl - Use Simple Directmedia Layer (media-libs/libsdl) for audio.
 x11-misc/gpaste:gnome-shell - Install gnome-shell extension
 x11-themes/adapta-gtk-theme:cinnamon - Install Cinnamon theme
 x11-themes/adapta-gtk-theme:mate - Install MATE theme
