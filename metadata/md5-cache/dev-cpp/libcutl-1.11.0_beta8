@@ -1,0 +1,15 @@
+BDEPEND=>=dev-util/build2-0.8.0
+DEFINED_PHASES=compile configure install test
+DEPEND=
+DESCRIPTION=A collection of C++ libraries (successor of libcult)
+EAPI=7
+HOMEPAGE=https://www.codesynthesis.com/projects/libcutl/
+IUSE=static-libs
+KEYWORDS=~amd64 ~x86
+LICENSE=MIT
+RDEPEND=
+RESTRICT=primaryuri
+SLOT=0/1.11.0-b.8
+SRC_URI=https://git.codesynthesis.com/cgit/libcutl/libcutl/snapshot/1.11.0-b.8.tar.gz -> libcutl-1.11.0_beta8.tar.gz
+_eclasses_=multilib	98584e405e2b0264d37e8f728327fed1	multiprocessing	cac3169468f893670dac3e7cb940e045	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=3d92fa189b10e19fae57e7418b8e7073

@@ -1,15 +1,15 @@
 BDEPEND=dev-util/build dev-util/cli doc? ( app-doc/doxygen )
 DEFINED_PHASES=compile configure install prepare test unpack
-DEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib )
+DEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] dev-cpp/libcutl:= >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib )
 DESCRIPTION=An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 EAPI=7
 HOMEPAGE=https://www.codesynthesis.com/products/xsd/
 IUSE=doc examples test zlib
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] dev-cpp/libcutl >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib )
+RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] dev-cpp/libcutl:= >=dev-cpp/libxsd-frontend-2.0.0 zlib? ( sys-libs/zlib )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/xsd/xsd/snapshot/400651b.tar.gz -> xsd-4.1.0_alpha11.tar.gz
 _eclasses_=multilib	98584e405e2b0264d37e8f728327fed1	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
-_md5_=d34326cb75f5c8efab3c3dca483cdc96
+_md5_=b959f88e9a966cd191698e58c6b2a530
