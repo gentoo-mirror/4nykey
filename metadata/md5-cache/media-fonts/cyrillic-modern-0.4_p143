@@ -1,10 +1,10 @@
-BDEPEND=!binary? ( python_single_target_python3_6? ( media-gfx/fontforge[python,python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] dev-python/fonttools[python_targets_python3_6(-)] font_types_ttc? ( dev-util/afdko[python_targets_python3_6(-)] ) ) python_single_target_python3_7? ( media-gfx/fontforge[python,python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] dev-python/fonttools[python_targets_python3_7(-)] font_types_ttc? ( dev-util/afdko[python_targets_python3_7(-)] ) ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_6(-)?,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] dev-python/fonttools[python_targets_python3_8(-)] font_types_ttc? ( dev-util/afdko[python_targets_python3_8(-)] ) ) dev-util/font-helpers latex? ( dev-libs/kpathsea dev-texlive/texlive-basic ) app-arch/unzip ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=!binary? ( python_single_target_python3_7? ( media-gfx/fontforge[python,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] dev-python/fonttools[python_targets_python3_7(-)] font_types_ttc? ( dev-util/afdko[python_targets_python3_7(-)] ) ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] dev-python/fonttools[python_targets_python3_8(-)] font_types_ttc? ( dev-util/afdko[python_targets_python3_8(-)] ) ) dev-util/font-helpers latex? ( dev-libs/kpathsea dev-texlive/texlive-basic ) app-arch/unzip ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup
 DEPEND=virtual/latex-base >=sys-apps/texinfo-4.2-r5
 DESCRIPTION=Cyrillic version of Computer Modern fonts
 EAPI=7
 HOMEPAGE=https://code.google.com/p/cyrillic-modern
-IUSE=+binary latex python_single_target_python3_6 python_single_target_python3_7 python_single_target_python3_8 X +font_types_otf font_types_ttc
+IUSE=+binary latex python_single_target_python3_7 python_single_target_python3_8 X +font_types_otf font_types_ttc
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 RDEPEND=virtual/latex-base
@@ -13,4 +13,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( mirror://sourceforge/cyrillic-modern/nm-otf+ttc-0.4.tar.xz latex? ( mirror://sourceforge/cyrillic-modern/nm-0.4.tar.xz ) ) !binary? ( mirror://gcarchive/cyrillic-modern/source-archive.zip -> cyrillic-modern-0.4_p143.zip )
 _eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	latex-package	e5f296c98696dd02059bc6a5a03282e2	multilib	98584e405e2b0264d37e8f728327fed1	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
-_md5_=eca0e9a385d591338f0e9032942d42d3
+_md5_=94f4746f2ec86cce1651f51fc181cca5

@@ -1,4 +1,4 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.7 dev-lang/python:3.6 ) || ( ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ( dev-lang/python:3.6 dev-util/fontmake[python_targets_python3_6(-),python_single_target_python3_6(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.8 dev-lang/python:3.7 ) || ( ( dev-lang/python:3.8 dev-util/fontmake[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=A monospaced sister of the Black roman style in the Rubik family
 EAPI=7
@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9a9636f -> 9ef5512cdd3177cc8d4667bcf5a58346-9a9636f.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	826a55e6bb97eb336de849b79995d35d	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	98584e405e2b0264d37e8f728327fed1	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	e3799d110512fe8372f4a001274bee91	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	98584e405e2b0264d37e8f728327fed1	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=dd68ce446ec399f9a1188ba19a53311d

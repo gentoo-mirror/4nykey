@@ -14,9 +14,13 @@ dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (co
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython
 dev-python/cu2qu:cython - Use cython to build an (optional) optimized extension module
-dev-python/fonttools:brotli - Enable brotli compression support, required for WOFF2 web fonts
+dev-python/fonttools:graphite - Enable support for graphite type tables (Silf, Glat, Gloc)
+dev-python/fonttools:interpolatable - Enable support for finding wrong contour/component order between different masters
+dev-python/fonttools:plot - Enable support for visualizing DesignSpaceDocument and resulting VariationModel
+dev-python/fonttools:reportlab - Enable support for drawing glyphs as PNG images
+dev-python/fonttools:symfont - Enable support for symbolic font statistics analysis
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
-dev-python/fonttools:zopfli - Enable zopfli compression support for WOFF web fonts
+dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
 dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
 dev-util/ots:graphite - Sanitize Graphite tables
 dev-util/ots:variations - Sanitize OpenType Variation tables
@@ -129,7 +133,6 @@ www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of b
 www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
 www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
 www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-www-client/torbrowser:system-sqlite - Use the system-wide dev-db/sqlite installation with secure-delete enabled
 www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
 x11-misc/gpaste:gnome-shell - Install gnome-shell extension
 x11-themes/adapta-gtk-theme:cinnamon - Install Cinnamon theme
