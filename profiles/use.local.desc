@@ -134,7 +134,6 @@ www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo
 www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
 www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
-x11-misc/gpaste:gnome-shell - Install gnome-shell extension
 x11-themes/adapta-gtk-theme:cinnamon - Install Cinnamon theme
 x11-themes/adapta-gtk-theme:mate - Install MATE theme
 x11-themes/adapta-gtk-theme:openbox - Install Openbox theme
