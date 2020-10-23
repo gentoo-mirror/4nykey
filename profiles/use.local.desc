@@ -23,7 +23,6 @@ dev-python/fonttools:ufo - Enable support for reading and writing UFO source fil
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
 dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
 dev-util/ots:graphite - Sanitize Graphite tables
-dev-util/ots:variations - Sanitize OpenType Variation tables
 media-fonts/iosevka:font_variants_aile - A quasi-proportional variant
 media-fonts/iosevka:font_variants_curly - A variant with curly leg shapes
 media-fonts/iosevka:font_variants_default - The default variant with ligatures and semantic full-width glyphs
@@ -91,8 +90,6 @@ media-sound/deadbeef:wma - Add support for decoding Windows Media Audio files
 media-sound/deadbeef:zip - Build vfs_zip plugin
 media-sound/flactag:gcrypt - Use libgcrypt for low-level crypto
 media-sound/flactag:scripts - Install additional scripts to /usr/bin
-media-sound/jack-audio-connection-kit:classic - Force enable standard JACK (jackd) even if D-Bus JACK (jackdbus) is enabled too
-media-sound/jack-audio-connection-kit:opus - Build Opus netjack2
 media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
@@ -117,7 +114,6 @@ sys-block/partclone:reiser4 - Include ReiserFS4 support
 sys-block/partclone:reiserfs - Include ReiserFS support
 sys-block/partclone:xfs - Include XFS support
 www-client/torbrowser:clang - Use Clang compiler instead of GCC
-www-client/torbrowser:custom-optimization - Build with user-specified compiler optimizations (-Os, -O0, -O1, -O2, -O3) from CFLAGS (unsupported)
 www-client/torbrowser:eme-free - Disable EME (DRM plugin) cabability at build time
 www-client/torbrowser:geckodriver - Enable WebDriver support
 www-client/torbrowser:gmp-autoupdate - Allow Gecko Media Plugins (binary blobs) to be automatically downloaded and kept up-to-date in user profiles
@@ -126,7 +122,6 @@ www-client/torbrowser:lto - Enable Link Time Optimization (LTO). Requires Gold l
 www-client/torbrowser:openh264 - Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
 www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
 www-client/torbrowser:screencast - Enable support for remote desktop and screen cast using media-video/pipewire
-www-client/torbrowser:screenshot - Allow to disable screenshot extension in global profile
 www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
 www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
 www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled.

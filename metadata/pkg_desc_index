@@ -43,7 +43,7 @@ dev-python/glyphsLib 5.2.0 9999: A library to provide a bridge from Glyphs sourc
 dev-python/hsluv 5.0.0 9999: Python implementation of HSLuv (revision 4)
 dev-python/nototools 0.2.13 9999: A python package for maintaining the Noto Fonts project
 dev-python/opentype-svg 1.1.1 9999: Scripts for making OpenType-SVG fonts
-dev-python/ots-python 8.0.0_p2 9999: A Python wrapper for OpenType Sanitizer
+dev-python/ots-python 8.1.0 9999: A Python wrapper for OpenType Sanitizer
 dev-python/pcpp 1.21 9999: A C99 preprocessor written in pure Python
 dev-python/py-zopfli 0.1.7 9999: Python bindings for zopfli
 dev-python/pybrowserstack-screenshots 0.1 9999: A python api wrapper and client for Browserstack Screenshots API
@@ -66,14 +66,14 @@ dev-util/build2 0.13.0 9999: An open source cross-platform toolchain for buildin
 dev-util/cli 1.2.0_beta6 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20200629 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 2.2.0 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 2.2.1 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.5.0 9999: A font development toolkit
 dev-util/gftools 0.4.4_p20201007 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/otfcc 0.10.4 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
-dev-util/ots 8.0.0 9999: An util for validating and sanitising OpenType files
+dev-util/ots 8.1.0 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha15 5.9999: A makefile generation tool
 dev-util/psautohint 2.1.0 9999: A standalone version of AFDKO autohinter
 dev-util/sfdnormalize 0.3.0 9999: Discard GUI information from SFD files
@@ -126,7 +126,7 @@ media-fonts/khartiya 1.0.2 9999: Khartiya is extended Bitstream Charter font
 media-fonts/kurale 2.0_p20170313 9999: A Latin, Cyrillic and Devanagari typeface derived from Gabriela
 media-fonts/lato 2.015: A sanserif typeface family with classical proportions
 media-fonts/liberastika 1.1.5 9999: Liberastika fonts are fork of Liberation Sans
-media-fonts/libertinus 7.010 9999: A fork of the Linux Libertine and Linux Biolinum fonts
+media-fonts/libertinus 7.020 9999: A fork of the Linux Libertine and Linux Biolinum fonts
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
 media-fonts/literata 2.201 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
@@ -204,19 +204,18 @@ media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 5.12 6.3 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.4 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
-media-sound/jack-audio-connection-kit 1.9.14 1.9.9999: A low-latency audio server
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/picard 2.4.4 9999: A cross-platform music tagger
 media-sound/r128gain 1.0.3 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.4.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.7.3c 9999: MEGA C++ SDK
-net-misc/megasync 4.3.5.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 3.7.4 9999: MEGA C++ SDK
+net-misc/megasync 4.3.5.0_p20201021 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.14_p20200528 9999: Partition cloning tool
-www-client/torbrowser 78.3.0.10.0.0.2.2 78.3.0.10.5.1.1.1_alpha: The Tor Browser
+www-client/torbrowser 78.4.0.10.0.2.2.2 78.4.0.10.5.2.1.2_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
