@@ -10,6 +10,6 @@ LICENSE=GPL-3
 RDEPEND=
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-icon-theme/tar.gz/20200901 -> papirus-icon-theme-20200901.tar.gz
+SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-icon-theme/tar.gz/20201031 -> papirus-icon-theme-20201031.tar.gz
 _eclasses_=xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=bf1f6bd58929c1408567bdc640dc84fc
