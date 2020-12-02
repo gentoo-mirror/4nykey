@@ -1,4 +1,4 @@
-app-arch/wimlib 1.13.2 9999: The open source Windows Imaging (WIM) library
+app-arch/wimlib 1.13.3 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.2_p1 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.2.7 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
@@ -118,7 +118,7 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/iosevka 3.7.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka 4.0.0 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 5.101_p20180530 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.4: An unicode serif font meant for body text
@@ -128,7 +128,7 @@ media-fonts/lato 2.015: A sanserif typeface family with classical proportions
 media-fonts/liberastika 1.1.5 9999: Liberastika fonts are fork of Liberation Sans
 media-fonts/libertinus 7.020 9999: A fork of the Linux Libertine and Linux Biolinum fonts
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
-media-fonts/literata 2.201 9999: A contemporary serif typeface family for long-form reading
+media-fonts/literata 3.002 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
 media-fonts/lora 2.210 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
@@ -162,8 +162,8 @@ media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black 
 media-fonts/sarasa-gothic 0.14.3: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
-media-fonts/source-emoji 1.017 9999: A monochrome emoji font designed to harmonize with other Source fonts
-media-fonts/source-han-code-jp 2.011 9999: An monospaced font for mixed Latin and Japanese text
+media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designed to harmonize with other Source fonts
+media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin and Japanese text
 media-fonts/source-han-sans 2.002 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 1.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-pro 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
@@ -174,13 +174,13 @@ media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 12.0.1_p20200511 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 media-fonts/typey-mctypeface 1.3: A modern serif typeface
-media-fonts/unscii 1.1: A bitmapped Unicode font based on classic system fonts
+media-fonts/unscii 2.1: A bitmapped Unicode font based on classic system fonts
 media-fonts/victor-mono 1.4.2 9999: A free programming font with cursive italics and ligatures
 media-fonts/vollkorn-typeface 4.105_p20190122 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/xolonium 4.1_p20161122: A futuristic font with focus on legibility
 media-fonts/yanone-kaffeesatz 2.001_p20180117 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.29.1 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.29.3 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
@@ -201,7 +201,7 @@ media-plugins/deadbeef-spectrum-plugin 0.2_p20200701 9999: Musical spectrum for 
 media-plugins/deadbeef-statusnotifier-plugin 1.3.1 9999: Plugin that provides system tray icon for deadbeef in Plasma5
 media-plugins/gimp-plugin-bimp 2.4_p20201013 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
-media-sound/ardour 5.12 6.3 6.9999: Digital Audio Workstation
+media-sound/ardour 5.12 6.5 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.4 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
@@ -225,7 +225,7 @@ x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20201031 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20201201 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 2017.01.19 9999: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
