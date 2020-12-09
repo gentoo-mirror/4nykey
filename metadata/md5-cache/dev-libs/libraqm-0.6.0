@@ -10,5 +10,5 @@ RDEPEND=media-libs/freetype:2 media-libs/harfbuzz dev-libs/fribidi
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/HOST-Oman/libraqm/tar.gz/v0.6.0 -> libraqm-0.6.0.tar.gz
-_eclasses_=autotools	7d999b62b8749fad43fff00620cedf47	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=autotools	3ec5e49b810b2571ca9c6d76f55867bb	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=601f6f1746c35b679120f9418b482265
