@@ -9,5 +9,5 @@ LICENSE=WTFPL-2
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/hchargois/gohufont/tar.gz/cc36b8c -> gohufont-2.1_p20170627.tar.gz
-_eclasses_=font-ebdftopcf	e23db122fd578442f37e3e79267eedd8	font-r1	c190b03dcc36843c4fd8d21b9b237c21	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-ebdftopcf	d0bee18f810ff88c236f6cc09737fb2a	font-r1	c190b03dcc36843c4fd8d21b9b237c21	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=ed5e97fcfaecc2ed907e08104be02b08

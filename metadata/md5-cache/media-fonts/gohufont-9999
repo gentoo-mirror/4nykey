@@ -8,5 +8,5 @@ LICENSE=WTFPL-2
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-ebdftopcf	e23db122fd578442f37e3e79267eedd8	font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=font-ebdftopcf	d0bee18f810ff88c236f6cc09737fb2a	font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
 _md5_=ed5e97fcfaecc2ed907e08104be02b08
