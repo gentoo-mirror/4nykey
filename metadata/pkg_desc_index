@@ -73,7 +73,7 @@ dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/otfcc 0.10.4 9999: An optimized OpenType builder and inspector
 dev-util/otfcc-ttcize 0.8.0_p20180717 9999: Merge and share glyphs
-dev-util/ots 8.1.0 9999: An util for validating and sanitising OpenType files
+dev-util/ots 8.1.1 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha15 5.9999: A makefile generation tool
 dev-util/psautohint 2.1.2 9999: A standalone version of AFDKO autohinter
 dev-util/sfdnormalize 0.3.0 9999: Discard GUI information from SFD files
@@ -118,7 +118,7 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/hk-grotesk 161222: A sans serif typeface inspired from the classical grotesques
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/iosevka 4.0.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka 4.0.3 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jura 5.101_p20180530 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/kelvinch 3.4: An unicode serif font meant for body text
@@ -159,7 +159,7 @@ media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.100_p20200327 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
-media-fonts/sarasa-gothic 0.14.3: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.16.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/source-code-pro 2.030.1.050_p20190423 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designed to harmonize with other Source fonts
@@ -205,7 +205,7 @@ media-sound/ardour 5.12 6.5 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.4 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/picard 2.5.2 9999: A cross-platform music tagger
+media-sound/picard 2.5.5 9999: A cross-platform music tagger
 media-sound/r128gain 1.0.3 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
@@ -215,7 +215,7 @@ net-misc/megasync 4.3.7.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.17 9999: Partition cloning tool
-www-client/torbrowser 78.5.0.10.0.5.1.1 78.5.0.10.5.4.1.1_alpha: The Tor Browser
+www-client/torbrowser 78.6.0.10.0.7.1.1 78.6.0.10.5.6.1.1_alpha: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
