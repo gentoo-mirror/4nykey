@@ -1,4 +1,4 @@
-BDEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.8 dev-lang/python:3.7 ) || ( ( dev-lang/python:3.8 dev-util/fontmake[python_targets_python3_8(-),python_single_target_python3_8(+)] ) ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),python_single_target_python3_7(+)] ) ) autohint? ( media-gfx/ttfautohint ) )
+BDEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.8 dev-lang/python:3.7 ) || ( ( dev-lang/python:3.8 dev-util/fontmake[python_targets_python3_8(-),-python_single_target_python3_8(-)] ) ( dev-lang/python:3.7 dev-util/fontmake[python_targets_python3_7(-),-python_single_target_python3_7(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DEFINED_PHASES=compile install postinst postrm prepare setup
 DESCRIPTION=A minimalistic sans serif typeface
 EAPI=7
@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/alexeiva/play/tar.gz/v2.101 -> play-2.101.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9a9636f -> 9ef5512cdd3177cc8d4667bcf5a58346-9a9636f.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	e3799d110512fe8372f4a001274bee91	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	54a3178500786b0a7ede4a23b7f2a6ad	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	e3799d110512fe8372f4a001274bee91	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	e41e32d357e5bdd388b5be2ce24f3883	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
 _md5_=e977d6c337973495a710700ce34ea741
