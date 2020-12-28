@@ -1,0 +1,12 @@
+BDEPEND=dev-vcs/subversion[http(+)] net-misc/rsync
+DEFINED_PHASES=preinst prepare unpack
+DEPEND=dev-qt/qtcore:5
+DESCRIPTION=Icon themes for smplayer
+EAPI=7
+HOMEPAGE=https://www.smplayer.info
+LICENSE=CC-BY-2.5 CC-BY-SA-2.5 CC-BY-SA-3.0 CC0-1.0 GPL-2 GPL-3+ LGPL-3
+PROPERTIES=live
+RDEPEND=media-video/smplayer
+SLOT=0
+_eclasses_=estack	d780995dc525ff7e6a2c4c043ffec242	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	subversion	ed3498da4fb92dcfb0d6089c85d1465f	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=3b84b2b1b162774fc0f78005941b2037

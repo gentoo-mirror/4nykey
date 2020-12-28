@@ -1,0 +1,13 @@
+BDEPEND=sys-apps/help2man >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.1:1.16 >=sys-devel/automake-1.15.1:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile configure install prepare unpack
+DEPEND=media-libs/harfbuzz media-libs/freetype qt5? ( dev-qt/qtgui:5 )
+DESCRIPTION=A library for automated hinting of truetype fonts
+EAPI=7
+HOMEPAGE=https://www.freetype.org/ttfautohint/index.html
+IUSE=qt5
+LICENSE=|| ( FTL GPL-2+ )
+PROPERTIES=live
+RDEPEND=media-libs/harfbuzz media-libs/freetype qt5? ( dev-qt/qtgui:5 )
+SLOT=0
+_eclasses_=autotools	b8cf7d8850baf5b731738e6d4f00937a	git-r3	3e7ec3d6619213460c85e2aa48398441	libtool	f143db5a74ccd9ca28c1234deffede96	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb
+_md5_=1230057546671f1602a3333fd625791a
