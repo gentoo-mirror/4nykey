@@ -76,12 +76,13 @@ media-sound/ardour:sanitize - Turn on AddressSanitizer (requires GCC >= 4.8 or c
 media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
+media-sound/deadbeef:clang - Build with Clang compiler
 media-sound/deadbeef:dumb - Enable media-libs/dumb module library support
 media-sound/deadbeef:gme - Add support for playing various video game music formats
 media-sound/deadbeef:gtk3 - Enable support for GTK+3
+media-sound/deadbeef:lastfm - Enable last.fm support
 media-sound/deadbeef:mac - Add support for decoding Monkey's Audio files
 media-sound/deadbeef:midi - Enables MIDI support
-media-sound/deadbeef:network - Enable HTTP streaming vfs plugin
 media-sound/deadbeef:opus - Enable Opus audio codec support
 media-sound/deadbeef:shorten - Enable the shorten decoder plugin
 media-sound/deadbeef:sid - Build with SID (Commodore 64 Audio) support

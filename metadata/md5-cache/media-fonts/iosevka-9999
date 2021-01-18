@@ -1,4 +1,4 @@
-BDEPEND=!binary? ( net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) dev-util/otfcc dev-util/afdko ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=!binary? ( net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup unpack
 DESCRIPTION=Spatial efficient monospace font family for programming
 EAPI=7
@@ -10,4 +10,4 @@ REQUIRED_USE=!binary ?? ( font_types_ttc font_types_ttf ) || ( font_variants_ail
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=a72def0b119de85e6663d79795bcd8ff
+_md5_=3aff87bc053ac2b5ecfbd69137e68532
