@@ -11,5 +11,5 @@ RDEPEND=dev-qt/qtwidgets:5 dev-libs/openssl:0 dev-libs/opensc[pcsc-lite] dev-lib
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/open-eid/chrome-token-signing/tar.gz/c0a4ae1 -> chrome-token-signing-1.1.2_p1.tar.gz mirror://githubraw/open-eid/linux-installer/3b283c2/esteid-update-nssdb -> esteid-update-nssdb-3b283c2
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	wrapper	4251d4c84c25f59094fd557e0063a974
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	eutils	2d5b3f4b315094768576b6799e4f926e	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	readme.gentoo-r1	22ae82e140bdd95d17a34fd5fd733190	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	wrapper	4251d4c84c25f59094fd557e0063a974
 _md5_=836372b45b5415693bd3411f44d9fd3d

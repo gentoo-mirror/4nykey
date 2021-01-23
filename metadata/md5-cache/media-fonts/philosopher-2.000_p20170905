@@ -10,5 +10,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/alexeiva/philosopher/tar.gz/0c52d29 -> philosopher-2.000_p20170905.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9a9636f -> 9ef5512cdd3177cc8d4667bcf5a58346-9a9636f.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	e3799d110512fe8372f4a001274bee91	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	1a94dc06d324bd0dab754e11abe6d27e	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	e3799d110512fe8372f4a001274bee91	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	f630b6d8702353cdc13f2d4dd882e16e	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=9a7e941111d4d8af49b4d8ffabc2a59b
