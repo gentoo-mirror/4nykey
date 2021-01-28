@@ -12,5 +12,5 @@ REQUIRED_USE=^^ ( python_single_target_python3_7 python_single_target_python3_8 
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/tools/tar.gz/f9e5bfb -> gftools-0.4.4_p20201007.tar.gz mirror://githubcl/schriftgestalt/GlyphsInfo/tar.gz/e33ccf3 -> GlyphsInfo-e33ccf3.tar.gz
-_eclasses_=distutils-r1	f847d402a7ecea58af1958f5b4ec23da	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=distutils-r1	1d3c6f0d0f889088fd28121eb771f956	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-single-r1	d3100de905f978df912135806cf27188	python-utils-r1	65bb60d137e5a51f58ada69bf3f366da	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
 _md5_=41dd2f2dc4c73736728b31cd1b171cf8
