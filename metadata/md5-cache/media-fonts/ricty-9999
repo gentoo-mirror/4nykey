@@ -10,4 +10,4 @@ RESTRICT=primaryuri bindist
 SLOT=0
 SRC_URI=https://osdn.net/dl/mplus-fonts/mplus-TESTFLIGHT-063.tar.xz
 _eclasses_=cvs	e4da99a0528be81320ec609333490bef	font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=a5977c47b9e41d789a339b7d62de59c0
+_md5_=e10d0f2a4e26f13d7e08068f7433db5c

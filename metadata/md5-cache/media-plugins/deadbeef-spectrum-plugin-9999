@@ -1,13 +1,13 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile install unpack
+DEFINED_PHASES=compile install prepare unpack
 DEPEND=media-sound/deadbeef[gtk?,gtk3?]
 DESCRIPTION=Musical spectrum for the DeaDBeeF audio player
 EAPI=7
-HOMEPAGE=https://github.com/cboxdoerfer/deadbeef-spectrum-plugin
+HOMEPAGE=https://github.com/cboxdoerfer/ddb_musical_spectrum
 IUSE=gtk gtk3
 LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=media-sound/deadbeef[gtk?,gtk3?]
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
-_md5_=33db930f60c0ffd7861feb0b599799b9
+_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_md5_=36400c1ee1562993a2936136e680799d

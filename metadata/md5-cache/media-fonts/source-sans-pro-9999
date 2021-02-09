@@ -1,15 +1,13 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
-DEFINED_PHASES=compile install postinst postrm prepare setup unpack
-DEPEND=!binary? ( || ( dev-lang/python:3.7 ) || ( ( dev-lang/python:3.7 dev-util/afdko[python_targets_python3_7(-),-python_single_target_python3_7(-)] ) ) )
+BDEPEND=!binary? ( dev-util/afdko variable? ( dev-util/fontmake ) ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DEFINED_PHASES=compile install postinst postrm setup unpack
 DESCRIPTION=Sans serif font family for user interface environments
 EAPI=7
 HOMEPAGE=https://adobe-fonts.github.io/source-sans-pro
-IUSE=+autohint +binary X font_types_otf +font_types_ttf
+IUSE=+binary variable X font_types_otf +font_types_ttf
 LICENSE=OFL-1.1
 PROPERTIES=live
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-SRC_URI=!binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441	multilib	d410501a125f99ffb560b0c523cd3d1e	python-any-r1	0a79a9b53fce4525f438f8ea9695fb88	python-utils-r1	69861348186337fa4b269de5826004b3	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
-_md5_=27699ec0bc8c97cdfa98da24440597fb
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
+_md5_=8b69910c7dd1d1c0b4a2b03987f69865

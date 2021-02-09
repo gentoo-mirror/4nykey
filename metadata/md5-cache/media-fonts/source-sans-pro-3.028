@@ -1,0 +1,14 @@
+BDEPEND=!binary? ( dev-util/afdko variable? ( dev-util/fontmake ) ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DEFINED_PHASES=compile install postinst postrm setup
+DESCRIPTION=Sans serif font family for user interface environments
+EAPI=7
+HOMEPAGE=https://adobe-fonts.github.io/source-sans-pro
+IUSE=+binary variable X font_types_otf +font_types_ttf
+KEYWORDS=~amd64 ~x86
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_types_otf font_types_ttf )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-sans-pro/tar.gz/3.028R -> source-sans-pro-3.028R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-sans-pro/tar.gz/3.028 -> source-sans-pro-3.028.tar.gz )
+_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_md5_=8b69910c7dd1d1c0b4a2b03987f69865
