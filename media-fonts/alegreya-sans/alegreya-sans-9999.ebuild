@@ -1,19 +1,20 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
 
+MY_PN="Alegreya-Sans"
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/huertatipografica/${PN}.git"
+	EGIT_REPO_URI="https://github.com/huertatipografica/${MY_PN}.git"
 else
-	inherit vcs-snapshot
-	MY_PV="04e7e6b"
+	MY_PV="fcc2eeb"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV/_/-}"
 	SRC_URI="
-		mirror://githubcl/huertatipografica/${PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
+		mirror://githubcl/huertatipografica/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	KEYWORDS="~amd64 ~x86"
+	S="${WORKDIR}/${MY_PN}-${MY_PV#v}"
 fi
 inherit fontmake
 
@@ -22,5 +23,11 @@ HOMEPAGE="https://www.huertatipografica.com/en/fonts/alegreya-sans-ht"
 
 LICENSE="OFL-1.1"
 SLOT="0"
+REQUIRED_USE+="
+	binary? ( variable? ( !font_types_otf ) )
+"
 
-DOCS="*.txt"
+pkg_setup() {
+	use variable && FONTDIR_BIN=( fonts/variable )
+	fontmake_pkg_setup
+}
