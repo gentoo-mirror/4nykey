@@ -3,27 +3,29 @@
 
 EAPI=7
 
-MY_PN="opensans"
-EMAKE_EXTRA_ARGS=( glyphs='sources/OpenSans-Roman.designspace sources/OpenSans-Italic.designspace' )
+MY_PN="RobotoMono"
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
 	EGIT_REPO_URI="https://github.com/googlefonts/${MY_PN}.git"
 else
-	MY_PV="c071e96"
+	MY_PV="8f65163"
+	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV/_/-}"
 	SRC_URI="
 		mirror://githubcl/googlefonts/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	KEYWORDS="~amd64 ~x86"
-	S="${WORKDIR}/${MY_PN}-${MY_PV}"
+	S="${WORKDIR}/${MY_PN}-${MY_PV#v}"
 fi
 inherit fontmake
 
+DESCRIPTION="A monospaced addition to the Roboto type family"
 HOMEPAGE="https://github.com/googlefonts/${MY_PN}"
-DESCRIPTION="A clean and modern sans-serif typeface for web, print and mobile"
 
-LICENSE="Apache-2.0"
+LICENSE="OFL-1.1"
 SLOT="0"
-REQUIRED_USE="binary? ( !font_types_otf )"
+REQUIRED_USE+="
+	binary? ( !font_types_otf )
+"
 
 pkg_setup() {
 	use variable && FONTDIR_BIN=( fonts/variable )
