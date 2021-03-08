@@ -97,6 +97,7 @@ media-fonts/bitterpro 2.002_pre20201026 9999: A contemporary slab serif typeface
 media-fonts/cantarell 0.301 9999: Default fontset for GNOME Shell
 media-fonts/caveat 2.0_pre20201001 9999: Caveat handwriting fonts
 media-fonts/comfortaa 3.103_p20181205 9999: A rounded geometric sans-serif type design intended for large sizes
+media-fonts/commissioner 1.000 9999: A low-contrast humanist sans-serif with almost classical proportions
 media-fonts/cormorant 3.609 9999: An extravagant display serif typeface
 media-fonts/cuprum 2.000_p20200907 9999: A narrow grotesque typeface
 media-fonts/cyrillic-modern 0.4_p143 9999: Cyrillic version of Computer Modern fonts
@@ -114,13 +115,16 @@ media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
+media-fonts/inter 3.15 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 5.0.4: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 5.0.4 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 5.0.5 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
+media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/khartiya 1.0.2 9999: Khartiya is extended Bitstream Charter font
 media-fonts/kurale 2.0_p20170313 9999: A Latin, Cyrillic and Devanagari typeface derived from Gabriela
 media-fonts/lato 2.015: A sanserif typeface family with classical proportions
+media-fonts/lato-source 3.100_pre20200816 9999: A sanserif typeface family with classical proportions
 media-fonts/liberastika 1.1.5 9999: Liberastika fonts are fork of Liberation Sans
 media-fonts/libertinus 7.040 9999: A fork of the Linux Libertine and Linux Biolinum fonts
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
@@ -143,6 +147,7 @@ media-fonts/open-sans 3.000_pre20210210 9999: A clean and modern sans-serif type
 media-fonts/oswald 4.102_p20190411 9999: A reworking of the classic gothic typeface style
 media-fonts/pacifico 3.000_pre20190823 9999: A brush script font inspired by the 1950s American surf culture
 media-fonts/philosopher 2.000_p20170905 9999: A font that takes inspiration from Agfa Rotis and ITC Binary
+media-fonts/piazzolla 2.003 9999: Type system intended for optimizing the available space in press media
 media-fonts/play 2.101 2.101_p20200821 9999: A minimalistic sans serif typeface
 media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20200115 2.9999: An Open Source typeface family for display and titling use
 media-fonts/podkova 2.102_p20190822 9999: A monoline slab serif with diagonal terminals
@@ -153,6 +158,7 @@ media-fonts/robotomono 3.000_pre20200508 9999: A monospaced addition to the Robo
 media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20200903 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
+media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
 media-fonts/sarasa-gothic 0.16.5: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extended coverage of the LGC Script
