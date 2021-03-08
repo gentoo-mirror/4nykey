@@ -3,32 +3,32 @@
 
 EAPI=7
 
-EMAKE_EXTRA_ARGS=( glyphs='sources/Lora-Italic.designspace sources/Lora.designspace' )
-MY_PN="${PN^}-Cyrillic"
+MY_PN="JetBrainsMono"
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/cyrealtype/${MY_PN}.git"
+	EGIT_REPO_URI="https://github.com/JetBrains/${MY_PN}.git"
 else
-	MY_PV="aa7bfd1"
+	MY_PV="108fc51"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
-		mirror://githubcl/cyrealtype/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
+		mirror://githubcl/JetBrains/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	KEYWORDS="~amd64 ~x86"
 	S="${WORKDIR}/${MY_PN}-${MY_PV#v}"
 fi
 inherit fontmake
 
-DESCRIPTION="A well-balanced contemporary serif with roots in calligraphy"
-HOMEPAGE="https://github.com/cyrealtype/${PN}"
+DESCRIPTION="A free and open-source typeface for developers"
+HOMEPAGE="https://jetbrains.com/mono"
 
 LICENSE="OFL-1.1"
 SLOT="0"
 REQUIRED_USE+="
 	binary? ( variable? ( !font_types_otf ) )
 "
+PATCHES=( "${FILESDIR}"/italic.diff )
 
 pkg_setup() {
-	use variable && FONTDIR_BIN=( fonts/vf )
+	use variable && FONTDIR_BIN=( fonts/variable )
 	fontmake_pkg_setup
 }

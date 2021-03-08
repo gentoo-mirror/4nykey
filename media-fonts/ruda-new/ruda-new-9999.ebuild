@@ -3,24 +3,22 @@
 
 EAPI=7
 
-EMAKE_EXTRA_ARGS=( glyphs='sources/Lora-Italic.designspace sources/Lora.designspace' )
-MY_PN="${PN^}-Cyrillic"
+MY_PN="${PN^}"
 if [[ -z ${PV%%*9999} ]]; then
 	inherit git-r3
-	EGIT_REPO_URI="https://github.com/cyrealtype/${MY_PN}.git"
+	EGIT_REPO_URI="https://github.com/TypeNetwork/${MY_PN}.git"
 else
-	MY_PV="aa7bfd1"
-	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
+	MY_PV="381d3c0"
 	SRC_URI="
-		mirror://githubcl/cyrealtype/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
+		mirror://githubcl/TypeNetwork/${MY_PN}/tar.gz/${MY_PV} -> ${P}.tar.gz
 	"
 	KEYWORDS="~amd64 ~x86"
 	S="${WORKDIR}/${MY_PN}-${MY_PV#v}"
 fi
 inherit fontmake
 
-DESCRIPTION="A well-balanced contemporary serif with roots in calligraphy"
-HOMEPAGE="https://github.com/cyrealtype/${PN}"
+DESCRIPTION="Ruda Cyrillic Latin expanded with turkish"
+HOMEPAGE="https://github.com/TypeNetwork/${MY_PN}"
 
 LICENSE="OFL-1.1"
 SLOT="0"
