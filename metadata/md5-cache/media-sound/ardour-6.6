@@ -4,6 +4,7 @@ DEPEND=dev-cpp/gtkmm:2.4 sci-libs/fftw:3.0[threads] media-libs/flac media-libs/l
 DESCRIPTION=Digital Audio Workstation
 EAPI=7
 HOMEPAGE=https://ardour.org/
+INHERIT=python-any-r1 l10n git-r3 toolchain-funcs multiprocessing desktop xdg
 IUSE=alsa bindist bundled-libs debug doc jack hid nls pulseaudio phone-home sanitize sse vst
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
@@ -11,5 +12,5 @@ PROPERTIES=live
 RDEPEND=dev-cpp/gtkmm:2.4 sci-libs/fftw:3.0[threads] media-libs/flac media-libs/libogg media-libs/fontconfig alsa? ( media-libs/alsa-lib ) media-libs/aubio dev-libs/libxml2:2 media-libs/libsamplerate media-libs/lv2 media-libs/suil media-libs/lilv media-libs/liblrdf net-misc/curl media-libs/libsndfile jack? ( virtual/jack ) pulseaudio? ( media-sound/pulseaudio ) !bundled-libs? ( media-libs/libltc media-libs/qm-dsp hid? ( dev-libs/hidapi ) >=media-sound/fluidsynth-2.0.1 ) media-libs/liblo media-libs/taglib media-libs/vamp-plugin-sdk media-libs/rubberband sys-apps/util-linux
 REQUIRED_USE=|| ( alsa jack pulseaudio )
 SLOT=6
-_eclasses_=desktop	c0d27bf73aa08ca05b663dbd31fbef28	git-r3	3e7ec3d6619213460c85e2aa48398441	l10n	8cdd85e169b835d518bc2fd59f780d8e	multilib	d410501a125f99ffb560b0c523cd3d1e	multiprocessing	cac3169468f893670dac3e7cb940e045	python-any-r1	0a79a9b53fce4525f438f8ea9695fb88	python-utils-r1	2dc8e06a3429719b43e9140f7292a425	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	xdg	c7ba313ea1eaf266f95cc6235f7d6a07	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	543b53e4d003ebd889082f4673e52af5	python-any-r1	690a993463cd2ebcde40ccdf1bd9ba98	l10n	8cdd85e169b835d518bc2fd59f780d8e	git-r3	3e7ec3d6619213460c85e2aa48398441	multiprocessing	cac3169468f893670dac3e7cb940e045	desktop	c0d27bf73aa08ca05b663dbd31fbef28	xdg-utils	ff2ff954e6b17929574eee4efc5152ba	xdg	c7ba313ea1eaf266f95cc6235f7d6a07
 _md5_=2a89d2bd03fb0696c34d0241ae18ca6e
