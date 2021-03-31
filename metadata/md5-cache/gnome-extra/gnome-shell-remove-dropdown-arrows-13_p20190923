@@ -3,6 +3,7 @@ DEPEND=app-eselect/eselect-gnome-shell-extensions
 DESCRIPTION=An extension that removes the dropdown arrows from GS menus
 EAPI=7
 HOMEPAGE=https://github.com/mpdeimos/gnome-shell-remove-dropdown-arrows
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell

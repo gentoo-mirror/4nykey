@@ -2,6 +2,7 @@ DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Arc KDE customization
 EAPI=6
 HOMEPAGE=https://git.io/arc-kde
+INHERIT=vcs-snapshot
 IUSE=konsole kvantum
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3 CC-BY-SA-4.0

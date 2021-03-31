@@ -3,6 +3,7 @@ DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A font family that aims to support all the world's languages
 EAPI=6
 HOMEPAGE=https://www.google.com/get/noto
+INHERIT=font-r1 vcs-snapshot
 IUSE=X
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

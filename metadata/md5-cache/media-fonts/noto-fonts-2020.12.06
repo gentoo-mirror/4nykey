@@ -3,6 +3,7 @@ DEFINED_PHASES=install postinst postrm prepare setup
 DESCRIPTION=A font family that aims to support all the world's languages
 EAPI=7
 HOMEPAGE=https://www.google.com/get/noto
+INHERIT=font-r1
 IUSE=autohint variable X font_types_otf +font_types_ttf
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

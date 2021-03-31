@@ -3,11 +3,12 @@ DEFINED_PHASES=compile install prepare
 DESCRIPTION=Papirus theme for SMPlayer
 EAPI=7
 HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-smplayer-theme
+INHERIT=qmake-utils
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=media-video/smplayer !>=x11-themes/smplayer-themes-16.5.3
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-smplayer-theme/tar.gz/adb28b8 -> papirus-smplayer-theme-20201103_p0.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47
 _md5_=c250e935bfae6e8c35fbda719fd118be

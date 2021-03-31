@@ -3,6 +3,7 @@ DEPEND=net-libs/nodejs[npm]
 DESCRIPTION=Merge and share glyphs
 EAPI=6
 HOMEPAGE=https://github.com/caryll/otfcc-ttcize
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 RDEPEND=net-libs/nodejs[npm]

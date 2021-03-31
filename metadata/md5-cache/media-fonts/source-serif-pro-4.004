@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst postrm setup
 DESCRIPTION=Serif typeface designed to complement Source Sans Pro
 EAPI=7
 HOMEPAGE=https://adobe-fonts.github.io/source-serif
+INHERIT=font-r1
 IUSE=+binary variable X font_types_otf +font_types_ttf
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

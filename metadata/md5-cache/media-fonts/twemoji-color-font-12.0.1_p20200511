@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst postrm prepare setup
 DESCRIPTION=A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
 EAPI=7
 HOMEPAGE=https://github.com/eosrei/twemoji-color-font
+INHERIT=font-r1
 IUSE=+binary X
 KEYWORDS=~amd64 ~x86
 LICENSE=CC-BY-4.0 MIT

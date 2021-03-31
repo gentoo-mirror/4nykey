@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst postrm setup
 DESCRIPTION=A monochrome emoji font designed to harmonize with other Source fonts
 EAPI=7
 HOMEPAGE=https://github.com/adobe-fonts/source-emoji
+INHERIT=font-r1
 IUSE=+binary X
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

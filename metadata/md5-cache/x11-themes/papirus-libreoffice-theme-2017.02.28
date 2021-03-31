@@ -2,6 +2,7 @@ DEFINED_PHASES=install prepare unpack
 DESCRIPTION=Papirus theme for Libreoffice
 EAPI=6
 HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=|| ( app-office/libreoffice app-office/libreoffice-bin )

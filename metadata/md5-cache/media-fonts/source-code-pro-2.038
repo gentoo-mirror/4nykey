@@ -3,6 +3,7 @@ DEFINED_PHASES=compile install postinst postrm prepare setup
 DESCRIPTION=Monospaced font family for user interface and coding environments
 EAPI=7
 HOMEPAGE=https://adobe-fonts.github.io/source-code-pro
+INHERIT=font-r1
 IUSE=+binary variable X +font_types_otf font_types_ttf
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

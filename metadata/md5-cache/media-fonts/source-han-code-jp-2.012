@@ -4,6 +4,7 @@ DEPEND=!binary? ( dev-util/afdko dev-python/opentype-svg )
 DESCRIPTION=An monospaced font for mixed Latin and Japanese text
 EAPI=7
 HOMEPAGE=https://github.com/adobe-fonts/source-han-code-jp
+INHERIT=font-r1
 IUSE=+binary X +font_types_otf font_types_ttc
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1

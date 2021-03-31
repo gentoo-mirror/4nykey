@@ -3,6 +3,7 @@ DEFINED_PHASES=compile prepare unpack
 DESCRIPTION=Papirus theme for FileZilla
 EAPI=7
 HOMEPAGE=https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes
+INHERIT=vcs-snapshot
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-3
 RDEPEND=net-ftp/filezilla
