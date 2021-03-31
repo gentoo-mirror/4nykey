@@ -3,10 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DESCRIPTION=Arc KDE customization
 EAPI=6
 HOMEPAGE=https://git.io/arc-kde
+INHERIT=git-r3
 IUSE=konsole kvantum
 LICENSE=GPL-3 CC-BY-SA-4.0
 PROPERTIES=live
 RDEPEND=konsole? ( kde-apps/konsole ) kvantum? ( x11-themes/kvantum )
 SLOT=0
-_eclasses_=git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=5c9aa627b2190fc842c23280cbc435d9

@@ -3,11 +3,12 @@ DEPEND=!binary? ( media-gfx/fontforge ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-app
 DESCRIPTION=A multilingual serif font with banner-shaped finials and airy letterforms
 EAPI=6
 HOMEPAGE=http://looseleaf.chuckmasterson.com/walleye
+INHERIT=git-r3 font-r1
 IUSE=+binary X
 LICENSE=OFL-1.1
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/gist/f9edc47e189d8495b647a4feac8ca240/tar.gz/1827636 -> f9edc47e189d8495b647a4feac8ca240-1827636.tar.gz
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=84fd19d7f108b41bfe937ce5abb780d6

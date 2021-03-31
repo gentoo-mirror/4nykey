@@ -3,10 +3,11 @@ DEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( media-gfx/ebdftopcf ) X? ( x11-apps/mkfo
 DESCRIPTION=A monospace bitmap font
 EAPI=6
 HOMEPAGE=http://font.gohu.org
+INHERIT=git-r3 font-ebdftopcf font-r1
 IUSE=X X
 LICENSE=WTFPL-2
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=font-ebdftopcf	55a13ddfd89119edce2c55e8bb8e5581	font-r1	c190b03dcc36843c4fd8d21b9b237c21	git-r3	3e7ec3d6619213460c85e2aa48398441
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	font-ebdftopcf	55a13ddfd89119edce2c55e8bb8e5581	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=ed5e97fcfaecc2ed907e08104be02b08
