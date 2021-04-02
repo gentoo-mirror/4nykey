@@ -73,6 +73,7 @@ media-fonts/iosevka-src:font_variants_term - A narrower variant focusing termina
 media-fonts/noto:emoji - Install additional emoji fonts
 media-fonts/noto-source:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
 media-fonts/noto-source:interpolate - Interpolate to get more font weights (significantly increases build time and diskspace requirements)
+media-fonts/sarasa-gothic:classical - Classical orthography
 media-fonts/sarasa-gothic:font_variants_fixed - A variant without ligatures and half-width glyphs
 media-fonts/sarasa-gothic:font_variants_monospace - A variant with ligatures and full-width glyphs
 media-fonts/sarasa-gothic:font_variants_term - A variant with ligatures and half-width glyphs
