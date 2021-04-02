@@ -9,4 +9,4 @@ PROPERTIES=live
 RDEPEND=net-libs/nodejs
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=26999ff1a3c994a04422c0a30bf38374
+_md5_=748267c93596751eaf7ab5ad5fcd9da9

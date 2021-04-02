@@ -53,7 +53,7 @@ dev-python/pybrowserstack-screenshots 0.1 9999: A python api wrapper and client 
 dev-python/pyclipper 1.2.1 9999: A Cython wrapper for the Clipper library
 dev-python/python-discid 1.2.0 9999: Python bindings for libdiscid
 dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
-dev-python/scfbuild 1.0.3_p20190529 9999: Create SVG in OpenType color fonts from a set of SVG source files
+dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.0.7 9999: An SFD to UFO converter
 dev-python/skia-pathops 0.6.0 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.3.0 9999: Generate STAT tables for variable fonts from .stylespace files
@@ -82,8 +82,8 @@ dev-util/ots 8.1.3 9999: An util for validating and sanitising OpenType files
 dev-util/premake 5.0.0_alpha15 5.9999: A makefile generation tool
 dev-util/psautohint 2.3.0 9999: A standalone version of AFDKO autohinter
 dev-util/sfdnormalize 0.3.0 9999: Discard GUI information from SFD files
-dev-util/svgo 1.3.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 34 9999: Adds AppIndicator support to gnome shell
+dev-util/svgo 2.2.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
+gnome-extra/gnome-shell-extension-appindicator 36 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20201103 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-remove-dropdown-arrows 13_p20190923 9999: An extension that removes the dropdown arrows from GS menus
 gnome-extra/gnome-shell-system-monitor-applet 38_p20200427 9999: An extension for displaying sensors information in GNOME Shell
@@ -116,8 +116,8 @@ media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 3.15 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-bin 5.0.4: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 5.0.5 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-bin 5.1.0: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 5.1.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
@@ -139,6 +139,7 @@ media-fonts/montserrat 7.200_p20200504 9999: A typeface inspired by the Montserr
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk 2.001 9999: Noto CJK fonts
 media-fonts/noto-emoji 2020.09.16.13.1 9999: Noto Emoji fonts
+media-fonts/noto-emoji-svg 1.001_p20210127 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2020.12.06 9999: A font family that aims to support all the world's languages
 media-fonts/noto-source 0_p20210113 9999: A WIP versions of the noto fonts
 media-fonts/nunito 3.601_pre20201124 9999: A well balanced Sans Serif with rounded terminals
@@ -159,7 +160,7 @@ media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20200903 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.16.5: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.20.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
@@ -173,7 +174,7 @@ media-fonts/source-serif-pro 4.004 9999: Serif typeface designed to complement S
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
-media-fonts/twemoji-color-font 12.0.1_p20200511 9999: A color emoji SVGinOT font using Twitter Unicode 8.0 emoji
+media-fonts/twemoji-color-font 13.0.1 9999: A color emoji SVGinOT font using Twitter emoji
 media-fonts/unscii 2.1: A bitmapped Unicode font based on classic system fonts
 media-fonts/victor-mono 1.4.2 9999: A free programming font with cursive italics and ligatures
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
@@ -204,17 +205,17 @@ media-sound/ardour 5.12 6.6 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.7 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/picard 2.5.6 9999: A cross-platform music tagger
+media-sound/picard 2.6 9999: A cross-platform music tagger
 media-sound/r128gain 1.0.3 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
-net-misc/megacmd 1.4.0 9999: Command Line Interactive and Scriptable Application to access MEGA
+net-misc/megacmd 1.4.1 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 3.7.3h 9999: MEGA C++ SDK
 net-misc/megasync 4.3.9.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.17 9999: Partition cloning tool
-www-client/torbrowser 78.8.0.10.0.12.1.1 78.8.0.10.5.11.2.1_alpha: The Tor Browser
+www-client/torbrowser 78.8.0.10.5.11.2.1_alpha 78.9.0.10.0.15.1.3: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
@@ -224,7 +225,7 @@ x11-themes/flatwoken-icon-theme 0_p20150921 9999: FlatWoken icon theme
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20210302 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20210401 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 9999 20201103_p0: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
