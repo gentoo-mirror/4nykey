@@ -1,14 +1,13 @@
 BDEPEND=python_single_target_python3_7? ( dev-lang/python:3.7 >=dev-lang/python-exec-2:=[python_targets_python3_7] ) python_single_target_python3_8? ( dev-lang/python:3.8 >=dev-lang/python-exec-2:=[python_targets_python3_8] ) python_single_target_python3_7? ( media-gfx/fontforge[python,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_7(-)?,python_single_target_python3_8(-)?] ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
-DEFINED_PHASES=compile configure install postinst postrm prepare setup unpack
+DEFINED_PHASES=compile configure install postinst postrm setup unpack
 DESCRIPTION=Customisable coding font with alternates, ligatures and contextual positioning
 EAPI=7
 HOMEPAGE=https://larsenwork.com/monoid
-INHERIT=git-r3 python-single-r1 font-r1
+INHERIT=git-r3 python-single-r1 font-r1 multiprocessing
 IUSE=python_single_target_python3_7 python_single_target_python3_8 X font_variants_loose font_variants_halfloose font_variants_halftight font_variants_tight font_variants_xtrasmall font_variants_small font_variants_large font_variants_xtralarge font_chars_empty_dollar font_chars_dotted_zero font_chars_base_one font_chars_zstyle_l font_chars_no_contextual_alternates
-KEYWORDS=~amd64 ~x86
 LICENSE=MIT OFL-1.1
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	543b53e4d003ebd889082f4673e52af5	python-single-r1	c7de0087e87a282f2faec351822e097c	font-r1	c190b03dcc36843c4fd8d21b9b237c21
-_md5_=9c9c6f023cf8240fbde56bf52ad35b21
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	543b53e4d003ebd889082f4673e52af5	python-single-r1	c7de0087e87a282f2faec351822e097c	font-r1	c190b03dcc36843c4fd8d21b9b237c21	multiprocessing	cac3169468f893670dac3e7cb940e045
+_md5_=85f42eb13fc56a01f4156bdc3e35fdc7
