@@ -1,4 +1,4 @@
-BDEPEND=sys-apps/help2man >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=sys-apps/help2man sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4 sys-apps/gawk >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare unpack
 DEPEND=media-libs/harfbuzz media-libs/freetype qt5? ( dev-qt/qtgui:5 )
 DESCRIPTION=A library for automated hinting of truetype fonts
@@ -10,5 +10,5 @@ LICENSE=|| ( FTL GPL-2+ )
 PROPERTIES=live
 RDEPEND=media-libs/harfbuzz media-libs/freetype qt5? ( dev-qt/qtgui:5 )
 SLOT=0
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	6ff8412ccf96444868b310b0a28973ba	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=gnuconfig	9f91b4b0c84e734a87492d4293f03de5	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	libtool	f143db5a74ccd9ca28c1234deffede96	autotools	79023c161e8f625b0f1823715941c2da	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47	git-r3	b8e8c92aa5fe8df7187e466138eb4e52
 _md5_=1230057546671f1602a3333fd625791a
