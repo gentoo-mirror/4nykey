@@ -21,7 +21,6 @@ dev-python/fonttools:reportlab - Enable support for drawing glyphs as PNG images
 dev-python/fonttools:symfont - Enable support for symbolic font statistics analysis
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
-dev-python/ufo2ft:cffsubr - Enable support for subroutinizing CFF/CFF2 table with cffsubr library
 dev-util/ots:graphite - Sanitize Graphite tables
 media-fonts/iosevka-bin:font_variants_aile - A quasi-proportional variant
 media-fonts/iosevka-bin:font_variants_curly - A variant with curly leg shapes
@@ -71,12 +70,14 @@ media-fonts/iosevka-src:font_variants_ss16 - A variant stylized after PT Mono
 media-fonts/iosevka-src:font_variants_ss17 - A variant stylized after Recursive Mono
 media-fonts/iosevka-src:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/noto:emoji - Install additional emoji fonts
+media-fonts/noto-cjk-sans:super-otc - Install single combined Super OTC collection
 media-fonts/noto-source:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
-media-fonts/noto-source:interpolate - Interpolate to get more font weights (significantly increases build time and diskspace requirements)
 media-fonts/sarasa-gothic:classical - Classical orthography
 media-fonts/sarasa-gothic:font_variants_fixed - A variant without ligatures and half-width glyphs
 media-fonts/sarasa-gothic:font_variants_monospace - A variant with ligatures and full-width glyphs
 media-fonts/sarasa-gothic:font_variants_term - A variant with ligatures and half-width glyphs
+media-fonts/source-han-sans:half-width - Install fonts that use half-width glyphs for ASCII by default
+media-fonts/source-han-sans:super-otc - Install single combined Super OTC collection
 media-fonts/source-pro:emoji - Install emoji fonts
 media-fonts/unscii:utils - Install bm2uns util to convert a bitmap image to unscii art
 media-gfx/fim:archive - Enable archive support using app-arch/libarchive

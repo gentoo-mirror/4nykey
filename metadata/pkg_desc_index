@@ -16,7 +16,7 @@ dev-cpp/libxsd-frontend 2.0.0_p20170103 9999: A compiler frontend for the W3C XM
 dev-cpp/xsd 4.1.0_alpha11 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20200604 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
-dev-libs/libdigidocpp 3.14.5 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 3.14.6 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.3.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.7.1 9999: A library for complex text layout
 dev-libs/xml-security-c 2.0.2-r1: Apache C++ XML security libraries
@@ -29,9 +29,9 @@ dev-python/browserstack-local-python 1.2.2 9999: Python bindings for BrowserStac
 dev-python/cattrs 1.2.0 9999: Complex custom class converters for attrs
 dev-python/cffsubr 0.2.8 9999: Standalone CFF subroutinizer based on AFDKO tx tool
 dev-python/compositor 0.2_pre20190903 9999: A basic OpenType GSUB and GPOS layout engine
-dev-python/compreffor 0.5.0 9999: A CFF table subroutinizer for FontTools
+dev-python/compreffor 0.5.1 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.6.7 9999: A library which converts cubic curves to quadratic in RoboFab objects
-dev-python/defcon 0.7.2 9999: A set of UFO based objects for use in font editing applications
+dev-python/defcon 0.8.1 9999: A set of UFO based objects for use in font editing applications
 dev-python/diffbrowsers 0.1.7_p20200318 9999: Test two sets of fonts for visual regressions on different browsers
 dev-python/extractor 0.3.0 9999: Tools for extracting data from font binaries into UFO objects
 dev-python/ffmpeg-python 0.2.0 9999: Python bindings for FFmpeg
@@ -42,7 +42,7 @@ dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen pro
 dev-python/fonttools 4.21.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
-dev-python/glyphsLib 5.3.1 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 5.3.2 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/hsluv 5.0.0 9999: Python implementation of HSLuv (revision 4)
 dev-python/nototools 0.2.13 9999: A python package for maintaining the Noto Fonts project
 dev-python/opentype-svg 1.1.1 9999: Scripts for making OpenType-SVG fonts
@@ -59,19 +59,19 @@ dev-python/skia-pathops 0.6.0 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.3.0 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.3.2 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.4.3 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 2.19.2 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.20.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.11.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.5.3 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.14.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.15.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 13.0.0.2 9999: Unicodedata backport for python 2/3 updated to the latest unicode version
-dev-python/vttLib 0.9.1 9999: A library for VTT hinting
+dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.6.2 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.13.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta6 9999: Command Line Interface compiler for C++
-dev-util/cmake-openeid 0_p20200629 9999: Open-EID CMake modules
+dev-util/cmake-openeid 0_p20210205 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 2.3.1 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 2.4.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.7.6 9999: A font development toolkit
 dev-util/gftools 0.6.2 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
@@ -115,7 +115,7 @@ media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/hasklig 1.1_p20180916 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/inter 3.15 9999: A typeface specially designed for user interfaces
+media-fonts/inter 3.18 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 5.2.0: Spatial efficient monospace font family for programming
 media-fonts/iosevka-src 5.2.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
@@ -132,16 +132,17 @@ media-fonts/literata 3.002 9999: A contemporary serif typeface family for long-f
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
 media-fonts/lora 3.000_pre20200603 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
-media-fonts/merriweather 2.004_p20190415 9999: A serif font useful for creating long texts for books or articles
-media-fonts/merriweather-sans 1.008_p20190406 9999: A sans font useful for creating long texts for books or articles
+media-fonts/merriweather 2.100_p20201219 9999: A serif font useful for creating long texts for books or articles
+media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creating long texts for books or articles
 media-fonts/monoid 0.61_p20201026 9999: Customisable coding font with alternates, ligatures and contextual positioning
 media-fonts/montserrat 7.200_p20200504 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
-media-fonts/noto-cjk 2.001 9999: Noto CJK fonts
+media-fonts/noto-cjk-sans 2.003 9999: Noto CJK sans-serif fonts
+media-fonts/noto-cjk-serif 1.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2020.09.16.13.1 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 1.001_p20210127 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2020.12.06 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20210113 9999: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20210401 9999: A WIP versions of the noto fonts
 media-fonts/nunito 3.601_pre20201124 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.000_pre20210210 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -166,7 +167,7 @@ media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extend
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin and Japanese text
-media-fonts/source-han-sans 2.002 9999: A set of OpenType/CFF Pan-CJK fonts
+media-fonts/source-han-sans 2.003 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 1.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-pro 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/source-sans-pro 3.028 9999: Sans serif font family for user interface environments
@@ -180,7 +181,7 @@ media-fonts/victor-mono 1.4.2 9999: A free programming font with cursive italics
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/yanone-kaffeesatz 2.001_p20190829 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.29.3 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.29.4 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
@@ -205,7 +206,7 @@ media-sound/ardour 5.12 6.6 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.8.7 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/picard 2.6 9999: A cross-platform music tagger
+media-sound/picard 2.6.1 9999: A cross-platform music tagger
 media-sound/r128gain 1.0.3 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.9.0 9999: A Python CD-DA ripper preferring accuracy over speed
@@ -215,7 +216,7 @@ net-misc/megasync 4.3.9.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.17 9999: Partition cloning tool
-www-client/torbrowser 78.8.0.10.5.11.2.1_alpha 78.9.0.10.0.15.1.3: The Tor Browser
+www-client/torbrowser 78.9.0.10.5.14.1.2_alpha 78.10.0.10.0.16.1.1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
