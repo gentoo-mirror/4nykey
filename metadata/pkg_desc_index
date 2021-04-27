@@ -6,7 +6,6 @@ app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust
 app-i18n/unicode-emoji 13.1: UTS #51 Unicode Emoji
 app-text/fntsample 5.2 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
-app-text/gistit 0.1.3 9999: An application to create github gists from console
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/podofo 0.9.4 9999: PoDoFo is a C++ library to work with the PDF file format
 app-text/sdcv 0.5.2 9999: A console version of StarDict
