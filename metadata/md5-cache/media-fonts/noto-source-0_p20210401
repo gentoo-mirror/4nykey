@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/noto-source/tar.gz/b1e8999 -> noto-source-0_p20210401.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/3fb0e57 -> 9ef5512cdd3177cc8d4667bcf5a58346-3fb0e57.tar.gz )
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	3ea803de86891185c7b1db2c0b5bc8c8	python-any-r1	17241a11501065ff3651350040875aa9	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	b36b3c998aa4dfbc2b14092d8fa3a562
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	python-utils-r1	3adfe5c2e631d766ef8dc78901627084	python-any-r1	17241a11501065ff3651350040875aa9	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	b36b3c998aa4dfbc2b14092d8fa3a562
 _md5_=7e77196d3da2f778e8521a1c85a10a08
