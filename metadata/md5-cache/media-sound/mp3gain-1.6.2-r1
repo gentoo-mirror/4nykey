@@ -10,5 +10,5 @@ RDEPEND=media-sound/mpg123
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sourceforge/mp3gain/mp3gain-1_6_2-src.zip
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
 _md5_=0da0d8c158da7ca0cf8481bc507c8d21
