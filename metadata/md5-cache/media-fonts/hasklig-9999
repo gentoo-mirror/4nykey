@@ -11,5 +11,5 @@ REQUIRED_USE=!binary binary? ( !font_types_ttf ) || ( font_types_otf font_types_
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-any-r1	17241a11501065ff3651350040875aa9	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-any-r1	17241a11501065ff3651350040875aa9	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=8a55fd8ca6cf12d5ae23aee0dc67b67a

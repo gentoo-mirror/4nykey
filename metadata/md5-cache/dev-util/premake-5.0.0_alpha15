@@ -8,5 +8,5 @@ LICENSE=BSD
 RESTRICT=primaryuri
 SLOT=5
 SRC_URI=mirror://githubcl/premake/premake-core/tar.gz/v5.0.0-alpha15 -> premake-5.0.0_alpha15.tar.gz mirror://githubraw/premake/premake-core/v5.0.0-alpha15/Bootstrap.mak -> premake_bootstrap-v5.0.0-alpha15.mak
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b
 _md5_=f0daa8bd3669253af149011cc94e52aa

@@ -11,5 +11,5 @@ RDEPEND=media-gfx/gimp
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/alessandrofrancesconi/gimp-plugin-bimp/tar.gz/cfbbd83 -> gimp-plugin-bimp-2.4_p20201013.tar.gz
-_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	ebdbaed22e873a5abe6205f41349b479	l10n	8cdd85e169b835d518bc2fd59f780d8e
+_eclasses_=toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b	l10n	6da6797255ab7fb848a02afa0cbc406f
 _md5_=7d24d7f34dea08a31cdedbbf8684e904
