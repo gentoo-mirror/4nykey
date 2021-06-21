@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( font_types_otf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.otf.zip ) font_types_ttf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.ttf.zip ) ) !binary? ( mirror://githubcl/akryukov/theano/tar.gz/v2.0 -> theano-2.0.tar.gz )
-_eclasses_=toolchain-funcs	2545dc6f0aaecb2dea61424911e82674	multilib	ba7da83f763a749a2870c28785c6dc0b	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=toolchain-funcs	7a9551c9a6680454019664620505375a	multilib	6f710a580aea2e8c7f5be70f8912ad43	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=91c407bee409b21856c64b3d9ef61c26
