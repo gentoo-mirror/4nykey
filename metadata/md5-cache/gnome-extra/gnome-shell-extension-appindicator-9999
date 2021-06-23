@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions >gnome-base/gnome-shell-3.33 x11-libs/gdk-pixbuf[introspection] media-libs/clutter[introspection]
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=088c91b42156ecb7f5086387afb0767c

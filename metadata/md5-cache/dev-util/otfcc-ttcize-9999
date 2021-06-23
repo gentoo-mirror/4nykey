@@ -8,5 +8,5 @@ LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=net-libs/nodejs[npm]
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=6b3df8dc35f7a750434f92c50ce05e2b

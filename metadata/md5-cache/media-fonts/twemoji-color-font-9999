@@ -10,5 +10,5 @@ PROPERTIES=live
 REQUIRED_USE=!binary
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=c285f449998b774c2b6cc4dea9730d2a

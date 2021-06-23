@@ -10,5 +10,5 @@ RDEPEND=media-video/smplayer !>=x11-themes/smplayer-themes-16.5.3
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/PapirusDevelopmentTeam/papirus-smplayer-theme/tar.gz/adb28b8 -> papirus-smplayer-theme-20201103_p0.tar.gz
-_eclasses_=toolchain-funcs	e867df3870e8ff04a5b94f925be8b06a	multilib	f8d35c2432bb32c4f1e779c4287b31ec	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	qmake-utils	dc74fe3891abc25e80dad5cd3d7c6e47
 _md5_=c250e935bfae6e8c35fbda719fd118be
