@@ -10,5 +10,5 @@ LICENSE=MIT OFL-1.1
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/larsenwork/monoid/tar.gz/0673c8d -> monoid-0.61_p20201026.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	6e84b7d3d8d0bb1ee12774f4a66909e2	python-single-r1	d25ac9d5d91fe9d44fda6ec192aca11a	font-r1	c190b03dcc36843c4fd8d21b9b237c21	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	0cb5f4040aac0cd98d17cec3079de0a0	python-single-r1	73f113f91928e0d16bceb65ecbcd8e75	font-r1	c190b03dcc36843c4fd8d21b9b237c21	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
 _md5_=34aa11afa3544c046bdd80246056cc51
