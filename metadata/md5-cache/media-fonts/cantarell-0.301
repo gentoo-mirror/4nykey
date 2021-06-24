@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://gnome/sources/cantarell-fonts/0.301/cantarell-fonts-0.301.tar.xz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/3fb0e57 -> 9ef5512cdd3177cc8d4667bcf5a58346-3fb0e57.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	0cb5f4040aac0cd98d17cec3079de0a0	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	d49a173de41d7f9a2956bae67c8b66d9	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	132cbb376048d079b5a012f5467c4e7f	meson	5ec14fdbc5446b8767e87e186e3b1a52
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	969dff6876159a10dfdad9e01d265d1c	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	d49a173de41d7f9a2956bae67c8b66d9	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	132cbb376048d079b5a012f5467c4e7f	meson	5ec14fdbc5446b8767e87e186e3b1a52
 _md5_=fddc452b7448248d58dede89c41c383a
