@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=media-gfx/gimp
 SLOT=0
-_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	l10n	3c7381c56a184f0dd5ba3fb824808f30
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	l10n	f45cb23732f151c1ea9ab1d057c2f541
 _md5_=7d24d7f34dea08a31cdedbbf8684e904
