@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_ttf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( https://github.com/i-tu/hasklig/releases/download/1.1/hasklig-1.1.zip ) !binary? ( mirror://githubcl/i-tu/hasklig/tar.gz/a94138e -> hasklig-1.1_p20180916.tar.gz ) !binary? ( mirror://githubcl/gist/3c71e576827753fc395f44f4c2d91131/tar.gz/6eee6fa -> 3c71e576827753fc395f44f4c2d91131-6eee6fa.tar.gz )
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	977ed3240c7c676eb18a277e65663c1c	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	969dff6876159a10dfdad9e01d265d1c	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=8a55fd8ca6cf12d5ae23aee0dc67b67a

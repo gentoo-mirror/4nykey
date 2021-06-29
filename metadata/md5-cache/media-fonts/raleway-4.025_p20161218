@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/impallari/raleway/tar.gz/98add57 -> raleway-4.025_p20161218.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/3fb0e57 -> 9ef5512cdd3177cc8d4667bcf5a58346-3fb0e57.tar.gz )
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	977ed3240c7c676eb18a277e65663c1c	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	d49a173de41d7f9a2956bae67c8b66d9
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	969dff6876159a10dfdad9e01d265d1c	python-any-r1	901d9e22c7a848a1196502edf060f330	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	d49a173de41d7f9a2956bae67c8b66d9
 _md5_=a0a62788cd6dd4ef9f7d90fbd0baf90a
