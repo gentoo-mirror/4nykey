@@ -1,6 +1,6 @@
-app-arch/wimlib 1.13.3 9999: The open source Windows Imaging (WIM) library
-app-crypt/chrome-token-signing 1.1.4 9999: Native client and browser extension for eID
-app-crypt/digidoc4-client 4.2.8 9999: An application for digitally signing and encrypting documents
+app-arch/wimlib 1.13.4 9999: The open source Windows Imaging (WIM) library
+app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
+app-crypt/digidoc4-client 4.2.9 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
 app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 13.1: UTS #51 Unicode Emoji
@@ -14,7 +14,7 @@ dev-cpp/libxsd-frontend 2.0.0_p20170103 9999: A compiler frontend for the W3C XM
 dev-cpp/xsd 4.1.0_alpha11 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20210407 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
-dev-libs/libdigidocpp 3.14.6 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 3.14.7 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.3.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.7.1 9999: A library for complex text layout
 dev-libs/xml-security-c 2.0.2-r1: Apache C++ XML security libraries
@@ -37,7 +37,7 @@ dev-python/font-v 1.0.5 9999: Font version string reporting and modification lib
 dev-python/fontMath 0.6.0 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.9.2 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.25.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.25.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.1.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 5.3.2 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -58,7 +58,7 @@ dev-python/skia-pathops 0.6.0 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.3.0 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.3.2 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.4.3 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 2.22.0 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.23.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.11.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.5.4 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
@@ -68,7 +68,7 @@ dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.6.3_pre20210507 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.13.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta6 9999: Command Line Interface compiler for C++
-dev-util/cmake-openeid 0_p20210205 9999: Open-EID CMake modules
+dev-util/cmake-openeid 0_p20210409 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontmake 2.4.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.8.2 9999: A font development toolkit
@@ -215,7 +215,7 @@ net-misc/megasync 4.5.3.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.17 9999: Partition cloning tool
-www-client/torbrowser 78.10.0.10.5.15.1.1_alpha 78.11.0.10.0.17.1.1: The Tor Browser
+www-client/torbrowser 78.11.0.10.5.17.1.2_alpha 78.12.0.10.5.2.1.1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization

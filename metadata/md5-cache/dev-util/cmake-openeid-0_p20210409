@@ -6,5 +6,5 @@ KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/open-eid/cmake/tar.gz/2f74b41 -> cmake-openeid-0_p20210205.tar.gz
-_md5_=75d9f86c1c8f4e68817059cacc5dd95c
+SRC_URI=mirror://githubcl/open-eid/cmake/tar.gz/40f4330 -> cmake-openeid-0_p20210409.tar.gz
+_md5_=e63be7baeb5bb9913d20d3a575e7ac1c
