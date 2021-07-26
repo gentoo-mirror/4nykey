@@ -46,6 +46,7 @@ media-fonts/iosevka-bin:font_variants_ss14 - A variant stylized after JetBrains 
 media-fonts/iosevka-bin:font_variants_ss15 - A variant stylized after IBM Plex Mono
 media-fonts/iosevka-bin:font_variants_ss16 - A variant stylized after PT Mono
 media-fonts/iosevka-bin:font_variants_ss17 - A variant stylized after Recursive Mono
+media-fonts/iosevka-bin:font_variants_ss18 - A variant stylized after Input Mono
 media-fonts/iosevka-bin:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/iosevka-src:font_variants_aile - A quasi-proportional variant
 media-fonts/iosevka-src:font_variants_curly - A variant with curly leg shapes
@@ -70,6 +71,7 @@ media-fonts/iosevka-src:font_variants_ss14 - A variant stylized after JetBrains 
 media-fonts/iosevka-src:font_variants_ss15 - A variant stylized after IBM Plex Mono
 media-fonts/iosevka-src:font_variants_ss16 - A variant stylized after PT Mono
 media-fonts/iosevka-src:font_variants_ss17 - A variant stylized after Recursive Mono
+media-fonts/iosevka-src:font_variants_ss18 - A variant stylized after Input Mono
 media-fonts/iosevka-src:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/noto:emoji - Install additional emoji fonts
 media-fonts/noto-cjk-sans:super-otc - Install single combined Super OTC collection
