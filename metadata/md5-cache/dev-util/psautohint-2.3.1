@@ -1,0 +1,17 @@
+BDEPEND=test? ( dev-python/coverage[python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) test? ( >=dev-python/fonttools-4.25.1[ufo(+),python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/pytest-4.5.0[python_targets_python3_8(-)?,python_targets_python3_9(-)?] ) >=dev-util/meson-0.56.0 >=dev-util/ninja-1.8.2 dev-util/meson-format-array python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?] >=dev-python/setuptools-42.0.2[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
+DEFINED_PHASES=compile configure install prepare setup test
+DEPEND=>=dev-python/fonttools-4.25.1[ufo(+),python_targets_python3_8(-)?,python_targets_python3_9(-)?]
+DESCRIPTION=A standalone version of AFDKO autohinter
+EAPI=7
+HOMEPAGE=https://github.com/adobe-type-tools/psautohint
+INHERIT=meson distutils-r1
+IUSE=test test python_targets_python3_8 python_targets_python3_9
+KEYWORDS=~amd64 ~x86
+LICENSE=Apache-2.0
+RDEPEND=>=dev-python/fonttools-4.25.1[ufo(+),python_targets_python3_8(-)?,python_targets_python3_9(-)?] python_targets_python3_8? ( dev-lang/python:3.8 ) python_targets_python3_9? ( dev-lang/python:3.9 ) >=dev-lang/python-exec-2:=[python_targets_python3_8(-)?,python_targets_python3_9(-)?]
+REQUIRED_USE=|| ( python_targets_python3_8 python_targets_python3_9 )
+RESTRICT=primaryuri !test? ( test )
+SLOT=0
+SRC_URI=mirror://githubcl/adobe-type-tools/psautohint/tar.gz/v2.3.1 -> psautohint-2.3.1.tar.gz test? ( mirror://githubcl/adobe-type-tools/psautohint-testdata/tar.gz/1e4c506 -> psautohint-testdata-1e4c506.tar.gz )
+_eclasses_=multiprocessing	61c959fc55c15c00bbb1079d6a71370b	ninja-utils	a4dab848a4490e8e48cf0baab3e61bc2	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	f5408c7f165c2c81b787182c52bc41dd	meson	5bc3f1b890f90cc00cf1d1dddc10233e	multibuild	05a584848db4901c97fcd94ae7cc3a97	python-r1	e20b80360497e6215aed0dd4ca7d6bad	distutils-r1	943c17c3afd0f811ad36a0b5c8dedba9
+_md5_=878a0e4090ab7eed72a1d13333240060

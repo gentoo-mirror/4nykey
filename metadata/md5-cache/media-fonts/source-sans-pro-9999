@@ -2,7 +2,7 @@ BDEPEND=!binary? ( dev-util/afdko variable? ( dev-util/fontmake ) ) >=dev-vcs/gi
 DEFINED_PHASES=compile install postinst postrm setup unpack
 DESCRIPTION=Sans serif font family for user interface environments
 EAPI=7
-HOMEPAGE=https://adobe-fonts.github.io/source-sans-pro
+HOMEPAGE=https://adobe-fonts.github.io/source-sans
 INHERIT=git-r3 font-r1
 IUSE=+binary variable X font_types_otf +font_types_ttf
 LICENSE=OFL-1.1
@@ -11,4 +11,4 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	font-r1	c190b03dcc36843c4fd8d21b9b237c21
-_md5_=8b69910c7dd1d1c0b4a2b03987f69865
+_md5_=9f57784dba081dd1dc5deb980efd3397

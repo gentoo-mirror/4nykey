@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=media-gfx/gimp
+DESCRIPTION=A GIMP plugin to apply a set of manipulations to groups of images
+EAPI=7
+HOMEPAGE=https://www.alessandrofrancesconi.it/projects/bimp/
+INHERIT=git-r3 toolchain-funcs plocale
+LICENSE=GPL-2+
+PROPERTIES=live
+RDEPEND=media-gfx/gimp
+SLOT=0
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	plocale	89c6aac5da68423465e6fd79fb4ad5fb
+_md5_=960b4cd0b106144382713ac18f9934b5
