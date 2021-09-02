@@ -10,5 +10,5 @@ LICENSE=OFL-1.1
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/alerque/libertinus/tar.gz/v7.040 -> libertinus-7.040.tar.gz ) binary? ( https://github.com/alerque/libertinus/releases/download/v7.040/Libertinus-7.040.tar.xz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	08d890890f70fe0096093016e55438d5	python-single-r1	73f113f91928e0d16bceb65ecbcd8e75	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	python-utils-r1	08d890890f70fe0096093016e55438d5	python-single-r1	d46c125afba8be02eb1cd7104bac6e9c	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=4a7230b9e33aa613706157594ae0f82d
