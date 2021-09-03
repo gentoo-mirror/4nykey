@@ -11,5 +11,5 @@ RDEPEND=dev-libs/fribidi dev-libs/libraqm media-libs/freetype:2 media-libs/harfb
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/fontview/tar.gz/b8f4b51 -> fontview-0.3.1_p20191205.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988
 _md5_=9e1f3dc1ba0dddb8bb97d7ab4059eca1

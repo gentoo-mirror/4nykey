@@ -11,5 +11,5 @@ RDEPEND=media-sound/deadbeef[gtk?,gtk3?]
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/cboxdoerfer/ddb_musical_spectrum/tar.gz/a97fd4e -> deadbeef-spectrum-plugin-0.2_p20200701.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988
 _md5_=36400c1ee1562993a2936136e680799d

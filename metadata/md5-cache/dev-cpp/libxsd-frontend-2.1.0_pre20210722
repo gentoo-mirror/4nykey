@@ -12,5 +12,5 @@ RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] >=dev-cpp/libcutl-1.
 RESTRICT=primaryuri
 SLOT=0/2.1.0-b.1.z
 SRC_URI=https://git.codesynthesis.com/cgit/libxsd-frontend/libxsd-frontend/snapshot/04fbe05.tar.gz -> libxsd-frontend-2.1.0_pre20210722.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
 _md5_=b49806c85675f7cd22f0b32fd7506c43

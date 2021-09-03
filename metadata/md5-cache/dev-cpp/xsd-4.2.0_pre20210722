@@ -12,5 +12,5 @@ RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] >=dev-cpp/libcutl-1.
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/xsd/xsd/snapshot/4a6e690.tar.gz -> xsd-4.2.0_pre20210722.tar.gz
-_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
+_eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
 _md5_=217833fb0a7f10a9c96a3a48c9028313
