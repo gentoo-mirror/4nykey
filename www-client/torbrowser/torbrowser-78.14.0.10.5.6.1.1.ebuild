@@ -3,7 +3,7 @@
 
 EAPI="7"
 
-FIREFOX_PATCHSET="firefox-78esr-patches-16.tar.xz"
+FIREFOX_PATCHSET="firefox-78esr-patches-17.tar.xz"
 
 LLVM_MAX_SLOT=12
 
@@ -32,7 +32,7 @@ fi
 TOR_REL="${TOR_REL%.0}"
 MY_P="$(ver_cut 1-3)esr-$(ver_cut 4-5)-$(ver_cut 7)-build$(ver_cut 8)"
 MY_P="firefox-tor-browser-${MY_P}"
-MY_TL="src-tor-launcher-0.2.29"
+MY_TL="src-tor-launcher-0.2.30"
 MY_EFF="2021.7.13"
 MY_NOS="11.2.11"
 MY_EFF="https-everywhere-${MY_EFF}-eff.xpi"
@@ -365,6 +365,7 @@ pkg_setup() {
 
 src_prepare() {
 	use lto && rm -v "${WORKDIR}"/firefox-patches/*-LTO-Only-enable-LTO-*.patch
+	rm -f "${WORKDIR}"/firefox-patches/0045-bmo-1715254-Deny-clone3-to-force-glibc-fallback.patch
 	eapply "${WORKDIR}/firefox-patches"
 
 	# Allow user to apply any additional patches without modifing ebuild
