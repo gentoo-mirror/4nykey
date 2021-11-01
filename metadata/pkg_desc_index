@@ -16,7 +16,7 @@ dev-libs/breakpad 0_p20210407 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.7-r1 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
-dev-libs/libraqm 0.7.1 9999: A library for complex text layout
+dev-libs/libraqm 0.7.2 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
 dev-libs/xml-security-c 2.0.2-r1: Apache C++ XML security libraries
 dev-libs/xmlbird 1.2.12 9999: XML parser for Vala and C programs
@@ -118,7 +118,7 @@ media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 3.19 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 10.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 10.3.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 10.3.4 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
@@ -162,7 +162,7 @@ media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20200903 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.34.4: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.34.7: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
@@ -183,7 +183,7 @@ media-fonts/victor-mono 1.4.2 9999: A free programming font with cursive italics
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/yanone-kaffeesatz 2.001_p20190829 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.29.5 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.29.6 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
@@ -209,7 +209,7 @@ media-sound/deadbeef 1.8.8 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/picard 2.6.3 9999: A cross-platform music tagger
-media-sound/r128gain 1.0.3 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
+media-sound/r128gain 1.0.4 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.4.1 9999: Command Line Interactive and Scriptable Application to access MEGA
@@ -218,7 +218,7 @@ net-misc/megasync 4.5.3.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.18 9999: Partition cloning tool
-www-client/torbrowser 78.14.0.10.5.6.1.1 78.14.0.11.0.7.1.1_alpha: The Tor Browser
+www-client/torbrowser 10.5.8 11.0_alpha7: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
