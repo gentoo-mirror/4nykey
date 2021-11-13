@@ -1,5 +1,5 @@
-DEFINED_PHASES=compile configure install prepare test
-DEPEND=dev-db/sqlite:3 virtual/pkgconfig
+DEFINED_PHASES=compile install prepare
+DEPEND=dev-db/sqlite:3 dev-util/pkgconf:=
 DESCRIPTION=An open source cross-platform toolchain for building and packaging C++ code
 EAPI=7
 HOMEPAGE=https://build2.org
@@ -7,9 +7,9 @@ INHERIT=toolchain-funcs multiprocessing
 IUSE=test
 KEYWORDS=~amd64 ~x86
 LICENSE=MIT
-RDEPEND=dev-db/sqlite:3 virtual/pkgconfig
+RDEPEND=dev-db/sqlite:3 dev-util/pkgconf:=
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://download.build2.org/0.13.0/build2-toolchain-0.13.0.tar.xz
+SRC_URI=https://download.build2.org/0.14.0/build2-toolchain-0.14.0.tar.xz
 _eclasses_=toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
-_md5_=f2f8913b719bdcdd1bcf6f33d3988734
+_md5_=270ddcf1449674e7e7d7320bde1bbe8a

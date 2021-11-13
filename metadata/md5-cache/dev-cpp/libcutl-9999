@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.13.0 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/build2-0.14.0 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=
 DESCRIPTION=A collection of C++ libraries (successor of libcult)
@@ -9,6 +9,6 @@ IUSE=static-libs
 LICENSE=MIT
 PROPERTIES=live
 RDEPEND=
-SLOT=0/1.11.0-b.8.z
+SLOT=0/1.11.0-b.9
 _eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
-_md5_=a1ef2a576f6f9678f1dabf2b5f68b5cb
+_md5_=31f03ce36e6ffb5153f13448d0c414e0
