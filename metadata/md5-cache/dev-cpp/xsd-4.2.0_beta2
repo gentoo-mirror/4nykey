@@ -1,6 +1,6 @@
 BDEPEND=dev-util/build2 dev-util/cli doc? ( app-doc/doxygen )
 DEFINED_PHASES=compile configure install prepare test
-DEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] >=dev-cpp/libcutl-1.11.0_beta9:= >=dev-cpp/libxsd-frontend-2.1.0_beta2:= zlib? ( sys-libs/zlib )
+DEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads(+)] >=dev-cpp/libcutl-1.11.0_beta9:= >=dev-cpp/libxsd-frontend-2.1.0_beta2:= zlib? ( sys-libs/zlib )
 DESCRIPTION=An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 EAPI=7
 HOMEPAGE=https://www.codesynthesis.com/products/xsd/
@@ -8,9 +8,9 @@ INHERIT=toolchain-funcs multiprocessing
 IUSE=doc examples test zlib
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads] >=dev-cpp/libcutl-1.11.0_beta9:= >=dev-cpp/libxsd-frontend-2.1.0_beta2:= zlib? ( sys-libs/zlib )
+RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:=[threads(+)] >=dev-cpp/libcutl-1.11.0_beta9:= >=dev-cpp/libxsd-frontend-2.1.0_beta2:= zlib? ( sys-libs/zlib )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/xsd/xsd/snapshot/7ff03f4.tar.gz -> xsd-4.2.0_beta2.tar.gz
 _eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4b66d835ec72e021e359bb81eacfe988	multiprocessing	61c959fc55c15c00bbb1079d6a71370b
-_md5_=bd5f3380c8d7b3ca030eb8f1c0d55f77
+_md5_=68f64c945861ce7972510bb5ef1fc207
