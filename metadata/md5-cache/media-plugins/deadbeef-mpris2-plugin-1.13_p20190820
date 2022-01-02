@@ -11,5 +11,5 @@ RDEPEND=media-sound/deadbeef
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Serranya/deadbeef-mpris2-plugin/tar.gz/d6d5bf2 -> deadbeef-mpris2-plugin-1.13_p20190820.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf
+_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	c9df06c186913b43eb211100ef5fe2cf
 _md5_=62d110d85f80b4ea515c6c0ea231dfd3

@@ -12,5 +12,5 @@ RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell media-
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/paradoxxxzero/gnome-shell-system-monitor-applet/tar.gz/35d3351 -> gnome-shell-system-monitor-applet-38_p20210730.tar.gz
-_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	8a0248f83ae77f945d376ff4a7953257	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	gnome2-utils	239e7afa214b50012f83b8bb61de7555	plocale	89c6aac5da68423465e6fd79fb4ad5fb
+_eclasses_=toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	xdg-utils	4f29a8b760a594a212abe9c2ba957c31	gnome2-utils	239e7afa214b50012f83b8bb61de7555	plocale	89c6aac5da68423465e6fd79fb4ad5fb
 _md5_=401b4c9aee4c201d9a6ee2f1df27bc5b
