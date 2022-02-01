@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/evolventa/evolventa/tar.gz/1.0 -> evolventa-1.0.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=817d75f5beb91df806287f65ecec7927

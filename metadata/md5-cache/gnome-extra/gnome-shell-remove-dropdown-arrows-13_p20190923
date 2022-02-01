@@ -10,5 +10,5 @@ RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/mpdeimos/gnome-shell-remove-dropdown-arrows/tar.gz/c241d44 -> gnome-shell-remove-dropdown-arrows-13_p20190923.tar.gz
-_eclasses_=vcs-snapshot	b1abf460a493fc59ebb25de0df3f09dd
+_eclasses_=vcs-snapshot	19dc666868420457132a7514d4621476
 _md5_=216dfe030e8c3e6cfaaca5d5d9b41570
