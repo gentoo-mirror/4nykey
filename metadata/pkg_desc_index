@@ -61,10 +61,10 @@ dev-python/statmake 0.3.0 9999: Generate STAT tables for variable fonts from .st
 dev-python/strictyaml 1.3.2 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.4.3 9999: A Python wrapper for ttfautohint
 dev-python/ufo2ft 2.25.2 9999: A bridge from UFOs to FontTool objects
-dev-python/ufoLib2 0.13.0 9999: A UFO font library
+dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.20.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.21.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.8.0 9999: Adobe Font Development Kit for OpenType
@@ -215,7 +215,7 @@ net-misc/megasync 4.6.3.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.18 9999: Partition cloning tool
-www-client/torbrowser 11.0.4 11.5_alpha2: The Tor Browser
+www-client/torbrowser 11.0.6 11.5_alpha2: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
