@@ -18,7 +18,7 @@ dev-libs/libdigidocpp 3.14.8 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.9.0 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
-dev-libs/xml-security-c 2.0.2-r1: Apache C++ XML security libraries
+dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/xmlbird 1.2.12 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 3.0.1 9999: A library for piecewise linear interpolation in multiple dimensions
 dev-python/absl-py 0.11.0 9999: Abseil Python Common Libraries
@@ -38,7 +38,7 @@ dev-python/font-v 2.1.0 9999: Font version string reporting and modification lib
 dev-python/fontMath 0.9.1 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.10.2 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.30.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.31.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.2.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 6.0.4 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -62,11 +62,11 @@ dev-python/skia-pathops 0.7.2 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.4.1 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.6.1 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 2.25.3 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.26.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.22.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.23.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.8.1 9999: Adobe Font Development Kit for OpenType
@@ -188,7 +188,6 @@ media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image 
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
 media-gfx/fontforge 20220308 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20191205 9999: An app that shows the contents of a font file
-media-gfx/frogr 1.5 9999: A small application for managing Flickr account
 media-gfx/trufont 0.6.6 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
@@ -216,8 +215,8 @@ net-misc/meganz-sdk 3.9.12 9999: MEGA C++ SDK
 net-misc/megasync 4.6.5.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
-sys-block/partclone 0.3.18 9999: Partition cloning tool
-www-client/torbrowser 11.0.7 11.5_alpha6: The Tor Browser
+sys-block/partclone 0.3.19 9999: Partition cloning tool
+www-client/torbrowser 11.0.9 11.5_alpha8: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
