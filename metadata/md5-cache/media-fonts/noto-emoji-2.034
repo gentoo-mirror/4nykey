@@ -10,5 +10,5 @@ LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/noto-emoji/tar.gz/v2.034 -> noto-emoji-2.034.tar.gz
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	dfa3a38467793e97fcf791b156510654	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	dfa3a38467793e97fcf791b156510654	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd	font-r1	c190b03dcc36843c4fd8d21b9b237c21
 _md5_=9f6cf10c7a0f0d43c700fdde5b84eb99

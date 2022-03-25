@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/FAlthausen/vollkorn-typeface/tar.gz/38ab7a8 -> vollkorn-typeface-4.105_p20200823.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/3fb0e57 -> 9ef5512cdd3177cc8d4667bcf5a58346-3fb0e57.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	python-utils-r1	dfa3a38467793e97fcf791b156510654	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	410fee6113be8eb807a93ae302e264d8
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	61c959fc55c15c00bbb1079d6a71370b	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	python-utils-r1	dfa3a38467793e97fcf791b156510654	python-any-r1	9006edf4b9c90f9ba1dc9ea9fee1b0bd	font-r1	c190b03dcc36843c4fd8d21b9b237c21	fontmake	410fee6113be8eb807a93ae302e264d8
 _md5_=423d784b6099a8c3b77b900cf5152c05
