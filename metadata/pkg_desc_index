@@ -12,7 +12,7 @@ dev-cpp/antlr-cpp 4.9.2_p20210408 9999: The ANTLR C++ Runtime
 dev-cpp/libcutl 1.11.0_beta9 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0_beta2 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
-dev-libs/breakpad 0_p20210407 9999: A crash-reporting system
+dev-libs/breakpad 0_p20210407-r1 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.8 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware

@@ -6,10 +6,9 @@ EAPI=7
 HOMEPAGE=https://santuario.apache.org/
 INHERIT=git-r3 autotools
 IUSE=debug examples nss static-libs xalan
-KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
 PROPERTIES=live
 RDEPEND=>=dev-libs/xerces-c-3.2 dev-libs/openssl:= nss? ( dev-libs/nss ) xalan? ( dev-libs/xalan-c )
 SLOT=0
 _eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	de4beb52bfa93c4c5d96792a6b5e1784	libtool	241a8f577b9781a42a7421e53448a44e	autotools	ed3ef2014ee93d24bde80f0c0ea9732e
-_md5_=a1d05343422a3b971ae95c0f237a6ffc
+_md5_=bcabf6f613451cf734895a6f5a478e4e
