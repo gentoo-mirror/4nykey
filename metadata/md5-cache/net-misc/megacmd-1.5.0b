@@ -1,6 +1,6 @@
 BDEPEND=sys-devel/autoconf-archive sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.4:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4
-DEFINED_PHASES=configure prepare
-DEPEND=>=net-misc/meganz-sdk-3.9.12:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
+DEFINED_PHASES=configure install prepare
+DEPEND=>=net-misc/meganz-sdk-3.9.16:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
 DESCRIPTION=Command Line Interactive and Scriptable Application to access MEGA
 EAPI=7
 HOMEPAGE=https://mega.nz/cmd
@@ -8,9 +8,9 @@ INHERIT=autotools
 IUSE=pcre
 KEYWORDS=~amd64 ~x86
 LICENSE=BSD-2
-RDEPEND=>=net-misc/meganz-sdk-3.9.12:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
+RDEPEND=>=net-misc/meganz-sdk-3.9.16:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/meganz/MEGAcmd/tar.gz/945a46a -> megacmd-1.5.0.tar.gz
+SRC_URI=mirror://githubcl/meganz/MEGAcmd/tar.gz/b984a4f -> megacmd-1.5.0b.tar.gz
 _eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	badd6e329e1f3e6bee99b35bf8763ce8	multilib	4a33c9008e5ee30cb8840a3fdc24df2b	libtool	241a8f577b9781a42a7421e53448a44e	autotools	ed3ef2014ee93d24bde80f0c0ea9732e
-_md5_=c02dfb59261a118eab7a84276bfea88e
+_md5_=87e67e9583a4357588c5caef9d201b75

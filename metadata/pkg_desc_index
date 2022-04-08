@@ -210,13 +210,13 @@ media-sound/picard 2.7.3 9999: A cross-platform music tagger
 media-sound/r128gain 1.0.6 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
-net-misc/megacmd 1.5.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.9.12 9999: MEGA C++ SDK
-net-misc/megasync 4.6.5.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/megacmd 1.5.0b 9999: Command Line Interactive and Scriptable Application to access MEGA
+net-misc/meganz-sdk 3.9.16 9999: MEGA C++ SDK
+net-misc/megasync 4.6.6.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.19 9999: Partition cloning tool
-www-client/torbrowser 11.0.9 11.5_alpha8: The Tor Browser
+www-client/torbrowser 11.0.10 11.5_alpha8: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
