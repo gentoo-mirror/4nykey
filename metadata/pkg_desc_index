@@ -8,7 +8,7 @@ app-text/fntsample 5.2 9999: A program for making font samples that show Unicode
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 app-text/podofo 0.9.4 9999: PoDoFo is a C++ library to work with the PDF file format
-dev-cpp/antlr-cpp 4.9.2_p20210408 9999: The ANTLR C++ Runtime
+dev-cpp/antlr-cpp 4.9.3 9999: The ANTLR C++ Runtime
 dev-cpp/libcutl 1.11.0_beta9 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0_beta2 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
@@ -38,7 +38,7 @@ dev-python/font-v 2.1.0 9999: Font version string reporting and modification lib
 dev-python/fontMath 0.9.1 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.10.2 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.31.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.32.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.2.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
 dev-python/glyphsLib 6.0.4 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -62,19 +62,19 @@ dev-python/skia-pathops 0.7.2 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.4.1 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.6.1 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 2.26.0 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.27.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.23.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.24.1 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
-dev-util/afdko 3.8.1 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 3.8.2 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.14.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta8 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20210409 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 3.2.0 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 3.3.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.8.2 9999: A font development toolkit
 dev-util/gftools 0.8.8 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
