@@ -17,9 +17,11 @@ dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython
 dev-python/cu2qu:cython - Use cython to build an (optional) optimized extension module
 dev-python/fonttools:graphite - Enable support for graphite type tables (Silf, Glat, Gloc)
+dev-python/fonttools:harfbuzz - Use Harfbuzz Repacker for packing GSUB/GPOS tables
 dev-python/fonttools:interpolatable - Enable support for finding wrong contour/component order between different masters
 dev-python/fonttools:plot - Enable support for visualizing DesignSpaceDocument and resulting VariationModel
 dev-python/fonttools:reportlab - Enable support for drawing glyphs as PNG images
+dev-python/fonttools:skia - Use skia-pathops to remove overlaps in TTF fonts
 dev-python/fonttools:symfont - Enable support for symbolic font statistics analysis
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
