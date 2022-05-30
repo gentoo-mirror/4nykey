@@ -126,7 +126,8 @@ media-sound/deadbeef:wma - Add support for decoding Windows Media Audio files
 media-sound/deadbeef:zip - Build vfs_zip plugin
 media-sound/flactag:gcrypt - Use libgcrypt for low-level crypto
 media-sound/flactag:scripts - Install additional scripts to /usr/bin
-media-sound/picard:acoustid - Use media-libs/chromaprint for acoustic fingerprinting
+media-sound/picard:discid - Enable reading the ID of the inserted CD
+media-sound/picard:fingerprints - Enable calculation and lookup of AcoustID fingerprints
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
