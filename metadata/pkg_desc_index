@@ -117,7 +117,7 @@ media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 3.19 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 14.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 15.4.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 15.5.0 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
@@ -182,7 +182,7 @@ media-fonts/victor-mono 1.5.1 9999: A free programming font with cursive italics
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/yanone-kaffeesatz 2.001_p20190829 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.30.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.32.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
@@ -206,7 +206,7 @@ media-sound/ardour 5.12 6.9 6.9999: Digital Audio Workstation
 media-sound/deadbeef 1.9.1 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
-media-sound/picard 2.8 9999: Cross-platform music tagger
+media-sound/picard 2.8.1 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.6 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
@@ -216,7 +216,7 @@ net-misc/megasync 4.6.6.0_p20220420 9999: Easy automated syncing with MEGA Cloud
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.20 9999: Partition cloning tool
-www-client/torbrowser 11.0.13 11.5_alpha11: The Tor Browser
+www-client/torbrowser 11.0.14 11.5_alpha12: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
@@ -225,7 +225,7 @@ x11-themes/faba-icon-theme 4.3 9999: A sexy and modern icon theme with Tango inf
 x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
 x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20220508 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20220606 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
 x11-themes/papirus-smplayer-theme 9999 20201103_p0: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
