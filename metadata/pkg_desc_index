@@ -221,9 +221,6 @@ www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatic
 x11-themes/adapta-gtk-theme 3.95.0.11 9999: An adaptive Gtk+ theme based on Material Design Guidelines
 x11-themes/adapta-kde 2018.08.28 9999: Adapta KDE customization
 x11-themes/arc-kde 2018.02.01 9999: Arc KDE customization
-x11-themes/faba-icon-theme 4.3 9999: A sexy and modern icon theme with Tango influences
-x11-themes/moka-icon-theme 5.4.0 9999: A stylized icon set designed to be clear, simple and consistent
-x11-themes/paper-icon-theme 1.5.0 9999: A simple and modern icon theme with material design influences
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20220606 99999999: Papirus icon theme for GTK
 x11-themes/papirus-libreoffice-theme 2017.02.28 9999: Papirus theme for Libreoffice
@@ -231,4 +228,3 @@ x11-themes/papirus-smplayer-theme 9999 20201103_p0: Papirus theme for SMPlayer
 x11-themes/smplayer-skins 15.2.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 18.6.0 9999: Icon themes for smplayer
 x11-themes/surfn 9.6.0 9999: A colourful icon theme for linux desktops
-x11-themes/suru-icon-theme 0_p20180722 9999: Suru icon and cursor set
