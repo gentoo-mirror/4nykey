@@ -96,7 +96,6 @@ media-gfx/fontforge:extras - Build and install programs from the contrib directo
 media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:woff2 - Enable WOFF2 support
-media-gfx/fontview:gtk3 - Use GTK+3 instead of GTK+2
 media-libs/skia:egl - Enable EGL support
 media-libs/skia:harfbuzz - Enable OpenType shaping via media-libs/harfbuzz
 media-libs/skia:lottie - Enable Lottie animation support
@@ -165,12 +164,3 @@ www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent in
 www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
 www-client/torbrowser:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches).
 www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
-x11-themes/adapta-gtk-theme:cinnamon - Install Cinnamon theme
-x11-themes/adapta-gtk-theme:mate - Install MATE theme
-x11-themes/adapta-gtk-theme:openbox - Install Openbox theme
-x11-themes/adapta-gtk-theme:telegram - Install telegram-desktop theme
-x11-themes/adapta-gtk-theme:xfce - Install Xfce4 theme
-x11-themes/adapta-kde:konsole - Install konsole theme
-x11-themes/adapta-kde:kvantum - Install kvantum theme
-x11-themes/arc-kde:konsole - Install konsole theme
-x11-themes/arc-kde:kvantum - Install kvantum theme
