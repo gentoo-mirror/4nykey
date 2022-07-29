@@ -1,6 +1,6 @@
 app-arch/wimlib 1.13.5 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
-app-crypt/digidoc4-client 4.2.11 9999: An application for digitally signing and encrypting documents
+app-crypt/digidoc4-client 4.2.12 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
 app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 14.0: UTS #51 Unicode Emoji
@@ -14,7 +14,7 @@ dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Sc
 dev-cpp/xsd 4.2.0_beta2 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20210407-r1 9999: A crash-reporting system
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
-dev-libs/libdigidocpp 3.14.8 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 3.14.10 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.9.0 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
@@ -41,7 +41,7 @@ dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen pro
 dev-python/fonttools 4.34.4 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
-dev-python/glyphsLib 6.0.6 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.0.7 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 0.5.2 9999: A python module providing an API with data about glyph sets
 dev-python/hsluv 5.0.0 9999: Python implementation of HSLuv (revision 4)
 dev-python/hyperglot 0.3.7 9999: A database and tools for detecting language support in fonts
@@ -66,13 +66,13 @@ dev-python/ufo2ft 2.28.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.27.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.28.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.9.1 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.14.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta8 9999: Command Line Interface compiler for C++
-dev-util/cmake-openeid 0_p20210409 9999: Open-EID CMake modules
+dev-util/cmake-openeid 0_p20220223 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontmake 3.4.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.8.2 9999: A font development toolkit
@@ -117,7 +117,7 @@ media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 3.19 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 14.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 15.5.2 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 15.6.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
@@ -137,8 +137,8 @@ media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creat
 media-fonts/monoid 0.61_p20201026 9999: Customisable coding font with alternates, ligatures and contextual positioning
 media-fonts/montserrat 7.200_p20200504 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
-media-fonts/noto-cjk-sans 2.003 9999: Noto CJK sans-serif fonts
-media-fonts/noto-cjk-serif 1.001 9999: Noto CJK serif fonts
+media-fonts/noto-cjk-sans 2.004 9999: Noto CJK sans-serif fonts
+media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.034 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.002 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2020.12.06 9999: A font family that aims to support all the world's languages
@@ -161,7 +161,7 @@ media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20200903 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.36.6: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.36.8: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
@@ -216,7 +216,7 @@ net-misc/megasync 4.6.8.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.20 9999: Partition cloning tool
-www-client/torbrowser 11.5_alpha13 11.5.0: The Tor Browser
+www-client/torbrowser 11.5_alpha13 11.5.1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20220710 99999999: Papirus icon theme for GTK
