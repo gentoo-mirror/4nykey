@@ -4,16 +4,13 @@ app-crypt/digidoc4-client 4.2.12 9999: An application for digitally signing and 
 app-crypt/tera 1.2.0 9999: Time-stamping application
 app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 14.0: UTS #51 Unicode Emoji
-app-text/fntsample 5.2 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
-app-text/podofo 0.9.4 9999: PoDoFo is a C++ library to work with the PDF file format
 dev-cpp/antlr-cpp 4.9.3 9999: The ANTLR C++ Runtime
 dev-cpp/libcutl 1.11.0_beta9 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0_beta2 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20210407-r1 9999: A crash-reporting system
-dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.10 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.9.0 9999: A library for complex text layout
