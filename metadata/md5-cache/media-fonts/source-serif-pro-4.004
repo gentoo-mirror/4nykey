@@ -12,4 +12,4 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-serif/tar.gz/4.004R -> source-serif-pro-4.004R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-serif/tar.gz/4.004 -> source-serif-pro-4.004.tar.gz )
 _eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21
-_md5_=1f26465f402bee1ad705ffd4b3bab5e4
+_md5_=e1b0846d338e31ac4eddb152b843916a

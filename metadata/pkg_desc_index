@@ -4,6 +4,7 @@ app-crypt/digidoc4-client 4.2.12 9999: An application for digitally signing and 
 app-crypt/tera 1.2.0 9999: Time-stamping application
 app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 14.0: UTS #51 Unicode Emoji
+app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
 dev-cpp/antlr-cpp 4.9.3 9999: The ANTLR C++ Runtime
@@ -11,6 +12,7 @@ dev-cpp/libcutl 1.11.0_beta9 9999: A collection of C++ libraries (successor of l
 dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0_beta2 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/breakpad 0_p20210407-r1 9999: A crash-reporting system
+dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.10 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.9.0 9999: A library for complex text layout
@@ -86,14 +88,14 @@ gnome-extra/gnome-shell-remove-dropdown-arrows 13_p20190923 9999: An extension t
 gnome-extra/gnome-shell-system-monitor-applet 38_p20211102 9999: An extension for displaying sensors information in GNOME Shell
 media-fonts/alegreya-sans 2.008_p20201009 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alegreya-serif 2.008_p20200923 9999: A serif typeface originally intended for literature
-media-fonts/alice 2.000_p20161215 9999: A typeface with widened proportions, open aperture and soft rounded features
+media-fonts/alice 2.003 9999: A typeface with widened proportions, open aperture and soft rounded features
 media-fonts/amaticsc 2.611_p20171118 9999: Update of Vernon Adam's Amatic SC and Hafontia's Amatica SC
 media-fonts/arsenal 2.001_p20170627 9999: A traditional half-grotesque font for setting text
 media-fonts/arvo 3.010_p20171210 9999: A geometric slab-serif typeface family suited for screen and print
 media-fonts/bitterpro 2.002_pre20201026 9999: A contemporary slab serif typeface for text
 media-fonts/cantarell 0.303.1 9999: Default fontset for GNOME Shell
 media-fonts/caveat 2.0_pre20201001 9999: Caveat handwriting fonts
-media-fonts/comfortaa 3.103_p20181205 9999: A rounded geometric sans-serif type design intended for large sizes
+media-fonts/comfortaa 3.105_p20210721 9999: A rounded geometric sans-serif type design intended for large sizes
 media-fonts/commissioner 1.000 9999: A low-contrast humanist sans-serif with almost classical proportions
 media-fonts/cormorant 3.609 9999: An extravagant display serif typeface
 media-fonts/cuprum 2.000_p20200907 9999: A narrow grotesque typeface
@@ -102,7 +104,7 @@ media-fonts/didact-gothic 2.101_p20170125 9999: A sans-serif typeface similar to
 media-fonts/eb-garamond 0.016_p20180523 9999: This project aims at providing a free version of the Garamond typeface
 media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
-media-fonts/exo 2.0_p20200309 2.0.9999: A geometric sans serif font family
+media-fonts/exo 2.0_p20211011 2.0.9999: A geometric sans serif font family
 media-fonts/firacode 6.2 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
 media-fonts/fonts-cu 2.2 9999: Unicode OpenType fonts for Church Slavonic
@@ -116,8 +118,8 @@ media-fonts/inter 3.19 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 14.0.0: Spatial efficient monospace font family for programming
 media-fonts/iosevka-src 15.6.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
-media-fonts/jetbrains-mono 2.225 9999: A free and open-source typeface for developers
-media-fonts/jura 5.101_p20191002 9999: A family of sans-serif fonts in the Eurostile vein
+media-fonts/jetbrains-mono 2.242 9999: A free and open-source typeface for developers
+media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
 media-fonts/khartiya 1.0.2 9999: Khartiya is extended Bitstream Charter font
 media-fonts/kurale 2.0_p20170313 9999: A Latin, Cyrillic and Devanagari typeface derived from Gabriela
 media-fonts/lato 2.015: A sanserif typeface family with classical proportions
@@ -127,40 +129,41 @@ media-fonts/libertinus 7.040 9999: A fork of the Linux Libertine and Linux Bioli
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
 media-fonts/literata 3.002 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
-media-fonts/lora 3.000_pre20200603 9999: A well-balanced contemporary serif with roots in calligraphy
+media-fonts/lora 3.004_pre20220721 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
-media-fonts/merriweather 2.100_p20201219 9999: A serif font useful for creating long texts for books or articles
+media-fonts/merriweather 2.100_p20220708 9999: A serif font useful for creating long texts for books or articles
 media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creating long texts for books or articles
 media-fonts/monoid 0.61_p20201026 9999: Customisable coding font with alternates, ligatures and contextual positioning
-media-fonts/montserrat 7.200_p20200504 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
+media-fonts/montserrat 8.000 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk-sans 2.004 9999: Noto CJK sans-serif fonts
 media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.034 9999: Noto Emoji fonts
-media-fonts/noto-emoji-svg 2.002 9999: OpenType-SVG version of Noto Color Emoji
+media-fonts/noto-emoji-svg 2.003 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2020.12.06 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20210401 9999: A WIP versions of the noto fonts
-media-fonts/nunito 3.601_pre20201124 9999: A well balanced Sans Serif with rounded terminals
+media-fonts/noto-source 0_p20220616 9999: A WIP versions of the noto fonts
+media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
-media-fonts/open-sans 3.000_pre20210210 9999: A clean and modern sans-serif typeface for web, print and mobile
-media-fonts/oswald 4.102_p20190411 9999: A reworking of the classic gothic typeface style
+media-fonts/open-sans 3.000_pre20210927 9999: A clean and modern sans-serif typeface for web, print and mobile
+media-fonts/oswald 4.103_p20210930 9999: A reworking of the classic gothic typeface style
 media-fonts/pacifico 3.000_pre20190823 9999: A brush script font inspired by the 1950s American surf culture
 media-fonts/philosopher 2.000_p20170905 9999: A font that takes inspiration from Agfa Rotis and ITC Binary
-media-fonts/piazzolla 2.003 9999: Type system intended for optimizing the available space in press media
-media-fonts/play 2.101 2.101_p20200821 9999: A minimalistic sans serif typeface
-media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20220303 2.9999: An Open Source typeface family for display and titling use
-media-fonts/podkova 2.102_p20190822 9999: A monoline slab serif with diagonal terminals
+media-fonts/piazzolla 2.005 9999: Type system intended for optimizing the available space in press media
+media-fonts/play 2.101 9999: A minimalistic sans serif typeface
+media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20220517 2.9999: An Open Source typeface family for display and titling use
+media-fonts/podkova 2.103 9999: A monoline slab serif with diagonal terminals
 media-fonts/prata 2.000_p20161214 9999: An elegant Didone typeface with sharp features and organic teardrops
-media-fonts/raleway 4.025_p20161218 9999: An elegant sans-serif typeface
+media-fonts/raleway 4.026_p20200708 9999: An elegant sans-serif typeface
 media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
+media-fonts/roboto 3.005 9999: Google's signature family of fonts
 media-fonts/robotomono 3.000_pre20200508 9999: A monospaced addition to the Roboto type family
-media-fonts/robotoslab 2.000_p20200304 9999: Roboto Slab typeface
-media-fonts/rubik 2.101_p20200903 9999: A sans serif font family with slightly rounded corners
+media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
+media-fonts/rubik 2.101_p20220209 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
 media-fonts/sarasa-gothic 0.36.8: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
-media-fonts/sofia-sans 0_p20201216 9999: A comprehensive type system with extended coverage of the LGC Script
+media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
 media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin and Japanese text
@@ -175,10 +178,10 @@ media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
 media-fonts/twemoji-color-font 13.1.0 9999: A color emoji SVGinOT font using Twitter emoji
 media-fonts/unscii 2.1: A bitmapped Unicode font based on classic system fonts
-media-fonts/victor-mono 1.5.1 9999: A free programming font with cursive italics and ligatures
+media-fonts/victor-mono 1.5.4 9999: A free programming font with cursive italics and ligatures
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
-media-fonts/yanone-kaffeesatz 2.001_p20190829 9999: An open-source font by Jan Gerner
+media-fonts/yanone-kaffeesatz 2.002_p20210723 9999: An open-source font by Jan Gerner
 media-gfx/birdfont 2.32.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer

@@ -7,8 +7,6 @@ app-arch/wimlib:ntfs - Support direct manipulation on a NTFS volume via sys-fs/n
 app-arch/wimlib:openssl - Use SHA-1 implementation from libcrypto (dev-libs/openssl)
 app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/digidoc4-client:nautilus - Install gnome-base/nautilus extension
-app-text/podofo:boost - Add support for boost
-app-text/podofo:tools - Build and install commandline tools.
 dev-libs/breakpad:processor - Build processor library
 dev-libs/breakpad:tools - Build tool binaries
 dev-libs/libdigidocpp:pdf - Experimental PDF Signing/validating support
