@@ -1,5 +1,6 @@
-BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( media-gfx/ebdftopcf ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] X? ( media-gfx/ebdftopcf )
 DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A monospace bitmap font
 EAPI=7
 HOMEPAGE=https://font.gohu.org
@@ -9,5 +10,5 @@ LICENSE=WTFPL-2
 PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-ebdftopcf	840fc70bac32a44ea27e63569c1ffea6	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-ebdftopcf	840fc70bac32a44ea27e63569c1ffea6	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=024d3b1906c8236cd553454f553985b9

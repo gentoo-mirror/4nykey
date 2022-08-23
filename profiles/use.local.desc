@@ -7,8 +7,6 @@ app-arch/wimlib:ntfs - Support direct manipulation on a NTFS volume via sys-fs/n
 app-arch/wimlib:openssl - Use SHA-1 implementation from libcrypto (dev-libs/openssl)
 app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/digidoc4-client:nautilus - Install gnome-base/nautilus extension
-dev-libs/breakpad:processor - Build processor library
-dev-libs/breakpad:tools - Build tool binaries
 dev-libs/libdigidocpp:pdf - Experimental PDF Signing/validating support
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-libs/xml-security-c:xalan - Enable support for XSLT and XPath parsing by dev-libs/xalan-c

@@ -1,5 +1,6 @@
-BDEPEND=super-otc? ( app-arch/unzip ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=super-otc? ( app-arch/unzip ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Noto CJK sans-serif fonts
 EAPI=7
 HOMEPAGE=https://www.google.com/get/noto/help/cjk
@@ -11,5 +12,5 @@ RDEPEND=!<media-fonts/noto-cjk-2.003
 REQUIRED_USE=?? ( font_types_otf font_types_ttc ) super-otc? ( font_types_ttc !variable ) font_types_otf? ( || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) || ( font_types_otf font_types_ttc )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=055aeb8641888ec73db63576e504e9c3

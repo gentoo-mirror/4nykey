@@ -1,6 +1,5 @@
-BDEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=!binary? ( dev-util/afdko dev-python/opentype-svg )
+DEPEND=!binary? ( dev-util/afdko dev-python/opentype-svg ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=An monospaced font for mixed Latin and Japanese text
 EAPI=7
 HOMEPAGE=https://github.com/adobe-fonts/source-han-code-jp
@@ -12,5 +11,5 @@ REQUIRED_USE=?? ( font_types_otf font_types_ttc ) || ( font_types_otf font_types
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( mirror://githubcl/adobe-fonts/source-han-code-jp/tar.gz/2.012R -> source-han-code-jp-2.012R.tar.gz ) !binary? ( mirror://githubcl/adobe-fonts/source-han-code-jp/tar.gz/2.012 -> source-han-code-jp-2.012.tar.gz )
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=7de2594988b42ae420b55f79dbf542a2

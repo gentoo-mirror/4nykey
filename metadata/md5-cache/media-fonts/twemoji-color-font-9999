@@ -1,5 +1,6 @@
-BDEPEND=!binary? ( media-gfx/inkscape virtual/imagemagick-tools[png] media-gfx/potrace dev-util/svgo dev-python/scfbuild ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=!binary? ( media-gfx/inkscape virtual/imagemagick-tools[png] media-gfx/potrace dev-util/svgo dev-python/scfbuild ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A color emoji SVGinOT font using Twitter emoji
 EAPI=7
 HOMEPAGE=https://github.com/eosrei/twemoji-color-font
@@ -10,5 +11,5 @@ PROPERTIES=live
 REQUIRED_USE=!binary
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=c285f449998b774c2b6cc4dea9730d2a

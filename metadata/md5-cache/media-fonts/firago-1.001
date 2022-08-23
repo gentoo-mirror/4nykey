@@ -1,7 +1,7 @@
 DEFINED_PHASES=install postinst postrm setup
 DEPEND=app-arch/unzip X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A continuation of FiraSans
-EAPI=6
+EAPI=7
 HOMEPAGE=https://bboxtype.com/typefaces/FiraGO
 INHERIT=font-r1
 IUSE=X font_types_otf +font_types_ttf
@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://bboxtype.com/downloads/FiraGO/Download_Folder_FiraGO_1001.zip
-_eclasses_=font-r1	c190b03dcc36843c4fd8d21b9b237c21
-_md5_=eb9bb7225f5c635ea695f8241f3b2be3
+_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_md5_=df0563b0a3dde1c9a5adb5020a6ca723

@@ -1,5 +1,6 @@
-BDEPEND=net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) >=dev-vcs/git-1.8.2.1[curl] X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+BDEPEND=net-libs/nodejs[npm] autohint? ( media-gfx/ttfautohint ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm prepare pretend setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Spatial efficient monospace font family for programming
 EAPI=7
 HOMEPAGE=https://be5invis.github.io/Iosevka
@@ -11,5 +12,5 @@ RDEPEND=!media-fonts/iosevka !media-fonts/iosevka-bin
 REQUIRED_USE=?? ( font_types_ttc font_types_ttf ) || ( font_variants_aile font_variants_curly font_variants_custom font_variants_default font_variants_etoile font_variants_slab font_variants_fixed font_variants_ss01 font_variants_ss02 font_variants_ss03 font_variants_ss04 font_variants_ss05 font_variants_ss06 font_variants_ss07 font_variants_ss08 font_variants_ss09 font_variants_ss10 font_variants_ss11 font_variants_ss12 font_variants_ss13 font_variants_ss14 font_variants_ss15 font_variants_ss16 font_variants_ss17 font_variants_ss18 font_variants_term ) font_variants_custom? ( savedconfig ) || ( font_types_ttc font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	portability	d33a77692bb47e8227f27e17fb9c3c05	savedconfig	7cb1bf66b4acedc4f06802a012d3b08d	font-r1	c190b03dcc36843c4fd8d21b9b237c21
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	portability	d33a77692bb47e8227f27e17fb9c3c05	savedconfig	7cb1bf66b4acedc4f06802a012d3b08d	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=52b5c6b89c6d3f80f95498a24153e0e9
