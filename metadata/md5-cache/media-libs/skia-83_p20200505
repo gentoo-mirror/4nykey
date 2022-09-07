@@ -12,5 +12,5 @@ RDEPEND=xml? ( dev-libs/expat ) ffmpeg? ( media-video/ffmpeg ) icu? ( dev-libs/i
 RESTRICT=primaryuri
 SLOT=0/83
 SRC_URI=mirror://githubcl/google/skia/tar.gz/c3d05a7 -> skia-83_p20200505.tar.gz
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	58ec4e54962bf45d065fb95030701514	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97
 _md5_=ba6e672bb2ed22d6b894648bbd899d50

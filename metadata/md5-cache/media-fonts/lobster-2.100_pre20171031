@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/impallari/The-Lobster-Font/tar.gz/2cb4569 -> lobster-2.100_pre20171031.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/7a286dc -> 9ef5512cdd3177cc8d4667bcf5a58346-7a286dc.tar.gz )
-_eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	c0e8183a77109cd834dc332216f89af9
+_eclasses_=vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	c0e8183a77109cd834dc332216f89af9
 _md5_=139fbdab3ba7cb30cda365c9b0656de2

@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/Montserrat/tar.gz/v8.000 -> montserrat-8.000.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/7a286dc -> 9ef5512cdd3177cc8d4667bcf5a58346-7a286dc.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	dd5e1098e305ad508d21f496e9e37046	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	c0e8183a77109cd834dc332216f89af9
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	b9fc5e97e886514e5132f50465185401	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	c0e8183a77109cd834dc332216f89af9
 _md5_=4d1400e538955cc078a368fba43b1ac6
