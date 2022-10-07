@@ -57,11 +57,9 @@ dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.0.7 9999: An SFD to UFO converter
 dev-python/skia-pathops 0.7.2 9999: Python bindings for the Skia Path Ops
-dev-python/statmake 0.4.1 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.6.1 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
 dev-python/ufo2ft 2.28.0 9999: A bridge from UFOs to FontTool objects
-dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.30.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
