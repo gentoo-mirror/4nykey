@@ -1,0 +1,14 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl] >=virtual/rust-1.37.0
+DEFINED_PHASES=compile configure install test unpack
+DEPEND=qt5? ( dev-qt/qtgui:5 )
+DESCRIPTION=An SVG rendering library
+EAPI=7
+HOMEPAGE=https://github.com/RazrFalcon/resvg
+INHERIT=git-r3 qmake-utils cargo
+IUSE=qt5 debug
+LICENSE=MPL-2.0
+PROPERTIES=live
+RDEPEND=qt5? ( dev-qt/qtgui:5 ) media-libs/fontconfig
+SLOT=0
+_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	52a92ed3815080c5f2caac1905687b1c
+_md5_=775bfa430c054831685ced31eb420519

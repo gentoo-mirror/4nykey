@@ -22,6 +22,7 @@ dev-python/fonttools:symfont - Enable support for symbolic font statistics analy
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
 dev-util/ots:graphite - Sanitize Graphite tables
+media-fonts/adobe-source:emoji - Install emoji fonts
 media-fonts/iosevka-bin:font_variants_aile - A quasi-proportional variant
 media-fonts/iosevka-bin:font_variants_curly - A variant with curly leg shapes
 media-fonts/iosevka-bin:font_variants_default - The default variant with ligatures and semantic full-width glyphs
@@ -81,7 +82,6 @@ media-fonts/sarasa-gothic:font_variants_term - A variant with ligatures and half
 media-fonts/source-han-sans:half-width - Install fonts that use half-width glyphs for ASCII by default
 media-fonts/source-han-sans:super-otc - Install single combined Super OTC collection
 media-fonts/source-han-serif:super-otc - Install single combined Super OTC collection
-media-fonts/source-pro:emoji - Install emoji fonts
 media-fonts/unscii:utils - Install bm2uns util to convert a bitmap image to unscii art
 media-gfx/fim:archive - Enable archive support using app-arch/libarchive
 media-gfx/fim:dia - Enable DIA file support via app-office/dia
@@ -146,17 +146,19 @@ sys-block/partclone:reiser4 - Include ReiserFS4 support
 sys-block/partclone:reiserfs - Include ReiserFS support
 sys-block/partclone:xfs - Include XFS support
 www-client/torbrowser:clang - Use Clang compiler instead of GCC
-www-client/torbrowser:eme-free - Disable EME (DRM plugin) cabability at build time
+www-client/torbrowser:eme-free - Disable EME (DRM plugin) capability at build time
 www-client/torbrowser:hwaccel - Force-enable hardware-accelerated rendering (Mozilla bug 594876)
-www-client/torbrowser:lto - Enable Link Time Optimization (LTO). Requires Gold linker when using GCC or LDD linker when using Clang
-www-client/torbrowser:openh264 - Use media-libs/openh264 for H.264 support instead of downloading binary blob from Mozilla at runtime
-www-client/torbrowser:pgo - Add support for profile-guided optimization using gcc-4.5, for faster binaries. This option will double the compile time.
+www-client/torbrowser:libproxy - Enable libproxy support
+www-client/torbrowser:lto - Enable Link Time Optimization (LTO)
+www-client/torbrowser:openh264 - Use media-libs/openh264 for H264 support instead of downloading binary blob from Mozilla at runtime
+www-client/torbrowser:pgo - Add support for profile-guided optimization for faster binaries - this option will double the compile time
 www-client/torbrowser:sndio - Enable support for the media-sound/sndio backend
-www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled.
-www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled.
-www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled.
-www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled.
-www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled.
-www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled.
-www-client/torbrowser:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches).
-www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled.
+www-client/torbrowser:system-av1 - Use the system-wide media-libs/dav1d and media-libs/libaom library instead of bundled
+www-client/torbrowser:system-harfbuzz - Use the system-wide media-libs/harfbuzz and media-gfx/graphite2 instead of bundled
+www-client/torbrowser:system-icu - Use the system-wide dev-libs/icu instead of bundled
+www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo instead of bundled
+www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
+www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
+www-client/torbrowser:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
+www-client/torbrowser:system-python-libs - Use system's python site instead of bundled python libraries
+www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled

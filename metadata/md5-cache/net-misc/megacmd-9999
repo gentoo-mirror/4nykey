@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=net-misc/meganz-sdk-3.9.16:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
 SLOT=0
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=e69ef6894e69d4b8d429a18b1bcefd5c
+_md5_=fc21b5068a58740d41e82ba2e533772a

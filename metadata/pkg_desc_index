@@ -1,9 +1,9 @@
-app-arch/wimlib 1.13.5 9999: The open source Windows Imaging (WIM) library
+app-arch/wimlib 1.13.6 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.2.12 9999: An application for digitally signing and encrypting documents
 app-crypt/tera 1.2.0 9999: Time-stamping application
 app-editors/neovim-gtk 0.3.0_pre20200125 9999: GTK ui for neovim written in rust using gtk-rs bindings
-app-i18n/unicode-emoji 14.0: UTS #51 Unicode Emoji
+app-i18n/unicode-emoji 15.0: UTS #51 Unicode Emoji
 app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
 app-text/hoedown 3.0.7 9999: Standards compliant, fast, secure markdown processing library in C
@@ -34,20 +34,24 @@ dev-python/extractor 0.3.0 9999: Tools for extracting data from font binaries in
 dev-python/ffmpeg-python 0.2.0 9999: Python bindings for FFmpeg
 dev-python/font-v 2.1.0 9999: Font version string reporting and modification library
 dev-python/fontMath 0.9.2 9999: A collection of objects that implement fast font math
-dev-python/fontParts 0.10.2 9999: An API for interacting with the parts of fonts
+dev-python/fontParts 0.10.8 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.37.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.37.4 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/fs 2.4.11 9999: Filesystem abstraction layer
-dev-python/glyphsLib 6.0.7 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.1.0 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 0.5.2 9999: A python module providing an API with data about glyph sets
+dev-python/glyphspkg 0.1.7 9999: Converter for GlyphsApp package to monolithic files
 dev-python/hsluv 5.0.0 9999: Python implementation of HSLuv (revision 4)
 dev-python/hyperglot 0.3.7 9999: A database and tools for detecting language support in fonts
-dev-python/nototools 0.2.16 9999: A python package for maintaining the Noto Fonts project
+dev-python/nanoemoji 0.15.0 9999: A wee tool to build color fonts
+dev-python/ninja-python-distributions 1.10.2.4 9999: A tool to build Ninja Python wheels
+dev-python/nototools 0.2.17 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.0 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.1 9999: Scripts for making OpenType-SVG fonts
-dev-python/ots-python 8.2.1 9999: A Python wrapper for OpenType Sanitizer
+dev-python/ots-python 9.0.0 9999: A Python wrapper for OpenType Sanitizer
 dev-python/pcpp 1.22 9999: A C99 preprocessor written in pure Python
+dev-python/picosvg 0.20.4 9999: A tool to simplify SVGs
 dev-python/py-zopfli 0.2.1 9999: Python bindings for zopfli
 dev-python/pybrowserstack-screenshots 0.1 9999: A python api wrapper and client for Browserstack Screenshots API
 dev-python/pycdio 2.1.0: Python OO interface to libcdio (CD Input and Control library)
@@ -57,9 +61,11 @@ dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.0.7 9999: An SFD to UFO converter
 dev-python/skia-pathops 0.7.2 9999: Python bindings for the Skia Path Ops
+dev-python/statmake 0.5.1 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.6.1 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
 dev-python/ufo2ft 2.28.0 9999: A bridge from UFOs to FontTool objects
+dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.30.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
@@ -75,14 +81,15 @@ dev-util/fontship 0.8.2 9999: A font development toolkit
 dev-util/gftools 0.8.8 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
-dev-util/ots 8.2.1 9999: An util for validating and sanitising OpenType files
+dev-util/ots 9.0.0 9999: An util for validating and sanitising OpenType files
 dev-util/psautohint 2.4.0 9999: A standalone version of AFDKO autohinter
 dev-util/sfdnormalize 0.3.0 9999: Discard GUI information from SFD files
 dev-util/svgo 2.2.2 9999: Nodejs-based tool for optimizing SVG vector graphics files
-gnome-extra/gnome-shell-extension-appindicator 42 9999: Adds AppIndicator support to gnome shell
+gnome-extra/gnome-shell-extension-appindicator 46 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 1.1_pre20210509 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-remove-dropdown-arrows 13_p20190923 9999: An extension that removes the dropdown arrows from GS menus
 gnome-extra/gnome-shell-system-monitor-applet 38_p20211102 9999: An extension for displaying sensors information in GNOME Shell
+media-fonts/adobe-source 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/alegreya-sans 2.008_p20201009 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alegreya-serif 2.008_p20200923 9999: A serif typeface originally intended for literature
 media-fonts/alice 2.003 9999: A typeface with widened proportions, open aperture and soft rounded features
@@ -111,9 +118,9 @@ media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/inter 3.19 9999: A typeface specially designed for user interfaces
+media-fonts/inter 4.0_beta5 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 16.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 16.1.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 16.3.0 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.242 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -135,7 +142,7 @@ media-fonts/montserrat 8.000 9999: A typeface inspired by the Montserrat neighbo
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk-sans 2.004 9999: Noto CJK sans-serif fonts
 media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
-media-fonts/noto-emoji 2.034 9999: Noto Emoji fonts
+media-fonts/noto-emoji 2.038 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
 media-fonts/noto-source 0_p20220616 9999: A WIP versions of the noto fonts
@@ -167,7 +174,6 @@ media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin an
 media-fonts/source-han-mono 1.002 9999: A set of OpenType/CFF Pan-CJK monospace fonts
 media-fonts/source-han-sans 2.004 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 2.001 9999: A set of OpenType/CFF Pan-CJK fonts
-media-fonts/source-pro 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/source-sans-pro 3.046 9999: Sans serif font family for user interface environments
 media-fonts/source-serif-pro 4.004 9999: Serif typeface designed to complement Source Sans Pro
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
@@ -179,7 +185,7 @@ media-fonts/victor-mono 1.5.4 9999: A free programming font with cursive italics
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/yanone-kaffeesatz 2.002_p20210723 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.32.0 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.32.3 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fbvis 0_p20151208 9999: A framebuffer image viewer
 media-gfx/fim 0.5_rc3 0.6_pre20180128 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3 9999: A tool for finding visual differences between two font versions
@@ -192,15 +198,16 @@ media-libs/libltc 1.3.1 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/libspiro 20200505 99999999: A library for drawing beautiful curves
 media-libs/libuninameslist 20211114 99999999: A library of Unicode names and annotation data
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
+media-libs/resvg 0.23.0 9999: An SVG rendering library
 media-libs/skia 83_p20200505 83.9999 95_p20210920 95.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211216 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.15_pre20220524 9999: A plugin that implements the MPRISv2 for DeaDBeeF
 media-plugins/deadbeef-spectrum-plugin 0.2_p20220805 9999: Musical spectrum for the DeaDBeeF audio player
-media-plugins/deadbeef-statusnotifier-plugin 1.6 9999: Plugin that provides system tray icon for deadbeef in Plasma5
+media-plugins/deadbeef-statusnotifier-plugin 1.6_p20211124 9999: Plugin that provides system tray icon for deadbeef in Plasma5
 media-plugins/gimp-plugin-bimp 2.6 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 5.12 6.9 6.9999: Digital Audio Workstation
-media-sound/deadbeef 1.9.1-r1 9999: A music player for *nix-like systems and OSX
+media-sound/deadbeef 1.9.2 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/picard 2.8.3 9999: Cross-platform music tagger
@@ -208,15 +215,15 @@ media-sound/r128gain 1.0.6 9999: Fast audio loudness scanner & tagger (ReplayGai
 media-sound/ttaenc 3.4.1: TTA lossless audio encoder/decoder
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.5.1 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 3.12.3_p20220615 9999: MEGA C++ SDK
-net-misc/megasync 4.6.8.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 4.0.4a 9999: MEGA C++ SDK
+net-misc/megasync 4.7.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.20 9999: Partition cloning tool
-www-client/torbrowser 11.5_alpha13 11.5.2: The Tor Browser
+www-client/torbrowser 11.5.2 12.0_alpha3: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20220808 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20220910 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 20.11.0 9999: Icon themes for smplayer
 x11-themes/surfn 22.04.02 9999: A colourful icon theme for linux desktops
