@@ -1,14 +1,14 @@
 BDEPEND=nls? ( sys-devel/gettext ) sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71 >=sys-devel/libtool-2.4 >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=configure postinst postrm preinst prepare unpack
-DEPEND=app-eselect/eselect-gnome-shell-extensions
+DEFINED_PHASES=postinst postrm preinst unpack
+DEPEND=app-eselect/eselect-gnome-shell-extensions net-libs/libsoup:3.0[introspection]
 DESCRIPTION=An extension for displaying weather informations in GNOME Shell
-EAPI=7
-HOMEPAGE=https://github.com/jenslody/gnome-shell-extension-openweather
+EAPI=8
+HOMEPAGE=https://gitlab.com/skrewball/openweather
 INHERIT=autotools gnome2-utils git-r3
 IUSE=nls
 LICENSE=GPL-3+
 PROPERTIES=live
-RDEPEND=app-eselect/eselect-gnome-shell-extensions gnome-base/gnome-shell
+RDEPEND=app-eselect/eselect-gnome-shell-extensions net-libs/libsoup:3.0[introspection]
 SLOT=0
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	9e6965bfaa00f52cc61e0d4bc44c87b3	xdg-utils	ac0e315a3688929e34ac75b139e7349a	gnome2-utils	2116cec8f46f4d1b0a88c5b1f1575dd3	git-r3	b9ac6f96d2a88edb5b351df634dc5e53
-_md5_=2017d428d36444d4149c8c6fe0541da6
+_md5_=947978fc4713a328b6b994a64c77f83e

@@ -98,13 +98,12 @@ media-libs/skia:lottie - Enable Lottie animation support
 media-plugins/deadbeef-spectrum-plugin:gtk3 - Enable support for GTK+3
 media-plugins/deadbeef-statusnotifier-plugin:gtk3 - Enable support for GTK+3
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
-media-sound/ardour:c++0x - Compile using the C++11 standard
 media-sound/ardour:hid - Add support for dev-libs/hidapi
-media-sound/ardour:lv2 - Add support for Ladspa V2
 media-sound/ardour:phone-home - Contact ardour.org at startup for new announcements
 media-sound/ardour:sanitize - Turn on AddressSanitizer (requires GCC >= 4.8 or clang >= 3.1)
 media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
+media-sound/ardour:websockets - Enable support for WebSocket protocol
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
 media-sound/deadbeef:clang - Build with Clang compiler
 media-sound/deadbeef:dumb - Enable media-libs/dumb module library support
