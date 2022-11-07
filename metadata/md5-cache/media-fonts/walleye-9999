@@ -11,5 +11,5 @@ PROPERTIES=live
 RESTRICT=strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/gist/f9edc47e189d8495b647a4feac8ca240/tar.gz/1827636 -> f9edc47e189d8495b647a4feac8ca240-1827636.tar.gz
-_eclasses_=git-r3	b9ac6f96d2a88edb5b351df634dc5e53	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=78b8abadf56679815c2cec2d85edf5c6
