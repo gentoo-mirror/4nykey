@@ -3,11 +3,10 @@
 
 EAPI=8
 
-FIREFOX_PATCHSET="firefox-102esr-patches-03j.tar.xz"
+FIREFOX_PATCHSET="firefox-102esr-patches-05j.tar.xz"
 MY_PV="$(ver_cut 1-2)"
 # https://dist.torproject.org/torbrowser
-MY_P="102.3.0esr-${MY_PV}-1-build2"
-MY_TL="0.2.39"
+MY_P="102.4.0esr-${MY_PV}-2-build1"
 MY_P="firefox-tor-browser-${MY_P}"
 
 LLVM_MAX_SLOT=14
@@ -24,7 +23,7 @@ inherit autotools check-reqs desktop flag-o-matic gnome2-utils linux-info \
 	virtualx xdg
 
 PATCH_URIS=(
-	https://dev.gentoo.org/~{juippis,whissi}/mozilla/patchsets/${FIREFOX_PATCHSET}
+	https://dev.gentoo.org/~{juippis,whissi,slashbeast}/mozilla/patchsets/${FIREFOX_PATCHSET}
 )
 
 if [[ -z ${PV%%*_alpha*} ]]; then
@@ -34,12 +33,10 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 MY_PV="${MY_PV%.0}"
-MY_TL="src-tor-launcher-${MY_TL}"
 MY_NOS="11.4.11"
 MY_NOS="noscript-${MY_NOS}.xpi"
 SRC_URI="
 	mirror://tor/${PN}/${MY_PV}/src-${MY_P}.tar.xz
-	mirror://tor/${PN}/${MY_PV}/${MY_TL}.tar.xz
 	https://secure.informaction.com/download/releases/${MY_NOS}
 	${PATCH_URIS[@]}
 "
@@ -59,6 +56,7 @@ IUSE+=" wayland wifi"
 
 REQUIRED_USE="debug? ( !system-av1 )
 	pgo? ( lto )
+	wayland? ( dbus )
 	wifi? ( dbus )"
 
 BDEPEND="${PYTHON_DEPS}
@@ -73,7 +71,7 @@ BDEPEND="${PYTHON_DEPS}
 			sys-devel/clang:14
 			sys-devel/llvm:14
 			clang? (
-				=sys-devel/lld-14*
+				sys-devel/lld:14
 				pgo? ( =sys-libs/compiler-rt-sanitizers-14*[profile] )
 			)
 		)
@@ -81,7 +79,7 @@ BDEPEND="${PYTHON_DEPS}
 			sys-devel/clang:13
 			sys-devel/llvm:13
 			clang? (
-				=sys-devel/lld-13*
+				sys-devel/lld:13
 				pgo? ( =sys-libs/compiler-rt-sanitizers-13*[profile] )
 			)
 		)
@@ -90,7 +88,10 @@ BDEPEND="${PYTHON_DEPS}
 	x86? ( >=dev-lang/nasm-2.14 )"
 
 COMMON_DEPEND="
-	dev-libs/atk
+	|| (
+		>=app-accessibility/at-spi2-core-2.46.0:2
+		dev-libs/atk
+	)
 	dev-libs/expat
 	dev-libs/glib:2
 	dev-libs/libffi:=
@@ -403,8 +404,6 @@ src_prepare() {
 	append-cppflags "-DTOR_BROWSER_DATA_IN_HOME_DIR"
 	eapply "${FILESDIR}"/${PN}11.5-profiledir.patch
 
-	mv "${WORKDIR}"/${MY_TL#src-} browser/extensions/tor-launcher
-
 	sed -e '/new-identity-button/d' -i browser/components/customizableui/CustomizableUI.jsm
 
 	# Make LTO respect MAKEOPTS
@@ -710,7 +709,6 @@ src_configure() {
 	mozconfig_add_options_ac 'torbrowser' --with-app-name=${PN}
 	mozconfig_add_options_ac 'torbrowser' --with-app-basename=${PN}
 	mozconfig_add_options_ac 'torbrowser' --disable-tor-browser-update
-	mozconfig_add_options_ac 'torbrowser' --enable-tor-launcher
 	mozconfig_add_options_ac 'torbrowser' --with-tor-browser-version=${MY_PV}
 	mozconfig_add_options_ac 'torbrowser' --enable-tor-browser-data-outside-app-dir
 	mozconfig_add_options_ac 'torbrowser' --with-branding=browser/branding/official

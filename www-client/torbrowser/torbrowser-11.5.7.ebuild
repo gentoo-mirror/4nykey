@@ -6,7 +6,7 @@ EAPI="8"
 FIREFOX_PATCHSET="firefox-91esr-patches-10j.tar.xz"
 MY_PV="$(ver_cut 1-2)"
 # https://dist.torproject.org/torbrowser
-MY_P="91.13.0esr-${MY_PV}-1-build4"
+MY_P="91.13.0esr-${MY_PV}-1-build6"
 MY_TL="0.2.37"
 MY_P="firefox-tor-browser-${MY_P}"
 
@@ -403,6 +403,8 @@ src_prepare() {
 	append-cppflags "-DTOR_BROWSER_DATA_IN_HOME_DIR"
 	eapply "${FILESDIR}"/${PN}11.5-profiledir.patch
 
+	eapply "${FILESDIR}"/rust164.diff
+
 	mv "${WORKDIR}"/${MY_TL#src-} browser/extensions/tor-launcher
 
 	sed -e '/new-identity-button/d' -i browser/components/customizableui/CustomizableUI.jsm
@@ -435,7 +437,7 @@ src_prepare() {
 
 	# Clearing checksums where we have applied patches
 	sed -e 's/\("files":{\)[^}]*/\1/' \
-		-i "${S}"/third_party/rust/target-lexicon-0.9.0/.cargo-checksum.json \
+		-i "${S}"/third_party/rust/packed_simd/.cargo-checksum.json \
 		|| die
 
 	# Create build dir
@@ -888,9 +890,6 @@ src_install() {
 
 	# Install .desktop for menu entry
 	make_desktop_entry ${PN} "Tor Browser" ${PN} "Network;WebBrowser" "StartupWMClass=Torbrowser"
-
-	cd "${WORKDIR}"/eff
-	find chrome | sort | zip -q -X -@ "${ED}${MOZILLA_FIVE_HOME}"/omni.ja
 }
 
 pkg_preinst() {
