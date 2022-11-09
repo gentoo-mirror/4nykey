@@ -60,15 +60,15 @@ dev-python/python-discid 1.2.0 9999: Python bindings for libdiscid
 dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.0.7 9999: An SFD to UFO converter
-dev-python/skia-pathops 0.7.2 9999: Python bindings for the Skia Path Ops
+dev-python/skia-pathops 0.7.3 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.5.1 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.6.1 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 2.28.0 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 2.29.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.13.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.31.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.32.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-util/afdko 3.9.1 9999: Adobe Font Development Kit for OpenType
@@ -76,7 +76,7 @@ dev-util/build2 0.14.0 9999: An open source cross-platform toolchain for buildin
 dev-util/cli 1.2.0_beta8 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20220223 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
-dev-util/fontmake 3.4.0 9999: A wrapper for several Python libraries to compile fonts from sources
+dev-util/fontmake 3.5.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.8.2 9999: A font development toolkit
 dev-util/gftools 0.8.8 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 4.2 9999: The SIL Graphite compiler
@@ -118,7 +118,7 @@ media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/inter 4.0_beta6 9999: A typeface specially designed for user interfaces
+media-fonts/inter 4.0_beta7 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 16.0.0: Spatial efficient monospace font family for programming
 media-fonts/iosevka-src 16.3.4 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
@@ -198,7 +198,7 @@ media-libs/libltc 1.3.1 9999: Linear/Logitudinal Time Code (LTC) Library
 media-libs/libspiro 20200505 99999999: A library for drawing beautiful curves
 media-libs/libuninameslist 20211114 99999999: A library of Unicode names and annotation data
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
-media-libs/resvg 0.24.0 9999: An SVG rendering library
+media-libs/resvg 0.25.0 9999: An SVG rendering library
 media-libs/skia 83_p20200505 83.9999 95_p20210920 95.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211216 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.15_pre20220524 9999: A plugin that implements the MPRISv2 for DeaDBeeF
@@ -206,8 +206,8 @@ media-plugins/deadbeef-spectrum-plugin 0.2_p20220805 9999: Musical spectrum for 
 media-plugins/deadbeef-statusnotifier-plugin 1.6_p20211124 9999: Plugin that provides system tray icon for deadbeef in Plasma5
 media-plugins/gimp-plugin-bimp 2.6 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r3 9999: Normalize perceived loudness of AAC audio files
-media-sound/ardour 6.9 6.9999 7.0 7.9999: Digital Audio Workstation
-media-sound/deadbeef 1.9.2 9999: A music player for *nix-like systems and OSX
+media-sound/ardour 6.9 6.9999 7.1 7.9999: Digital Audio Workstation
+media-sound/deadbeef 1.9.3 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/mp3gain 1.6.2-r1 9999: A program to analyze and adjust MP3 files to same volume
 media-sound/picard 2.8.3 9999: Cross-platform music tagger
@@ -220,10 +220,10 @@ net-misc/megasync 4.7.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
 net-wireless/rt3070 2.6.1.3.20121022: RaLink RT8070/RT3070/RT3370/RT3572/RT537x/RT5572 USB wireless driver
 sys-block/partclone 0.3.20 9999: Partition cloning tool
-www-client/torbrowser 11.5.4 12.0_alpha3: The Tor Browser
+www-client/torbrowser 11.5.7 12.0_alpha4: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20220910 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20221101 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 20.11.0 9999: Icon themes for smplayer
 x11-themes/surfn 22.04.02 9999: A colourful icon theme for linux desktops
