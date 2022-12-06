@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( https://github.com/googlefonts/roboto-classic/releases/download/v3.005/Roboto_v3.005.zip ) !binary? ( mirror://githubcl/googlefonts/roboto-classic/tar.gz/v3.005 -> roboto-3.005.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	959e1d99122907eb98a3a660297a967e	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
 _md5_=781af8fdda6caa522ad326b52ffa2cb9
