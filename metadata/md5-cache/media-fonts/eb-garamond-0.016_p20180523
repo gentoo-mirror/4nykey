@@ -1,4 +1,4 @@
-BDEPEND=binary? ( app-arch/unzip ) !binary? ( python_single_target_python3_8? ( >=dev-lang/python-3.8.15_p3:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.15_p3:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.8_p3:3.10 ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_8(-)] ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] ) font_types_ttf? ( media-gfx/ttfautohint ) )
+BDEPEND=binary? ( app-arch/unzip ) !binary? ( python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_8(-)] ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] ) font_types_ttf? ( media-gfx/ttfautohint ) )
 DEFINED_PHASES=compile install postinst postrm setup
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=This project aims at providing a free version of the Garamond typeface
@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/georgd/eb-garamond/tar.gz/d9d931d -> eb-garamond-0.016_p20180523.tar.gz ) binary? ( https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-0.016.zip )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-single-r1	a5747fe6dc0651d95cb78eddd5e160a8	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=9c424bed3a8b1116c4a8e4fedb19069d

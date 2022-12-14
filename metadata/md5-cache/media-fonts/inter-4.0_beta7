@@ -1,6 +1,6 @@
 BDEPEND=binary? ( app-arch/unzip )
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( >=dev-lang/python-3.10.8_p3:3.10 >=dev-lang/python-3.9.15_p3:3.9 >=dev-lang/python-3.8.15_p3:3.8 ) || ( ( >=dev-lang/python-3.10.8_p3:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.15_p3:3.9 >=dev-util/fontmake-3.5[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.15_p3:3.8 >=dev-util/fontmake-3.5[python_targets_python3_8(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( >=dev-lang/python-3.10.9:3.10 >=dev-lang/python-3.9.16:3.9 >=dev-lang/python-3.8.16:3.8 ) || ( ( >=dev-lang/python-3.10.9:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16:3.9 >=dev-util/fontmake-3.5[python_targets_python3_9(-)] ) ( >=dev-lang/python-3.8.16:3.8 >=dev-util/fontmake-3.5[python_targets_python3_8(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DESCRIPTION=A typeface specially designed for user interfaces
 EAPI=7
 HOMEPAGE=https://rsms.me/inter
@@ -12,5 +12,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( https://github.com/rsms/inter/releases/download/v4.0-beta7/Inter-4.0-beta7.zip ) !binary? ( mirror://githubcl/rsms/inter/tar.gz/v4.0-beta7 -> inter-4.0_beta7.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	25c880c1db58e21b80b684bacc964958	python-any-r1	f2f00fb79b5e888b5011d4c51240ae97	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-any-r1	1a218637f27d4c027b92e511707264fd	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
 _md5_=af6a6f9a3791c16767056d8ccc1938bb
