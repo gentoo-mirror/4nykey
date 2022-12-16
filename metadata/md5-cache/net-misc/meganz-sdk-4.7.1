@@ -2,7 +2,7 @@ BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/
 DEFINED_PHASES=configure install prepare test
 DEPEND=dev-libs/crypto++:= sys-libs/zlib dev-libs/libpcre:3[cxx] dev-libs/openssl:0 net-dns/c-ares net-misc/curl sqlite? ( dev-db/sqlite:3 ) examples? ( sys-libs/readline:0 fuse? ( sys-fs/fuse:0 ) ) freeimage? ( media-libs/freeimage ) libuv? ( dev-libs/libuv ) dev-libs/libsodium mediainfo? ( media-libs/libmediainfo ) ffmpeg? ( media-video/ffmpeg ) raw? ( media-libs/libraw ) test? ( dev-cpp/gtest )
 DESCRIPTION=MEGA C++ SDK
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/meganz/sdk
 INHERIT=flag-o-matic qmake-utils autotools
 IUSE=examples ffmpeg freeimage fuse hardened inotify libuv mediainfo qt raw +sqlite test
@@ -11,7 +11,7 @@ LICENSE=BSD-2
 RDEPEND=dev-libs/crypto++:= sys-libs/zlib dev-libs/libpcre:3[cxx] dev-libs/openssl:0 net-dns/c-ares net-misc/curl sqlite? ( dev-db/sqlite:3 ) examples? ( sys-libs/readline:0 fuse? ( sys-fs/fuse:0 ) ) freeimage? ( media-libs/freeimage ) libuv? ( dev-libs/libuv ) dev-libs/libsodium mediainfo? ( media-libs/libmediainfo ) ffmpeg? ( media-video/ffmpeg ) raw? ( media-libs/libraw )
 REQUIRED_USE=examples? ( sqlite ) fuse? ( examples )
 RESTRICT=primaryuri test
-SLOT=0/40500
-SRC_URI=mirror://githubcl/meganz/sdk/tar.gz/v4.5.0 -> meganz-sdk-4.5.0.tar.gz
-_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	flag-o-matic	69394e25812406faa1f90edaf4969395	qmake-utils	59420c906278d16deaaa629f9d115707	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
-_md5_=6ccdbd34a568ce02fc0ed238929c6340
+SLOT=0/40701
+SRC_URI=mirror://githubcl/meganz/sdk/tar.gz/v4.7.1 -> meganz-sdk-4.7.1.tar.gz
+_eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	qmake-utils	59420c906278d16deaaa629f9d115707	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
+_md5_=2600c4a04564099fae0d6e9bbaa92d2d

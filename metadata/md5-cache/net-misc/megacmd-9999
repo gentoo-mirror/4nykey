@@ -1,14 +1,14 @@
 BDEPEND=sys-devel/autoconf-archive sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install prepare unpack
-DEPEND=>=net-misc/meganz-sdk-4.5:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
+DEPEND=>=net-misc/meganz-sdk-4.7.1:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
 DESCRIPTION=Command Line Interactive and Scriptable Application to access MEGA
-EAPI=7
+EAPI=8
 HOMEPAGE=https://mega.nz/cmd
 INHERIT=autotools git-r3
 IUSE=pcre
 LICENSE=BSD-2
 PROPERTIES=live
-RDEPEND=>=net-misc/meganz-sdk-4.5:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
+RDEPEND=>=net-misc/meganz-sdk-4.7.1:= pcre? ( dev-libs/libpcre:3[cxx] ) sys-libs/readline:0
 SLOT=0
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=95c7578b2cebc96014e98fa734370997
+_md5_=4435fedb8012a257b040d61c286a90c8

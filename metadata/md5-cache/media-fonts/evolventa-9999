@@ -1,15 +1,15 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm setup unpack
-DEPEND=!binary? ( media-gfx/fontforge font_types_ttf? ( media-gfx/ttfautohint ) doc? ( virtual/latex-base app-text/fntsample ) ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DEPEND=!binary? ( media-gfx/fontforge font_types_ttf? ( media-gfx/ttfautohint ) ) X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=An open source geometric sans-serif font based on URW Gothic L
-EAPI=7
+EAPI=8
 HOMEPAGE=https://evolventa.github.io
 INHERIT=git-r3 font-r1
-IUSE=+binary doc X font_types_otf +font_types_ttf
+IUSE=+binary X font_types_otf +font_types_ttf
 LICENSE=|| ( GPL-2 LPPL-1.3c )
 PROPERTIES=live
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=1517c71e859cd7128bcc91aa42d76ce8
+_md5_=5fda1499284107267bfd4be1e37c7f00
