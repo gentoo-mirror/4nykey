@@ -12,5 +12,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	6a75203e8a499f0fb42971452ce15388	python-any-r1	1a218637f27d4c027b92e511707264fd	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
+_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	1d1b325c00c1d24c564a1b49327ec3c5	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
 _md5_=b9c19d212f89f61c87cf42e23fce9508
