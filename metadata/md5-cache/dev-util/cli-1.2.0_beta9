@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.14.0
+BDEPEND=>=dev-util/build2-0.15
 DEFINED_PHASES=compile configure install test
 DEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 DESCRIPTION=Command Line Interface compiler for C++
@@ -11,6 +11,6 @@ LICENSE=MIT
 RDEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/v1.2.0-b.8.tar.gz -> cli-1.2.0_beta8.tar.gz
+SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/v1.2.0-b.9.tar.xz -> cli-1.2.0_beta9.tar.xz
 _eclasses_=toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
-_md5_=cfde7f235d4581c4e72273e474193e6f
+_md5_=bcb8154f72e96d5e986e25e92c3b0be8

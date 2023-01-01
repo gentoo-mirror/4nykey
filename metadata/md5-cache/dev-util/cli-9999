@@ -1,4 +1,4 @@
-BDEPEND=>=dev-util/build2-0.14.0 >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=>=dev-util/build2-0.15 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 DESCRIPTION=Command Line Interface compiler for C++
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	37a4612ce5522df5a100359a8dbc8491	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
-_md5_=cfde7f235d4581c4e72273e474193e6f
+_md5_=bcb8154f72e96d5e986e25e92c3b0be8
