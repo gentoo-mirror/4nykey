@@ -28,7 +28,7 @@ dev-python/browserstack-local-python 1.2.2 9999: Python bindings for BrowserStac
 dev-python/cattrs 1.2.0 9999: Complex custom class converters for attrs
 dev-python/cffsubr 0.2.9 9999: Standalone CFF subroutinizer based on AFDKO tx tool
 dev-python/compositor 0.2_pre20190903 9999: A basic OpenType GSUB and GPOS layout engine
-dev-python/compreffor 0.5.1 9999: A CFF table subroutinizer for FontTools
+dev-python/compreffor 0.5.3 9999: A CFF table subroutinizer for FontTools
 dev-python/cu2qu 1.6.7 9999: A library which converts cubic curves to quadratic in RoboFab objects
 dev-python/defcon 0.10.2 9999: A set of UFO based objects for use in font editing applications
 dev-python/diffbrowsers 0.1.7_p20200318 9999: Test two sets of fonts for visual regressions on different browsers
@@ -226,12 +226,12 @@ media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over 
 net-misc/megacmd 1.5.1 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 4.7.1 9999: MEGA C++ SDK
 net-misc/megasync 4.8.1.0 9999: Easy automated syncing with MEGA Cloud Drive
-net-wireless/broadcom-wl 6.30.223.271_p20191221 9999: Broadcom Linux hybrid wireless driver
+net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.20 9999: Partition cloning tool
 www-client/torbrowser 12.0.1 12.5_alpha1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20221201 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20230104 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 20.11.0 9999: Icon themes for smplayer
 x11-themes/surfn 22.04.02 9999: A colourful icon theme for linux desktops
