@@ -1,0 +1,13 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install postinst prepare unpack
+DESCRIPTION=Normalize perceived loudness of AAC audio files
+EAPI=8
+HOMEPAGE=http://aacgain.altosdesign.com/
+INHERIT=autotools
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/mecke/aacgain/tar.gz/v1.9 -> aacgain-1.9.tar.gz mirror://sourceforge/mp3gain/mp3gain-1_6_2-src.zip mirror://gcarchive/mp4v2/mp4v2-1.9.1.tar.bz2 mirror://sourceforge/faac/faad2-2.7.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
+_md5_=7c28b0a31a05e8ad3ef5b90a992c31a1
