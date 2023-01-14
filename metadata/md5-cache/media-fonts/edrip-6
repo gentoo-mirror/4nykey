@@ -1,15 +1,15 @@
-BDEPEND=!binary? ( python_single_target_python3_8? ( >=dev-lang/python-3.8.16:3.8 ) python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) python_single_target_python3_8? ( media-gfx/fontforge[python,python_single_target_python3_8(-)] media-gfx/xgridfit[python_single_target_python3_8(-)] ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] media-gfx/xgridfit[python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] media-gfx/xgridfit[python_single_target_python3_10(-)] ) )
+BDEPEND=!binary? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9:3.10 ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] media-gfx/xgridfit[python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] media-gfx/xgridfit[python_single_target_python3_10(-)] ) )
 DEFINED_PHASES=install postinst postrm setup
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A contrast sans-serif font based on the Teams font
 EAPI=7
 HOMEPAGE=https://code.google.com/p/edrip
 INHERIT=python-single-r1 font-r1
-IUSE=+binary python_single_target_python3_8 python_single_target_python3_9 python_single_target_python3_10 X
+IUSE=+binary python_single_target_python3_9 python_single_target_python3_10 X
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( ftp://ftp.dvo.ru/pub/Font/edrip/edrip-ttf-r6.tar.xz mirror://gcarchive/edrip/edrip-ttf-r6.tar.xz ) !binary? ( ftp://ftp.dvo.ru/pub/Font/edrip/edrip-src-r6.tar.xz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	7870d60e8b98856ef02d33397fd5ec0f	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	a1a985ddd8795a8634b4b7f820b93143	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=07e2b47c0ff21ae66cd08ecdd77ec042
