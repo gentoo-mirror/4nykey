@@ -12,5 +12,5 @@ RDEPEND=media-libs/musicbrainz:5 media-libs/libdiscid media-libs/flac[cxx] sys-l
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/adhawkins/flactag/tar.gz/dcf73ee -> flactag-2.0.4_p20151006.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	vcs-snapshot	eab6d8533446763c2e9777d8bbd1594e
 _md5_=1d025d26a6e106cee27c3cf0f0fdb66f

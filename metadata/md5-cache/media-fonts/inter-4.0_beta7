@@ -12,5 +12,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( https://github.com/rsms/inter/releases/download/v4.0-beta7/Inter-4.0-beta7.zip ) !binary? ( mirror://githubcl/rsms/inter/tar.gz/v4.0-beta7 -> inter-4.0_beta7.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	ec8bbc28394c7305b43ea07164bd8f5f	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	8d5c1c4ecef47fa1b4576a718c620d1d	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
+_eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	8d5c1c4ecef47fa1b4576a718c620d1d	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	99598dbf072ad16839f2552f1408aaca
 _md5_=af6a6f9a3791c16767056d8ccc1938bb
