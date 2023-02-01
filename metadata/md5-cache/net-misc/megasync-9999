@@ -1,6 +1,6 @@
 BDEPEND=dev-qt/linguist-tools:5 >=dev-vcs/git-1.8.2.1[curl] >=dev-util/ninja-1.8.2 >=dev-util/cmake-3.20.5
 DEFINED_PHASES=compile configure install postinst postrm preinst prepare test unpack
-DEPEND=>=net-misc/meganz-sdk-4.7.1:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtx11extras:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dev-qt/qtimageformats:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar ) dev-util/breakpad
+DEPEND=>=net-misc/meganz-sdk-4.9:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtx11extras:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dev-qt/qtimageformats:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar ) dev-util/breakpad
 DESCRIPTION=Easy automated syncing with MEGA Cloud Drive
 EAPI=8
 HOMEPAGE=https://github.com/meganz/MEGAsync
@@ -9,7 +9,7 @@ INHERIT=git-r3 cmake qmake-utils xdg
 IUSE=dolphin nautilus thunar
 LICENSE=EULA
 PROPERTIES=live
-RDEPEND=>=net-misc/meganz-sdk-4.7.1:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtx11extras:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dev-qt/qtimageformats:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar )
+RDEPEND=>=net-misc/meganz-sdk-4.9:=[libuv,qt,sodium(+),sqlite] dev-qt/qtsvg:5 dev-qt/qtx11extras:5 dev-qt/qtdbus:5 dev-qt/qtconcurrent:5 dev-qt/qtimageformats:5 dolphin? ( kde-apps/dolphin ) nautilus? ( >=gnome-base/nautilus-3 ) thunar? ( xfce-base/thunar )
 SLOT=0
 _eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	38c85b725d0467e51954ea921b6c104b	xdg-utils	ac0e315a3688929e34ac75b139e7349a	cmake	449b4785acace35308fe747fc939bde1	qmake-utils	59420c906278d16deaaa629f9d115707	xdg	6024fbc93167fad782e2032933654857
-_md5_=2338a4dc1043cf5e96705f8d895a6315
+_md5_=b87af8696053eecb8264ea5e84a67baa

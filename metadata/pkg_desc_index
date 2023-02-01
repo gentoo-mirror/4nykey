@@ -13,7 +13,7 @@ dev-cpp/xsd 4.2.0_beta4 9999: An open-source, cross-platform W3C XML Schema to C
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.12 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
-dev-libs/libraqm 0.9.0 9999: A library for complex text layout
+dev-libs/libraqm 0.10.0 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/xmlbird 1.2.12 9999: XML parser for Vala and C programs
@@ -79,7 +79,7 @@ dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.1.4 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-python/youseedee 0.3.0_pre20201016 9999: Interface to the Unicode Character Database
-dev-util/afdko 3.9.1 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 3.9.2 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.15.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta9 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20220810 9999: Open-EID CMake modules
@@ -128,7 +128,7 @@ media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0_beta7 9999: A typeface specially designed for user interfaces
 media-fonts/iosevka-bin 17.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 17.0.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 17.1.0 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.242 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -141,7 +141,7 @@ media-fonts/libertinus 7.040 9999: A fork of the Linux Libertine and Linux Bioli
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
 media-fonts/literata 3.002 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
-media-fonts/lora 3.004_pre20220721 9999: A well-balanced contemporary serif with roots in calligraphy
+media-fonts/lora 3.005 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
 media-fonts/merriweather 2.100_p20220708 9999: A serif font useful for creating long texts for books or articles
 media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creating long texts for books or articles
@@ -173,7 +173,7 @@ media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20220209 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.38.0: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.39.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
@@ -183,7 +183,7 @@ media-fonts/source-han-mono 1.002 9999: A set of OpenType/CFF Pan-CJK monospace 
 media-fonts/source-han-sans 2.004 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 2.001 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-sans-pro 3.046 9999: Sans serif font family for user interface environments
-media-fonts/source-serif-pro 4.004 9999: Serif typeface designed to complement Source Sans Pro
+media-fonts/source-serif-pro 4.005 9999: Serif typeface designed to complement Source Sans Pro
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
 media-fonts/tewi-font 2.0.2 9999: A small bitmap font
 media-fonts/theano 2.0 9999: A Greek font designed from historic samples
@@ -219,11 +219,11 @@ media-sound/picard 2.8.5 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.6 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.5.1 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 4.7.1 9999: MEGA C++ SDK
-net-misc/megasync 4.8.1.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 4.9.0b 9999: MEGA C++ SDK
+net-misc/megasync 4.8.6.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
-sys-block/partclone 0.3.22 9999: Partition cloning tool
-www-client/torbrowser 12.0.1 12.5_alpha1: The Tor Browser
+sys-block/partclone 0.3.23 9999: Partition cloning tool
+www-client/torbrowser 12.0.2 12.5_alpha2: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20230104 99999999: Papirus icon theme for GTK
