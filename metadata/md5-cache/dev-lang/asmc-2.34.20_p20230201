@@ -1,0 +1,12 @@
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=Asmc Macro Assembler
+EAPI=8
+HOMEPAGE=https://github.com/nidud/asmc
+INHERIT=toolchain-funcs
+KEYWORDS=~amd64
+LICENSE=GPL-2
+RESTRICT=primaryuri
+SLOT=0
+SRC_URI=mirror://githubcl/nidud/asmc/tar.gz/22d6dc2 -> asmc-2.34.20_p20230201.tar.gz
+_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157
+_md5_=8736b25a2f30badb70c01c9f7b220122

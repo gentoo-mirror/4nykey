@@ -1,3 +1,5 @@
+app-arch/7-zip 22.01: A file archiver with a high compression ratio
+app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.13.6 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.2.14 9999: An application for digitally signing and encrypting documents
@@ -10,6 +12,7 @@ dev-cpp/antlr-cpp 4.9.3 9999: The ANTLR C++ Runtime
 dev-cpp/libcutl 1.11.0_beta9 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0_beta2 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0_beta4 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
+dev-lang/asmc 2.34.20_p20230201 9999: Asmc Macro Assembler
 dev-libs/libdigidoc 3.10.5 9999: DigiDoc digital signature library
 dev-libs/libdigidocpp 3.14.12 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
@@ -79,7 +82,7 @@ dev-python/unicodedata2 14.0.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.1.4 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.11.0 9999: A library for VTT hinting
 dev-python/youseedee 0.3.0_pre20201016 9999: Interface to the Unicode Character Database
-dev-util/afdko 3.9.2 9999: Adobe Font Development Kit for OpenType
+dev-util/afdko 3.9.3 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.15.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0_beta9 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20220810 9999: Open-EID CMake modules
@@ -127,8 +130,8 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0_beta7 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-bin 17.0.0: Spatial efficient monospace font family for programming
-media-fonts/iosevka-src 17.1.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-bin 18.0.0: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 18.0.0 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.242 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -173,7 +176,7 @@ media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20220209 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.39.0: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.40.0: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.038 9999: Monospaced font family for user interface and coding environments
@@ -204,7 +207,7 @@ media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType font
 media-libs/libspiro 20221101 99999999: A library for drawing beautiful curves
 media-libs/libuninameslist 20211114 99999999: A library of Unicode names and annotation data
 media-libs/qm-dsp 1.7.1_p20180208 9999: A C++ library for audio analysis
-media-libs/resvg 0.28.0 9999: An SVG rendering library
+media-libs/resvg 0.29.0 9999: An SVG rendering library
 media-libs/skia 95_p20210920 95.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211216 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.16 9999: A plugin that implements the MPRISv2 for DeaDBeeF
@@ -219,8 +222,8 @@ media-sound/picard 2.8.5 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.6 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.5.1 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 4.9.0b 9999: MEGA C++ SDK
-net-misc/megasync 4.8.6.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 4.9.0c 9999: MEGA C++ SDK
+net-misc/megasync 4.8.7.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.23 9999: Partition cloning tool
 www-client/torbrowser 12.0.2 12.5_alpha2: The Tor Browser
