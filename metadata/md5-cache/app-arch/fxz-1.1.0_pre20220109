@@ -9,5 +9,5 @@ LICENSE=LGPL-2.1
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/conor42/fxz/tar.gz/f12d7eb -> fxz-1.1.0_pre20220109.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc
 _md5_=e951b0773d523dfbd515d6c5413d9a18
