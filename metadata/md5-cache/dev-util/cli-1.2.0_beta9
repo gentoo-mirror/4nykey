@@ -12,5 +12,5 @@ RDEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://git.codesynthesis.com/cgit/cli/cli/snapshot/v1.2.0-b.9.tar.xz -> cli-1.2.0_beta9.tar.xz
-_eclasses_=toolchain-funcs	9a610728b9bcca1919234cceb35a1027	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
+_eclasses_=toolchain-funcs	cf009a3ed4e5bef503e7a9f215791a78	multilib	5ca4e49abed8e3a2f7b56920eadee157	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730
 _md5_=bcb8154f72e96d5e986e25e92c3b0be8
