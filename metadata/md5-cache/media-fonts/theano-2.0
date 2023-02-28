@@ -1,11 +1,11 @@
-BDEPEND=binary? ( app-arch/unzip ) !binary? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] ) font_types_ttf? ( dev-util/grcompiler ) )
+BDEPEND=binary? ( app-arch/unzip ) !binary? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] ) font_types_ttf? ( dev-util/grcompiler ) )
 DEFINED_PHASES=compile install postinst postrm setup
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A Greek font designed from historic samples
 EAPI=7
 HOMEPAGE=https://github.com/akryukov/theano
 INHERIT=python-single-r1 font-r1
-IUSE=+binary python_single_target_python3_9 python_single_target_python3_10 X font_types_otf +font_types_ttf
+IUSE=+binary python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11 X font_types_otf +font_types_ttf
 KEYWORDS=~amd64 ~x86
 LICENSE=OFL-1.1
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
@@ -13,4 +13,4 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( font_types_otf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.otf.zip ) font_types_ttf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.ttf.zip ) ) !binary? ( mirror://githubcl/akryukov/theano/tar.gz/v2.0 -> theano-2.0.tar.gz )
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=68cdc4306691d6521389916686f79f66
+_md5_=87b04e68a8cdef901190c3f7fbf00ba0

@@ -1,11 +1,11 @@
-BDEPEND=!binary? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] media-gfx/xgridfit[python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] media-gfx/xgridfit[python_single_target_python3_10(-)] ) dev-texlive/texlive-fontutils sys-apps/coreutils dev-util/font-helpers latex? ( app-text/lcdf-typetools ) ) dev-vcs/subversion[http(+)] net-misc/rsync virtual/latex-base >=sys-apps/texinfo-4.2-r5
+BDEPEND=!binary? ( python_single_target_python3_9? ( >=dev-lang/python-3.9.16-r1:3.9 ) python_single_target_python3_10? ( >=dev-lang/python-3.10.9-r1:3.10 ) python_single_target_python3_11? ( >=dev-lang/python-3.11.1-r1:3.11 ) python_single_target_python3_9? ( media-gfx/fontforge[python,python_single_target_python3_9(-)] media-gfx/xgridfit[python_single_target_python3_9(-)] ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] media-gfx/xgridfit[python_single_target_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] media-gfx/xgridfit[python_single_target_python3_11(-)] ) dev-texlive/texlive-fontutils sys-apps/coreutils dev-util/font-helpers latex? ( app-text/lcdf-typetools ) ) dev-vcs/subversion[http(+)] net-misc/rsync virtual/latex-base >=sys-apps/texinfo-4.2-r5
 DEFINED_PHASES=compile install postinst postrm preinst prepare setup unpack
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=Khartiya is extended Bitstream Charter font
 EAPI=7
 HOMEPAGE=https://code.google.com/p/khartiya
 INHERIT=subversion python-single-r1 latex-package font-r1
-IUSE=+binary latex python_single_target_python3_9 python_single_target_python3_10 X font_types_pfb font_types_otf +font_types_ttf
+IUSE=+binary latex python_single_target_python3_9 python_single_target_python3_10 python_single_target_python3_11 X font_types_pfb font_types_otf +font_types_ttf
 LICENSE=OFL-1.1
 PROPERTIES=live
 RDEPEND=virtual/latex-base
@@ -13,4 +13,4 @@ REQUIRED_USE=!binary || ( font_types_pfb font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 _eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	subversion	dee31e56422214d05644c2a3c900a148	eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-single-r1	75118e916668a74c660a13b0ecb22562	latex-package	c20e442c3953c765f636630631c96194	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=91f1e7937aea028f970799b34ff8b36e
+_md5_=26b5a1235dd347a0871551377e2a49a1

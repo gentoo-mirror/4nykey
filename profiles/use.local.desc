@@ -18,7 +18,6 @@ dev-python/fonttools:interpolatable - Enable support for finding wrong contour/c
 dev-python/fonttools:plot - Enable support for visualizing DesignSpaceDocument and resulting VariationModel
 dev-python/fonttools:reportlab - Enable support for drawing glyphs as PNG images
 dev-python/fonttools:skia - Use skia-pathops to remove overlaps in TTF fonts
-dev-python/fonttools:symfont - Enable support for symbolic font statistics analysis
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
 dev-python/ufoLib2:msgpack - Enable msgpack support
@@ -107,14 +106,15 @@ media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
 media-sound/ardour:websockets - Enable support for WebSocket protocol
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
-media-sound/deadbeef:clang - Build with Clang compiler
 media-sound/deadbeef:dumb - Enable media-libs/dumb module library support
 media-sound/deadbeef:gme - Add support for playing various video game music formats
 media-sound/deadbeef:gtk3 - Enable support for GTK+3
 media-sound/deadbeef:lastfm - Enable last.fm support
+media-sound/deadbeef:libretro - Enable Libretro resampler plugin
 media-sound/deadbeef:mac - Add support for decoding Monkey's Audio files
 media-sound/deadbeef:midi - Enables MIDI support
 media-sound/deadbeef:opus - Enable Opus audio codec support
+media-sound/deadbeef:pipewire - Enable Pipewire output plugin
 media-sound/deadbeef:shorten - Enable the shorten decoder plugin
 media-sound/deadbeef:sid - Build with SID (Commodore 64 Audio) support
 media-sound/deadbeef:tta - Add support for decoding True Audio input files

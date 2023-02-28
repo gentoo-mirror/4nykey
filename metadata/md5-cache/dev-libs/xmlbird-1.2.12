@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare setup
-DEPEND=|| ( >=dev-lang/python-3.10.9-r1:3.10 >=dev-lang/python-3.9.16-r1:3.9 ) || ( dev-lang/vala:0.56 )
+DEPEND=|| ( >=dev-lang/python-3.11.1-r1:3.11 >=dev-lang/python-3.10.9-r1:3.10 >=dev-lang/python-3.9.16-r1:3.9 ) || ( dev-lang/vala:0.56 )
 DESCRIPTION=XML parser for Vala and C programs
 EAPI=7
 HOMEPAGE=https://birdfont.org/xmlbird.php
@@ -10,4 +10,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/johanmattssonm/xmlbird/tar.gz/v1.2.12 -> xmlbird-1.2.12.tar.gz
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	vala	2633382950a3a9ce912c9258150d5db8
-_md5_=8b394a36201507a4389e6cf934455c63
+_md5_=bdc1da7e3f95b177434caf5b24e60420

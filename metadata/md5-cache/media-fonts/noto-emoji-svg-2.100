@@ -1,4 +1,4 @@
-BDEPEND=!binary? ( || ( >=dev-lang/python-3.10.9-r1:3.10 >=dev-lang/python-3.9.16-r1:3.9 ) || ( ( >=dev-lang/python-3.10.9-r1:3.10 dev-python/fonttools[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16-r1:3.9 dev-python/fonttools[python_targets_python3_9(-)] ) ) dev-util/afdko )
+BDEPEND=!binary? ( || ( >=dev-lang/python-3.11.1-r1:3.11 >=dev-lang/python-3.10.9-r1:3.10 >=dev-lang/python-3.9.16-r1:3.9 ) || ( ( >=dev-lang/python-3.11.1-r1:3.11 dev-python/fonttools[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.9-r1:3.10 dev-python/fonttools[python_targets_python3_10(-)] ) ( >=dev-lang/python-3.9.16-r1:3.9 dev-python/fonttools[python_targets_python3_9(-)] ) ) dev-util/afdko )
 DEFINED_PHASES=compile install postinst postrm setup
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=OpenType-SVG version of Noto Color Emoji
@@ -12,4 +12,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/adobe-fonts/noto-emoji-svg/tar.gz/2.100 -> noto-emoji-svg-2.100.tar.gz
 _eclasses_=eapi8-dosym	cd7d420bb5be5ee079f27239ce76b8f5	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	python-utils-r1	429bfd4e8d8e39db5385ba5744f30788	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=c5890035e013afa58b1308d3551a5f8d
+_md5_=5a634631b2fac2145cbfe27e1fca14b3
