@@ -1,4 +1,4 @@
-# Copyright 1999-2021 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ EAPI=7
 PLOCALES="
 cs de el en_GB es fr it ja nn pl pt pt_PT ru sv zh
 "
-PYTHON_COMPAT=( python3_{8..10} )
+PYTHON_COMPAT=( python3_{9..11} )
 PYTHON_REQ_USE='threads(+)'
 WAF_BINARY="${S}/waf"
 EGIT_REPO_URI="https://github.com/${PN^}/${PN}.git"
@@ -15,7 +15,7 @@ if [[ -n ${PV%%*9999} ]]; then
 	MY_PV="f744b5f"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="${PV}"
 	EGIT_COMMIT="${MY_PV/_/-}"
-	KEYWORDS="~amd64 ~x86"
+	KEYWORDS="~amd64"
 fi
 SRC_URI=""
 
@@ -43,7 +43,7 @@ RDEPEND="
 	dev-libs/libxml2:2
 	media-libs/libsamplerate
 	media-libs/lv2
-	media-libs/suil
+	media-libs/suil[gtk2]
 	media-libs/lilv
 	media-libs/liblrdf
 	net-misc/curl
@@ -52,7 +52,6 @@ RDEPEND="
 	pulseaudio? ( media-sound/pulseaudio )
 	!bundled-libs? (
 		media-libs/libltc
-		media-libs/qm-dsp
 		hid? ( dev-libs/hidapi )
 		>=media-sound/fluidsynth-2.0.1
 	)
@@ -85,6 +84,7 @@ src_prepare() {
 	plocale_for_each_disabled_locale my_lcmsg
 	sed -e 's:AudioEditing:X-&:' -i gtk2_ardour/ardour.desktop.in
 	sed -e 's:share/appdata:share/metainfo:' -i gtk2_ardour/wscript
+	sed -e 's:USE_EXTERNAL_LIBS:DONT_USE_EXTERNAL_LIB:' -i libs/qm-dsp/wscript
 	grep -rl '/\<lib\>' | xargs sed -e "s:/\<lib\>:/$(get_libdir):g" -i
 	default
 }
