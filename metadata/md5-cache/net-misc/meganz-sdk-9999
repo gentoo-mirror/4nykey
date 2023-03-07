@@ -11,6 +11,6 @@ PROPERTIES=live
 RDEPEND=dev-libs/crypto++:= sys-libs/zlib dev-libs/libpcre:3[cxx] dev-libs/openssl:0 net-dns/c-ares net-misc/curl sqlite? ( dev-db/sqlite:3 ) examples? ( sys-libs/readline:0 fuse? ( sys-fs/fuse:0 ) ) freeimage? ( media-libs/freeimage ) libuv? ( dev-libs/libuv ) dev-libs/libsodium mediainfo? ( media-libs/libmediainfo ) ffmpeg? ( media-video/ffmpeg ) raw? ( media-libs/libraw )
 REQUIRED_USE=examples? ( sqlite ) fuse? ( examples )
 RESTRICT=test
-SLOT=0/40900c
+SLOT=0/41400
 _eclasses_=toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	flag-o-matic	69394e25812406faa1f90edaf4969395	qmake-utils	59420c906278d16deaaa629f9d115707	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	241a8f577b9781a42a7421e53448a44e	autotools	6dcd6b6a486e79928e1243ff9ba41fcc	git-r3	2347f8fe2d392b2a091191f94be37e6f
-_md5_=7ff66e4bc34eca2947b2488d6056f458
+_md5_=a811d46ccbaa9dea746c84dac857230b
