@@ -6,7 +6,7 @@ EAPI=8
 FIREFOX_PATCHSET="firefox-102esr-patches-09j.tar.xz"
 MY_PV="$(ver_cut 1-2)"
 # https://dist.torproject.org/torbrowser
-MY_P="102.8.0esr-${MY_PV}-1-build3"
+MY_P="102.9.0esr-${MY_PV}-1-build2"
 MY_P="firefox-tor-browser-${MY_P}"
 
 LLVM_MAX_SLOT=15
@@ -33,7 +33,7 @@ else
 	KEYWORDS="~amd64 ~x86"
 fi
 MY_PV="${MY_PV%.0}"
-MY_NOS="11.4.16"
+MY_NOS="11.4.18"
 MY_NOS="noscript-${MY_NOS}.xpi"
 SRC_URI="
 	mirror://tor/${PN}/${MY_PV}/src-${MY_P}.tar.xz
@@ -400,6 +400,9 @@ src_prepare() {
 
 	# Make cargo respect MAKEOPTS
 	export CARGO_BUILD_JOBS="$(makeopts_jobs)"
+
+	append-cppflags "-DTOR_BROWSER_DATA_IN_HOME_DIR"
+	eapply "${FILESDIR}"/${PN}11.5-profiledir.patch
 
 	sed -e '/new-identity-button/d' -i browser/components/customizableui/CustomizableUI.jsm
 
@@ -858,19 +861,19 @@ src_install() {
 	EOF
 
 	# Install icons
-	local _d="browser/branding/tb-release" _i _s
-	[[ -z ${PV%%*_alpha*} ]] && _d="${_d%-*}-alpha"
-	for _i in "${_d}"/default*.png ; do
-		_s=${_i%.png}
-		_s=${_s##*/default}
+	local icon_srcdir="${S}/browser/branding/official"
+	local icon size
+	for icon in "${icon_srcdir}"/default*.png ; do
+		size=${icon%.png}
+		size=${size##*/default}
 
-		if [[ ${_s} -eq 48 ]] ; then
-			newicon "${_i}" ${PN}.png
+		if [[ ${size} -eq 48 ]] ; then
+			newicon "${icon}" ${PN}.png
 		fi
 
-		newicon -s ${_s} "${_i}" ${PN}.png
+		newicon -s ${size} "${icon}" ${PN}.png
 	done
-	newicon -s scalable "${_d}/firefox.svg" ${PN}.svg
+	newicon -s scalable "${icon_srcdir}/firefox.svg" ${PN}.svg
 
 	# Install .desktop for menu entry
 	make_desktop_entry ${PN} "Tor Browser" ${PN} "Network;WebBrowser" "StartupWMClass=Torbrowser"
@@ -941,7 +944,4 @@ pkg_postinst() {
 		elog
 		elog "in about:config."
 	fi
-	elog
-	elog "The user data directory is now \"~/.tor project/${PN}\""
-	elog "instead of \"~/.mozilla/${PN}\"."
 }
