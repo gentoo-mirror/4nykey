@@ -23,30 +23,6 @@ dev-python/ufoLib2:msgpack - Enable msgpack support
 dev-python/ufoLib2:orjson - Use orjson in place of built-in json library
 dev-util/ots:graphite - Sanitize Graphite tables
 media-fonts/adobe-source:emoji - Install emoji fonts
-media-fonts/iosevka-bin:font_variants_aile - A quasi-proportional variant
-media-fonts/iosevka-bin:font_variants_curly - A variant with curly leg shapes
-media-fonts/iosevka-bin:font_variants_default - The default variant with ligatures and semantic full-width glyphs
-media-fonts/iosevka-bin:font_variants_etoile - A quasi-proportional slab-serif variant
-media-fonts/iosevka-bin:font_variants_fixed - Exact monospace font without ligatures and wide glyphs
-media-fonts/iosevka-bin:font_variants_ss01 - A variant stylized after Andale Mono
-media-fonts/iosevka-bin:font_variants_ss02 - A variant stylized after Anonymous Pro
-media-fonts/iosevka-bin:font_variants_ss03 - A variant stylized after Consolas
-media-fonts/iosevka-bin:font_variants_ss04 - A variant stylized after Menlo
-media-fonts/iosevka-bin:font_variants_ss05 - A variant stylized after Fira Mono
-media-fonts/iosevka-bin:font_variants_ss06 - A variant stylized after Liberation Mono
-media-fonts/iosevka-bin:font_variants_ss07 - A variant stylized after Monaco
-media-fonts/iosevka-bin:font_variants_ss08 - A variant stylized after Pragmata Pro
-media-fonts/iosevka-bin:font_variants_ss09 - A variant stylized after Source Code Pro
-media-fonts/iosevka-bin:font_variants_ss10 - A variant stylized after Envy Code R
-media-fonts/iosevka-bin:font_variants_ss11 - A variant stylized after X Windows Fixed
-media-fonts/iosevka-bin:font_variants_ss12 - A variant stylized after Ubuntu Mono
-media-fonts/iosevka-bin:font_variants_ss13 - A variant stylized after Lucida
-media-fonts/iosevka-bin:font_variants_ss14 - A variant stylized after JetBrains Mono
-media-fonts/iosevka-bin:font_variants_ss15 - A variant stylized after IBM Plex Mono
-media-fonts/iosevka-bin:font_variants_ss16 - A variant stylized after PT Mono
-media-fonts/iosevka-bin:font_variants_ss17 - A variant stylized after Recursive Mono
-media-fonts/iosevka-bin:font_variants_ss18 - A variant stylized after Input Mono
-media-fonts/iosevka-bin:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/iosevka-src:font_variants_aile - A quasi-proportional variant
 media-fonts/iosevka-src:font_variants_curly - A variant with curly leg shapes
 media-fonts/iosevka-src:font_variants_custom - User customized variant
