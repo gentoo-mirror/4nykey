@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=!binary? ( mirror://githubcl/georgd/eb-garamond/tar.gz/d9d931d -> eb-garamond-0.016_p20180523.tar.gz ) binary? ( https://bitbucket.org/georgd/eb-garamond/downloads/EBGaramond-0.016.zip )
-_eclasses_=eapi8-dosym	741bfa77afb2a9321261501aca58c208	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=eapi8-dosym	741bfa77afb2a9321261501aca58c208	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	python-utils-r1	0857e21aa6e0f3748cfd8829a98ce1f7	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=57c01b4b02dfedb8eb3fe885bf862583

@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( variable? ( https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/VF-source-code-VF-1.026R.zip ) !variable? ( font_types_otf? ( https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/OTF-source-code-pro-2.042R-u_1.062R-i.zip ) font_types_ttf? ( https://github.com/adobe-fonts/source-code-pro/releases/download/2.042R-u/1.062R-i/1.026R-vf/TTF-source-code-pro-2.042R-u_1.062R-i.zip ) ) ) !binary? ( mirror://githubcl/adobe-fonts/source-code-pro/tar.gz/2.042-u/1.062-i/1.026-vf -> source-code-pro-2.042.tar.gz )
-_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	python-utils-r1	4544ab96b58e177dc52d75e42f5ee307	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1	python-utils-r1	0857e21aa6e0f3748cfd8829a98ce1f7	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=1f5230732c1b68976585b61d4f680e24
