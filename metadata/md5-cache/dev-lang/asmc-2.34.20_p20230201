@@ -8,5 +8,5 @@ LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/nidud/asmc/tar.gz/22d6dc2 -> asmc-2.34.20_p20230201.tar.gz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	104e1332efb829e2f7cbf89307a474f1
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0
 _md5_=8736b25a2f30badb70c01c9f7b220122
