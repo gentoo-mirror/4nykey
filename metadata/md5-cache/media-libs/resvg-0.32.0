@@ -12,5 +12,5 @@ RDEPEND=qt5? ( dev-qt/qtgui:5 ) media-libs/fontconfig
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/RazrFalcon/resvg/releases/download/v0.32.0/resvg-0.32.0.tar.xz
-_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	2e0a4a329a7dc5dfe20dcb05e6c36935
+_eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	92d3ea5a114d806e66500a1689a18325
 _md5_=02629bc044a7a29c0b521d79561fbe38
