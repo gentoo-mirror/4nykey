@@ -12,4 +12,4 @@ REQUIRED_USE=?? ( font_types_otf font_types_ttc ) super-otc? ( font_types_ttc !v
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=c53b188ec646d4f13a847a9935a9cba9
+_md5_=bac17f25a465701e134008e9beea6b7d

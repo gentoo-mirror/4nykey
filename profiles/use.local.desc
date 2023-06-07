@@ -10,7 +10,6 @@ app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/digidoc4-client:nautilus - Install gnome-base/nautilus extension
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython
-dev-python/cu2qu:cython - Use cython to build an (optional) optimized extension module
 dev-python/fonttools:graphite - Enable support for graphite type tables (Silf, Glat, Gloc)
 dev-python/fonttools:harfbuzz - Use Harfbuzz Repacker for packing GSUB/GPOS tables
 dev-python/fonttools:interpolatable - Enable support for finding wrong contour/component order between different masters

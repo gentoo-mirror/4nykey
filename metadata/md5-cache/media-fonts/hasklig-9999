@@ -12,4 +12,4 @@ REQUIRED_USE=!binary || ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	eapi8-dosym	060534f0dad6f3365df95a89fa765404	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	ba15b8b81f30ca448294d759a9f7902c	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=27b2f4d5120d2fa1f8d1359d1abf0867
+_md5_=0158b4a4738e15a99fafcb93a2ea499e

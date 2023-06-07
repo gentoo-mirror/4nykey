@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=qt5? ( dev-qt/qtgui:5 ) media-libs/fontconfig
 SLOT=0
 _eclasses_=toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	59420c906278d16deaaa629f9d115707	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	504502d07f48a94bfddf39abc7efbe7f	git-r3	27e13c09a4c7e4c78ac812f74727e676
-_md5_=02629bc044a7a29c0b521d79561fbe38
+_md5_=0ee36bd131d9c3ff595f68211deb100d

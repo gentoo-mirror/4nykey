@@ -13,4 +13,4 @@ RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( font_types_otf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.otf.zip ) font_types_ttf? ( https://github.com/akryukov/theano/releases/download/v2.0/theano-2.0.ttf.zip ) ) !binary? ( mirror://githubcl/akryukov/theano/tar.gz/v2.0 -> theano-2.0.tar.gz )
 _eclasses_=eapi8-dosym	060534f0dad6f3365df95a89fa765404	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	ba15b8b81f30ca448294d759a9f7902c	python-single-r1	75118e916668a74c660a13b0ecb22562	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=87b04e68a8cdef901190c3f7fbf00ba0
+_md5_=97717b261a6a697c89c62faa9a3892f9

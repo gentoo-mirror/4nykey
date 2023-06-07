@@ -6,7 +6,7 @@ EAPI=7
 HOMEPAGE=https://github.com/googlei18n/fontmake
 INHERIT=distutils-r1
 IUSE=test python_targets_python3_10 python_targets_python3_11
-KEYWORDS=~amd64 ~x86
+KEYWORDS=~amd64
 LICENSE=Apache-2.0
 RDEPEND=>=dev-python/fonttools-4.38[skia(-),ufo(-),unicode(-),python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/glyphsLib-6.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/ufo2ft-2.29[cffsubr(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/MutatorMath-3.0.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/fontMath-0.9.3[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/defcon-0.10[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/booleanOperations-0.9[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/skia-pathops[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/ufoLib2-0.13.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/attrs-21.4[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/ttfautohint-py-0.5[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( >=dev-lang/python-3.10.11:3.10 ) python_targets_python3_11? ( >=dev-lang/python-3.11.3:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
@@ -14,4 +14,4 @@ RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://githubcl/googlei18n/fontmake/tar.gz/v3.5.1 -> fontmake-3.5.1.tar.gz
 _eclasses_=out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	bddcb51b74f4a76724ff7cf8e7388869	multilib	c19072c3cd7ac5cb21de013f7e9832e0	toolchain-funcs	14a8ae365191b518fad51caad7a08f3e	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	76050953ad5b70d7e09a6ca55558db92	eapi8-dosym	060534f0dad6f3365df95a89fa765404	python-utils-r1	ba15b8b81f30ca448294d759a9f7902c	python-r1	3c6cd0f418ba702c186a9865b85e704d	distutils-r1	2d32e797ee29a8ffdd452f4a85860666
-_md5_=b3aec018e0a5a70d85f8370790116bc7
+_md5_=35d24ce94d30afc7f3b2966d2c72e571

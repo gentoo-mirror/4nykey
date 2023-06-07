@@ -12,4 +12,4 @@ REQUIRED_USE=!binary
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=061c885dd2624a3e0b71f10a717805ae
+_md5_=53ac91879c558a2fe1abf5d7a5f88c37
