@@ -220,7 +220,7 @@ net-misc/meganz-sdk 4.16.0c 9999: MEGA C++ SDK
 net-misc/megasync 4.9.4.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.23 9999: Partition cloning tool
-www-client/torbrowser 12.0.6 12.5_alpha6: The Tor Browser
+www-client/torbrowser 12.0.7 12.5_alpha7: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20230601 99999999: Papirus icon theme for GTK
