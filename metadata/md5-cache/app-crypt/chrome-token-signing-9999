@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=dev-qt/qtwidgets:5 dev-libs/openssl:0 dev-libs/opensc[pcsc-lite] www-plugins/firefox-pkcs11-loader dev-libs/nss[utils]
 SLOT=0
 SRC_URI=mirror://githubraw/open-eid/linux-installer/3b283c2/esteid-update-nssdb -> esteid-update-nssdb-3b283c2
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	dc3c4c93818f11a547a93d71d3f180f1	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4a1902f969e5718126434fc35f3a0d9c	eutils	8f942ebdcf04334697649d4a0bf65a32	readme.gentoo-r1	204091a2cde6179cd9d3db26d09412d3	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a9633c59de46f2f1e040e40d06658a60	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=9608dd6f73bfb22ab0328ece3e204a70

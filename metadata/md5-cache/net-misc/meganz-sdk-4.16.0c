@@ -13,5 +13,5 @@ REQUIRED_USE=examples? ( sqlite ) fuse? ( examples )
 RESTRICT=primaryuri test
 SLOT=0/41600
 SRC_URI=mirror://githubcl/meganz/sdk/tar.gz/v4.16.0c -> meganz-sdk-4.16.0c.tar.gz
-_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	qmake-utils	dc3c4c93818f11a547a93d71d3f180f1	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	16483e58fadb0d47b4528f0aa7e171f6	qmake-utils	a9633c59de46f2f1e040e40d06658a60	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
 _md5_=7c088c4de366f19fb7c21592a2cc7158
