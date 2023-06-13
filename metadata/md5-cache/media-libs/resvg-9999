@@ -10,5 +10,5 @@ LICENSE=MPL-2.0
 PROPERTIES=live
 RDEPEND=qt5? ( dev-qt/qtgui:5 ) media-libs/fontconfig
 SLOT=0
-_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a9633c59de46f2f1e040e40d06658a60	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	13d82eeaf1c62efca46b4a826ea76f80	git-r3	27e13c09a4c7e4c78ac812f74727e676
+_eclasses_=toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	cargo	13d82eeaf1c62efca46b4a826ea76f80	git-r3	27e13c09a4c7e4c78ac812f74727e676
 _md5_=0ee36bd131d9c3ff595f68211deb100d
