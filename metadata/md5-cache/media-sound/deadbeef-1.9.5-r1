@@ -1,16 +1,18 @@
-BDEPEND=sys-devel/gettext dev-util/intltool oss? ( virtual/libc ) mac? ( dev-lang/yasm ) sys-devel/clang >=dev-vcs/git-1.8.2.1[curl] sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
-DEFINED_PHASES=configure install postinst postrm preinst prepare setup unpack
+BDEPEND=sys-devel/gettext dev-util/intltool oss? ( virtual/libc ) mac? ( dev-lang/yasm ) sys-devel/clang sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.5:1.16 ) >=sys-devel/autoconf-2.71-r5 >=sys-devel/libtool-2.4.7
+DEFINED_PHASES=configure install postinst postrm preinst prepare setup
 DEPEND=dts? ( media-libs/libdca ) mac? ( media-sound/mac ) gme? ( media-libs/game-music-emu ) mms? ( media-libs/libmms ) tta? ( media-sound/ttaenc ) midi? ( media-sound/wildmidi ) dumb? ( media-libs/dumb ) shorten? ( media-sound/shorten ) alac? ( media-sound/alac_decoder ) alsa? ( media-libs/alsa-lib ) ffmpeg? ( media-video/ffmpeg:= ) mad? ( media-libs/libmad:= ) vorbis? ( media-libs/libvorbis ) flac? ( media-libs/flac ) wavpack? ( media-sound/wavpack ) sndfile? ( media-libs/libsndfile ) curl? ( net-misc/curl ) cdda? ( dev-libs/libcdio media-libs/libcddb ) gtk? ( x11-libs/gtk+:2 dev-libs/jansson:= ) gtk3? ( x11-libs/gtk+:3 dev-libs/jansson:= ) X? ( x11-libs/libX11 ) pulseaudio? ( media-libs/libpulse ) libsamplerate? ( media-libs/libsamplerate ) musepack? ( media-sound/musepack-tools ) aac? ( media-libs/faad2 ) libnotify? ( x11-libs/libnotify sys-apps/dbus ) zip? ( sys-libs/zlib dev-libs/libzip ) gme? ( sys-libs/zlib ) psf? ( sys-libs/zlib ) midi? ( media-sound/timidity-freepats ) opus? ( media-libs/opusfile ) dev-libs/libdispatch pipewire? ( media-video/pipewire:= )
 DESCRIPTION=A music player for *nix-like systems and OSX
 EAPI=8
 HOMEPAGE=https://deadbeef.sourceforge.io
 IDEPEND=dev-util/desktop-file-utils x11-misc/shared-mime-info
-INHERIT=git-r3 autotools flag-o-matic toolchain-funcs xdg
+INHERIT=autotools flag-o-matic toolchain-funcs xdg
 IUSE=X aac adplug alac alsa artwork cdda curl dts dumb ffmpeg flac gme gtk gtk3 lastfm libnotify libretro libsamplerate mac mad midi mms musepack nls opus oss pipewire psf pulseaudio sc68 shorten sid sndfile threads tta vorbis wavpack wma zip
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2 LGPL-2.1
-PROPERTIES=live
 RDEPEND=dts? ( media-libs/libdca ) mac? ( media-sound/mac ) gme? ( media-libs/game-music-emu ) mms? ( media-libs/libmms ) tta? ( media-sound/ttaenc ) midi? ( media-sound/wildmidi ) dumb? ( media-libs/dumb ) shorten? ( media-sound/shorten ) alac? ( media-sound/alac_decoder ) alsa? ( media-libs/alsa-lib ) ffmpeg? ( media-video/ffmpeg:= ) mad? ( media-libs/libmad:= ) vorbis? ( media-libs/libvorbis ) flac? ( media-libs/flac ) wavpack? ( media-sound/wavpack ) sndfile? ( media-libs/libsndfile ) curl? ( net-misc/curl ) cdda? ( dev-libs/libcdio media-libs/libcddb ) gtk? ( x11-libs/gtk+:2 dev-libs/jansson:= ) gtk3? ( x11-libs/gtk+:3 dev-libs/jansson:= ) X? ( x11-libs/libX11 ) pulseaudio? ( media-libs/libpulse ) libsamplerate? ( media-libs/libsamplerate ) musepack? ( media-sound/musepack-tools ) aac? ( media-libs/faad2 ) libnotify? ( x11-libs/libnotify sys-apps/dbus ) zip? ( sys-libs/zlib dev-libs/libzip ) gme? ( sys-libs/zlib ) psf? ( sys-libs/zlib ) midi? ( media-sound/timidity-freepats ) opus? ( media-libs/opusfile ) dev-libs/libdispatch pipewire? ( media-video/pipewire:= )
 REQUIRED_USE=lastfm? ( curl )
+RESTRICT=primaryuri
 SLOT=0
-_eclasses_=git-r3	27e13c09a4c7e4c78ac812f74727e676	gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	ad475baa777c9978fa035216c8264a10	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
+SRC_URI=mirror://githubcl/DeaDBeeF-Player/deadbeef/tar.gz/1.9.5 -> deadbeef-1.9.5.tar.gz mirror://githubcl/DeaDBeeF-Player/mp4p/tar.gz/97ab728 -> mp4p-97ab728.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_dsp_libretro/tar.gz/b092190 -> ddb_dsp_libretro-b092190.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_output_pw/tar.gz/14a3fc6 -> ddb_output_pw-14a3fc6.tar.gz
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde	flag-o-matic	ad475baa777c9978fa035216c8264a10	xdg-utils	baea6080dd821f5562d715887954c9d3	xdg	4a14c5c24f121e7da66e5aab4a168c6e
 _md5_=07d7550494e90e54de3fb8baa385f8fb

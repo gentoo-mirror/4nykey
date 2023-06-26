@@ -79,7 +79,9 @@ media-sound/ardour:sanitize - Turn on AddressSanitizer (requires GCC >= 4.8 or c
 media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
 media-sound/ardour:websockets - Enable support for WebSocket protocol
+media-sound/deadbeef:adplug - Enable adplug plugin
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
+media-sound/deadbeef:artwork - Enable albumart plugin
 media-sound/deadbeef:dumb - Enable media-libs/dumb module library support
 media-sound/deadbeef:gme - Add support for playing various video game music formats
 media-sound/deadbeef:gtk3 - Enable support for GTK+3
@@ -89,6 +91,8 @@ media-sound/deadbeef:mac - Add support for decoding Monkey's Audio files
 media-sound/deadbeef:midi - Enables MIDI support
 media-sound/deadbeef:opus - Enable Opus audio codec support
 media-sound/deadbeef:pipewire - Enable Pipewire output plugin
+media-sound/deadbeef:psf - Enable AOSDK-based PSF plugin
+media-sound/deadbeef:sc68 - Enable Atari ST and Amiga music player
 media-sound/deadbeef:shorten - Enable the shorten decoder plugin
 media-sound/deadbeef:sid - Build with SID (Commodore 64 Audio) support
 media-sound/deadbeef:tta - Add support for decoding True Audio input files
@@ -104,6 +108,7 @@ net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
 net-misc/meganz-sdk:mediainfo - Use media-libs/libmediainfo for media files
 net-misc/meganz-sdk:qt - Install QT bindings
 net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
+net-misc/megasync:mediainfo - Use media-libs/libmediainfo for media files
 net-misc/megasync:nautilus - Install the gnome-base/nautilus extension
 net-misc/megasync:thunar - Install the xfce-base/thunar extension
 sys-block/partclone:apfs - Include APFS support
