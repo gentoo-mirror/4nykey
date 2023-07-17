@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( >=dev-lang/python-3.11.4:3.11 >=dev-lang/python-3.10.12:3.10 ) || ( ( >=dev-lang/python-3.11.4:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( >=dev-lang/python-3.10.12:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DESCRIPTION=A contemporary serif typeface family for long-form reading
 EAPI=7
 HOMEPAGE=https://github.com/googlefonts/literata
@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/literata/tar.gz/3.103 -> literata-3.103.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a013e16d5d896b3d8be68dd2a0e846ea	python-any-r1	d2955aaac8daaaa69fcc6dc93ed19f29	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	513c31b3346458ed1f3878b57da6d61c	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	7661dc585f75dd1f81eccefe37bef093	python-any-r1	845fed6b6dfc35679a4fea289272ddc0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
 _md5_=b22bdf397f20a30aa0f084f695239059
