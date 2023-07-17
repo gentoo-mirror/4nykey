@@ -1,4 +1,4 @@
-app-arch/7-zip 22.01: A file archiver with a high compression ratio
+app-arch/7-zip 23.01: A file archiver with a high compression ratio
 app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.14.1 9999: The open source Windows Imaging (WIM) library
 app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
@@ -40,7 +40,7 @@ dev-python/fontFeatures 1.7.4 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.3 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.11.0 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.40.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.41.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.4.8 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.2.2 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -50,7 +50,7 @@ dev-python/hsluv 5.0.3 9999: Python implementation of HSLuv (revision 4)
 dev-python/hyperglot 0.4.4 9999: A database and tools for detecting language support in fonts
 dev-python/nanoemoji 0.15.1_p20230522 9999: A wee tool to build color fonts
 dev-python/ninja-python-distributions 1.11.1 9999: A tool to build Ninja Python wheels
-dev-python/nototools 0.2.17 9999: A python package for maintaining the Noto Fonts project
+dev-python/nototools 0.2.17-r1 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.0 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.5 9999: Scripts for making OpenType-SVG fonts
 dev-python/ots-python 9.1.0 9999: A Python wrapper for OpenType Sanitizer
@@ -117,7 +117,7 @@ media-fonts/eb-garamond 0.016_p20180523 9999: This project aims at providing a f
 media-fonts/edrip 6 9999: A contrast sans-serif font based on the Teams font
 media-fonts/evolventa 1.0 9999: An open source geometric sans-serif font based on URW Gothic L
 media-fonts/exo 2.0_p20211011 2.0.9999: A geometric sans serif font family
-media-fonts/firacode 6.2 9999: A monospaced font with programming ligatures
+media-fonts/firacode 6.2_p20230619 9999: A monospaced font with programming ligatures
 media-fonts/firago 1.001: A continuation of FiraSans
 media-fonts/fonts-cu 2.2 9999: Unicode OpenType fonts for Church Slavonic
 media-fonts/freefont 99999999: A free family of scalable outline unicode fonts
@@ -127,7 +127,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0_beta9 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 24.1.4 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 25.0.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -152,7 +152,7 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.038 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20230613: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20230716: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.000_pre20210927 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -201,7 +201,7 @@ media-gfx/trufont 0.6.6 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libspiro 20221101 99999999: A library for drawing beautiful curves
-media-libs/resvg 0.34.1 9999: An SVG rendering library
+media-libs/resvg 0.35.0 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211231 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.16 9999: A plugin that implements the MPRISv2 for DeaDBeeF
@@ -220,7 +220,7 @@ net-misc/meganz-sdk 4.21.0c 9999: MEGA C++ SDK
 net-misc/megasync 4.9.5.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.23 9999: Partition cloning tool
-www-client/torbrowser 12.5_alpha7 12.5.0: The Tor Browser
+www-client/torbrowser 12.5_alpha7 12.5.1: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20230601 99999999: Papirus icon theme for GTK
