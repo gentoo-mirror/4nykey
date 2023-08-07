@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/cyrealtype/Podkova/tar.gz/v2.103 -> podkova-2.103.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	753cb70b9daf5c8c1e373d68dee61efb	python-any-r1	845fed6b6dfc35679a4fea289272ddc0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	0c8a0b0d318eb5d5180d114bd3f6592b	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	329d5580b47382bb708c5f6777d18087	python-any-r1	845fed6b6dfc35679a4fea289272ddc0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
 _md5_=d127d22fb40b2504e703495cb6094817
