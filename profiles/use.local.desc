@@ -20,6 +20,7 @@ dev-python/fonttools:ufo - Enable support for reading and writing UFO source fil
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
 dev-python/ufoLib2:msgpack - Enable msgpack support
 dev-python/ufoLib2:orjson - Use orjson in place of built-in json library
+dev-util/fontmake:json - Enable support for ufoLib2's .ufo.json files
 dev-util/ots:graphite - Sanitize Graphite tables
 media-fonts/adobe-source:emoji - Install emoji fonts
 media-fonts/iosevka-src:font_variants_aile - A quasi-proportional variant
