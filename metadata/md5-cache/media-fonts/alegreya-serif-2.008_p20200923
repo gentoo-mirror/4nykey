@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/huertatipografica/Alegreya/tar.gz/eb03318 -> alegreya-serif-2.008_p20200923.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/2cd3458 -> 9ef5512cdd3177cc8d4667bcf5a58346-2cd3458.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	1f435bc389faf790af695df46b8dcb73	python-any-r1	845fed6b6dfc35679a4fea289272ddc0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-any-r1	f5169813d1619761b459800587005fd2	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	926f7fc35f075c83995abebb972c2965
 _md5_=6e533735449ef752f10ee94352bed911
