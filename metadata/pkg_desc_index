@@ -1,7 +1,6 @@
 app-arch/7-zip 23.01: A file archiver with a high compression ratio
 app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.14.1 9999: The open source Windows Imaging (WIM) library
-app-crypt/chrome-token-signing 1.1.5 9999: Native client and browser extension for eID
 app-crypt/digidoc4-client 4.4.0 9999: An application for digitally signing and encrypting documents
 app-crypt/web-eid 2.4.0 9999: Native messaging host for the Web eID browser extension
 app-editors/neovim-gtk 1.0.4 9999: GTK ui for neovim written in rust using gtk-rs bindings
