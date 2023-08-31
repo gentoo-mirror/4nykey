@@ -1,17 +1,17 @@
-BDEPEND=test? ( >=dev-python/fonttools-4.34.4[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=test? ( >=dev-python/fonttools-4.40[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/pytest-7.3.1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] ) python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 ) >=dev-python/gpep517-13[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-python/setuptools-67.8.0-r1[python_targets_python3_10(-)?,python_targets_python3_11(-)?] >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare setup test unpack
-DEPEND=>=dev-python/fonttools-4.34.4[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
+DEPEND=>=dev-python/fonttools-4.40[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
 DESCRIPTION=A set of UFO based objects for use in font editing applications
-EAPI=7
+EAPI=8
 HOMEPAGE=https://github.com/robotools/defcon
 INHERIT=distutils-r1 git-r3
 IUSE=test test python_targets_python3_10 python_targets_python3_11
 LICENSE=MIT
 PDEPEND=dev-python/fontPens[python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/setuptools-scm[python_targets_python3_10(-)?,python_targets_python3_11(-)?]
 PROPERTIES=live
-RDEPEND=>=dev-python/fonttools-4.34.4[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
+RDEPEND=>=dev-python/fonttools-4.40[ufo(+),python_targets_python3_10(-)?,python_targets_python3_11(-)?] dev-python/compositor[python_targets_python3_10(-)?,python_targets_python3_11(-)?] python_targets_python3_10? ( dev-lang/python:3.10 ) python_targets_python3_11? ( dev-lang/python:3.11 )
 REQUIRED_USE=|| ( python_targets_python3_10 python_targets_python3_11 )
 RESTRICT=!test? ( test )
 SLOT=0
-_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e	git-r3	2358a7b20091609e24bd3a83b3ac5991
-_md5_=1726da8314b8fb377cfa9ba16a9cf8ac
+_eclasses_=toolchain-funcs	862d337d98edb576796827be2c6b11ca	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	be27a904c614cb93ae037762dc69bcc2	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	30dbf3c5a31db09a19f31ad0a68f2405	multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	ninja-utils	f3010c780f65d1bb5aea15a9af1adc9c	python-utils-r1	59e60e9c5cbd3f214d7f1002e798b387	python-r1	8a28fa6d3e3bc96ff8a7eff2badbe71f	distutils-r1	a93df67775ff86e107e56c6a6e68cf4e	git-r3	2358a7b20091609e24bd3a83b3ac5991
+_md5_=7200cede85fb7e74d6370bcb3b74dc70

@@ -29,7 +29,7 @@ dev-python/cattrs 1.2.0 9999: Complex custom class converters for attrs
 dev-python/cffsubr 0.2.9 9999: Standalone CFF subroutinizer based on AFDKO tx tool
 dev-python/compositor 0.2_pre20190903 9999: A basic OpenType GSUB and GPOS layout engine
 dev-python/compreffor 0.5.4 9999: A CFF table subroutinizer for FontTools
-dev-python/defcon 0.10.2 9999: A set of UFO based objects for use in font editing applications
+dev-python/defcon 0.10.3 9999: A set of UFO based objects for use in font editing applications
 dev-python/diffbrowsers 0.1.7_p20200318 9999: Test two sets of fonts for visual regressions on different browsers
 dev-python/dotmap 1.3.30_pre20220406 9999: Dot access dictionary with dynamic hierarchy creation and ordered iteration
 dev-python/extractor 0.5.0_p20221008 9999: Tools for extracting data from font binaries into UFO objects
@@ -39,7 +39,7 @@ dev-python/fontFeatures 1.7.4 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.3 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.11.0 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.42.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.42.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.4.8 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.3.0 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -126,7 +126,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0_beta9 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 26.1.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 26.2.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -151,7 +151,7 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.038 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20230727: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20230814: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.000_pre20210927 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -165,13 +165,13 @@ media-fonts/podkova 2.103 9999: A monoline slab serif with diagonal terminals
 media-fonts/prata 2.000_p20161214 9999: An elegant Didone typeface with sharp features and organic teardrops
 media-fonts/raleway 4.026_p20200708 9999: An elegant sans-serif typeface
 media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
-media-fonts/roboto 3.005 9999: Google's signature family of fonts
+media-fonts/roboto 3.008 9999: Google's signature family of fonts
 media-fonts/robotomono 3.000_pre20200508 9999: A monospaced addition to the Roboto type family
 media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.101_p20220209 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.41.6: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.41.7: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interface and coding environments
@@ -179,7 +179,7 @@ media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designe
 media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin and Japanese text
 media-fonts/source-han-mono 1.002 9999: A set of OpenType/CFF Pan-CJK monospace fonts
 media-fonts/source-han-sans 2.004 9999: A set of OpenType/CFF Pan-CJK fonts
-media-fonts/source-han-serif 2.001 9999: A set of OpenType/CFF Pan-CJK fonts
+media-fonts/source-han-serif 2.002 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-sans-pro 3.052-r1 9999: Sans serif font family for user interface environments
 media-fonts/source-serif-pro 4.005 9999: Serif typeface designed to complement Source Sans Pro
 media-fonts/spectral 2.003_p20190630 9999: A serif typeface for text-rich, screen-first environments and long-form reading
@@ -219,7 +219,7 @@ net-misc/meganz-sdk 4.25.0 9999: MEGA C++ SDK
 net-misc/megasync 4.9.6.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.25 9999: Partition cloning tool
-www-client/torbrowser 12.5.2 13.0_alpha2: The Tor Browser
+www-client/torbrowser 12.5.3 13.0_alpha3: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20230801 99999999: Papirus icon theme for GTK
