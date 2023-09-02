@@ -222,7 +222,7 @@ sys-block/partclone 0.3.25 9999: Partition cloning tool
 www-client/torbrowser 12.5.3 13.0_alpha3: The Tor Browser
 www-plugins/firefox-pkcs11-loader 3.13.6 9999: A Firefox extension for automatical loading of OpenSC PKCS11 module
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20230801 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20230901 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 20.11.0 9999: Icon themes for smplayer
 x11-themes/surfn 22.04.02 9999: A colourful icon theme for linux desktops
