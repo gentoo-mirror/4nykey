@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/mecke/aacgain/tar.gz/v1.9 -> aacgain-1.9.tar.gz mirror://sourceforge/mp3gain/mp3gain-1_6_2-src.zip mirror://gcarchive/mp4v2/mp4v2-1.9.1.tar.bz2 mirror://sourceforge/faac/faad2-2.7.tar.gz
-_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	fbbbc99d10168de2926e06da7169b8dc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
+_eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	70ec42843fec87d20fd94c67e77cdbff	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	9d3a9a889a6fa62ae794f817c156491b	autotools	6ae9a4347149b19a112caa1182d03bde
 _md5_=7c28b0a31a05e8ad3ef5b90a992c31a1
