@@ -11,5 +11,5 @@ PROPERTIES=live
 REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	2358a7b20091609e24bd3a83b3ac5991	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=git-r3	5133e393e8717a3a093660f990801dc1	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=320751a7935ffb5e96660cd045308a76
