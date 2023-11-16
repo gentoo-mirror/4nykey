@@ -38,7 +38,7 @@ dev-python/fontFeatures 1.7.4 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.3 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.11.0 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.43.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.44.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.4.8 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.4.1 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -58,7 +58,6 @@ dev-python/py-zopfli 0.2.3 9999: Python bindings for zopfli
 dev-python/pybrowserstack-screenshots 0.1 9999: A python api wrapper and client for Browserstack Screenshots API
 dev-python/pycdio 2.1.0: Python OO interface to libcdio (CD Input and Control library)
 dev-python/pyclipper 1.3.0 9999: A Cython wrapper for the Clipper library
-dev-python/python-discid 1.2.0 9999: Python bindings for libdiscid
 dev-python/python-rapidjson 0.9.1 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.2.5 9999: An SFD to UFO converter
@@ -72,7 +71,7 @@ dev-python/ufoLib2 0.16.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.37.3 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
-dev-python/unicodedata2 15.0.0 9999: Unicodedata backport, updates
+dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.2.0 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.12.0 9999: A library for VTT hinting
 dev-python/youseedee 0.4.1 9999: Interface to the Unicode Character Database
@@ -93,7 +92,7 @@ dev-util/svgo 2.2.2 9999: Nodejs-based tool for optimizing SVG vector graphics f
 gnome-extra/gnome-shell-extension-appindicator 53 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 121 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-remove-dropdown-arrows 13_p20190923 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 3.1 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/gnome-shell-system-monitor-applet 3.6 9999: An extension for displaying sensors information in GNOME Shell
 media-fonts/adobe-source 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/alegreya-sans 2.008_p20201009 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alegreya-serif 2.008_p20200923 9999: A serif typeface originally intended for literature
@@ -123,8 +122,8 @@ media-fonts/gohufont 2.1_p20170627 9999: A monospace bitmap font
 media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
-media-fonts/inter 4.0_beta9 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 27.3.1 9999: Spatial efficient monospace font family for programming
+media-fonts/inter 4.0_pre20231002 9999: A typeface specially designed for user interfaces
+media-fonts/iosevka-src 27.3.5 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -139,7 +138,7 @@ media-fonts/literata 3.103 9999: A contemporary serif typeface family for long-f
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
 media-fonts/lora 3.006 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
-media-fonts/merriweather 2.100_p20220708 9999: A serif font useful for creating long texts for books or articles
+media-fonts/merriweather 2.100_p20230622 9999: A serif font useful for creating long texts for books or articles
 media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creating long texts for books or articles
 media-fonts/monoid 0.61_p20201026 9999: Customisable coding font with alternates, ligatures and contextual positioning
 media-fonts/montserrat 8.000 9999: A typeface inspired by the Montserrat neighborhood of Buenos Aires
@@ -149,27 +148,27 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.038_p20230310 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20230930: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20230931: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
-media-fonts/open-sans 3.000_pre20210927 9999: A clean and modern sans-serif typeface for web, print and mobile
+media-fonts/open-sans 3.002_pre20231104 9999: A clean and modern sans-serif typeface for web, print and mobile
 media-fonts/oswald 4.103_p20210930 9999: A reworking of the classic gothic typeface style
 media-fonts/pacifico 3.000_pre20190823 9999: A brush script font inspired by the 1950s American surf culture
 media-fonts/philosopher 2.000_p20170905 9999: A font that takes inspiration from Agfa Rotis and ITC Binary
 media-fonts/piazzolla 2.005 9999: Type system intended for optimizing the available space in press media
 media-fonts/play 2.101 9999: A minimalistic sans serif typeface
-media-fonts/playfair-display 1.203_p20171109 1.9999 2.000_pre20220517 2.9999: An Open Source typeface family for display and titling use
+media-fonts/playfair-display 1.203_p20171109 1.9999 2.100_rc3 2.9999: An Open Source typeface family for display and titling use
 media-fonts/podkova 2.103 9999: A monoline slab serif with diagonal terminals
 media-fonts/prata 2.000_p20161214 9999: An elegant Didone typeface with sharp features and organic teardrops
-media-fonts/raleway 4.026_p20200708 9999: An elegant sans-serif typeface
+media-fonts/raleway 4.026_p20200710 9999: An elegant sans-serif typeface
 media-fonts/ricty 4.1.1 9999: A monotype font combining Inconsolata and Migu 1M
 media-fonts/roboto 3.008 9999: Google's signature family of fonts
 media-fonts/robotomono 3.000_pre20200508 9999: A monospaced addition to the Roboto type family
 media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
-media-fonts/rubik 2.101_p20220209 9999: A sans serif font family with slightly rounded corners
+media-fonts/rubik 2.103_p20230630 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 0.42.3: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 0.42.6: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interface and coding environments
@@ -207,19 +206,19 @@ media-plugins/deadbeef-statusnotifier-plugin 1.6_p20211124 9999: Plugin that pro
 media-plugins/gimp-plugin-bimp 2.6 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r4 2.0.0 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 7.5-r1 7.9999 8.1 8.9999: Digital Audio Workstation
-media-sound/deadbeef 1.9.5-r1 9999: A music player for *nix-like systems and OSX
+media-sound/deadbeef 1.9.6 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
 media-sound/picard 2.10 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.6.3 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 4.28.3a 9999: MEGA C++ SDK
-net-misc/megasync 4.10.0.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 4.29.1b 9999: MEGA C++ SDK
+net-misc/megasync 4.11.0.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.27 9999: Partition cloning tool
-www-client/torbrowser 12.5.6 13.0.1: The Tor Browser
+www-client/torbrowser 13.0.1 13.5_alpha1: The Tor Browser
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
-x11-themes/papirus-icon-theme 20230901 99999999: Papirus icon theme for GTK
+x11-themes/papirus-icon-theme 20231101 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
 x11-themes/smplayer-themes 20.11.0 9999: Icon themes for smplayer
 x11-themes/surfn 22.04.02 9999: A colourful icon theme for linux desktops
