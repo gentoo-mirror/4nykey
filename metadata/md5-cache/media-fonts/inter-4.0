@@ -11,6 +11,6 @@ LICENSE=OFL-1.1
 REQUIRED_USE=binary? ( variable? ( !font_types_otf ) ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks primaryuri
 SLOT=0
-SRC_URI=binary? ( https://github.com/rsms/inter/releases/download/v4.0-beta9h/Inter-4.0-beta9.zip ) !binary? ( mirror://githubcl/rsms/inter/tar.gz/20f232c -> inter-4.0_pre20231002.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
+SRC_URI=binary? ( https://github.com/rsms/inter/releases/download/v4.0-beta9h/Inter-4.0-beta9.zip ) !binary? ( mirror://githubcl/rsms/inter/tar.gz/v4.0 -> inter-4.0.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
 _eclasses_=multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	python-any-r1	f5169813d1619761b459800587005fd2	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	e4449d8a59c444ff669ab7e7fb97d87f
 _md5_=d9c0274833c65cdf7bfc9771a54be773
