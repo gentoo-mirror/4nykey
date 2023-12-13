@@ -10,6 +10,6 @@ KEYWORDS=~amd64
 LICENSE=OFL-1.1
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/googlefonts/noto-emoji/tar.gz/v2.040 -> noto-emoji-2.040.tar.gz
+SRC_URI=mirror://githubcl/googlefonts/noto-emoji/tar.gz/v2.042 -> noto-emoji-2.042.tar.gz
 _eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	e989dbdcbb647bd8655857c1f95be244	python-any-r1	f5169813d1619761b459800587005fd2	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=e9477e750addac0dbba250b5f2f3c2f5

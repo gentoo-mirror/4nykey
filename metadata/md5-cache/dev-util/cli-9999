@@ -2,7 +2,7 @@ BDEPEND=>=dev-util/build2-0.15 >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install test unpack
 DEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 DESCRIPTION=Command Line Interface compiler for C++
-EAPI=7
+EAPI=8
 HOMEPAGE=https://www.codesynthesis.com/projects/cli
 INHERIT=git-r3 toolchain-funcs multiprocessing
 IUSE=static-libs
@@ -11,4 +11,4 @@ PROPERTIES=live
 RDEPEND=>=dev-cpp/libcutl-1.11.0_beta9:=
 SLOT=0
 _eclasses_=git-r3	5133e393e8717a3a093660f990801dc1	toolchain-funcs	eed10cf5e5a06916e654d31f5a1925cc	multilib	c19072c3cd7ac5cb21de013f7e9832e0	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe
-_md5_=bcb8154f72e96d5e986e25e92c3b0be8
+_md5_=c2ec1b4c0bd4347aa6af9238ab887976
