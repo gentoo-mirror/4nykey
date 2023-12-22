@@ -38,10 +38,10 @@ dev-python/fontFeatures 1.7.4 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.3 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.11.0 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.46.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.47.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
-dev-python/gflanguages 0.4.8 9999: A Python API to evaluate language support in the Google Fonts collection
-dev-python/glyphsLib 6.4.1 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/gflanguages 0.5.9 9999: A Python API to evaluate language support in the Google Fonts collection
+dev-python/glyphsLib 6.6.0 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 0.6.1 9999: A python module providing an API with data about glyph sets
 dev-python/glyphtools 0.8.0 9999: Routines for extracting information from font glyphs
 dev-python/hsluv 5.0.3 9999: Python implementation of HSLuv (revision 4)
@@ -92,7 +92,7 @@ dev-util/svgo 2.2.2 9999: Nodejs-based tool for optimizing SVG vector graphics f
 gnome-extra/gnome-shell-extension-appindicator 53 9999: Adds AppIndicator support to gnome shell
 gnome-extra/gnome-shell-extension-openweather 121 9999: An extension for displaying weather informations in GNOME Shell
 gnome-extra/gnome-shell-remove-dropdown-arrows 13_p20190923 9999: An extension that removes the dropdown arrows from GS menus
-gnome-extra/gnome-shell-system-monitor-applet 3.8 9999: An extension for displaying sensors information in GNOME Shell
+gnome-extra/gnome-shell-system-monitor-applet 3.9 9999: An extension for displaying sensors information in GNOME Shell
 media-fonts/adobe-source 0_p20190417: Adobe Source Pro, an open source multi-lingual font family
 media-fonts/alegreya-sans 2.008_p20201009 9999: A humanist sans-serif family with a calligraphic feeling
 media-fonts/alegreya-serif 2.008_p20200923 9999: A serif typeface originally intended for literature
@@ -123,7 +123,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 27.3.5 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 28.0.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -197,7 +197,7 @@ media-gfx/trufont 0.6.6 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libspiro 20221101 99999999: A library for drawing beautiful curves
-media-libs/resvg 0.36.0 9999: An SVG rendering library
+media-libs/resvg 0.37.0 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211231 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.16 9999: A plugin that implements the MPRISv2 for DeaDBeeF
@@ -216,7 +216,7 @@ net-misc/meganz-sdk 4.29.1b 9999: MEGA C++ SDK
 net-misc/megasync 4.11.0.0_p20231130 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.27 9999: Partition cloning tool
-www-client/torbrowser 13.0.6 13.5_alpha2: The Tor Browser
+www-client/torbrowser 13.0.8 13.5_alpha2: The Tor Browser
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20231201 99999999: Papirus icon theme for GTK
 x11-themes/smplayer-skins 20.11.0 9999: Skins for SMPlayer
