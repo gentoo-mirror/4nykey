@@ -9,5 +9,5 @@ LICENSE=LGPL-3
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/johanmattssonm/xmlbird/tar.gz/v1.2.12 -> xmlbird-1.2.12.tar.gz
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-any-r1	f5169813d1619761b459800587005fd2	flag-o-matic	78cf3cc2d5572fddf5e5e10c70f7c81a	vala	e477903dbe0105930c51f170a592dc16
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	042f4cc53680245bf99a84669b94155a	python-any-r1	f5169813d1619761b459800587005fd2	flag-o-matic	b2b07efa51009704f88173b2c7feab47	vala	e477903dbe0105930c51f170a592dc16
 _md5_=dd9f9cebfa0b826150f196131ea5b98a
