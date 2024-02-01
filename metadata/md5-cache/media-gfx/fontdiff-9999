@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile configure install prepare unpack
-DEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat virtual/pkgconfig dev-util/gyp
+DEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat virtual/pkgconfig dev-build/gyp
 DESCRIPTION=A tool for finding visual differences between two font versions
 EAPI=7
 HOMEPAGE=https://github.com/googlei18n/fontdiff
@@ -10,4 +10,4 @@ PROPERTIES=live
 RDEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat
 SLOT=0
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
-_md5_=f285e82cb3818d4faafc9c6f76a8a6fe
+_md5_=fa6b2438805a567c38ccbed08c819d0e

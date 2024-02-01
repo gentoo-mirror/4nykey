@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile configure install prepare setup
-DEPEND=dev-libs/fribidi dev-libs/libraqm media-libs/freetype:2 media-libs/harfbuzz x11-libs/wxGTK:= virtual/pkgconfig dev-util/gyp
+DEPEND=dev-libs/fribidi dev-libs/libraqm media-libs/freetype:2 media-libs/harfbuzz x11-libs/wxGTK:= virtual/pkgconfig dev-build/gyp
 DESCRIPTION=An app that shows the contents of a font file
 EAPI=7
 HOMEPAGE=https://github.com/googlefonts/fontview
@@ -11,4 +11,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/fontview/tar.gz/b8f4b51 -> fontview-0.3.1_p20191205.tar.gz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0
-_md5_=fd58daa90bbbecbad450039e294f23ba
+_md5_=d14bab0d8fa07cf0c6f4b8856194c050
