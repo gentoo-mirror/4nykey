@@ -38,7 +38,7 @@ dev-python/fontFeatures 1.7.4 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.3 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.11.0 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.4 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.49.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.50.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.3.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.5.9 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.6.6 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -70,7 +70,7 @@ dev-python/ufo2ft 3.1.0 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.16.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.39.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.39.1 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.2.0 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.12.0 9999: A library for VTT hinting
@@ -188,7 +188,7 @@ media-fonts/victor-mono 1.5.5 9999: A free programming font with cursive italics
 media-fonts/vollkorn-typeface 4.105_p20200823 9999: A body typeface with figure sets, ligatures and contextual alternates
 media-fonts/walleye 0_p20170302 9999: A multilingual serif font with banner-shaped finials and airy letterforms
 media-fonts/yanone-kaffeesatz 2.002_p20210723 9999: An open-source font by Jan Gerner
-media-gfx/birdfont 2.33.4 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
+media-gfx/birdfont 2.33.5 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fim 0.7_pre20230924 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3-r1 9999: A tool for finding visual differences between two font versions
 media-gfx/fontforge 20230101-r1 99999999: postscript font editor and converter
@@ -212,11 +212,11 @@ media-sound/picard 2.11 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/whipper 0.10.0 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.6.3 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 4.31.0 9999: MEGA C++ SDK
-net-misc/megasync 4.12.2 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 5.2.4 9999: MEGA C++ SDK
+net-misc/megasync 5.2.0.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.27 9999: Partition cloning tool
-www-client/torbrowser 13.0.12 13.5_alpha5: The Tor Browser
+www-client/torbrowser 13.0.13 13.5_alpha5: The Tor Browser
 x11-terms/wezterm 20240127.113634 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20240201 99999999: Papirus icon theme for GTK
