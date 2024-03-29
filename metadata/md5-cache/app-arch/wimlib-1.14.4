@@ -9,8 +9,8 @@ IUSE=fuse ntfs static-libs threads test yasm
 KEYWORDS=~amd64 ~x86
 LICENSE=|| ( GPL-3+ LGPL-3+ ) CC0-1.0
 RDEPEND=dev-libs/libxml2:2 ntfs? ( sys-fs/ntfs3g ) fuse? ( sys-fs/fuse:0 )
-RESTRICT=primaryuri
+RESTRICT=primaryuri !test? ( test )
 SLOT=0
-SRC_URI=https://wimlib.net/git/?p=wimlib;a=snapshot;h=bd7c352;sf=tgz -> wimlib-1.14.1.tar.gz
+SRC_URI=https://wimlib.net/downloads/wimlib-1.14.4.tar.gz
 _eclasses_=gnuconfig	b6b3e92f8b8c996400074b5f61a59256	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	libtool	5f49a16f67f81bdf873e3d1f10b10001	autotools	3af8f60c4bdb23e738db506a630898ee	pax-utils	91d47e5d20627c717aa878b9167c62a8
-_md5_=26853fa42d21a2b4a0c0028db03a7faa
+_md5_=da91a8c1e654e348ac4b2ccfe3975333
