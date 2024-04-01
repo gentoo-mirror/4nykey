@@ -8,5 +8,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=net-libs/nodejs
 SLOT=0
-_eclasses_=git-r3	86fa1f157b70b9d2ff340c4633b1cf4b
+_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1
 _md5_=748267c93596751eaf7ab5ad5fcd9da9
