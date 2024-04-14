@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.12 >=dev-util/fontmake-3.5[python_targets_python3_12(-)] ) ( dev-lang/python:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DESCRIPTION=A version of Inconsolata with Greek and Cyrillic support
 EAPI=7
 HOMEPAGE=https://github.com/MihailJP/Inconsolata-LGC
@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( font_types_otf? ( https://github.com/MihailJP/Inconsolata-LGC/releases/download/LGC-1.3.0/InconsolataLGC-OT-1.3.0.tar.xz ) font_types_ttf? ( https://github.com/MihailJP/Inconsolata-LGC/releases/download/LGC-1.3.0/InconsolataLGC-1.3.0.tar.xz ) ) !binary? ( mirror://githubcl/glebd/Inconsolata-LGC/tar.gz/0cdee8c -> inconsolata-lgc-1.3.0_p20161102.tar.gz ) !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-any-r1	f5169813d1619761b459800587005fd2	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	e4449d8a59c444ff669ab7e7fb97d87f
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-any-r1	f5169813d1619761b459800587005fd2	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	0b55b86cba8dcc278e37ee471fb5ab5a
 _md5_=edaa81a9e88a83d01ec59dedeaff3648

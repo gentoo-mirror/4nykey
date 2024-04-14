@@ -1,17 +1,17 @@
-BDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 )
+BDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( >=dev-python/gpep517-15[python_targets_python3_10(-)] >=dev-python/setuptools-69.0.3[python_targets_python3_10(-)] ) python_single_target_python3_11? ( >=dev-python/gpep517-15[python_targets_python3_11(-)] >=dev-python/setuptools-69.0.3[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/gpep517-15[python_targets_python3_12(-)] >=dev-python/setuptools-69.0.3[python_targets_python3_12(-)] )
 DEFINED_PHASES=compile configure install prepare setup test
-DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] dev-libs/libxml2[python,python_targets_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] dev-libs/libxml2[python,python_targets_python3_11(-)] )
+DEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] dev-libs/libxml2[python,python_targets_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] dev-libs/libxml2[python,python_targets_python3_11(-)] ) python_single_target_python3_12? ( media-gfx/fontforge[python,python_single_target_python3_12(-)] dev-libs/libxml2[python,python_targets_python3_12(-)] )
 DESCRIPTION=A high-level language for gridfitting TrueType fonts
-EAPI=7
+EAPI=8
 HOMEPAGE=http://xgridfit.sourceforge.net
 INHERIT=distutils-r1
-IUSE=python_single_target_python3_10 python_single_target_python3_11
+IUSE=python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12
 KEYWORDS=~amd64 ~x86
 LICENSE=LGPL-2.1
-RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] dev-libs/libxml2[python,python_targets_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] dev-libs/libxml2[python,python_targets_python3_11(-)] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 )
-REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 )
+RDEPEND=python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_10? ( media-gfx/fontforge[python,python_single_target_python3_10(-)] dev-libs/libxml2[python,python_targets_python3_10(-)] ) python_single_target_python3_11? ( media-gfx/fontforge[python,python_single_target_python3_11(-)] dev-libs/libxml2[python,python_targets_python3_11(-)] ) python_single_target_python3_12? ( media-gfx/fontforge[python,python_single_target_python3_12(-)] dev-libs/libxml2[python,python_targets_python3_12(-)] ) python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 )
+REQUIRED_USE=^^ ( python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://sourceforge/xgridfit/xgridfit-2.3.tar.gz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-single-r1	75118e916668a74c660a13b0ecb22562	distutils-r1	d9a9242b3972ef569e740451da4b90e1
-_md5_=74b7d7a8a512ed4c99519cecc4e50c21
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	flag-o-matic	288c54efeb5e2aa70775e39032695ad4	out-of-source-utils	1a9007554652a6e627edbccb3c25a439	multibuild	d67e78a235f541871c7dfe4cf7931489	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	python-utils-r1	a1229a86bd0db058e474a2d7d9191cca	python-single-r1	75118e916668a74c660a13b0ecb22562	distutils-r1	d9a9242b3972ef569e740451da4b90e1
+_md5_=e87e20aae2195c669c8406a9759e5348
