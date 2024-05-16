@@ -1,4 +1,4 @@
-app-arch/7-zip 23.01: A file archiver with a high compression ratio
+app-arch/7-zip 24.05: A file archiver with a high compression ratio
 app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.14.4 9999: The open source Windows Imaging (WIM) library
 app-crypt/digidoc4-client 4.5.1 9999: An application for digitally signing and encrypting documents
@@ -65,7 +65,7 @@ dev-python/skia-pathops 0.8.0_p1 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.6.0 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.7.3 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 3.2.1 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 3.2.2 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.16.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
