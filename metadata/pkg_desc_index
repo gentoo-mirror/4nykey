@@ -80,7 +80,6 @@ dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
 dev-util/cmake-openeid 0_p20230110 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontmake 3.9.0 9999: A wrapper for several Python libraries to compile fonts from sources
-dev-util/fontship 0.8.2_p20220414 9999: A font development toolkit
 dev-util/gftools 0.9.54 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 5.2.1 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
