@@ -69,7 +69,7 @@ dev-python/ufo2ft 3.2.5 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.16.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.1 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.39.1 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.39.2 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.3.0 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.12.0 9999: A library for VTT hinting
@@ -205,7 +205,7 @@ media-sound/aacgain 1.9-r4 2.0.0 9999: Normalize perceived loudness of AAC audio
 media-sound/ardour 7.5-r1 7.9999 8.6 8.9999: Digital Audio Workstation
 media-sound/deadbeef 1.9.6 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
-media-sound/picard 2.11 9999: Cross-platform music tagger
+media-sound/picard 2.12 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/rsgain 3.5.1 9999: ReplayGain 2.0 loudness normalizer
 media-sound/whipper 0.10.0_p20240401 9999: A Python CD-DA ripper preferring accuracy over speed
