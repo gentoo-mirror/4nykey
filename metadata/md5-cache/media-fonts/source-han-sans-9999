@@ -11,5 +11,5 @@ PROPERTIES=live
 REQUIRED_USE=!binary ?? ( font_types_otf font_types_ttc ) half-width? ( font_types_ttc variable ) super-otc? ( font_types_ttc !variable ) font_types_otf? ( || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) variable? ( binary ) || ( font_types_otf font_types_ttc )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	fbb2889c81f3a05910c1524db69425c1	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=01d49f637ec80b5efd2b82e0fcba38bb
