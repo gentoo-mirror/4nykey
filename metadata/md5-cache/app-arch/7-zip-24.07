@@ -1,4 +1,4 @@
-BDEPEND=app-arch/p7zip asm? ( dev-lang/asmc )
+BDEPEND=asm? ( dev-lang/asmc )
 DEFINED_PHASES=compile install prepare unpack
 DESCRIPTION=A file archiver with a high compression ratio
 EAPI=8
@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=LGPL-2.1 BSD rar? ( unRAR )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.06/7z2406-src.7z
+SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.07/7z2407-src.tar.xz
 _eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	unpacker	7b40f3faa3e2e12f5cf6d36d0fbfcd09
-_md5_=e26b63dcea72b4f542a2f0d836eaf829
+_md5_=dba2103e0d5e2d842db23f50679fd80b

@@ -103,15 +103,13 @@ media-sound/flactag:gcrypt - Use libgcrypt for low-level crypto
 media-sound/flactag:scripts - Install additional scripts to /usr/bin
 media-sound/picard:discid - Enable reading the ID of the inserted CD
 media-sound/picard:fingerprints - Enable calculation and lookup of AcoustID fingerprints
+net-misc/meganz-sdk:c-ares - Use net-dns/c-ares for DNS lookups
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
 net-misc/meganz-sdk:libuv - Support asynchronous I/O via dev-libs/libuv
 net-misc/meganz-sdk:mediainfo - Use media-libs/libmediainfo for media files
 net-misc/meganz-sdk:qt - Install QT bindings
-net-misc/megasync:dolphin - Install the kde-apps/dolphin extension
 net-misc/megasync:mediainfo - Use media-libs/libmediainfo for media files
-net-misc/megasync:nautilus - Install the gnome-base/nautilus extension
-net-misc/megasync:thunar - Install the xfce-base/thunar extension
 sys-block/partclone:apfs - Include APFS support
 sys-block/partclone:btrfs - Include BTRFS support
 sys-block/partclone:e2fs - Include EXT2/3/4 support
