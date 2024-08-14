@@ -1,4 +1,4 @@
-BDEPEND=asm? ( dev-lang/asmc )
+BDEPEND=asm? ( dev-lang/jwasm )
 DEFINED_PHASES=compile install prepare unpack
 DESCRIPTION=A file archiver with a high compression ratio
 EAPI=8
@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=LGPL-2.1 BSD rar? ( unRAR )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.07/7z2407-src.tar.xz
+SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.08/7z2408-src.tar.xz
 _eclasses_=toolchain-funcs	0c713337f7872f1a002cecaaea9bef73	multilib	c19072c3cd7ac5cb21de013f7e9832e0	multiprocessing	30ead54fa2e2b5f9cd4e612ffc34d0fe	unpacker	fb4b84181244b3b9990fa0bf40232dd2
-_md5_=dba2103e0d5e2d842db23f50679fd80b
+_md5_=676eb59fbe632f61c393d4f89d3dcf3b

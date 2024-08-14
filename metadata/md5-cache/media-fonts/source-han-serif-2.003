@@ -1,0 +1,16 @@
+BDEPEND=!binary? ( dev-util/afdko ) !variable? ( app-arch/unzip )
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=A set of OpenType/CFF Pan-CJK fonts
+EAPI=8
+HOMEPAGE=https://source.typekit.com/source-han-serif
+INHERIT=font-r1
+IUSE=+binary l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW super-otc variable X +font_types_otf font_types_ttc
+KEYWORDS=~amd64
+LICENSE=OFL-1.1
+REQUIRED_USE=?? ( font_types_otf font_types_ttc ) super-otc? ( font_types_ttc !variable ) font_types_otf? ( || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) variable? ( binary ) || ( font_types_otf font_types_ttc )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=binary? ( font_types_otf? ( !variable? ( l10n_ja? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/12_SourceHanSerifJP.zip -> SourceHanSerifJP-2.003.zip ) l10n_ko? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/13_SourceHanSerifKR.zip -> SourceHanSerifKR-2.003.zip ) l10n_zh-CN? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/14_SourceHanSerifCN.zip -> SourceHanSerifCN-2.003.zip ) l10n_zh-HK? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/16_SourceHanSerifHK.zip -> SourceHanSerifHK-2.003.zip ) l10n_zh-TW? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/15_SourceHanSerifTW.zip -> SourceHanSerifTW-2.003.zip ) ) variable? ( l10n_ja? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTF/Subset/SourceHanSerifJP-VF.otf -> SourceHanSerifJP-VF-2.003.otf ) l10n_ko? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTF/Subset/SourceHanSerifKR-VF.otf -> SourceHanSerifKR-VF-2.003.otf ) l10n_zh-CN? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTF/Subset/SourceHanSerifCN-VF.otf -> SourceHanSerifCN-VF-2.003.otf ) l10n_zh-HK? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTF/Subset/SourceHanSerifHK-VF.otf -> SourceHanSerifHK-VF-2.003.otf ) l10n_zh-TW? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTF/Subset/SourceHanSerifTW-VF.otf -> SourceHanSerifTW-VF-2.003.otf ) ) ) font_types_ttc? ( variable? ( mirror://githubraw/adobe-fonts/source-han-serif/2.003R/Variable/OTC/SourceHanSerif-VF.otf.ttc -> SourceHanSerif-VF-2.003.ttc ) !variable? ( super-otc? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/01_SourceHanSerif.ttc.zip -> SourceHanSerif-2.003.ttc.zip ) !super-otc? ( https://github.com/adobe-fonts/source-han-serif/releases/download/2.003R/03_SourceHanSerifOTC.zip -> SourceHanSerifOTC-2.003.zip ) ) ) ) !binary? ( mirror://githubcl/adobe-fonts/source-han-serif/tar.gz/2.003 -> source-han-serif-2.003.tar.gz )
+_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_md5_=633cd591a6ad02e644e5236a36d327f5
