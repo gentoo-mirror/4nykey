@@ -8,6 +8,10 @@ app-arch/wimlib:fuse - Support mounting WIMs via sys-fs/fuse
 app-arch/wimlib:ntfs - Support direct manipulation on a NTFS volume via sys-fs/ntfs3g
 app-arch/wimlib:yasm - Prefer dev-lang/yasm over dev-lang/nasm
 app-crypt/digidoc4-client:nautilus - Install gnome-base/nautilus extension
+app-text/rst2pdf:aafigure - ASCII art figure rendering via dev-python/aafigure
+app-text/rst2pdf:html - Rendering of raw HTML via dev-python/xhtml2pdf
+app-text/rst2pdf:matplotlib - Add support for dev-python/matplotlib
+app-text/rst2pdf:plantuml - Add support for media-gfx/plantuml
 dev-libs/xml-security-c:nss - Use dev-libs/nss for certain crypto operations (configureable at runtime)
 dev-python/compreffor:cython - Generate cpp sources with dev-python/cython
 dev-python/fonttools:graphite - Enable support for graphite type tables (Silf, Glat, Gloc)
@@ -18,6 +22,9 @@ dev-python/fonttools:reportlab - Enable support for drawing glyphs as PNG images
 dev-python/fonttools:skia - Use skia-pathops to remove overlaps in TTF fonts
 dev-python/fonttools:ufo - Enable support for reading and writing UFO source files
 dev-python/fonttools:woff - Enable compression support for WOFF 1.0/2.0 webfonts
+dev-python/pyHanko:opentype - Support for embedding ttf/otf fonts
+dev-python/pyHanko:pillow - Support for embedding images
+dev-python/pyHanko:pkcs11 - PKCS#11 integration via dev-python/python-pkcs11
 dev-python/ufoLib2:msgpack - Enable msgpack support
 dev-python/ufoLib2:orjson - Use orjson in place of built-in json library
 dev-util/fontmake:json - Enable support for ufoLib2's .ufo.json files
@@ -71,6 +78,18 @@ media-gfx/fontforge:woff2 - Enable WOFF2 support
 media-libs/skia:egl - Enable EGL support
 media-libs/skia:harfbuzz - Enable OpenType shaping via media-libs/harfbuzz
 media-libs/skia:lottie - Enable Lottie animation support
+media-plugins/audacious-plugins:ampache - Support controlling audacious via ampache
+media-plugins/audacious-plugins:bs2b - Enable Bauer Bauer stereophonic-to-binaural headphone filter
+media-plugins/audacious-plugins:cue - Support CUE sheets using the libcue library
+media-plugins/audacious-plugins:fluidsynth - Support FluidSynth as MIDI synth backend
+media-plugins/audacious-plugins:gme - Support various gaming console music formats
+media-plugins/audacious-plugins:http - Support HTTP streams through neon
+media-plugins/audacious-plugins:openmpt - Add support for OpenMPT
+media-plugins/audacious-plugins:pipewire - Build the PipeWire output plugin
+media-plugins/audacious-plugins:scrobbler - Build with scrobbler/LastFM submission support
+media-plugins/audacious-plugins:soxr - Build with SoX Resampler support
+media-plugins/audacious-plugins:speedpitch - Enable speed/pitch effects
+media-plugins/audacious-plugins:streamtuner - Build the streamtuner plugin
 media-plugins/deadbeef-spectrum-plugin:gtk3 - Enable support for GTK+3
 media-plugins/deadbeef-statusnotifier-plugin:gtk3 - Enable support for GTK+3
 media-sound/ardour:bundled-libs - Use bundled libs instead of system installed
@@ -80,6 +99,7 @@ media-sound/ardour:sanitize - Turn on AddressSanitizer (requires GCC >= 4.8 or c
 media-sound/ardour:sse - Build runtime checked assembler code
 media-sound/ardour:vst - Enable VST plugin support
 media-sound/ardour:websockets - Enable support for WebSocket protocol
+media-sound/audacious:libarchive - Enable libarchive support
 media-sound/deadbeef:adplug - Enable adplug plugin
 media-sound/deadbeef:alac - Add support for Apple Lossless Audio Codec files
 media-sound/deadbeef:artwork - Enable albumart plugin
@@ -103,6 +123,7 @@ media-sound/flactag:gcrypt - Use libgcrypt for low-level crypto
 media-sound/flactag:scripts - Install additional scripts to /usr/bin
 media-sound/picard:discid - Enable reading the ID of the inserted CD
 media-sound/picard:fingerprints - Enable calculation and lookup of AcoustID fingerprints
+media-sound/rsgain:std_format - Use std::format instead of dev-libs/libfmt (reqires gcc >= 14 or libcxx >= 18)
 net-misc/meganz-sdk:c-ares - Use net-dns/c-ares for DNS lookups
 net-misc/meganz-sdk:freeimage - Enable support for image I/O via media-libs/freeimage
 net-misc/meganz-sdk:fuse - Build FUSE-based example client
@@ -122,7 +143,6 @@ sys-block/partclone:hfs - Include HFS support
 sys-block/partclone:minix - Include MINIX FS support
 sys-block/partclone:nilfs2 - Include NILFS2 support
 sys-block/partclone:ntfs - Include NTFS support
-sys-block/partclone:reiser4 - Include ReiserFS4 support
 sys-block/partclone:reiserfs - Include ReiserFS support
 sys-block/partclone:xfs - Include XFS support
 www-client/torbrowser:clang - Use Clang compiler instead of GCC

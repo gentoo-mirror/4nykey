@@ -7,6 +7,7 @@ app-editors/neovim-gtk 1.0.4 1.1.0_pre20240420 9999: GTK UI for neovim written i
 app-i18n/unicode-emoji 15.0: UTS #51 Unicode Emoji
 app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
+app-text/rst2pdf 0.102 9999: Tool for transforming reStructuredText to PDF using ReportLab
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
@@ -17,6 +18,8 @@ dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/xmlbird 1.2.12 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 3.0.1 9999: A library for piecewise linear interpolation in multiple dimensions
+dev-python/PyMuPDF 1.24.9 9999: A Python library for manipulation of PDF documents
+dev-python/aafigure 0.6 9999: An ASCII art to image converter
 dev-python/axisregistry 0.4.9 9999: A Python API to access data from the Google Fonts variable fonts Axis Registry
 dev-python/babelfont 3.0.0_p20230522 9999: Interrogate and manipulate UFO, TTF and OTF fonts with a common interface
 dev-python/beziers 0.6.0 9999: Python bezier manipulation library
@@ -37,25 +40,33 @@ dev-python/fontPens 0.2.5_pre20230408 9999: A collection of classes implementing
 dev-python/fonttools 4.53.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.5.17 9999: A Python API to evaluate language support in the Google Fonts collection
-dev-python/glyphsLib 6.8.1 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.8.2 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 0.6.17 9999: A python module providing an API with data about glyph sets
 dev-python/glyphtools 0.8.0 9999: Routines for extracting information from font glyphs
 dev-python/hsluv 5.0.4 9999: Python implementation of HSLuv (revision 4)
 dev-python/hyperglot 0.6.2 9999: A database and tools for detecting language support in fonts
 dev-python/importlib_resources 6.4.0 9999: Backport of the importlib.resources module
+dev-python/mupdf 1.24.8: Python bindings for the MuPDF library
 dev-python/nam-files 2024.02.05 9999: Unicode ranges used to subset fonts in the Google Fonts CSS API
 dev-python/nanoemoji 0.15.1_p20240402 9999: A wee tool to build color fonts
 dev-python/ninja-python-distributions 1.11.1.1 9999: A tool to build Ninja Python wheels
 dev-python/nototools 0.2.19 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.1 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.5 9999: Scripts for making OpenType-SVG fonts
+dev-python/oscrypto 1.3.0 9999: Python crypto library backed by the OS
 dev-python/ots-python 9.1.0 9999: A Python wrapper for OpenType Sanitizer
 dev-python/pcpp 1.30 9999: A C99 preprocessor written in pure Python
 dev-python/picosvg 0.22.1_p20230915 9999: A tool to simplify SVGs
 dev-python/py-zopfli 0.2.3 9999: Python bindings for zopfli
+dev-python/pyHanko 0.25.1 9999: A Python library to sign and stamp PDF files
 dev-python/pybrowserstack-screenshots 0.1 9999: A python api wrapper and client for Browserstack Screenshots API
 dev-python/pycdio 2.1.2_pre20240226 9999: Python OO interface to libcdio (CD Input and Control library)
 dev-python/pyclipper 1.3.0_p20230925 9999: A Cython wrapper for the Clipper library
+dev-python/pyhanko-certvalidator 0.26.3 9999: Python library for validating X.509 certificates and paths
+dev-python/python-arabic-reshaper 3.0.0 9999: Reconstruct Arabic sentences
+dev-python/python-barcode 0.15.1 9999: Create standard barcodes with Python
+dev-python/python-bidi 0.6.0 9999: BiDi layout implementation in pure python
+dev-python/python-pkcs11 0.7.0_p20240519 9999: PKCS#11/Cryptoki support for Python
 dev-python/python-rapidjson 1.16 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.2.5 9999: An SFD to UFO converter
@@ -64,14 +75,15 @@ dev-python/skia-pathops 0.8.0_p1 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.6.0 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.7.3 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
-dev-python/ufo2ft 3.2.7 9999: A bridge from UFOs to FontTool objects
+dev-python/ufo2ft 3.2.8 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.16.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.2 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.39.2 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.39.5 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vharfbuzz 0.3.0 9999: A user-friendlier way to use Harfbuzz in Python
 dev-python/vttLib 0.12.0 9999: A library for VTT hinting
+dev-python/xhtml2pdf 0.2.16 9999: Tool for transforming reStructuredText to PDF using ReportLab
 dev-python/youseedee 0.5.3 9999: Interface to the Unicode Character Database
 dev-util/afdko 4.0.1 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.16.0 9999: An open source cross-platform toolchain for building and packaging C++ code
@@ -117,7 +129,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.0 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 31.3.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 31.6.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -142,7 +154,7 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.042 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20240413: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20240902: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.002_pre20231104 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -162,7 +174,7 @@ media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.103_p20230630 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 1.0.19: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 1.0.20: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interface and coding environments
@@ -194,6 +206,7 @@ media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType font
 media-libs/libspiro 20221101 99999999: A library for drawing beautiful curves
 media-libs/resvg 0.43.0 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
+media-plugins/audacious-plugins 4.4 9999: Plugins for Audacious music player
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211231 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.16 9999: A plugin that implements the MPRISv2 for DeaDBeeF
 media-plugins/deadbeef-spectrum-plugin 0.2_p20220805 9999: Musical spectrum for the DeaDBeeF audio player
@@ -201,9 +214,10 @@ media-plugins/deadbeef-statusnotifier-plugin 1.6_p20211124 9999: Plugin that pro
 media-plugins/gimp-plugin-bimp 2.6 9999: A GIMP plugin to apply a set of manipulations to groups of images
 media-sound/aacgain 1.9-r4 2.0.0 9999: Normalize perceived loudness of AAC audio files
 media-sound/ardour 7.5-r1 7.9999 8.6 8.9999: Digital Audio Workstation
+media-sound/audacious 4.4 9999: Lightweight and versatile audio player
 media-sound/deadbeef 1.9.6_p20240622 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
-media-sound/picard 2.12.1 9999: Cross-platform music tagger
+media-sound/picard 2.12.3 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/rsgain 3.5.2 9999: ReplayGain 2.0 loudness normalizer
 media-sound/whipper 0.10.0_p20240401 9999: A Python CD-DA ripper preferring accuracy over speed
@@ -212,7 +226,7 @@ net-misc/meganz-sdk 7.6.0 9999: MEGA C++ SDK
 net-misc/megasync 5.4.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.32 9999: Partition cloning tool
-www-client/torbrowser 13.5.2-r1 14.0_alpha2: The Tor Browser
+www-client/torbrowser 13.5.3 14.0_alpha4: The Tor Browser
 x11-terms/wezterm 20240127.113634 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20240501 99999999: Papirus icon theme for GTK

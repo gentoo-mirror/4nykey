@@ -5,7 +5,7 @@ DESCRIPTION=Partition cloning tool
 EAPI=8
 HOMEPAGE=https://partclone.org
 INHERIT=autotools flag-o-matic
-IUSE=apfs btrfs +e2fs exfat f2fs fat fuse hfs minix ncurses nilfs2 ntfs reiser4 reiserfs static xfs
+IUSE=apfs btrfs +e2fs exfat f2fs fat fuse hfs minix ncurses nilfs2 ntfs reiserfs static xfs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=dev-libs/openssl:= e2fs? ( sys-fs/e2fsprogs ) btrfs? ( sys-apps/util-linux ) fuse? ( sys-fs/fuse:0 ) ncurses? ( sys-libs/ncurses:0 ) nilfs2? ( sys-fs/nilfs-utils ) ntfs? ( sys-fs/ntfs3g:= ) reiserfs? ( sys-fs/progsreiserfs ) xfs? ( sys-apps/util-linux ) static? ( dev-libs/openssl:*[static-libs] e2fs? ( sys-fs/e2fsprogs[static-libs] ) btrfs? ( sys-apps/util-linux[static-libs] ) fuse? ( sys-fs/fuse:0[static-libs] ) ncurses? ( sys-libs/ncurses:0[static-libs] ) nilfs2? ( sys-fs/nilfs-utils[static-libs] ) ntfs? ( sys-fs/ntfs3g[static-libs] ) reiserfs? ( sys-fs/progsreiserfs[static-libs] ) )
@@ -13,4 +13,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/Thomas-Tsai/partclone/tar.gz/0.3.32 -> partclone-0.3.32.tar.gz
 _eclasses_=gnuconfig	f8b9cc21e72de8cbedde6ca5108d208b	toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	libtool	f9e6905c12590c1cac06d85371a0819a	autotools	61927ff6474f1d141b4ea4a5b9870424	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94
-_md5_=c159f6030c0d4e59a799a5193f0bd6fd
+_md5_=def2ba251977c016bbcaff6aeb0fce0a

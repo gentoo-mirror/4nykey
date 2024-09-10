@@ -1,9 +1,10 @@
 BDEPEND=virtual/pkgconfig app-alternatives/ninja >=dev-build/cmake-3.20.5
-DEFINED_PHASES=compile configure install prepare test
+DEFINED_PHASES=compile configure install prepare pretend test
 DESCRIPTION=ReplayGain 2.0 loudness normalizer
 EAPI=8
 HOMEPAGE=https://github.com/complexlogic/rsgain
 INHERIT=cmake
+IUSE=std_format
 KEYWORDS=~amd64
 LICENSE=BSD-2
 RDEPEND=
@@ -11,4 +12,4 @@ RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://github.com/complexlogic/rsgain/releases/download/v3.5.2/rsgain-3.5.2-source.tar.xz
 _eclasses_=toolchain-funcs	948855ec7ad9f11351edf9066708dfa9	multilib	7e1347c006a76bb812f3a9f663b79991	flag-o-matic	fa33e3696fe4689dda7e9affe92e2c94	multiprocessing	e644caa6eb7ce7e5ab0864383ac13ad9	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	5465aed08f1dfc2a75f14cbea4272961	cmake	10a50dfaf728b802fcfd37f8d0da9056
-_md5_=b6e81742a6c153a823f4a6cb8e45793c
+_md5_=276f285caa6db26135c5ea852ffd9df7
