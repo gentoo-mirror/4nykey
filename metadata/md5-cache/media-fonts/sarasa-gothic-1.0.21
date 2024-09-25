@@ -11,6 +11,6 @@ LICENSE=BSD
 REQUIRED_USE=font_types_ttf? ( || ( classical || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) || ( font_variants_fixed font_variants_monospace font_variants_sans font_variants_slab font_variants_term font_variants_ui ) ) ?? ( font_types_ttc font_types_ttf ) || ( font_types_ttc font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=autohint? ( font_types_ttc? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.20/Sarasa-SuperTTC-1.0.20.7z ) font_types_ttf? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.20/Sarasa-TTF-1.0.20.7z ) ) !autohint? ( font_types_ttc? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.20/Sarasa-SuperTTC-Unhinted-1.0.20.7z ) font_types_ttf? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.20/Sarasa-TTF-Unhinted-1.0.20.7z ) )
+SRC_URI=autohint? ( font_types_ttc? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.21/Sarasa-SuperTTC-1.0.21.7z ) font_types_ttf? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.21/Sarasa-TTF-1.0.21.7z ) ) !autohint? ( font_types_ttc? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.21/Sarasa-SuperTTC-Unhinted-1.0.21.7z ) font_types_ttf? ( https://github.com/be5invis/sarasa-gothic/releases/download/v1.0.21/Sarasa-TTF-Unhinted-1.0.21.7z ) )
 _eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=381dc7ff44fa0af021c0f7f6f532b8db
