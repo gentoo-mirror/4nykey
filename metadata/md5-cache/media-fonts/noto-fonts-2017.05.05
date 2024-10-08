@@ -11,5 +11,5 @@ RDEPEND=!media-fonts/croscorefonts
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlei18n/noto-fonts/tar.gz/1293ec3 -> noto-fonts-1293ec3.tar.gz
-_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0	vcs-snapshot	3d327d546f76e4c2054573ff0d78fad2
+_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0	vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177
 _md5_=14717c77a0004b79b27dd3203d3fa74c
