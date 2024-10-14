@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( https://github.com/alerque/libertinus/releases/download/v7.051/Libertinus-7.051.tar.zst )
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	python-utils-r1	c356a67b8e93889de6efff7d50599102	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	unpacker	fb4b84181244b3b9990fa0bf40232dd2	python-utils-r1	2fee95c11e5f883024588d4837db6802	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=81317e91621fa46865ba44bea6c47934
