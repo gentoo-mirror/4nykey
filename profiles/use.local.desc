@@ -57,6 +57,8 @@ media-fonts/iosevka-src:font_variants_ss18 - A variant stylized after Input Mono
 media-fonts/iosevka-src:font_variants_term - A narrower variant focusing terminal uses
 media-fonts/noto:emoji - Install additional emoji fonts
 media-fonts/noto-cjk-sans:super-otc - Install single combined Super OTC collection
+media-fonts/noto-emoji:font_variants_cbdt - Install Color Bitmap Data Table fonts (raster graphics)
+media-fonts/noto-emoji:font_variants_colrv1 - Install COLRv1 fonts (vector graphics)
 media-fonts/noto-source:clean-as-you-go - Clean intermediate ufos after they were built (useful when PORTAGE_TMPDIR resides on a tmpfs)
 media-fonts/sarasa-gothic:classical - Classical orthography
 media-fonts/sarasa-gothic:font_variants_fixed - A variant without ligatures and half-width glyphs
@@ -160,5 +162,4 @@ www-client/torbrowser:system-jpeg - Use the system-wide media-libs/libjpeg-turbo
 www-client/torbrowser:system-libevent - Use the system-wide dev-libs/libevent instead of bundled
 www-client/torbrowser:system-libvpx - Use the system-wide media-libs/libvpx instead of bundled
 www-client/torbrowser:system-png - Use the system-wide media-libs/libpng instead of bundled (requires APNG patches)
-www-client/torbrowser:system-python-libs - Use system's python site instead of bundled python libraries
 www-client/torbrowser:system-webp - Use the system-wide media-libs/libwebp instead of bundled
