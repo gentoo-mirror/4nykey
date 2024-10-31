@@ -63,7 +63,7 @@ RDEPEND="
 	media-libs/liblo
 	media-libs/taglib
 	media-libs/vamp-plugin-sdk
-	media-libs/rubberband
+	media-libs/rubberband:=
 	sys-apps/util-linux
 	websockets? ( net-libs/libwebsockets )
 	dbus? ( sys-apps/dbus )
@@ -104,6 +104,8 @@ src_prepare() {
 	use cpu_flags_x86_avx || _c+=( -e '/define_name =/ s:\<FPU_AVX_FMA_SUPPORT\>:NO_&:' )
 	use cpu_flags_x86_avx512f || _c+=( -e '/define_name =/ s:\<FPU_AVX512F_SUPPORT\>:NO_&:' )
 	sed "${_c[@]}" -i wscript
+
+	sed -e "s:Name=Ardour:& ${SLOT}:" -i gtk2_ardour/ardour.desktop.in
 }
 
 src_configure() {
