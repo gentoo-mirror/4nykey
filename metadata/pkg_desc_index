@@ -41,7 +41,7 @@ dev-python/fontPens 0.2.5_pre20230408 9999: A collection of classes implementing
 dev-python/fonttools 4.54.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.6.4 9999: A Python API to evaluate language support in the Google Fonts collection
-dev-python/glyphsLib 6.9.3 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.9.4 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 1.0.0_p20240921 9999: A python module providing an API with data about glyph sets
 dev-python/glyphtools 0.8.0 9999: Routines for extracting information from font glyphs
 dev-python/hsluv 5.0.4 9999: Python implementation of HSLuv (revision 4)
@@ -55,7 +55,7 @@ dev-python/nototools 0.2.19 9999: A python package for maintaining the Noto Font
 dev-python/openstep-plist 0.3.1 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.5 9999: Scripts for making OpenType-SVG fonts
 dev-python/oscrypto 1.3.0 9999: Python crypto library backed by the OS
-dev-python/ots-python 9.1.0 9999: A Python wrapper for OpenType Sanitizer
+dev-python/ots-python 9.2.0 9999: A Python wrapper for OpenType Sanitizer
 dev-python/pcpp 1.30 9999: A C99 preprocessor written in pure Python
 dev-python/picosvg 0.22.1_p20230915 9999: A tool to simplify SVGs
 dev-python/py-zopfli 0.2.3 9999: Python bindings for zopfli
@@ -208,9 +208,9 @@ media-gfx/scour 0.38.2_p20230123 9999: An SVG Optimizer / Cleaner
 media-gfx/trufont 0.6.6_p20230625 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
-media-libs/libheif 1.19.2 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
+media-libs/libheif 1.19.3 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libspiro 20240903 99999999: A library for drawing beautiful curves
-media-libs/openjph 0.17.0 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
+media-libs/openjph 0.18.0 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
 media-libs/resvg 0.44.0 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-libs/uvg266 0.8.1 9999: An open-source VVC encoder based on Kvazaar
@@ -236,7 +236,7 @@ net-misc/meganz-sdk 7.12.0 9999: MEGA C++ SDK
 net-misc/megasync 5.6.0.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.32 9999: Partition cloning tool
-www-client/torbrowser 14.0.1: The Tor Browser
+www-client/torbrowser 14.0.1-r1: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20240501 99999999: Papirus icon theme for GTK
