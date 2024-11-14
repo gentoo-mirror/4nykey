@@ -7,7 +7,7 @@ app-editors/neovim-gtk 1.1.0_pre20240913 9999: GTK UI for neovim written in rust
 app-i18n/unicode-emoji 15.0: UTS #51 Unicode Emoji
 app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
-app-text/rst2pdf 0.102 9999: Tool for transforming reStructuredText to PDF using ReportLab
+app-text/rst2pdf 0.102-r1 9999: Tool for transforming reStructuredText to PDF using ReportLab
 dev-cpp/antlr-cpp 4.13.2: The ANTLR 4 C++ Runtime
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
@@ -96,7 +96,7 @@ dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontc 0.0.1_p20241018 9999: Where in we pursue oxidizing fontmake
 dev-util/fontmake 3.10.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.10.0 9999: A font development toolkit
-dev-util/gftools 0.9.68 9999: Miscellaneous tools for working with the Google Fonts collection
+dev-util/gftools 0.9.74 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 5.2.1 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/ots 9.2.0 9999: An util for validating and sanitising OpenType files
@@ -236,7 +236,7 @@ net-misc/meganz-sdk 7.12.0 9999: MEGA C++ SDK
 net-misc/megasync 5.6.0.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.32 9999: Partition cloning tool
-www-client/torbrowser 14.0.1-r1: The Tor Browser
+www-client/torbrowser 14.0.2: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20240501 99999999: Papirus icon theme for GTK
