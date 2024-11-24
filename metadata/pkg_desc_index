@@ -38,7 +38,7 @@ dev-python/fontFeatures 1.8.0 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.4 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.12.1_p20240207 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.5_pre20230408 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.55.0 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.55.0-r1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.7.0 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.9.5 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -50,7 +50,7 @@ dev-python/importlib_resources 6.4.0 9999: Backport of the importlib.resources m
 dev-python/mupdf 1.24.8: Python bindings for the MuPDF library
 dev-python/nam-files 2024.02.05 9999: Unicode ranges used to subset fonts in the Google Fonts CSS API
 dev-python/nanoemoji 0.15.1_p20240402 9999: A wee tool to build color fonts
-dev-python/ninja-python-distributions 1.11.1.1 9999: A tool to build Ninja Python wheels
+dev-python/ninja-python-distributions 1.11.1.2 9999: A tool to build Ninja Python wheels
 dev-python/nototools 0.2.19 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.1 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.5 9999: Scripts for making OpenType-SVG fonts
@@ -78,7 +78,7 @@ dev-python/strictyaml 1.7.3 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/syrupy 4.7.1 9999: The sweeter pytest snapshot plugin
 dev-python/ttfautohint-py 0.5.1 9999: A Python wrapper for ttfautohint
 dev-python/ufo2ft 3.3.1 9999: A bridge from UFOs to FontTool objects
-dev-python/ufoLib2 0.16.1 9999: A UFO font library
+dev-python/ufoLib2 0.17.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.2 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
 dev-python/uharfbuzz 0.42.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
@@ -96,7 +96,7 @@ dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontc 0.0.1_p20241018 9999: Where in we pursue oxidizing fontmake
 dev-util/fontmake 3.10.0 9999: A wrapper for several Python libraries to compile fonts from sources
 dev-util/fontship 0.10.0 9999: A font development toolkit
-dev-util/gftools 0.9.74 9999: Miscellaneous tools for working with the Google Fonts collection
+dev-util/gftools 0.9.76 9999: Miscellaneous tools for working with the Google Fonts collection
 dev-util/grcompiler 5.2.1 9999: The SIL Graphite compiler
 dev-util/otf2bdf 3.1: OpenType to BDF Converter
 dev-util/ots 9.2.0 9999: An util for validating and sanitising OpenType files
@@ -205,7 +205,7 @@ media-gfx/fontdiff 0.2.3-r1 9999: A tool for finding visual differences between 
 media-gfx/fontforge 20230101-r1 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20191205 9999: An app that shows the contents of a font file
 media-gfx/scour 0.38.2_p20230123 9999: An SVG Optimizer / Cleaner
-media-gfx/trufont 0.6.6_p20230625 9999: An ufo3 font editor
+media-gfx/trufont 0.6.6_p20230625-r1 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libheif 1.19.5 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
@@ -227,12 +227,12 @@ media-sound/ardour 8.10 8.9999 9.0_pre0 9.9999: Digital Audio Workstation
 media-sound/audacious 4.4.1 9999: Lightweight and versatile audio player
 media-sound/deadbeef 1.9.6_p20240622 9999: A music player for *nix-like systems and OSX
 media-sound/flactag 2.0.4_p20151006 9999: A utility for tagging FLAC files via MusicBrainz
-media-sound/picard 2.12.3 9999: Cross-platform music tagger
+media-sound/picard 2.12.3-r1 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/rsgain 3.5.3 9999: ReplayGain 2.0 loudness normalizer
 media-sound/whipper 0.10.0_p20240401 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.7.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 7.12.0 9999: MEGA C++ SDK
+net-misc/meganz-sdk 7.12.1 9999: MEGA C++ SDK
 net-misc/megasync 5.6.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.32 9999: Partition cloning tool
