@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_variants_cbdt font_variants_colrv1 )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/noto-emoji/tar.gz/v2.047 -> noto-emoji-2.047.tar.gz
-_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	2fee95c11e5f883024588d4837db6802	python-any-r1	f7b9a2fa38c69a9c2a7ad8fc9283ccf7	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	b5b2c146634108c3b50cf26eb05b848a	python-any-r1	f7b9a2fa38c69a9c2a7ad8fc9283ccf7	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=eb6f885173430b2438b59ad2468006a6
