@@ -13,5 +13,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttc )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=binary? ( https://downloads.sourceforge.net/cyrillic-modern/nm-otf+ttc-0.4.tar.xz latex? ( https://downloads.sourceforge.net/cyrillic-modern/nm-0.4.tar.xz ) ) !binary? ( mirror://gcarchive/cyrillic-modern/source-archive.zip -> cyrillic-modern-0.4_p143.zip )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	b5b2c146634108c3b50cf26eb05b848a	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	latex-package	b4107369f908088e98dd16d3459a8669	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	42c5abe4a656a4993a06a4fc61dbdd12	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	latex-package	b4107369f908088e98dd16d3459a8669	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=8fb50f984ea56d6b8b7f865f06a5b623
