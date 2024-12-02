@@ -9,6 +9,6 @@ KEYWORDS=~amd64
 LICENSE=LGPL-2.1 BSD rar? ( unRAR )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.08/7z2408-src.tar.xz
+SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.09/7z2409-src.tar.xz
 _eclasses_=toolchain-funcs	d3d42b22a610ce81c267b644bcec9b87	multilib	b2a329026f2e404e9e371097dda47f96
 _md5_=d8ae5013df8f044d5946e67eca8db9aa
