@@ -12,5 +12,5 @@ RDEPEND=app-eselect/eselect-gnome-shell-extensions >=gnome-base/gnome-shell-45 g
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/mgalgs/gnome-shell-system-monitor-applet/tar.gz/v3.10 -> gnome-shell-system-monitor-applet-3.10.tar.gz
-_eclasses_=toolchain-funcs	fa554cc3cff825d21dfe3f24841e29cf	multilib	b2a329026f2e404e9e371097dda47f96	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	plocale	950fbaec7deeba41b5bcc0572cca99b9
+_eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	plocale	950fbaec7deeba41b5bcc0572cca99b9
 _md5_=54fffd8f45fa3372fe394c0dc5320b12
