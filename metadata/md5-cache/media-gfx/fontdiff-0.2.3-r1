@@ -1,14 +1,14 @@
 DEFINED_PHASES=compile configure install prepare
-DEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat virtual/pkgconfig dev-build/gyp
+DEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4:=[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat virtual/pkgconfig dev-build/gyp
 DESCRIPTION=A tool for finding visual differences between two font versions
 EAPI=7
 HOMEPAGE=https://github.com/googlei18n/fontdiff
 INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=Apache-2.0
-RDEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat
+RDEPEND=dev-libs/fribidi >=media-libs/freetype-2.9:2 >=media-libs/harfbuzz-1.7.4:=[icu] dev-libs/icu:= x11-libs/cairo dev-libs/expat
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/googlei18n/fontdiff/tar.gz/v0.2.3 -> fontdiff-0.2.3.tar.gz mirror://githubcl/cubicdaiya/dtl/tar.gz/33a68d8 -> dtl-33a68d8.tar.gz
+SRC_URI=mirror://githubcl/googlei18n/fontdiff/tar.gz/v0.2.3 -> fontdiff-0.2.3.tar.gz mirror://githubcl/cubicdaiya/dtl/tar.gz/32567bb -> dtl-32567bb.tar.gz
 _eclasses_=toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96
-_md5_=fa6b2438805a567c38ccbed08c819d0e
+_md5_=4b76df3f9de0831e8852917de8bcfc2e

@@ -38,7 +38,7 @@ dev-python/fontFeatures 1.8.0 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.4 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.12.1_p20240207 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.2.5_pre20230408 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.55.0-r1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.55.3 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.7.0 9999: A Python API to evaluate language support in the Google Fonts collection
 dev-python/glyphsLib 6.9.5 9999: A library to provide a bridge from Glyphs source files to UFOs
@@ -50,7 +50,7 @@ dev-python/importlib_resources 6.4.0 9999: Backport of the importlib.resources m
 dev-python/mupdf 1.24.8: Python bindings for the MuPDF library
 dev-python/nam-files 2024.02.05 9999: Unicode ranges used to subset fonts in the Google Fonts CSS API
 dev-python/nanoemoji 0.15.1_p20240402 9999: A wee tool to build color fonts
-dev-python/ninja-python-distributions 1.11.1.2 9999: A tool to build Ninja Python wheels
+dev-python/ninja-python-distributions 1.11.1.3 9999: A tool to build Ninja Python wheels
 dev-python/nototools 0.2.19 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.1 9999: OpenStep plist parser and writer written in Cython
 dev-python/opentype-svg 1.1.5 9999: Scripts for making OpenType-SVG fonts
@@ -81,7 +81,7 @@ dev-python/ufo2ft 3.3.1 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.17.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.2 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.42.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.43.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vfbLib 0.7.1 9999: Converter and deserializer for FontLab Studio 5 VFB files
 dev-python/vharfbuzz 0.3.0 9999: A user-friendlier way to use Harfbuzz in Python
@@ -134,7 +134,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.1 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 32.2.0 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 32.2.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -159,7 +159,7 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.047 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20241001: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20241220: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.002_pre20231104 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -179,7 +179,7 @@ media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.103_p20230630 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 1.0.24: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 1.0.25: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interface and coding environments
@@ -210,12 +210,12 @@ media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fo
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libheif 1.19.5 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libspiro 20240903 99999999: A library for drawing beautiful curves
-media-libs/openjph 0.18.0 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
+media-libs/openjph 0.18.2 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
 media-libs/resvg 0.44.0 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-libs/uvg266 0.8.1 9999: An open-source VVC encoder based on Kvazaar
 media-libs/vvdec 3.0.0 9999: Fraunhofer Versatile Video (H.266/VVC) Decoder
-media-libs/vvenc 1.12.1 9999: Fraunhofer Versatile Video (H.266/VVC) Encoder
+media-libs/vvenc 1.13.0 9999: Fraunhofer Versatile Video (H.266/VVC) Encoder
 media-plugins/audacious-plugins 4.4.1 9999: Plugins for Audacious music player
 media-plugins/deadbeef-headerbar-plugin 1.2_p20211231 9999: Adds a headerbar to your DeaDBeeF
 media-plugins/deadbeef-mpris2-plugin 1.16 9999: A plugin that implements the MPRISv2 for DeaDBeeF
@@ -235,7 +235,7 @@ net-misc/megacmd 1.7.0 9999: Command Line Interactive and Scriptable Application
 net-misc/meganz-sdk 7.12.1 9999: MEGA C++ SDK
 net-misc/megasync 5.6.1.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
-sys-block/partclone 0.3.32 9999: Partition cloning tool
+sys-block/partclone 0.3.33 9999: Partition cloning tool
 www-client/torbrowser 14.0.3 14.5_alpha1: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
