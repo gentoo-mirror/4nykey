@@ -1,18 +1,18 @@
 app-arch/7-zip 24.09: A file archiver with a high compression ratio
 app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.14.4 9999: The open source Windows Imaging (WIM) library
-app-crypt/digidoc4-client 4.6.1 9999: An application for digitally signing and encrypting documents
-app-crypt/web-eid 2.6.0 9999: Native messaging host for the Web eID browser extension
+app-crypt/digidoc4-client 4.7.0 9999: An application for digitally signing and encrypting documents
+app-crypt/web-eid 2.6.1_rc2 9999: Native messaging host for the Web eID browser extension
 app-editors/neovim-gtk 1.1.0_pre20240913 9999: GTK UI for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 15.0: UTS #51 Unicode Emoji
 app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
 app-text/fontreport 1.5_p20180310 9999: Tool to create PDF files containing glyph images and information about a font
-app-text/rst2pdf 0.102-r1 9999: Tool for transforming reStructuredText to PDF using ReportLab
+app-text/rst2pdf 0.103.1 9999: Tool for transforming reStructuredText to PDF using ReportLab
 dev-cpp/antlr-cpp 4.13.2: The ANTLR 4 C++ Runtime
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
-dev-libs/libdigidocpp 4.0.0 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 4.1.0 9999: DigiDoc digital signature library
 dev-libs/libdispatch 5.4.2 9999: A library for concurrent code execution on multicore hardware
 dev-libs/libraqm 0.10.2 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
@@ -81,7 +81,7 @@ dev-python/ufo2ft 3.3.1 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.17.0 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.2 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.9.0_p20240315 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.43.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.44.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 15.1.0 9999: Unicodedata backport, updates
 dev-python/vfbLib 0.7.1 9999: Converter and deserializer for FontLab Studio 5 VFB files
 dev-python/vharfbuzz 0.3.0 9999: A user-friendlier way to use Harfbuzz in Python
@@ -91,7 +91,6 @@ dev-python/youseedee 0.6.0 9999: Interface to the Unicode Character Database
 dev-util/afdko 4.0.2 9999: Adobe Font Development Kit for OpenType
 dev-util/build2 0.16.0 9999: An open source cross-platform toolchain for building and packaging C++ code
 dev-util/cli 1.2.0 9999: Command Line Interface compiler for C++
-dev-util/cmake-openeid 0_p20240821 9999: Open-EID CMake modules
 dev-util/font-helpers 1.2.1 9999: A set of fontforge scripts for producing fonts
 dev-util/fontc 0.0.1_p20241018 9999: Where in we pursue oxidizing fontmake
 dev-util/fontmake 3.10.0 9999: A wrapper for several Python libraries to compile fonts from sources
@@ -134,7 +133,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.1 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 32.2.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 32.3.1 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -179,7 +178,7 @@ media-fonts/robotoslab 2.000_p20210826 9999: Roboto Slab typeface
 media-fonts/rubik 2.103_p20230630 9999: A sans serif font family with slightly rounded corners
 media-fonts/rubikmonoone 2.001_p20170104 9999: A monospaced sister of the Black roman style in the Rubik family
 media-fonts/ruda-new 2.000_pre20200205 9999: Ruda Cyrillic Latin expanded with turkish
-media-fonts/sarasa-gothic 1.0.25: A CJK programming font based on Iosevka and Source Han Sans
+media-fonts/sarasa-gothic 1.0.27: A CJK programming font based on Iosevka and Source Han Sans
 media-fonts/scada 4.1_p20170313 9999: A modern style font, specifically designed for small sizes
 media-fonts/sofia-sans 4.102_p20220327 9999: A comprehensive type system with extended coverage of the LGC Script
 media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interface and coding environments
@@ -232,8 +231,8 @@ media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGai
 media-sound/rsgain 3.5.3 9999: ReplayGain 2.0 loudness normalizer
 media-sound/whipper 0.10.0_p20240401 9999: A Python CD-DA ripper preferring accuracy over speed
 net-misc/megacmd 1.7.0 9999: Command Line Interactive and Scriptable Application to access MEGA
-net-misc/meganz-sdk 7.12.1 9999: MEGA C++ SDK
-net-misc/megasync 5.6.1.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/meganz-sdk 8.0.1 9999: MEGA C++ SDK
+net-misc/megasync 5.7.0.0 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.33 9999: Partition cloning tool
 www-client/torbrowser 14.0.3 14.5_alpha1: The Tor Browser
