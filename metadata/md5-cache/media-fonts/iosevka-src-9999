@@ -13,4 +13,4 @@ REQUIRED_USE=?? ( font_types_ttc font_types_ttf ) || ( font_variants_aile font_v
 RESTRICT=strip binchecks
 SLOT=0
 _eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	portability	a39e3d646f76cb45d06b44cc1144b8d4	savedconfig	b9131abe556ad2ea96c01b06d658d363	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
-_md5_=9ccf84ec60c07446302449ae81731f4f
+_md5_=95236d8ee68ee7bdbbeff9a578551446
