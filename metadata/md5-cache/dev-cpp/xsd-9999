@@ -10,5 +10,5 @@ LICENSE=GPL-2
 PROPERTIES=live
 RDEPEND=>=dev-libs/xerces-c-3.0.0 dev-libs/boost:= >=dev-cpp/libcutl-1.11.0_beta9:= >=dev-cpp/libxsd-frontend-2.1.0_beta2:= zlib? ( sys-libs/zlib )
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	14648d8795f7779e11e1bc7cf08b7536	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f
 _md5_=335be2f9684430f2b7ccaa4abf6d0fe5
