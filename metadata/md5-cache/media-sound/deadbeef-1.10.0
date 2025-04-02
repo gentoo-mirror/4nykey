@@ -13,6 +13,6 @@ RDEPEND=dts? ( media-libs/libdca ) mac? ( media-sound/mac ) gme? ( media-libs/ga
 REQUIRED_USE=lastfm? ( curl )
 RESTRICT=primaryuri
 SLOT=0
-SRC_URI=mirror://githubcl/DeaDBeeF-Player/deadbeef/tar.gz/d4cca56 -> deadbeef-1.9.6_p20240622.tar.gz mirror://githubcl/DeaDBeeF-Player/mp4p/tar.gz/156195c -> mp4p-156195c.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_dsp_libretro/tar.gz/b4d3db1 -> ddb_dsp_libretro-b4d3db1.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_output_pw/tar.gz/0b099d1 -> ddb_output_pw-0b099d1.tar.gz
+SRC_URI=mirror://githubcl/DeaDBeeF-Player/deadbeef/tar.gz/1.10.0 -> deadbeef-1.10.0.tar.gz mirror://githubcl/DeaDBeeF-Player/mp4p/tar.gz/156195c -> mp4p-156195c.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_dsp_libretro/tar.gz/b4d3db1 -> ddb_dsp_libretro-b4d3db1.tar.gz mirror://githubcl/DeaDBeeF-Player/ddb_output_pw/tar.gz/0b099d1 -> ddb_output_pw-0b099d1.tar.gz
 _eclasses_=gnuconfig	ddeb9f8caff1b5f71a09c75b7534df79	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	libtool	c81bd096be5f4c82f4e8f156ef112402	autotools	f20ecf7ab0a7c34e83238b3ed4aaf6d6	flag-o-matic	16d3941ed2dc39f4819368ae51bc0b72	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	xdg	3ef49a87c52c8b77c476351195dfe575
 _md5_=fddb11f1c68b4acf7ccee2c798fff641
