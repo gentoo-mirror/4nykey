@@ -1,5 +1,5 @@
 DEFINED_PHASES=compile install postinst postrm prepare setup
-DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.12 >=dev-util/fontmake-3.5[python_targets_python3_12(-)] ) ( dev-lang/python:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils !binary? ( || ( dev-lang/python:3.13 dev-lang/python:3.12 dev-lang/python:3.11 dev-lang/python:3.10 ) || ( ( dev-lang/python:3.13 >=dev-util/fontmake-3.5[python_targets_python3_13(-)] ) ( dev-lang/python:3.12 >=dev-util/fontmake-3.5[python_targets_python3_12(-)] ) ( dev-lang/python:3.11 >=dev-util/fontmake-3.5[python_targets_python3_11(-)] ) ( dev-lang/python:3.10 >=dev-util/fontmake-3.5[python_targets_python3_10(-)] ) ) autohint? ( media-gfx/ttfautohint ) )
 DESCRIPTION=A sans serif font family with slightly rounded corners
 EAPI=8
 HOMEPAGE=https://github.com/googlefonts/rubik
@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( variable font_types_ttf ) || ( font_types_otf font_types_
 RESTRICT=strip binchecks primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/rubik/tar.gz/e337a5f -> rubik-2.103_p20230630.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	0b55b86cba8dcc278e37ee471fb5ab5a
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	python-utils-r1	b7726144f5af59e186d66746d0f513e5	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
 _md5_=8778afcb1b9f958be45a6412b8395878
