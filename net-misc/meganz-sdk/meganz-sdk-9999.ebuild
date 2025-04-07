@@ -9,7 +9,7 @@ if [[ -z ${PV%%*9999} ]]; then
 	EGIT_REPO_URI="https://github.com/${PN%-*}/${PN#*-}.git"
 	SLOT="0/99999"
 else
-	MY_PV="1ef93bb"
+	MY_PV="61013ee"
 	[[ -n ${PV%%*_p*} ]] && MY_PV="v${PV}"
 	SRC_URI="
 		mirror://githubcl/${PN%-*}/${PN#*-}/tar.gz/${MY_PV}
@@ -25,7 +25,7 @@ DESCRIPTION="MEGA C++ SDK"
 HOMEPAGE="https://github.com/meganz/sdk"
 
 LICENSE="BSD-2"
-IUSE="c-ares debug examples ffmpeg freeimage fuse inotify libuv mediainfo qt raw readline +sqlite test"
+IUSE="debug examples ffmpeg freeimage fuse inotify libuv mediainfo qt raw readline +sqlite test"
 REQUIRED_USE="
 	examples? ( readline sqlite )
 "
@@ -50,7 +50,6 @@ RDEPEND="
 	mediainfo? ( media-libs/libmediainfo )
 	ffmpeg? ( media-video/ffmpeg )
 	raw? ( media-libs/libraw )
-	c-ares? ( net-dns/c-ares )
 	readline? ( sys-libs/readline )
 "
 DEPEND="
@@ -65,7 +64,7 @@ src_configure() {
 	use debug || append-cppflags '-DNDEBUG'
 	local mycmakeargs=(
 		-DSDKLIB_STANDALONE=yes
-		-DENABLE_LOG_PERFORMANCE=yes
+		-DENABLE_LOG_PERFORMANCE=no
 		-DENABLE_SDKLIB_EXAMPLES=$(usex examples)
 		-DENABLE_SDKLIB_TESTS=$(usex test)
 		-DENABLE_SDKLIB_WERROR=no
@@ -77,7 +76,6 @@ src_configure() {
 		-DHAVE_FFMPEG=$(usex ffmpeg)
 		-DUSE_LIBUV=$(usex libuv)
 		-DUSE_PDFIUM=no
-		-DUSE_C_ARES=$(usex c-ares)
 		-DUSE_READLINE=$(usex readline)
 		-DWITH_FUSE=$(usex fuse)
 		-DUSE_SQLITE=$(usex sqlite)
