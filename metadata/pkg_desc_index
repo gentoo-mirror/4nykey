@@ -233,12 +233,12 @@ media-sound/picard 2.13.3 9999: Cross-platform music tagger
 media-sound/r128gain 1.0.7 9999: Fast audio loudness scanner & tagger (ReplayGain v2 / R128)
 media-sound/rsgain 3.6 9999: ReplayGain 2.0 loudness normalizer
 media-sound/whipper 0.10.0_p20240401 9999: A Python CD-DA ripper preferring accuracy over speed
-net-misc/megacmd 2.1.0 9999: Command Line Interactive and Scriptable Application to access MEGA
+net-misc/megacmd 2.1.1 9999: Command Line Interactive and Scriptable Application to access MEGA
 net-misc/meganz-sdk 9.1.1 9999: MEGA C++ SDK
-net-misc/megasync 5.10.1.0 9999: Easy automated syncing with MEGA Cloud Drive
+net-misc/megasync 5.10.1.0-r1 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.36 9999: Partition cloning tool
-www-client/torbrowser 14.0.9 14.5_alpha5: The Tor Browser
+www-client/torbrowser 14.0.9 14.5_alpha6: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20250201 99999999: Papirus icon theme for GTK
