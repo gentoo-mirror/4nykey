@@ -10,5 +10,5 @@ LICENSE=MIT
 PROPERTIES=live
 RDEPEND=dev-db/sqlite:3 dev-util/pkgconf
 SLOT=0
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	multiprocessing	1e32df7deee68372153dca65f4a7c21f	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multiprocessing	1e32df7deee68372153dca65f4a7c21f	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=67b78fa3ff0231d6634d3d7d83090a5c

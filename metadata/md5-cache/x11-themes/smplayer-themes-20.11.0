@@ -10,5 +10,5 @@ RDEPEND=media-video/smplayer
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/smplayer-dev/smplayer-themes/tar.gz/v20.11.0 -> smplayer-themes-20.11.0.tar.gz
-_eclasses_=toolchain-funcs	6afdb6107430c1832ca7e16aacbf8fa1	multilib	b2a329026f2e404e9e371097dda47f96	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	qmake-utils	a8dd17b1d94586164f5e3fc12b1c6b81
 _md5_=75170463ef5904ec87419d0fae4c82e6
