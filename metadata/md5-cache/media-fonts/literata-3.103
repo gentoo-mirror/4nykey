@@ -11,5 +11,5 @@ REQUIRED_USE=binary? ( !font_types_otf ) || ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/googlefonts/literata/tar.gz/3.103 -> literata-3.103.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	d1be7a6de225276141d669742d56f3f3	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
 _md5_=b22bdf397f20a30aa0f084f695239059
