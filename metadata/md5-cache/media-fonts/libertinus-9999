@@ -1,15 +1,15 @@
-BDEPEND=!binary? ( python_single_target_python3_10? ( dev-lang/python:3.10 ) python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-util/fontship[python_single_target_python3_10(-)?,python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] ) >=dev-vcs/git-1.8.2.1[curl]
+BDEPEND=!binary? ( python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) dev-util/fontship[python_single_target_python3_11(-)?,python_single_target_python3_12(-)?,python_single_target_python3_13(-)?] ) >=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=compile install postinst postrm setup unpack
 DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
 DESCRIPTION=A fork of the Linux Libertine and Linux Biolinum fonts
 EAPI=8
 HOMEPAGE=https://github.com/alerque/libertinus
 INHERIT=git-r3 unpacker python-single-r1 font-r1
-IUSE=+binary python_single_target_python3_10 python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 X +font_types_otf font_types_ttf
+IUSE=+binary python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 X +font_types_otf font_types_ttf
 LICENSE=OFL-1.1
 PROPERTIES=live
 REQUIRED_USE=!binary || ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	python-utils-r1	974462533ec80cd68e5f366ad8a86002	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	unpacker	3b4ee72d1e2e0374fd8cd3eddfa00627	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=a5f714573f22c3e607d9ed48dd004da8
