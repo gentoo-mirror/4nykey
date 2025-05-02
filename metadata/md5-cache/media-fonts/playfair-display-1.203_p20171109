@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/clauseggers/Playfair/tar.gz/04c5949 -> playfair-display-1.203_p20171109.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	b6ad054ea5bb201ed2fec9cac7a8d12b	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
+_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	python-utils-r1	de71d9571aa267f353b9e8ab4666732e	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
 _md5_=b7231260d35d3f297dfc220cf809c8ce
