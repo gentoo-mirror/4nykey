@@ -1,0 +1,16 @@
+BDEPEND=!binary? ( dev-util/afdko ) !variable? ( app-arch/unzip )
+DEFINED_PHASES=compile install postinst postrm setup unpack
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=A set of OpenType/CFF Pan-CJK fonts
+EAPI=7
+HOMEPAGE=https://github.com/adobe-fonts/source-han-sans/
+INHERIT=font-r1
+IUSE=+binary half-width l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW super-otc variable X +font_types_otf font_types_ttc
+KEYWORDS=~amd64
+LICENSE=OFL-1.1
+REQUIRED_USE=?? ( font_types_otf font_types_ttc ) half-width? ( font_types_ttc variable ) super-otc? ( font_types_ttc !variable ) font_types_otf? ( || ( l10n_ja l10n_ko l10n_zh-CN l10n_zh-HK l10n_zh-TW ) ) variable? ( binary ) || ( font_types_otf font_types_ttc )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=binary? ( font_types_otf? ( !variable? ( l10n_ja? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//17_SourceHanSansJP.zip -> SourceHanSansJP-2.005.zip ) l10n_ko? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//18_SourceHanSansKR.zip -> SourceHanSansKR-2.005.zip ) l10n_zh-CN? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//19_SourceHanSansCN.zip -> SourceHanSansCN-2.005.zip ) l10n_zh-HK? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//21_SourceHanSansHK.zip -> SourceHanSansHK-2.005.zip ) l10n_zh-TW? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//20_SourceHanSansTW.zip -> SourceHanSansTC-2.005.zip ) ) variable? ( l10n_ja? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTF/Subset/SourceHanSansJP-VF.otf -> SourceHanSansJP-VF-2.005.otf ) l10n_ko? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTF/Subset/SourceHanSansKR-VF.otf -> SourceHanSansKR-VF-2.005.otf ) l10n_zh-CN? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTF/Subset/SourceHanSansCN-VF.otf -> SourceHanSansCN-VF-2.005.otf ) l10n_zh-HK? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTF/Subset/SourceHanSansHK-VF.otf -> SourceHanSansHK-VF-2.005.otf ) l10n_zh-TW? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTF/Subset/SourceHanSansTW-VF.otf -> SourceHanSansTW-VF-2.005.otf ) ) ) font_types_ttc? ( variable? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTC/SourceHanSans-VF.otf.ttc -> SourceHanSans-VF-2.005.ttc half-width? ( mirror://githubraw/adobe-fonts/source-han-sans/2.005R/Variable/OTC/SourceHanSansHW-VF.otf.ttc -> SourceHanSansHW-VF-2.005.ttc ) ) !variable? ( super-otc? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//01_SourceHanSans.ttc.zip -> SourceHanSans-2.005.ttc.zip ) !super-otc? ( https://github.com/adobe-fonts/source-han-sans/releases/download/2.005R//03_SourceHanSansOTC.zip ) ) ) ) !binary? ( mirror://githubcl/adobe-fonts/source-han-sans/tar.gz/2.005 -> source-han-sans-2.005.tar.gz )
+_eclasses_=font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_md5_=d9db4ea679b4a588f6d982c79dcc5dc9

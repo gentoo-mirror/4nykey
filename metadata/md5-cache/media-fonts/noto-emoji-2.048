@@ -1,0 +1,16 @@
+BDEPEND=!binary? ( python_single_target_python3_11? ( dev-lang/python:3.11 ) python_single_target_python3_12? ( dev-lang/python:3.12 ) python_single_target_python3_13? ( dev-lang/python:3.13 ) python_single_target_python3_11? ( >=dev-python/nototools-0.2.17[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/nototools-0.2.17[python_targets_python3_12(-)] ) python_single_target_python3_13? ( >=dev-python/nototools-0.2.17[python_targets_python3_13(-)] ) font_variants_colrv1? ( python_single_target_python3_11? ( >=dev-python/nanoemoji-0.14.3[python_targets_python3_11(-)] ) python_single_target_python3_12? ( >=dev-python/nanoemoji-0.14.3[python_targets_python3_12(-)] ) python_single_target_python3_13? ( >=dev-python/nanoemoji-0.14.3[python_targets_python3_13(-)] ) ) font_variants_cbdt? ( virtual/imagemagick-tools[png] app-arch/zopfli x11-libs/cairo media-libs/harfbuzz ) >=app-i18n/unicode-emoji-16 )
+DEFINED_PHASES=compile install postinst postrm prepare setup
+DEPEND=X? ( x11-apps/mkfontscale media-fonts/encodings ) sys-apps/findutils
+DESCRIPTION=Noto Emoji fonts
+EAPI=8
+HOMEPAGE=https://github.com/googlefonts/noto-emoji
+INHERIT=toolchain-funcs python-single-r1 font-r1
+IUSE=+binary python_single_target_python3_11 python_single_target_python3_12 python_single_target_python3_13 X +font_variants_cbdt font_variants_colrv1
+KEYWORDS=~amd64
+LICENSE=OFL-1.1
+REQUIRED_USE=|| ( font_variants_cbdt font_variants_colrv1 )
+RESTRICT=primaryuri strip binchecks
+SLOT=0
+SRC_URI=mirror://githubcl/googlefonts/noto-emoji/tar.gz/v2.048 -> noto-emoji-2.048.tar.gz
+_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_md5_=c60141f8d04d3b03440592427c3042a6

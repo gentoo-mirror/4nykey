@@ -1,8 +1,8 @@
 app-arch/7-zip 24.09: A file archiver with a high compression ratio
 app-arch/fxz 1.1.0_pre20220109 9999: A fork of XZ Utils with multi-threaded radix match finder and optimized encoder
 app-arch/wimlib 1.14.4 9999: The open source Windows Imaging (WIM) library
-app-crypt/digidoc4-client 4.7.0 9999: An application for digitally signing and encrypting documents
-app-crypt/web-eid 2.6.1_rc3 9999: Native messaging host for the Web eID browser extension
+app-crypt/digidoc4-client 4.8.1 9999: An application for digitally signing and encrypting documents
+app-crypt/web-eid 2.7.0 9999: Native messaging host for the Web eID browser extension
 app-editors/neovim-gtk 1.1.0_pre20250401 9999: GTK UI for neovim written in rust using gtk-rs bindings
 app-i18n/unicode-emoji 15.0: UTS #51 Unicode Emoji
 app-text/fntsample 5.4 9999: A program for making font samples that show Unicode coverage of the font
@@ -13,7 +13,7 @@ dev-cpp/antlr-cpp 4.13.2: The ANTLR 4 C++ Runtime
 dev-cpp/libcutl 1.11.0 9999: A collection of C++ libraries (successor of libcult)
 dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema definition language
 dev-cpp/xsd 4.2.0 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
-dev-libs/libdigidocpp 4.1.0 9999: DigiDoc digital signature library
+dev-libs/libdigidocpp 4.2.0 9999: DigiDoc digital signature library
 dev-libs/libraqm 0.10.2 9999: A library for complex text layout
 dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
@@ -38,10 +38,10 @@ dev-python/fontFeatures 1.8.0 9999: Python library for manipulating OpenType fon
 dev-python/fontMath 0.9.4 9999: A collection of objects that implement fast font math
 dev-python/fontParts 0.12.3 9999: An API for interacting with the parts of fonts
 dev-python/fontPens 0.3.0 9999: A collection of classes implementing the pen protocol for manipulating glyphs
-dev-python/fonttools 4.58.2 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
+dev-python/fonttools 4.58.4 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.7.0 9999: A Python API to evaluate language support in the Google Fonts collection
-dev-python/glyphsLib 6.10.3 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.11.0 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 1.1.0 9999: A python module providing an API with data about glyph sets
 dev-python/glyphtools 0.8.0 9999: Routines for extracting information from font glyphs
 dev-python/hsluv 5.0.4 9999: Python implementation of HSLuv (revision 4)
@@ -50,7 +50,7 @@ dev-python/importlib_resources 6.4.0 9999: Backport of the importlib.resources m
 dev-python/mupdf 1.25.6: Python bindings for the MuPDF library
 dev-python/musicbrainzngs 0.7.1-r1: Python bindings for the MusicBrainz NGS and the Cover Art Archive webservices
 dev-python/nam-files 2024.02.05 9999: Unicode ranges used to subset fonts in the Google Fonts CSS API
-dev-python/nanoemoji 0.15.7 9999: A wee tool to build color fonts
+dev-python/nanoemoji 0.15.8 9999: A wee tool to build color fonts
 dev-python/ninja-python-distributions 1.11.1.4 9999: A tool to build Ninja Python wheels
 dev-python/nototools 0.2.20 9999: A python package for maintaining the Noto Fonts project
 dev-python/openstep-plist 0.3.1 9999: OpenStep plist parser and writer written in Cython
@@ -135,7 +135,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.1 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 33.2.4 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 33.2.5 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -157,7 +157,7 @@ media-fonts/montserrat 8.000 9999: A typeface inspired by the Montserrat neighbo
 media-fonts/noto 99999999: A font family that aims to support all the world's languages
 media-fonts/noto-cjk-sans 2.004 9999: Noto CJK sans-serif fonts
 media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
-media-fonts/noto-emoji 2.047 9999: Noto Emoji fonts
+media-fonts/noto-emoji 2.048 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
 media-fonts/noto-source 0_p20250325: A WIP versions of the noto fonts
@@ -188,7 +188,7 @@ media-fonts/source-code-pro 2.042 9999: Monospaced font family for user interfac
 media-fonts/source-emoji 1.022_pre20181003 9999: A monochrome emoji font designed to harmonize with other Source fonts
 media-fonts/source-han-code-jp 2.012 9999: An monospaced font for mixed Latin and Japanese text
 media-fonts/source-han-mono 1.002 9999: A set of OpenType/CFF Pan-CJK monospace fonts
-media-fonts/source-han-sans 2.004 9999: A set of OpenType/CFF Pan-CJK fonts
+media-fonts/source-han-sans 2.005 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-han-serif 2.003 9999: A set of OpenType/CFF Pan-CJK fonts
 media-fonts/source-sans-pro 3.052-r1 9999: Sans serif font family for user interface environments
 media-fonts/source-serif-pro 4.005 9999: Serif typeface designed to complement Source Sans Pro
@@ -207,7 +207,7 @@ media-gfx/fontdiff 0.2.3-r1 9999: A tool for finding visual differences between 
 media-gfx/fontforge 20230101-r1 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20191205 9999: An app that shows the contents of a font file
 media-gfx/scour 0.38.2_p20230123 9999: An SVG Optimizer / Cleaner
-media-gfx/trufont 0.6.6_p20230625-r1 9999: An ufo3 font editor
+media-gfx/trufont 0.6.6_p20250308 9999: An ufo3 font editor
 media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fonts
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libheif 1.19.8 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
@@ -238,7 +238,7 @@ net-misc/meganz-sdk 9.2.0 9999: MEGA C++ SDK
 net-misc/megasync 5.12.0.1 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.37 9999: Partition cloning tool
-www-client/torbrowser 14.5.3: The Tor Browser
+www-client/torbrowser 14.5.4: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20250501 99999999: Papirus icon theme for GTK
