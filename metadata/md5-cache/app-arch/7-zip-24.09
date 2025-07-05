@@ -10,5 +10,5 @@ LICENSE=LGPL-2.1 BSD rar? ( unRAR )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=https://downloads.sourceforge.net/sevenzip/7-Zip/24.09/7z2409-src.tar.xz
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772
 _md5_=d8ae5013df8f044d5946e67eca8db9aa

@@ -11,5 +11,5 @@ PROPERTIES=live
 REQUIRED_USE=|| ( font_variants_cbdt font_variants_colrv1 )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	multiprocessing	1e32df7deee68372153dca65f4a7c21f	python-utils-r1	5ffe8ec396a751540949b565de0f048c	python-single-r1	47d8ac9be330c9366112b78fd4f8ce57	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=c60141f8d04d3b03440592427c3042a6

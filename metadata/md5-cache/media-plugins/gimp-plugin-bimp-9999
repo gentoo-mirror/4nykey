@@ -9,5 +9,5 @@ LICENSE=GPL-2+
 PROPERTIES=live
 RDEPEND=media-gfx/gimp
 SLOT=0
-_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	plocale	950fbaec7deeba41b5bcc0572cca99b9
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	plocale	950fbaec7deeba41b5bcc0572cca99b9
 _md5_=960b4cd0b106144382713ac18f9934b5

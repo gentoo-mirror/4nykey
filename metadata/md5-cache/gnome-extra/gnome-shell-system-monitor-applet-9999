@@ -10,5 +10,5 @@ LICENSE=GPL-3
 PROPERTIES=live
 RDEPEND=app-eselect/eselect-gnome-shell-extensions >=gnome-base/gnome-shell-45 gnome-extra/gnome-system-monitor media-libs/clutter[introspection] gnome-base/libgtop[introspection] net-misc/networkmanager[introspection]
 SLOT=0
-_eclasses_=toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	plocale	950fbaec7deeba41b5bcc0572cca99b9	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	gnome2-utils	a8cf148ec7f5ae0b1f1d33ae5f7f9e88	plocale	950fbaec7deeba41b5bcc0572cca99b9	git-r3	875eb471682d3e1f18da124be97dcc81
 _md5_=54fffd8f45fa3372fe394c0dc5320b12
