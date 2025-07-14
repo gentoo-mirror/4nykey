@@ -11,5 +11,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri
 SLOT=0
 SRC_URI=mirror://githubcl/alexeiva/libre-franklin/tar.gz/d99e30a -> libre-franklin-1.502_p20190219.tar.gz !binary? ( mirror://githubcl/gist/9ef5512cdd3177cc8d4667bcf5a58346/tar.gz/9900356 -> 9ef5512cdd3177cc8d4667bcf5a58346-9900356.tar.gz )
-_eclasses_=vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a6df79c1e9bc84369dbf3d44206ac772	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
+_eclasses_=vcs-snapshot	bd69bf57fd2c34e99964a03b1d968177	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	python-utils-r1	bb392d69d55c48a5483d356933a26d57	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	fontmake	9f3e97bc518fb7f0c2500eac57e3f057
 _md5_=6db18a1337e4334f672d7d78c077efe4
