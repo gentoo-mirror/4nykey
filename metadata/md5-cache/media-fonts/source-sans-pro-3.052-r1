@@ -12,5 +12,5 @@ REQUIRED_USE=|| ( font_types_otf font_types_ttf )
 RESTRICT=primaryuri strip binchecks
 SLOT=0
 SRC_URI=binary? ( variable? ( https://github.com/adobe-fonts/source-sans/releases/download/3.052R/VF-source-sans-3.052R.zip ) !variable? ( font_types_otf? ( https://github.com/adobe-fonts/source-sans/releases/download/3.052R/OTF-source-sans-3.052R.zip ) font_types_ttf? ( https://github.com/adobe-fonts/source-sans/releases/download/3.052R/TTF-source-sans-3.052R.zip ) ) ) !binary? ( mirror://githubcl/adobe-fonts/source-sans/tar.gz/3.052 -> source-sans-pro-3.052.tar.gz )
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	python-utils-r1	601de75299d1a5fb14b475836969af0f	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	python-utils-r1	8a006695bc0db22490452dd06914dda5	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=238c5f85b1cdb4b531189c1c27bfdeba
