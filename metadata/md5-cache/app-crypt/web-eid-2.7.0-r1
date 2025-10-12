@@ -12,5 +12,5 @@ RDEPEND=dev-libs/openssl:= sys-apps/pcsc-lite dev-qt/qtbase:6=[network,test?,wid
 RESTRICT=primaryuri !test? ( test )
 SLOT=0
 SRC_URI=mirror://githubcl/web-eid/web-eid-app/tar.gz/v2.7.0 -> web-eid-2.7.0.tar.gz mirror://githubcl/web-eid/libelectronic-id/tar.gz/0328016 -> libelectronic-id-0328016.tar.gz
-_eclasses_=virtualx	9741d451eb64ea8bb9faee90d68a9b68	toolchain-funcs	a0b29008c671a362b505f96fa80ce9c0	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
+_eclasses_=virtualx	9741d451eb64ea8bb9faee90d68a9b68	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	flag-o-matic	a7afe42e95fb46ce9691605acfb24672	multiprocessing	1e32df7deee68372153dca65f4a7c21f	ninja-utils	2df4e452cea39a9ec8fb543ce059f8d6	xdg-utils	42869b3c8d86a70ef3cf75165a395e09	cmake	cf95ad72ab207889c1668fc0d1bee181
 _md5_=62e394dee1d6d2f0160d540f2c239250
