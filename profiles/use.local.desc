@@ -74,6 +74,7 @@ media-gfx/fim:graphicsmagick - Enable GraphicsMagick library support
 media-gfx/fim:screen - Add experimental support for running under screen
 media-gfx/fim:xfig - Enable FIG file support via media-gfx/xfig
 media-gfx/fontforge:extras - Build and install programs from the contrib directory
+media-gfx/fontforge:harfbuzz - Enable HarfBuzz shaper support
 media-gfx/fontforge:libspiro - Add support for media-libs/libspiro
 media-gfx/fontforge:truetype-debugger - Enable truetype debugger in fontforge
 media-gfx/fontforge:woff2 - Enable WOFF2 support

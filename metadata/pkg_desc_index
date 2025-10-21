@@ -83,7 +83,7 @@ dev-python/ufo2ft 3.6.6 9999: A bridge from UFOs to FontTool objects
 dev-python/ufoLib2 0.18.1 9999: A UFO font library
 dev-python/ufoNormalizer 0.6.3 9999: A tool that will normalize the XML and other data inside of a UFO
 dev-python/ufoProcessor 1.13.3 9999: A Python package for processing and generating UFO files
-dev-python/uharfbuzz 0.51.6 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
+dev-python/uharfbuzz 0.52.0 9999: Streamlined Cython bindings for the HarfBuzz shaping engine
 dev-python/unicodedata2 16.0.0 9999: Unicodedata backport, updates
 dev-python/vfbLib 0.7.1 9999: Converter and deserializer for FontLab Studio 5 VFB files
 dev-python/vharfbuzz 0.3.0 9999: A user-friendlier way to use Harfbuzz in Python
@@ -135,7 +135,7 @@ media-fonts/hasklig 1.2 9999: A code font with monospaced ligatures
 media-fonts/heuristica 1.0.2 9999: A font based on Adobe Utopia
 media-fonts/inconsolata-lgc 1.3.0_p20161102 9999: A version of Inconsolata with Greek and Cyrillic support
 media-fonts/inter 4.1 9999: A typeface specially designed for user interfaces
-media-fonts/iosevka-src 33.3.1 9999: Spatial efficient monospace font family for programming
+media-fonts/iosevka-src 33.3.3 9999: Spatial efficient monospace font family for programming
 media-fonts/istok 1.0.3 9999: Istok is a sans serif typeface
 media-fonts/jetbrains-mono 2.304 9999: A free and open-source typeface for developers
 media-fonts/jura 5.101_p20210821 9999: A family of sans-serif fonts in the Eurostile vein
@@ -204,7 +204,7 @@ media-fonts/yanone-kaffeesatz 2.002_p20231213 9999: An open-source font by Jan G
 media-gfx/birdfont 2.33.6 9999: A font editor which can generate fonts in TTF, EOT, SVG and BF format
 media-gfx/fim 0.7.1 9999: Fbi IMproved is a framebuffer image viewer
 media-gfx/fontdiff 0.2.3-r1 9999: A tool for finding visual differences between two font versions
-media-gfx/fontforge 20230101-r1 99999999: postscript font editor and converter
+media-gfx/fontforge 20251009 99999999: postscript font editor and converter
 media-gfx/fontview 0.3.1_p20191205 9999: An app that shows the contents of a font file
 media-gfx/scour 0.38.2_p20230123 9999: An SVG Optimizer / Cleaner
 media-gfx/trufont 0.6.6_p20250308 9999: An ufo3 font editor
@@ -237,8 +237,8 @@ net-misc/megacmd 2.3.0 9999: Command Line Interactive and Scriptable Application
 net-misc/meganz-sdk 9.13.0 9999: MEGA C++ SDK
 net-misc/megasync 5.16.0.2 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
-sys-block/partclone 0.3.37 9999: Partition cloning tool
-www-client/torbrowser 14.5.8 15.0_alpha3: The Tor Browser
+sys-block/partclone 0.3.38 9999: Partition cloning tool
+www-client/torbrowser 14.5.8 15.0_alpha4: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20250501 99999999: Papirus icon theme for GTK
