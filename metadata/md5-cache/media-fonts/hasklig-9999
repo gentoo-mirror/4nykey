@@ -11,5 +11,5 @@ PROPERTIES=live
 REQUIRED_USE=!binary || ( font_types_otf font_types_ttf )
 RESTRICT=strip binchecks
 SLOT=0
-_eclasses_=eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	0b620dd604ab8af0bc9cd1bcc66d4f7c	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0	git-r3	875eb471682d3e1f18da124be97dcc81
+_eclasses_=git-r3	875eb471682d3e1f18da124be97dcc81	eapi8-dosym	5ac4857ad078256d939c44f7c64197a9	multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	98d9f464d912ae6b7316fb8a3721f5db	python-utils-r1	dbb8c4d794033ad7e7221eaf567a6c90	python-any-r1	891415dfe39ad9b41b461f2b86354af0	font-r1	a4e58c1c0949b081c704ef41d98a0cd0
 _md5_=21d2df7dbc45346cf2ac0dcae43cfb35
