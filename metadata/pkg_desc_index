@@ -15,7 +15,6 @@ dev-cpp/libxsd-frontend 2.1.0 9999: A compiler frontend for the W3C XML Schema d
 dev-cpp/xsd 4.2.0 9999: An open-source, cross-platform W3C XML Schema to C++ data binding compiler
 dev-libs/libdigidocpp 4.2.1 9999: DigiDoc digital signature library
 dev-libs/libraqm 0.10.3 9999: A library for complex text layout
-dev-libs/utfcpp 3.2.1 9999: UTF-8 C++ library
 dev-libs/xml-security-c 2.0.4 9999: Apache C++ XML security libraries
 dev-libs/xmlbird 1.2.14 9999: XML parser for Vala and C programs
 dev-python/MutatorMath 3.0.1 9999: A library for piecewise linear interpolation in multiple dimensions
@@ -41,7 +40,7 @@ dev-python/fontPens 0.3.0 9999: A collection of classes implementing the pen pro
 dev-python/fonttools 4.60.1 9999: Library for manipulating TrueType, OpenType, AFM and Type1 fonts
 dev-python/freetype-py 2.4.0 9999: Python bindings for the freetype library
 dev-python/gflanguages 0.7.6 9999: A Python API to evaluate language support in the Google Fonts collection
-dev-python/glyphsLib 6.12.0 9999: A library to provide a bridge from Glyphs source files to UFOs
+dev-python/glyphsLib 6.12.2 9999: A library to provide a bridge from Glyphs source files to UFOs
 dev-python/glyphsets 1.1.0 9999: A python module providing an API with data about glyph sets
 dev-python/glyphtools 0.8.0 9999: Routines for extracting information from font glyphs
 dev-python/hsluv 5.0.4 9999: Python implementation of HSLuv (revision 4)
@@ -73,7 +72,7 @@ dev-python/python-rapidjson 1.16 9999: Python wrapper around rapidjson
 dev-python/scfbuild 2.0.0_p20200925 9999: Create SVG in OpenType color fonts from a set of SVG source files
 dev-python/sfdLib 1.2.5 9999: An SFD to UFO converter
 dev-python/sfdutf7 0.1.0 9999: SFDUTF7 encoder/decoder library
-dev-python/skia-pathops 0.8.0_p1 9999: Python bindings for the Skia Path Ops
+dev-python/skia-pathops 0.8.0_p2 9999: Python bindings for the Skia Path Ops
 dev-python/statmake 0.6.0 9999: Generate STAT tables for variable fonts from .stylespace files
 dev-python/strictyaml 1.7.3 9999: A type-safe YAML parser built atop ruamel.yaml
 dev-python/svglib 1.5.1: Pure-Python library for reading and converting SVG
@@ -148,7 +147,7 @@ media-fonts/libertinus 7.051 9999: A fork of the Linux Libertine and Linux Bioli
 media-fonts/libre-franklin 1.502_p20190219 9999: An interpretation and expansion of the 1912 M. F. Benton's font
 media-fonts/literata 3.103 9999: A contemporary serif typeface family for long-form reading
 media-fonts/lobster 2.100_pre20171031 9999: A bold condensed script font with ligatures and alternates
-media-fonts/lora 3.006 9999: A well-balanced contemporary serif with roots in calligraphy
+media-fonts/lora 3.021 9999: A well-balanced contemporary serif with roots in calligraphy
 media-fonts/marmelad 1.100_p20161114 9999: A font with regular proportions and medium contrast designed for headlines
 media-fonts/merriweather 2.100_p20230622 9999: A serif font useful for creating long texts for books or articles
 media-fonts/merriweather-sans 2.001_p20200823 9999: A sans font useful for creating long texts for books or articles
@@ -160,7 +159,7 @@ media-fonts/noto-cjk-serif 2.001 9999: Noto CJK serif fonts
 media-fonts/noto-emoji 2.051 9999: Noto Emoji fonts
 media-fonts/noto-emoji-svg 2.100 9999: OpenType-SVG version of Noto Color Emoji
 media-fonts/noto-fonts 2017.05.05 2022.06.30_p0 9999: A font family that aims to support all the world's languages
-media-fonts/noto-source 0_p20250802: A WIP versions of the noto fonts
+media-fonts/noto-source 0_p20251016: A WIP versions of the noto fonts
 media-fonts/nunito 3.602_pre20220216 9999: A well balanced Sans Serif with rounded terminals
 media-fonts/nunitosans 3.006_pre20200630 9999: A well balanced sans serif typeface superfamily
 media-fonts/open-sans 3.002_pre20231104 9999: A clean and modern sans-serif typeface for web, print and mobile
@@ -212,7 +211,7 @@ media-gfx/ttfautohint 1.8.4 9999: A library for automated hinting of truetype fo
 media-gfx/xgridfit 2.3 9999: A high-level language for gridfitting TrueType fonts
 media-libs/libheif 1.20.2 9999: ISO/IEC 23008-12:2017 HEIF file format decoder and encoder
 media-libs/libspiro 20240903 99999999: A library for drawing beautiful curves
-media-libs/openjph 0.24.2 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
+media-libs/openjph 0.24.3 9999: Open-source implementation of JPEG2000 Part-15, aka JPH or HTJ2K
 media-libs/resvg 0.45.1 9999: An SVG rendering library
 media-libs/skia 113_p20230414 113.9999: A complete 2D graphic library for drawing Text, Geometries and Images
 media-libs/uvg266 0.8.1 9999: An open-source VVC encoder based on Kvazaar
@@ -238,7 +237,7 @@ net-misc/meganz-sdk 9.13.0 9999: MEGA C++ SDK
 net-misc/megasync 5.16.0.2 9999: Easy automated syncing with MEGA Cloud Drive
 net-wireless/broadcom-wl 6.30.223.271_p20221106 9999: Broadcom Linux hybrid wireless driver
 sys-block/partclone 0.3.38 9999: Partition cloning tool
-www-client/torbrowser 14.5.8 15.0_alpha4: The Tor Browser
+www-client/torbrowser 15.0_alpha4 15.0.0: The Tor Browser
 x11-terms/wezterm 20241104.083404_p20241104 99999999: A GPU-accelerated cross-platform terminal emulator and multiplexer
 x11-themes/papirus-filezilla-themes 2020.01.05 9999: Papirus theme for FileZilla
 x11-themes/papirus-icon-theme 20250501 99999999: Papirus icon theme for GTK
